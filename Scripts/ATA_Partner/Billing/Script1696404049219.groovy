@@ -29,7 +29,10 @@ WebUI.maximizeWindow()
 
 WebUI.navigateToUrl('https://canary.autoassistcare.etiqa.com.my/partner/auth/login')
 
-WebUI.setText(findTestObject('Object Repository/ATA_Partner/LoginPage/input_Welcome to ATA Partner_p-inputtext p-_2f833e'), '122614910')
+WebUI.delay(1)
+
+WebUI.setText(findTestObject('Object Repository/ATA_Partner/LoginPage/input_Welcome to ATA Partner_p-inputtext p-_2f833e'), 
+    '122614910')
 
 WebUI.click(findTestObject('Object Repository/ATA_Partner/LoginPage/div_Welcome to ATA Partner_p-checkbox-box'))
 
