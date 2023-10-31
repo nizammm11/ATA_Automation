@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>Button_Close (Ratings)</name>
+   <tag></tag>
+   <elementGuidId>9b4c0b4e-44b1-4cb1-8c00-e96d79151d59</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>button.p-element.mt-5.p-button-secondary.mr-3.p-button.p-component > span.p-button-label</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//span[(text() = 'Close' or . = 'Close')]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>span</value>
+      <webElementGuid>53d04b7f-734b-48f0-b18b-6ad9b732931f</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>p-button-label</value>
+      <webElementGuid>a952fb23-f119-40a0-a3d6-a438041615b5</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Close</value>
+      <webElementGuid>48561a8c-ec74-4352-afb2-61330fbe733d</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>/html[1]/body[@class=&quot;p-overflow-hidden&quot;]/p-dynamicdialog[@class=&quot;p-element ng-tns-c151-52 ng-star-inserted&quot;]/div[@class=&quot;ng-tns-c151-52 p-dialog-mask p-component-overlay p-component-overlay-enter p-dialog-mask-scrollblocker&quot;]/div[@class=&quot;ng-trigger ng-trigger-animation ng-tns-c151-52 p-dialog p-dynamic-dialog p-component ng-star-inserted&quot;]/div[@class=&quot;p-dialog-content ng-tns-c151-52&quot;]/ata-dialog-rating-create[@class=&quot;ng-star-inserted&quot;]/form[@class=&quot;ng-touched ng-dirty ng-valid&quot;]/div[@class=&quot;text-right mt-5&quot;]/button[@class=&quot;p-element mt-5 p-button-secondary mr-3 p-button p-component&quot;]/span[@class=&quot;p-button-label&quot;]</value>
+      <webElementGuid>c807191c-ac56-4983-aaa0-4c0db37dcdfe</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Suggestions (optional)'])[2]/following::span[1]</value>
+      <webElementGuid>46358f1a-e811-4306-b383-0ea832cdc675</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Good'])[1]/following::span[2]</value>
+      <webElementGuid>a37b4445-5d80-4661-bb25-61e462b251d8</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Save'])[1]/preceding::span[1]</value>
+      <webElementGuid>89a9cab9-d035-40e3-af57-752ae881d41e</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='Close']/parent::*</value>
+      <webElementGuid>9a7daeab-2ecc-423e-9977-412cfaf6f93c</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[5]/button/span</value>
+      <webElementGuid>199ae305-f279-41c5-a2b6-aec7ef2910a4</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//span[(text() = 'Close' or . = 'Close')]</value>
+      <webElementGuid>95131f96-6737-478b-afaf-cdc45f8a51ab</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

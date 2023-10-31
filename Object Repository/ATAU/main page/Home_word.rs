@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>Home_word</name>
+   <tag></tag>
+   <elementGuidId>3f379435-671c-452e-8159-8d25f87db100</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>(.//*[normalize-space(text()) and normalize-space(.)='DOWNLOAD'])[1]/following::span[1]</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>span.ata-pl-3</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>span</value>
+      <webElementGuid>b32dd36c-fbea-465c-847c-8ef0a69cd4fc</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>ata-pl-3</value>
+      <webElementGuid>eb108dcd-25ab-41fe-8b7b-60d8e934560d</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Home</value>
+      <webElementGuid>9d056c78-08cb-4884-948b-87806b69991f</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>/html[@class=&quot;ata-text-slate-800 ata-bg-white&quot;]/body[1]/ata-atau[1]/ata-atau-default[@class=&quot;ng-star-inserted&quot;]/div[1]/p-sidebar[@class=&quot;p-element ng-tns-c121-13 ng-star-inserted&quot;]/div[@class=&quot;ng-trigger ng-trigger-panelState ng-tns-c121-13 p-sidebar p-sidebar-active p-sidebar-left ng-star-inserted&quot;]/div[@class=&quot;p-sidebar-content ng-tns-c121-13&quot;]/div[@class=&quot;ata-px-3 ng-tns-c121-13&quot;]/nav[@class=&quot;ata-flex ata-flex-col&quot;]/a[@class=&quot;ata-flex ata-items-center ata-py-4&quot;]/span[@class=&quot;ata-pl-3&quot;]</value>
+      <webElementGuid>63ab2b95-0261-41e6-a3d5-8bbd46badfd5</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='DOWNLOAD'])[1]/following::span[1]</value>
+      <webElementGuid>5cd4e098-f805-4f00-a2dd-151365c59703</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Stay prepared for any situation on the road. Download the Etiqa Smile app today!'])[1]/following::span[2]</value>
+      <webElementGuid>bc80bbc2-8c11-43aa-b167-69edabb037e2</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Etiqa Auto Assist Care'])[1]/preceding::span[3]</value>
+      <webElementGuid>0f67a25d-5f7c-42a2-ac8f-312217bf20d2</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Where are you now?'])[1]/preceding::span[4]</value>
+      <webElementGuid>d7fdd632-dff9-4096-9405-c6a75730cd4d</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='Home']/parent::*</value>
+      <webElementGuid>947aba38-a5b7-4dc4-8cae-1c88191c1c3d</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//nav/a/span</value>
+      <webElementGuid>1274d028-2d89-44b6-a77b-5ea7a5eac71a</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//span[(text() = 'Home' or . = 'Home')]</value>
+      <webElementGuid>2f050a72-2c52-485e-9ad9-a2c53a7a7fc2</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>Date From</name>
+   <tag></tag>
+   <elementGuidId>b0b08ed0-2a23-4284-84d4-875281c7b57f</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>input.ng-tns-c67-10.w-14rem.p-inputtext.p-component.ng-star-inserted</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//input[@type = 'text' and @placeholder = 'Date from']</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>input</value>
+      <webElementGuid>994a6ad3-6a18-4dec-8690-2063574a6b93</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>type</name>
+      <type>Main</type>
+      <value>text</value>
+      <webElementGuid>1e32c83e-7f66-4cef-9e5e-02e9e1d0eedf</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>autocomplete</name>
+      <type>Main</type>
+      <value>off</value>
+      <webElementGuid>0a1815a7-ea48-4c4d-92f3-bba6a07b2036</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>ng-tns-c67-10 w-14rem p-inputtext p-component ng-star-inserted</value>
+      <webElementGuid>6b0d52c3-e222-4fac-9093-0a00e13a98e7</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>placeholder</name>
+      <type>Main</type>
+      <value>Date from</value>
+      <webElementGuid>1126edef-e78b-46ad-89ae-ea8b82f2a706</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>ng-reflect-ng-class</name>
+      <type>Main</type>
+      <value>p-inputtext p-component</value>
+      <webElementGuid>2d35993e-6421-4529-b594-0e7ab5e2b371</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>/html[1]/body[1]/ata-dashboard-root[1]/div[@class=&quot;app-layout&quot;]/div[@class=&quot;layout-content&quot;]/div[@class=&quot;content-data&quot;]/ata-rating-list[@class=&quot;ng-star-inserted&quot;]/div[@class=&quot;flex align-items-center justify-content-between mb-4&quot;]/ata-form-rating-export[1]/form[@class=&quot;flex flex-wrap ng-untouched ng-pristine ng-invalid&quot;]/div[@class=&quot;p-field mr-2 mb-0&quot;]/p-calendar[@class=&quot;p-element p-inputwrapper ng-tns-c67-10 ng-untouched ng-pristine ng-invalid ng-star-inserted p-inputwrapper-focus&quot;]/span[@class=&quot;ng-tns-c67-10 p-calendar p-focus&quot;]/input[@class=&quot;ng-tns-c67-10 w-14rem p-inputtext p-component ng-star-inserted&quot;]</value>
+      <webElementGuid>177f35f4-dc16-4a6d-acc8-acc91750e1db</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>//input[@type='text']</value>
+      <webElementGuid>8cd18666-1b17-4786-b258-d4d46e0ea58f</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//span/input</value>
+      <webElementGuid>e543501c-e41f-4d9b-9ce6-36a39bad328b</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//input[@type = 'text' and @placeholder = 'Date from']</value>
+      <webElementGuid>7eb3a4fe-361f-4d28-b627-9bc0c47ebe05</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>btn_Ampang</name>
+   <tag></tag>
+   <elementGuidId>b784c5e1-47c3-4f27-8948-40812ea74b49</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value></value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>(.//*[normalize-space(text()) and normalize-space(.)='SELANGOR'])[1]/following::span[1]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>span</value>
+      <webElementGuid>c6f3654c-19a3-4c01-9f9b-48ba5beac15f</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>ata-flex ata-items-center ata-rounded-base ata-border ata-px-4 ata-py-3 ata-border-slate-300 hover:ata-bg-slate-50</value>
+      <webElementGuid>3251e0ad-d991-4b39-bc30-fa03da098498</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>ng-reflect-ng-class</name>
+      <type>Main</type>
+      <value>[object Object]</value>
+      <webElementGuid>c2e4b799-3348-4bb4-bfba-4e3da50fe631</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Ampang</value>
+      <webElementGuid>fde4b84e-a797-4cd4-9cf4-a01ac8be73e9</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>/html[@class=&quot;ata-text-slate-800 ata-bg-white&quot;]/body[@class=&quot;p-overflow-hidden&quot;]/div[@class=&quot;ng-trigger ng-trigger-panelState ng-tns-c121-6 p-sidebar p-sidebar-active p-sidebar-right ng-star-inserted&quot;]/div[@class=&quot;p-sidebar-content ng-tns-c121-6&quot;]/div[@class=&quot;-ata-mx-4 ng-star-inserted&quot;]/div[@class=&quot;-ata-mt-px&quot;]/div[@class=&quot;ng-untouched ng-valid ng-dirty&quot;]/div[@class=&quot;-ata-mt-px ng-star-inserted&quot;]/div[@class=&quot;ata-p-6 ng-untouched ng-pristine ng-valid&quot;]/div[@class=&quot;-ata-mb-3 ng-untouched ng-pristine ng-valid&quot;]/ata-input-checkbox[@class=&quot;ata-inline-block ata-mr-3 ata-mb-3 ng-untouched ng-pristine ng-valid ng-star-inserted&quot;]/label[@class=&quot;ata-block ata-cursor-pointer&quot;]/span[@class=&quot;ata-flex ata-items-center ata-rounded-base ata-border ata-px-4 ata-py-3 ata-border-slate-300 hover:ata-bg-slate-50&quot;]</value>
+      <webElementGuid>5af1ee15-a998-4f68-b836-b1f3e3a1da56</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='SELANGOR'])[1]/following::span[1]</value>
+      <webElementGuid>a496e4ff-6759-4dde-91bd-d2175ff582a5</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Sri Aman'])[1]/following::span[1]</value>
+      <webElementGuid>9fd16eb0-7a1b-4590-a30a-805f232140c6</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Ampang Jaya'])[1]/preceding::span[2]</value>
+      <webElementGuid>6913e4a4-6544-478b-b011-29f65fed2cd9</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[13]/div/div/ata-input-checkbox/label/span</value>
+      <webElementGuid>66a96b88-c743-4f87-89f2-bc60e323a2fb</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//span[(text() = 'Ampang' or . = 'Ampang')]</value>
+      <webElementGuid>73019236-206d-4286-b836-339655514f96</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>th_Invoice Date</name>
+   <tag></tag>
+   <elementGuidId>5e1793d4-de21-4f74-a5f7-59083942ce79</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//table[@id='pr_id_6-table']/thead/tr/th</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>th</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>th</value>
+      <webElementGuid>43e0dfc5-b9f4-48f4-b076-51b1f4cf17dc</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Invoice Date</value>
+      <webElementGuid>f90602ac-d67a-4b7f-b460-c3da93c6ae53</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;pr_id_6-table&quot;)/thead[@class=&quot;p-datatable-thead&quot;]/tr[@class=&quot;ng-star-inserted&quot;]/th[1]</value>
+      <webElementGuid>b2b30465-3959-4542-877c-4ae7792cf71a</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//table[@id='pr_id_6-table']/thead/tr/th</value>
+      <webElementGuid>b63fa834-4fb1-42f8-9505-d4146b845a87</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Export CSV'])[1]/following::th[1]</value>
+      <webElementGuid>df1253db-372e-41df-9efb-0be05c9fe7a6</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='List of Invoice(s)'])[1]/following::th[1]</value>
+      <webElementGuid>20e91980-e6bd-4c37-986b-141ca2314e7d</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Invoice(s) Number'])[1]/preceding::th[1]</value>
+      <webElementGuid>e4b4ce10-71b1-49e6-9b86-085a6aba531d</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Entity'])[1]/preceding::th[2]</value>
+      <webElementGuid>d7f1c9c2-e46b-44b1-92e6-cd8704adc96f</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='Invoice Date']/parent::*</value>
+      <webElementGuid>0b9de120-2082-4b01-a748-184c2d1b2991</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//th</value>
+      <webElementGuid>c1ba7fbc-101f-40ad-a97c-22f96034188a</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//th[(text() = 'Invoice Date' or . = 'Invoice Date')]</value>
+      <webElementGuid>d327c9bb-6fe7-45f9-8d82-3408dadc2912</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

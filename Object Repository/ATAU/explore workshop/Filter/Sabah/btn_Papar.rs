@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>btn_Papar</name>
+   <tag></tag>
+   <elementGuidId>ab5d9150-ff16-4d2f-b3d0-03ce30c65c75</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value></value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>(.//*[normalize-space(text()) and normalize-space(.)='Membakut'])[1]/following::span[1]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>span</value>
+      <webElementGuid>20445802-23af-4c38-9d60-a56c4d184c2f</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>ata-flex ata-items-center ata-rounded-base ata-border ata-px-4 ata-py-3 ata-border-slate-300 hover:ata-bg-slate-50</value>
+      <webElementGuid>9376ca88-3775-45fe-8d45-f9871e12e618</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>ng-reflect-ng-class</name>
+      <type>Main</type>
+      <value>[object Object]</value>
+      <webElementGuid>d56d5294-3ac5-4491-b3f3-2ece21be6428</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Papar</value>
+      <webElementGuid>2b0fe46e-1e94-4f48-8e61-531ebc747597</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>/html[@class=&quot;ata-text-slate-800 ata-bg-white&quot;]/body[@class=&quot;p-overflow-hidden&quot;]/div[@class=&quot;ng-trigger ng-trigger-panelState ng-tns-c121-6 p-sidebar p-sidebar-active p-sidebar-right ng-star-inserted&quot;]/div[@class=&quot;p-sidebar-content ng-tns-c121-6&quot;]/div[@class=&quot;-ata-mx-4 ng-star-inserted&quot;]/div[@class=&quot;-ata-mt-px&quot;]/div[@class=&quot;ng-untouched ng-valid ng-dirty&quot;]/div[@class=&quot;-ata-mt-px ng-star-inserted&quot;]/div[@class=&quot;ata-p-6 ng-untouched ng-pristine ng-valid&quot;]/div[@class=&quot;-ata-mb-3 ng-untouched ng-pristine ng-valid&quot;]/ata-input-checkbox[@class=&quot;ata-inline-block ata-mr-3 ata-mb-3 ng-untouched ng-pristine ng-valid ng-star-inserted&quot;]/label[@class=&quot;ata-block ata-cursor-pointer&quot;]/span[@class=&quot;ata-flex ata-items-center ata-rounded-base ata-border ata-px-4 ata-py-3 ata-border-slate-300 hover:ata-bg-slate-50&quot;]</value>
+      <webElementGuid>07b833de-c21b-4eef-a699-374c0c14963e</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Membakut'])[1]/following::span[1]</value>
+      <webElementGuid>930c65a0-9efb-46d8-9ee3-bfac31819e02</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Lahad Datu'])[1]/following::span[3]</value>
+      <webElementGuid>0a7fb824-c456-48b9-95d1-84b55792c685</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Penampang'])[1]/preceding::span[2]</value>
+      <webElementGuid>0314c4d9-fa89-408c-9cf2-fdf4da3a9196</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[11]/div/div/ata-input-checkbox[9]/label/span</value>
+      <webElementGuid>aedc8360-0679-4f1e-85e3-df3921b7a3a6</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//span[(text() = 'Papar' or . = 'Papar')]</value>
+      <webElementGuid>80a762bf-991e-481f-b725-9a9f74b85228</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>btn_Yes_5</name>
+   <tag></tag>
+   <elementGuidId>b5cd373a-56fb-44cb-ab3b-9747c9ac0245</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>(.//*[normalize-space(text()) and normalize-space(.)='*'])[5]/following::span[1]</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>span</value>
+      <webElementGuid>af8f1f0a-2419-46b0-a282-4f94db5b3d32</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>ata-flex ata-items-center ata-rounded-base ata-border ata-px-4 ata-py-3 ata-border-slate-300 hover:ata-bg-slate-50</value>
+      <webElementGuid>e9e761c1-5482-4460-aa01-116bed9e09b8</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>ng-reflect-ng-class</name>
+      <type>Main</type>
+      <value>[object Object]</value>
+      <webElementGuid>c74735f2-1a5a-435a-b6dd-f8f7db0437cc</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Yes</value>
+      <webElementGuid>cd3cc167-19fb-4d2f-b398-ecfcfcc3b5a3</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>/html[@class=&quot;ata-text-slate-800 ata-bg-white&quot;]/body[1]/ata-atau[1]/ata-atau-empty[@class=&quot;ng-star-inserted&quot;]/ata-assessment-question[@class=&quot;ng-star-inserted&quot;]/form[@class=&quot;ata-relative ata-flex ata-flex-col ata-grow ng-untouched ng-invalid ng-dirty&quot;]/div[@class=&quot;ata-relative ata-z-1 ata-flex ata-flex-col ata-grow&quot;]/div[@class=&quot;ata-flex ata-flex-col ata-absolute ata-inset-0 ata-overflow-auto ata-p-6 ng-untouched ng-invalid ng-dirty&quot;]/div[@class=&quot;ata-mb-6 ng-untouched ng-pristine ng-invalid ng-star-inserted&quot;]/div[@class=&quot;ata-grid ata-grid-cols-2 ata-gap-5&quot;]/ata-input-radio[@class=&quot;ng-untouched ng-pristine ng-invalid&quot;]/label[@class=&quot;ata-block ata-cursor-pointer&quot;]/span[@class=&quot;ata-flex ata-items-center ata-rounded-base ata-border ata-px-4 ata-py-3 ata-border-slate-300 hover:ata-bg-slate-50&quot;]</value>
+      <webElementGuid>95d6b45d-b871-41ce-9d67-eeb597d26f94</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='*'])[5]/following::span[1]</value>
+      <webElementGuid>0141f787-e735-4e71-88a8-128b5a464736</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='No'])[5]/preceding::span[2]</value>
+      <webElementGuid>ffe24c13-28e8-4ea2-8a3c-be533cfb5b36</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[5]/div/ata-input-radio/label/span</value>
+      <webElementGuid>68ebd259-90d5-4926-8048-3ab715f00660</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//span[(text() = 'Yes' or . = 'Yes')]</value>
+      <webElementGuid>7036f1f3-56fb-411d-83b6-1100a8961ece</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

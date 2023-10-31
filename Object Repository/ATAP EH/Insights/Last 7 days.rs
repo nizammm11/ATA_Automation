@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>Last 7 days</name>
+   <tag></tag>
+   <elementGuidId>88502e46-769d-440d-8fb7-26b8eaa58846</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[@id = 'p-highlighted-option' and (text() = ' Last 7 days ' or . = ' Last 7 days ')]</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//li[@id='p-highlighted-option']</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>#p-highlighted-option</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>li</value>
+      <webElementGuid>10f4ebfa-e2ca-4e98-b910-8912184562bf</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>role</name>
+      <type>Main</type>
+      <value>option</value>
+      <webElementGuid>751d1345-180b-4178-a0e5-79fe77847bfd</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>p-ripple p-element p-dropdown-item p-highlight</value>
+      <webElementGuid>49184f96-7a5b-400c-b20c-04cbdacdf44a</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>ng-reflect-ng-style</name>
+      <type>Main</type>
+      <value>[object Object]</value>
+      <webElementGuid>3bad4f2a-48f6-4eee-a1c4-0412fdf914c4</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>id</name>
+      <type>Main</type>
+      <value>p-highlighted-option</value>
+      <webElementGuid>f387209a-e5e1-4550-8452-998ab94a179c</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>ng-reflect-ng-class</name>
+      <type>Main</type>
+      <value>[object Object]</value>
+      <webElementGuid>d28f4401-343f-4740-95db-032ec8c103f5</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>aria-label</name>
+      <type>Main</type>
+      <value>Last 7 days</value>
+      <webElementGuid>0b1f6885-e5db-46e9-9ec1-27f6de4684bd</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>aria-selected</name>
+      <type>Main</type>
+      <value>true</value>
+      <webElementGuid>c0d3a9cf-64f3-4aa3-8c60-d2a476adb870</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value> Last 7 days </value>
+      <webElementGuid>854c31d3-c9ff-4a6f-a1b1-5078a8887fcd</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;p-highlighted-option&quot;)</value>
+      <webElementGuid>7179a242-a5f7-4053-a901-45a821eca7de</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>//li[@id='p-highlighted-option']</value>
+      <webElementGuid>b4c8e327-615b-4b13-90fb-cfd43dc78416</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//ul[@id='pr_id_19_list']/p-dropdownitem/li</value>
+      <webElementGuid>f2086258-f36d-4a9d-8794-d107a68ded9d</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Last 7 days'])[1]/following::li[1]</value>
+      <webElementGuid>d9bbfb15-7f22-41fb-9b04-d0cacedfed2b</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Recent Statistics'])[1]/following::li[1]</value>
+      <webElementGuid>0e486beb-9ba4-4e8f-a1d4-fb956b06a4f1</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='This Month'])[1]/preceding::li[1]</value>
+      <webElementGuid>5995d31f-615f-493f-96e7-d17334fee054</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Capture object:'])[1]/preceding::li[2]</value>
+      <webElementGuid>5bb40784-6aa6-484e-91f4-de5558bb7c05</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//p-dropdownitem/li</value>
+      <webElementGuid>8e878269-64e6-4ab2-93e9-4de1ff7962aa</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//li[@id = 'p-highlighted-option' and (text() = ' Last 7 days ' or . = ' Last 7 days ')]</value>
+      <webElementGuid>ed1d3f9b-73dc-4053-8e5b-3f9bce33569d</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

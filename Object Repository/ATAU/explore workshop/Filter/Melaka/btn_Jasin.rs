@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>btn_Jasin</name>
+   <tag></tag>
+   <elementGuidId>243b9fef-c56b-4cf4-89e4-38f33014f71a</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value></value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>(.//*[normalize-space(text()) and normalize-space(.)='Bukit Katil'])[1]/following::span[1]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>span</value>
+      <webElementGuid>17978200-5360-41e3-b80d-ee1e305f6a29</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>ata-flex ata-items-center ata-rounded-base ata-border ata-px-4 ata-py-3 ata-border-slate-300 hover:ata-bg-slate-50</value>
+      <webElementGuid>e8c90252-3d57-4308-b746-49fe551e7b08</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>ng-reflect-ng-class</name>
+      <type>Main</type>
+      <value>[object Object]</value>
+      <webElementGuid>6beb7cda-34b5-41b3-af87-f7aa6eeaa117</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Jasin</value>
+      <webElementGuid>8b9d9a85-4029-4501-9556-182ae497ecb6</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>/html[@class=&quot;ata-text-slate-800 ata-bg-white&quot;]/body[@class=&quot;p-overflow-hidden&quot;]/div[@class=&quot;ng-trigger ng-trigger-panelState ng-tns-c121-6 p-sidebar p-sidebar-active p-sidebar-right ng-star-inserted&quot;]/div[@class=&quot;p-sidebar-content ng-tns-c121-6&quot;]/div[@class=&quot;-ata-mx-4 ng-star-inserted&quot;]/div[@class=&quot;-ata-mt-px&quot;]/div[@class=&quot;ng-untouched ng-valid ng-dirty&quot;]/div[@class=&quot;-ata-mt-px ng-star-inserted&quot;]/div[@class=&quot;ata-p-6 ng-untouched ng-pristine ng-valid&quot;]/div[@class=&quot;-ata-mb-3 ng-untouched ng-pristine ng-valid&quot;]/ata-input-checkbox[@class=&quot;ata-inline-block ata-mr-3 ata-mb-3 ng-untouched ng-pristine ng-valid ng-star-inserted&quot;]/label[@class=&quot;ata-block ata-cursor-pointer&quot;]/span[@class=&quot;ata-flex ata-items-center ata-rounded-base ata-border ata-px-4 ata-py-3 ata-border-slate-300 hover:ata-bg-slate-50&quot;]</value>
+      <webElementGuid>d6f313dc-2f37-457f-a05d-8b7ac0c21bae</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Bukit Katil'])[1]/following::span[1]</value>
+      <webElementGuid>468678b0-b86c-4252-98cd-eb163d945f4c</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Ayer Molek'])[1]/following::span[3]</value>
+      <webElementGuid>3b996d24-4672-41e6-a315-4b4aa4924935</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Melaka'])[1]/preceding::span[2]</value>
+      <webElementGuid>4869e3f0-05ec-45d6-b5b9-d35f6be6e52e</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[4]/div/div/ata-input-checkbox[5]/label/span</value>
+      <webElementGuid>808381da-4c9e-4223-907e-21b68596b235</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//span[(text() = 'Jasin' or . = 'Jasin')]</value>
+      <webElementGuid>47105acc-6a1f-4c35-b93c-a2fcf7b89974</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

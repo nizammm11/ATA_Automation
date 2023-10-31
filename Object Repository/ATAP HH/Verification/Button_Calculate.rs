@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>Button_Calculate</name>
+   <tag></tag>
+   <elementGuidId>453eeff1-22b0-42fd-a512-9bc6b6ed4546</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>(.//*[normalize-space(text()) and normalize-space(.)='Price Estimation (for Service Provider)'])[1]/following::span[1]</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>div.relative.flex.justify-content-end.mb-3 > button.p-element.button.btn.p-button-primary.btn-style.mr-2.ml-2.p-button.p-component.ng-star-inserted > span.p-button-label</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>span</value>
+      <webElementGuid>9e62a0b9-bfe8-4dc5-83ed-8c0e0b92b76f</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>p-button-label</value>
+      <webElementGuid>1a67d9f9-5e08-402d-8dfc-3ab48419384b</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Calculate</value>
+      <webElementGuid>0ecc6384-89a9-4e7d-b5b7-61aa713dd7c5</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>/html[1]/body[1]/ata-dashboard-root[1]/div[@class=&quot;app-layout&quot;]/div[@class=&quot;layout-content&quot;]/div[@class=&quot;content-data&quot;]/app-case-tab[@class=&quot;ng-star-inserted&quot;]/div[@class=&quot;top&quot;]/div[@class=&quot;grid m-0 ng-star-inserted&quot;]/div[@class=&quot;w-4&quot;]/app-case-tariff[@class=&quot;block mb-4&quot;]/p-card[@class=&quot;p-element&quot;]/div[@class=&quot;p-card p-component&quot;]/div[@class=&quot;p-card-body&quot;]/div[@class=&quot;p-card-content&quot;]/div[@class=&quot;p-3&quot;]/div[@class=&quot;relative flex justify-content-end mb-3&quot;]/button[@class=&quot;p-element button btn p-button-primary btn-style mr-2 ml-2 p-button p-component ng-star-inserted&quot;]/span[@class=&quot;p-button-label&quot;]</value>
+      <webElementGuid>698efa8d-0896-47a5-be21-fc9469e223eb</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Price Estimation (for Service Provider)'])[1]/following::span[1]</value>
+      <webElementGuid>b586403d-b7f1-47b6-8f01-4a07ef2ef741</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Save'])[1]/following::span[3]</value>
+      <webElementGuid>93a6cd6c-5b16-4af4-9294-1f6d84236b59</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Activity Logs'])[1]/preceding::span[1]</value>
+      <webElementGuid>d449ea48-fe0e-4740-a9db-4ee6e69f4319</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Add Activity'])[1]/preceding::span[1]</value>
+      <webElementGuid>4c27ddfd-504f-4fda-8e7e-832dfba2b048</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='Calculate']/parent::*</value>
+      <webElementGuid>faac1767-5b30-4f22-85be-e782c2a9d5e3</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//p-card/div/div[2]/div/div/div/button/span</value>
+      <webElementGuid>456f1a3b-6997-4862-853d-8d3158a34410</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//span[(text() = 'Calculate' or . = 'Calculate')]</value>
+      <webElementGuid>c42efa26-962b-4808-9d57-cd77a54e7c92</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

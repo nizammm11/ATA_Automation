@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>btn_Masai</name>
+   <tag></tag>
+   <elementGuidId>784fbf18-aef1-460b-b8ad-18991b0a8cd8</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value></value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>(.//*[normalize-space(text()) and normalize-space(.)='Labis'])[1]/following::span[1]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>span</value>
+      <webElementGuid>86c026cb-5bcd-4387-ba78-d46e12380529</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>ata-flex ata-items-center ata-rounded-base ata-border ata-px-4 ata-py-3 ata-border-slate-300 hover:ata-bg-slate-50</value>
+      <webElementGuid>8425ae02-2547-44b0-a08c-2496f8b14634</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>ng-reflect-ng-class</name>
+      <type>Main</type>
+      <value>[object Object]</value>
+      <webElementGuid>8a0e94d2-9bf0-4d85-91f7-08035f398337</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Masai</value>
+      <webElementGuid>b41d1bb7-4102-473b-97d8-d87c45dd14b3</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>/html[@class=&quot;ata-text-slate-800 ata-bg-white&quot;]/body[@class=&quot;p-overflow-hidden&quot;]/div[@class=&quot;ng-trigger ng-trigger-panelState ng-tns-c121-6 p-sidebar p-sidebar-active p-sidebar-right ng-star-inserted&quot;]/div[@class=&quot;p-sidebar-content ng-tns-c121-6&quot;]/div[@class=&quot;-ata-mx-4 ng-star-inserted&quot;]/div[@class=&quot;-ata-mt-px&quot;]/div[@class=&quot;ng-untouched ng-valid ng-dirty&quot;]/div[@class=&quot;-ata-mt-px ng-star-inserted&quot;]/div[@class=&quot;ata-p-6 ng-untouched ng-valid ng-dirty&quot;]/div[@class=&quot;-ata-mb-3 ng-untouched ng-valid ng-dirty&quot;]/ata-input-checkbox[@class=&quot;ata-inline-block ata-mr-3 ata-mb-3 ng-untouched ng-pristine ng-valid ng-star-inserted&quot;]/label[@class=&quot;ata-block ata-cursor-pointer&quot;]/span[@class=&quot;ata-flex ata-items-center ata-rounded-base ata-border ata-px-4 ata-py-3 ata-border-slate-300 hover:ata-bg-slate-50&quot;]</value>
+      <webElementGuid>60b06995-3562-465c-af5d-d12e519d237f</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Labis'])[1]/following::span[1]</value>
+      <webElementGuid>a8f7d755-6507-4318-b757-43b04be3cb2e</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Kulai'])[1]/following::span[3]</value>
+      <webElementGuid>758bf41e-f7c9-4e42-96a1-4562a725aeca</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Mersing'])[1]/preceding::span[2]</value>
+      <webElementGuid>f23306b8-4c16-4244-b12a-e055354bd4bf</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//ata-input-checkbox[9]/label/span</value>
+      <webElementGuid>16e836bd-ee36-42f5-9b79-ddbc3df7ddc3</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//span[(text() = 'Masai' or . = 'Masai')]</value>
+      <webElementGuid>5d7c339b-af66-40be-823a-5506f89d63a3</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

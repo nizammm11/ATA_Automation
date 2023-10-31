@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>btn_Tangkak</name>
+   <tag></tag>
+   <elementGuidId>32150a46-b07a-47af-b089-2ef1b447c171</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value></value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>(.//*[normalize-space(text()) and normalize-space(.)='Tampoi'])[1]/following::span[1]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>span</value>
+      <webElementGuid>c6fe453a-abae-4adf-ae5c-01003acf150a</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>ata-flex ata-items-center ata-rounded-base ata-border ata-px-4 ata-py-3 ata-border-slate-300 hover:ata-bg-slate-50</value>
+      <webElementGuid>7429d08d-9b12-434b-9c1d-d06e5e90ca7e</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>ng-reflect-ng-class</name>
+      <type>Main</type>
+      <value>[object Object]</value>
+      <webElementGuid>ad969e43-d2d1-4c94-b0cd-62cb6a1cbedf</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Tangkak</value>
+      <webElementGuid>4d85d23f-e24d-4c7e-9311-f540f52b2572</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>/html[@class=&quot;ata-text-slate-800 ata-bg-white&quot;]/body[@class=&quot;p-overflow-hidden&quot;]/div[@class=&quot;ng-trigger ng-trigger-panelState ng-tns-c121-6 p-sidebar p-sidebar-active p-sidebar-right ng-star-inserted&quot;]/div[@class=&quot;p-sidebar-content ng-tns-c121-6&quot;]/div[@class=&quot;-ata-mx-4 ng-star-inserted&quot;]/div[@class=&quot;-ata-mt-px&quot;]/div[@class=&quot;ng-untouched ng-valid ng-dirty&quot;]/div[@class=&quot;-ata-mt-px ng-star-inserted&quot;]/div[@class=&quot;ata-p-6 ng-untouched ng-valid ng-dirty&quot;]/div[@class=&quot;-ata-mb-3 ng-untouched ng-valid ng-dirty&quot;]/ata-input-checkbox[@class=&quot;ata-inline-block ata-mr-3 ata-mb-3 ng-untouched ng-pristine ng-valid ng-star-inserted&quot;]/label[@class=&quot;ata-block ata-cursor-pointer&quot;]/span[@class=&quot;ata-flex ata-items-center ata-rounded-base ata-border ata-px-4 ata-py-3 ata-border-slate-300 hover:ata-bg-slate-50&quot;]</value>
+      <webElementGuid>079c5dcb-af0c-4081-80ec-dc4c5f5d3d59</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Tampoi'])[1]/following::span[1]</value>
+      <webElementGuid>e6749fb2-26ea-4461-93cf-a028cfd05c68</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Skudai'])[1]/following::span[3]</value>
+      <webElementGuid>f026a5de-7496-4eb5-8ded-afbd4d962c16</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Ulu Tiram'])[1]/preceding::span[2]</value>
+      <webElementGuid>c710c182-b81c-4f33-88f8-70d5f324ab3a</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//ata-input-checkbox[20]/label/span</value>
+      <webElementGuid>a7333b34-1926-4690-a2dd-efa3f8ddbcc3</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//span[(text() = 'Tangkak' or . = 'Tangkak')]</value>
+      <webElementGuid>16acbbac-366e-4274-ade4-5eb8a4ce19f0</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>button_Clear Remarks</name>
+   <tag></tag>
+   <elementGuidId>d45ce800-5bfe-4a5d-a4a5-e0cc64baa9df</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>button.p-element.p-button-white.p-button.p-component.ng-star-inserted</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>(//button[@type='button'])[18]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>button</value>
+      <webElementGuid>b419056d-2bab-4037-820b-9189ddd7e38e</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>type</name>
+      <type>Main</type>
+      <value>button</value>
+      <webElementGuid>89f7dacc-253b-4891-ba7e-c53a2affd054</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>label</name>
+      <type>Main</type>
+      <value>Clear Remarks</value>
+      <webElementGuid>2810f22d-714b-4fd9-8f43-4bcdc9d929b7</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>p-element p-button-white p-button p-component ng-star-inserted</value>
+      <webElementGuid>b30ab4c3-cc44-4f23-bef2-5ab0df89f525</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>ng-reflect-label</name>
+      <type>Main</type>
+      <value>Clear Remarks</value>
+      <webElementGuid>6c6794f4-ea2b-4bf3-9f68-28af8ebb371f</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Clear Remarks</value>
+      <webElementGuid>00459b4f-eace-46e7-9bd6-64ef6ef1e75e</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>/html[1]/body[1]/ata-dashboard-root[1]/div[@class=&quot;app-layout&quot;]/div[@class=&quot;layout-content&quot;]/div[@class=&quot;content-data&quot;]/app-case-tab[@class=&quot;ng-star-inserted&quot;]/div[@class=&quot;top&quot;]/div[@class=&quot;flex ng-star-inserted&quot;]/div[@class=&quot;w-8 pr-5&quot;]/app-case-new[1]/form[@class=&quot;ng-invalid ng-touched ng-dirty&quot;]/p-card[@class=&quot;p-element&quot;]/div[@class=&quot;mt-4 p-card p-component&quot;]/div[@class=&quot;p-card-body&quot;]/div[@class=&quot;p-card-content&quot;]/div[@class=&quot;p-field&quot;]/div[@class=&quot;text-right ng-star-inserted&quot;]/button[@class=&quot;p-element p-button-white p-button p-component ng-star-inserted&quot;]</value>
+      <webElementGuid>fa8a0ff3-8e4c-4481-b46b-04bdced5f374</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>(//button[@type='button'])[18]</value>
+      <webElementGuid>0a4b908c-d35f-4d71-be1a-dfb2776cef42</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='New Battery'])[1]/following::button[1]</value>
+      <webElementGuid>6c82f10f-7faf-45f9-a139-859ae36b240e</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Tyre patch'])[1]/following::button[1]</value>
+      <webElementGuid>39eadda5-8e43-46e4-ab7d-118aeff22031</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Ticket:'])[1]/preceding::button[1]</value>
+      <webElementGuid>01c9753a-b271-4834-be02-0f1731cacfed</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[5]/div/button</value>
+      <webElementGuid>a5b804cf-345e-45b6-878b-a5b443d0b1ff</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//button[@type = 'button' and (text() = 'Clear Remarks' or . = 'Clear Remarks')]</value>
+      <webElementGuid>9a661693-a54e-4e74-bcdb-3159a57bc82b</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

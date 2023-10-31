@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>Normal</name>
+   <tag></tag>
+   <elementGuidId>62627881-719c-4288-991f-e7ae34467173</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[(text() = 'Normal' or . = 'Normal')]</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//ul[@id='pr_id_22_list']/p-dropdownitem[2]/li/span</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>span.customer-badge.status-Normal.ng-star-inserted</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>span</value>
+      <webElementGuid>391813a9-df95-42f2-b22c-cc193e65f894</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>customer-badge status-Normal ng-star-inserted</value>
+      <webElementGuid>9268cc99-2f42-440e-9541-699ff3074bfe</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Normal</value>
+      <webElementGuid>009e2409-9269-4f32-b67b-6238ac028824</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;pr_id_22_list&quot;)/p-dropdownitem[@class=&quot;p-element ng-star-inserted&quot;]/li[@class=&quot;p-ripple p-element p-dropdown-item&quot;]/span[@class=&quot;customer-badge status-Normal ng-star-inserted&quot;]</value>
+      <webElementGuid>a9b32af8-d6e3-43e4-896f-7f5b0035c527</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//ul[@id='pr_id_22_list']/p-dropdownitem[2]/li/span</value>
+      <webElementGuid>e3d83c59-1a90-484a-98be-01af40a9a315</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Premier'])[1]/following::span[1]</value>
+      <webElementGuid>b1076cc1-fe3e-4bb4-909d-2a70c1fe2ae0</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Select a Category'])[1]/following::span[3]</value>
+      <webElementGuid>4d20e4ac-3585-4935-9c18-7c364da6973f</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Motorcycle'])[1]/preceding::span[1]</value>
+      <webElementGuid>9d4c9c7e-cf71-40aa-8482-b4b7337806a8</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Submit'])[1]/preceding::span[3]</value>
+      <webElementGuid>77f773bc-0f57-46c3-a6ce-ec75fdc0f862</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='Normal']/parent::*</value>
+      <webElementGuid>6c9737d6-ec13-4d87-bb5a-cb23d8aa8315</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//p-dropdownitem[2]/li/span</value>
+      <webElementGuid>31e15e36-09e7-43b8-a21e-2833ef4ef04a</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//span[(text() = 'Normal' or . = 'Normal')]</value>
+      <webElementGuid>a20125bf-a96e-49c9-8108-7d870d00bebb</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

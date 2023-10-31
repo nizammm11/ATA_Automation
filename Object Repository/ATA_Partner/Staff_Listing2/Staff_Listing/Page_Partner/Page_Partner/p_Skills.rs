@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>p_Skills</name>
+   <tag></tag>
+   <elementGuidId>fe036432-924c-4d7f-b7b4-4516f331cccb</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>(.//*[normalize-space(text()) and normalize-space(.)='Off'])[8]/following::p[1]</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>p</value>
+      <webElementGuid>2d073465-0ac5-49be-b672-065823107cfa</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>pl-3</value>
+      <webElementGuid>807b8d5a-9fb6-4849-b858-717b8a52246f</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Skills</value>
+      <webElementGuid>3d2fbd12-70bd-4507-ae0e-a28dd900b454</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>/html[1]/body[@class=&quot;overflow-hidden lg:overflow-auto&quot;]/ata-partner[1]/ata-partner-layout-dashboard[@class=&quot;ng-star-inserted&quot;]/section[@class=&quot;main&quot;]/div[@class=&quot;content&quot;]/ata-partner-staff[@class=&quot;ng-star-inserted&quot;]/partner-staff-list[@class=&quot;ng-star-inserted&quot;]/div[@class=&quot;flex-column bg-color&quot;]/div[@class=&quot;p-2 grid&quot;]/div[@class=&quot;p-3 md:col-8 bg-white hidden-xs&quot;]/div[@class=&quot;ng-star-inserted&quot;]/partner-staff-detail[1]/div[@class=&quot;py-4 border-bottom-1 grid&quot;]/div[@class=&quot;col-4&quot;]/p[@class=&quot;pl-3&quot;]</value>
+      <webElementGuid>93ea44d3-1924-4855-8fef-28d7aebbfcdd</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Off'])[8]/following::p[1]</value>
+      <webElementGuid>254ad744-0f93-4d1e-b79f-acdeac80d2f1</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='On'])[8]/following::p[1]</value>
+      <webElementGuid>f6f2e77a-8e03-4f1b-a8bd-928ec746be5f</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Handbrake Repair'])[2]/preceding::p[1]</value>
+      <webElementGuid>5418e261-b4d8-4d98-88b6-86a6f889c73a</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Gear Repair'])[2]/preceding::p[1]</value>
+      <webElementGuid>a6e61899-ef38-488f-889f-bf4cd0f77280</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[2]/div/partner-staff-detail/div[3]/div/p</value>
+      <webElementGuid>a2a05993-610d-4a8c-a756-0602975a20fd</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//p[(text() = 'Skills' or . = 'Skills')]</value>
+      <webElementGuid>254f4b10-ef03-4e2e-9466-441c2d7c0e15</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

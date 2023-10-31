@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>p_Repair-on-Site</name>
+   <tag></tag>
+   <elementGuidId>795fafe8-726f-48a7-a0e1-b3d120cc8855</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>(.//*[normalize-space(text()) and normalize-space(.)='Off'])[6]/following::p[1]</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>p</value>
+      <webElementGuid>b69a72bd-b475-4aff-aab8-4f92fa1bc42c</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Repair-on-Site</value>
+      <webElementGuid>1035248c-b999-482e-8e04-90ee20fff202</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>/html[1]/body[@class=&quot;overflow-hidden lg:overflow-auto&quot;]/ata-partner[1]/ata-partner-layout-dashboard[@class=&quot;ng-star-inserted&quot;]/section[@class=&quot;main&quot;]/div[@class=&quot;content&quot;]/ata-partner-staff[@class=&quot;ng-star-inserted&quot;]/partner-staff-list[@class=&quot;ng-star-inserted&quot;]/div[@class=&quot;flex-column bg-color&quot;]/div[@class=&quot;p-2 grid&quot;]/div[@class=&quot;p-3 md:col-8 bg-white hidden-xs&quot;]/div[@class=&quot;ng-star-inserted&quot;]/partner-staff-detail[1]/div[@class=&quot;py-4 border-bottom-1&quot;]/div[@class=&quot;flex flex-column flex-wrap lg:flex-row justify-content-between&quot;]/div[@class=&quot;lg:col-6 xl:col-3 px-3&quot;]/p[1]</value>
+      <webElementGuid>d597aed5-efca-4571-ad15-1848d4f9a68b</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Off'])[6]/following::p[1]</value>
+      <webElementGuid>45dc965d-1257-47e1-ad13-b8c362d8cf9c</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='On'])[6]/following::p[1]</value>
+      <webElementGuid>0442ac22-5ff8-4b21-ae06-e7d32c8423ae</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='On'])[7]/preceding::p[1]</value>
+      <webElementGuid>281bffde-d337-416a-9573-d8ec8ac2a762</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Off'])[7]/preceding::p[1]</value>
+      <webElementGuid>8f44c0b6-e6cc-4aa2-82f4-1eb62da2a258</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[2]/div/partner-staff-detail/div[2]/div/div[3]/p</value>
+      <webElementGuid>cfacddbc-2dea-4936-be66-4290d70acc91</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//p[(text() = 'Repair-on-Site' or . = 'Repair-on-Site')]</value>
+      <webElementGuid>bd980fd8-920e-4295-9b1b-c48a833e9330</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

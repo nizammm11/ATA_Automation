@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>dropdownCategory</name>
+   <tag></tag>
+   <elementGuidId>ae00f3fe-8920-4077-b551-d9e3d2872fd7</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='p-panel-1-content']/div/form/div/div[7]/div[2]/div/p-dropdown/div/div[2]/span</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>p-dropdown.p-element.p-inputwrapper.ng-pristine.ng-invalid.ng-touched > div.w-6.p-dropdown.p-component > div.p-dropdown-trigger > span.p-dropdown-trigger-icon.pi.pi-chevron-down</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>span</value>
+      <webElementGuid>29b95112-20f4-4eb5-a448-4a49004f58bf</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>p-dropdown-trigger-icon pi pi-chevron-down</value>
+      <webElementGuid>88d96026-9013-4e85-9634-0a1582c0c578</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>ng-reflect-ng-class</name>
+      <type>Main</type>
+      <value>pi pi-chevron-down</value>
+      <webElementGuid>02a820c3-627c-4c24-97e6-2b22ac425837</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;p-panel-1-content&quot;)/div[@class=&quot;p-panel-content ng-tns-c86-19&quot;]/form[@class=&quot;ng-tns-c86-19 ng-invalid ng-touched ng-dirty&quot;]/div[1]/div[@class=&quot;grid form-group pb-3&quot;]/div[@class=&quot;col-6&quot;]/div[@class=&quot;ui-inputgroup&quot;]/p-dropdown[@class=&quot;p-element p-inputwrapper ng-pristine ng-invalid ng-touched&quot;]/div[@class=&quot;w-6 p-dropdown p-component&quot;]/div[@class=&quot;p-dropdown-trigger&quot;]/span[@class=&quot;p-dropdown-trigger-icon pi pi-chevron-down&quot;]</value>
+      <webElementGuid>22fd1015-5efb-4902-bb86-5341083faa5c</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='p-panel-1-content']/div/form/div/div[7]/div[2]/div/p-dropdown/div/div[2]/span</value>
+      <webElementGuid>db94bec5-8604-4a11-b98c-adf535f8fb5d</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[2]/div/p-dropdown/div/div[2]/span</value>
+      <webElementGuid>7dba634f-425a-41c7-912a-070e8007f721</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

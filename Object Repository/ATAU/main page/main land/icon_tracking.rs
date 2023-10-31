@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>icon_tracking</name>
+   <tag></tag>
+   <elementGuidId>dec86568-6b99-43d7-b41a-70795f5194b4</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>(.//*[normalize-space(text()) and normalize-space(.)='Quick links'])[1]/following::*[name()='svg'][1]</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>svg-icon.ata-flex.ata-mr-2.ata-text-2xl > svg</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>svg</value>
+      <webElementGuid>9d1caaba-a65c-49e1-aec0-1712ac94d49d</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xmlns</name>
+      <type>Main</type>
+      <value>http://www.w3.org/2000/svg</value>
+      <webElementGuid>39680966-3748-4d58-8c0d-e3cfe6c92044</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>width</name>
+      <type>Main</type>
+      <value>1em</value>
+      <webElementGuid>88c60f92-92fe-465b-a6d7-f3b81ccf1d7b</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>height</name>
+      <type>Main</type>
+      <value>1em</value>
+      <webElementGuid>bfbb74b5-1c35-4d5b-8dfd-0d8b8ae8c37d</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>fill</name>
+      <type>Main</type>
+      <value>currentColor</value>
+      <webElementGuid>0fd2966f-22b8-4caf-af73-e25232450e12</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>viewBox</name>
+      <type>Main</type>
+      <value>0 0 29 29</value>
+      <webElementGuid>6ea795bb-ae0e-4e7e-abbe-7be63f1ceb9d</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>aria-hidden</name>
+      <type>Main</type>
+      <value>true</value>
+      <webElementGuid>8dfa756d-d85e-4698-a14c-9f846e24cd97</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>/html[@class=&quot;ata-text-slate-800 ata-bg-white&quot;]/body[1]/ata-atau[1]/ata-atau-default[@class=&quot;ng-star-inserted&quot;]/section[@class=&quot;main&quot;]/atau-home[@class=&quot;ng-star-inserted&quot;]/div[@class=&quot;ata-p-6 -ata-mt-40&quot;]/div[@class=&quot;ata-mt-6&quot;]/div[@class=&quot;ata-grid ata-grid-cols-2 ata-gap-6&quot;]/div[@class=&quot;ata-card&quot;]/a[@class=&quot;ata-flex ata-items-center ata-p-3&quot;]/svg-icon[@class=&quot;ata-flex ata-mr-2 ata-text-2xl&quot;]/svg[1]</value>
+      <webElementGuid>0d89031a-8686-45af-89d3-99fe8c5c221b</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Quick links'])[1]/following::*[name()='svg'][1]</value>
+      <webElementGuid>d5c28847-8dd8-4aec-98c6-535754ed79bf</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Motorcycle'])[1]/following::*[name()='svg'][1]</value>
+      <webElementGuid>9f08f4f7-d790-4970-8008-272043445cf2</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Status Tracking'])[1]/preceding::*[name()='svg'][1]</value>
+      <webElementGuid>70175926-d5e8-4aed-95ec-e5efc8a16ebe</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Share feedback'])[1]/preceding::*[name()='svg'][2]</value>
+      <webElementGuid>c22b3b26-fa2e-4868-b8bf-5b70d072b90f</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

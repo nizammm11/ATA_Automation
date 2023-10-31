@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>no_altphone</name>
+   <tag></tag>
+   <elementGuidId>7028b042-11be-4240-a653-6aa42e2df90c</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value></value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>(.//*[normalize-space(text()) and normalize-space(.)='Alternate mobile number'])[1]/following::div[1]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>div</value>
+      <webElementGuid>7857b666-2383-4e7b-b4c5-36579e4b9cff</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>60132345678,</value>
+      <webElementGuid>3e45065e-f66f-4a0c-909e-7dfbc4873f7a</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>/html[@class=&quot;ata-text-slate-800 ata-bg-white&quot;]/body[1]/ata-atau[1]/ata-atau-default[@class=&quot;ng-star-inserted&quot;]/section[@class=&quot;main&quot;]/ata-assessment-completed[@class=&quot;ng-star-inserted&quot;]/p-sidebar[@class=&quot;p-element ng-tns-c121-10 ng-star-inserted&quot;]/div[@class=&quot;ng-trigger ng-trigger-panelState ng-tns-c121-10 p-sidebar p-sidebar-active p-sidebar-bottom ng-star-inserted&quot;]/div[@class=&quot;p-sidebar-content ng-tns-c121-10&quot;]/div[@class=&quot;ata-grow ata-relative ng-tns-c121-10&quot;]/div[@class=&quot;ata-absolute ata-inset-0 ata-overflow-y-auto&quot;]/div[@class=&quot;ata-px-6 ata-pb-6 ata-pt-3&quot;]/div[@class=&quot;ata-mb-6&quot;]/div[1]</value>
+      <webElementGuid>e3e03f48-4d07-4d98-91c9-7811b15889fe</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Alternate mobile number'])[1]/following::div[1]</value>
+      <webElementGuid>04e91c63-53f6-43d3-af2b-b05ecc0ab566</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Mobile number'])[1]/following::div[3]</value>
+      <webElementGuid>c71af2b1-0eaf-4f69-b22f-46901f9b0c38</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Email address'])[1]/preceding::div[1]</value>
+      <webElementGuid>6b95a979-e01e-4f23-9d95-8e8899f94403</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='a@b.c'])[1]/preceding::div[1]</value>
+      <webElementGuid>89b1c12a-4e32-4375-a145-30e9cbe9ee84</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='60132345678,']/parent::*</value>
+      <webElementGuid>5e162520-4d99-4cf2-a5d3-cb882c9e131e</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[7]/div</value>
+      <webElementGuid>ed337e31-ad5b-4ec7-8aa1-c1d2bd22f714</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//div[(text() = '60132345678,' or . = '60132345678,')]</value>
+      <webElementGuid>8a9a816c-547d-4833-b51d-daf22285c752</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

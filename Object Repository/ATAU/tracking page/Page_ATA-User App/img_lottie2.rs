@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>img_lottie2</name>
+   <tag></tag>
+   <elementGuidId>1247bb4d-de63-4148-b17e-6962cac8133c</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>img.img-lottie.ata-mb-4.ng-star-inserted</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div/img</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>img</value>
+      <webElementGuid>03036505-576f-4f6e-b048-d49cdf5c70b8</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>src</name>
+      <type>Main</type>
+      <value>assets/lottie/loading.gif</value>
+      <webElementGuid>af911c50-0a3c-48e2-9cee-54303ceff49c</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>img-lottie ata-mb-4 ng-star-inserted</value>
+      <webElementGuid>9c15d482-aa01-43ea-84c7-e8dca8d0a50c</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>/html[@class=&quot;ata-text-slate-800 ata-bg-white&quot;]/body[1]/ata-atau[1]/ata-atau-default[@class=&quot;ng-star-inserted&quot;]/section[@class=&quot;main&quot;]/atau-tracking[@class=&quot;ng-star-inserted&quot;]/atau-tracking-finding-service[@class=&quot;ng-star-inserted&quot;]/div[@class=&quot;ata-flex ata-flex-col ata-grow ata-p-6&quot;]/img[@class=&quot;img-lottie ata-mb-4 ng-star-inserted&quot;]</value>
+      <webElementGuid>4125ffed-38b5-466e-96e3-291147645656</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div/img</value>
+      <webElementGuid>1d5a49ce-997a-4661-9ba2-96e0171e6923</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//img[@src = 'assets/lottie/loading.gif']</value>
+      <webElementGuid>5757cf9e-b5eb-4f5a-9f97-b2d8403732e7</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

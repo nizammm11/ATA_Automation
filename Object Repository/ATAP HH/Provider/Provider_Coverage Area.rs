@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>Provider_Coverage Area</name>
+   <tag></tag>
+   <elementGuidId>74c9e8cb-90a6-4780-a90b-e8fa436adbd9</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>(//input[@type='text'])[11]</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>li.p-chips-input-token > input[type=&quot;text&quot;]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>input</value>
+      <webElementGuid>9ea4ce20-0b01-4984-b2e0-a86f8aadf555</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>type</name>
+      <type>Main</type>
+      <value>text</value>
+      <webElementGuid>f6350290-f62e-405c-9c88-f6f6f2d693dc</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>placeholder</name>
+      <type>Main</type>
+      <value>Coverage area</value>
+      <webElementGuid>f947b339-dc12-4280-80f8-d899c0b3e91c</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;p-panel-0-content&quot;)/div[@class=&quot;p-panel-content ng-tns-c86-10&quot;]/form[@class=&quot;ng-tns-c86-10 ng-invalid ng-touched ng-dirty&quot;]/div[1]/div[@class=&quot;grid form-group pb-3&quot;]/div[@class=&quot;col-10&quot;]/div[@class=&quot;ui-inputgroup&quot;]/p-chips[@class=&quot;p-element p-inputwrapper ng-untouched ng-pristine ng-valid p-inputwrapper-focus&quot;]/div[@class=&quot;flex flex-column mt-1 p-chips p-component&quot;]/ul[@class=&quot;p-inputtext p-chips-multiple-container p-focus&quot;]/li[@class=&quot;p-chips-input-token&quot;]/input[1]</value>
+      <webElementGuid>387b06b3-50cb-4468-a79c-2123a4421275</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>(//input[@type='text'])[11]</value>
+      <webElementGuid>f63541e3-4da6-4156-958f-21c812f131b0</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='p-panel-0-content']/div/form/div/div[8]/div/div/p-chips/div/ul/li/input</value>
+      <webElementGuid>1bd2f084-1dd4-4080-b9b7-0ffed12cac8e</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//li/input</value>
+      <webElementGuid>0f72c515-5bf5-47bb-9942-b01451552451</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//input[@type = 'text' and @placeholder = 'Coverage area']</value>
+      <webElementGuid>f1b8a94e-1f13-471d-b099-233d8b214169</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

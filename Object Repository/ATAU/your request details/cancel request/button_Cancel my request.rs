@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>button_Cancel my request</name>
+   <tag></tag>
+   <elementGuidId>c798933e-1dcb-4974-827b-1ddaff08b5e0</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>button.ata-btn.ata-btn-primary.ata-btn-block.ata-mb-2</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//button[@type='submit']</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>button</value>
+      <webElementGuid>695a7de9-6daf-4bac-9aea-7e31b3d7be0e</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>type</name>
+      <type>Main</type>
+      <value>submit</value>
+      <webElementGuid>153c40d8-0d19-4ae2-9aac-8e1f48cbbced</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>ata-btn ata-btn-primary ata-btn-block ata-mb-2</value>
+      <webElementGuid>110b1669-55ea-4136-926b-c99bb4d53fd0</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Cancel my request</value>
+      <webElementGuid>906f8378-27bc-407f-b2d4-2f59292c9c43</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>/html[@class=&quot;ata-text-slate-800 ata-bg-white&quot;]/body[@class=&quot;p-overflow-hidden&quot;]/p-dynamicdialog[@class=&quot;p-element ng-tns-c101-12 ng-star-inserted&quot;]/div[@class=&quot;ng-tns-c101-12 p-dialog-mask p-component-overlay p-component-overlay-enter p-dialog-mask-scrollblocker&quot;]/div[@class=&quot;ng-trigger ng-trigger-animation ng-tns-c101-12 p-dialog p-dynamic-dialog p-component ng-star-inserted&quot;]/div[@class=&quot;p-dialog-content ng-tns-c101-12&quot;]/ata-case-cancel[@class=&quot;ng-star-inserted&quot;]/form[@class=&quot;ng-untouched ng-pristine ng-invalid&quot;]/div[@class=&quot;ata-flex ata-flex-col ata-items-center&quot;]/button[@class=&quot;ata-btn ata-btn-primary ata-btn-block ata-mb-2&quot;]</value>
+      <webElementGuid>dc06ec02-d887-484b-a578-0e8da98a575e</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>//button[@type='submit']</value>
+      <webElementGuid>230cfc12-57fb-4af5-a8e1-95df2ea264ae</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Others'])[1]/following::button[1]</value>
+      <webElementGuid>939a2b9f-a983-442d-adf0-ddcc6630636e</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='I disagree with the service charge'])[1]/following::button[1]</value>
+      <webElementGuid>052ed1ea-0517-4b94-8a9c-65ff9abc39d4</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Keep my request'])[1]/preceding::button[1]</value>
+      <webElementGuid>a42684e9-7db6-4ad0-8799-e657dda3abe1</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[2]/button</value>
+      <webElementGuid>f40995cc-677a-450d-8216-3268f2cc6cb5</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//button[@type = 'submit' and (text() = 'Cancel my request' or . = 'Cancel my request')]</value>
+      <webElementGuid>4de64bab-4585-46d4-b3ff-de3c81d89bfa</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

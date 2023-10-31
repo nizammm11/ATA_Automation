@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>button_hamburger</name>
+   <tag></tag>
+   <elementGuidId>55f12ad2-af1f-4b25-bf4c-0246f05e74d2</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>button.p-element.p-button-rounded.p-button-text.p-button-lg.p-button.p-component.p-button-icon-only</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//button[@type='button']</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>button</value>
+      <webElementGuid>14b896f5-0841-4bc4-88a7-4b5e4a562011</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>type</name>
+      <type>Main</type>
+      <value>button</value>
+      <webElementGuid>717c758a-4d6d-4d5a-a9ef-d107dcce475c</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>icon</name>
+      <type>Main</type>
+      <value>pi pi-bars</value>
+      <webElementGuid>d493c8ba-ef74-4cfd-988d-7798e4b4227e</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>p-element p-button-rounded p-button-text p-button-lg p-button p-component p-button-icon-only</value>
+      <webElementGuid>ef5fc1cb-dd18-47e1-b6d1-9e49e4313811</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>ng-reflect-icon</name>
+      <type>Main</type>
+      <value>pi pi-bars</value>
+      <webElementGuid>562dbe4e-52db-476c-a887-98915ae09ddb</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>/html[@class=&quot;ata-text-slate-800 ata-bg-white&quot;]/body[1]/ata-atau[1]/ata-atau-default[@class=&quot;ng-star-inserted&quot;]/div[1]/header[@class=&quot;flex header&quot;]/div[@class=&quot;header-nav&quot;]/button[@class=&quot;p-element p-button-rounded p-button-text p-button-lg p-button p-component p-button-icon-only&quot;]</value>
+      <webElementGuid>ee428a51-ed94-433b-8ffb-594546b09894</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>//button[@type='button']</value>
+      <webElementGuid>1ac3b2a0-cbdd-4187-ad38-5c5574fce529</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)=concat('We', &quot;'&quot;, 're almost done! Complete the details below')])[1]/preceding::button[2]</value>
+      <webElementGuid>ccfc81b4-c8f2-4020-a956-bd5b575cfe5b</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Service Type'])[1]/preceding::button[2]</value>
+      <webElementGuid>fe195f1b-26c8-4d87-8d20-1b1b76385097</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//button</value>
+      <webElementGuid>c81cb6d6-dacc-4b23-958e-245727fba206</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//button[@type = 'button']</value>
+      <webElementGuid>a6775455-3b80-4ac3-9a86-7ac9b03925bf</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

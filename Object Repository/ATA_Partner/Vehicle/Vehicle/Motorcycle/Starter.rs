@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>Starter</name>
+   <tag></tag>
+   <elementGuidId>e121e90d-5c80-402a-8b78-c1da122bbbab</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[5]/p-checkbox/div/div[2]</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>p-checkbox.p-element.ng-valid.ng-dirty.ng-touched > div.p-checkbox.p-component > div.p-checkbox-box</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>div</value>
+      <webElementGuid>aed68843-34a5-4653-b787-49af95566074</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>p-checkbox-box</value>
+      <webElementGuid>9cf0fb30-66ba-4b9a-98dc-2da84f7806b5</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>ng-reflect-ng-class</name>
+      <type>Main</type>
+      <value>[object Object]</value>
+      <webElementGuid>ddd8302d-4421-4017-b250-53b677c728ef</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>/html[1]/body[@class=&quot;overflow-hidden lg:overflow-auto&quot;]/ata-partner[1]/ata-partner-layout-dashboard[@class=&quot;ng-star-inserted&quot;]/section[@class=&quot;main&quot;]/div[@class=&quot;content&quot;]/ata-partner-vehicle[@class=&quot;ng-star-inserted&quot;]/ata-vehicle-add-edit[@class=&quot;ng-star-inserted&quot;]/div[@class=&quot;flex-column bg-color&quot;]/form[@class=&quot;ng-invalid ng-touched ng-dirty&quot;]/div[@class=&quot;p-2 grid justify-content-center&quot;]/div[@class=&quot;col-8 md:col-9 xs:col-12&quot;]/div[@class=&quot;py-4&quot;]/div[@class=&quot;grid&quot;]/div[@class=&quot;p-field-checkbox pb-3 xl:col-4 lg:col-6 md:col-6 col-12 vehicle-checkbox ng-star-inserted&quot;]/p-checkbox[@class=&quot;p-element ng-valid ng-dirty ng-touched&quot;]/div[@class=&quot;p-checkbox p-component&quot;]/div[@class=&quot;p-checkbox-box&quot;]</value>
+      <webElementGuid>cf9b41c1-df2d-40b2-a848-18ba3cfdc63b</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[5]/p-checkbox/div/div[2]</value>
+      <webElementGuid>ae4840ba-a2f5-4798-96ea-a1d942541d32</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

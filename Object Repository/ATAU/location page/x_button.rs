@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>x_button</name>
+   <tag></tag>
+   <elementGuidId>f06267b2-a1f6-4823-a32f-e551891b78ad</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//i</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value></value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>i</value>
+      <webElementGuid>f4acbceb-8fe8-4705-ab86-ed059f27f365</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>pi pi-times ata-absolute ata-z-10 ata-top-2/4 -ata-translate-y-2/4 ata-right-4 ata-flex ata-items-center ata-text-lg clear-input x-icon ng-star-inserted</value>
+      <webElementGuid>603cd96a-87da-4efe-9a0b-0fcb0bc2ed1b</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>/html[@class=&quot;ata-text-slate-800 ata-bg-white&quot;]/body[1]/ata-atau[1]/ata-atau-empty[@class=&quot;ng-star-inserted&quot;]/ata-location-index[@class=&quot;ng-star-inserted&quot;]/div[@class=&quot;ata-flex ata-flex-col ata-p-5&quot;]/ata-input-place-autocomplete[@class=&quot;ng-untouched ng-valid ng-dirty&quot;]/div[@class=&quot;ata-flex ata-flex-col&quot;]/div[@class=&quot;ata-relative&quot;]/i[@class=&quot;pi pi-times ata-absolute ata-z-10 ata-top-2/4 -ata-translate-y-2/4 ata-right-4 ata-flex ata-items-center ata-text-lg clear-input x-icon ng-star-inserted&quot;]</value>
+      <webElementGuid>031f8e00-dae3-4398-b9b7-fe8013b9c868</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//i</value>
+      <webElementGuid>2b3c2f3b-0255-4ab5-a196-04d563baf10a</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

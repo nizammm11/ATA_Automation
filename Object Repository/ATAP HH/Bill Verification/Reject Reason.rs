@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>Reject Reason</name>
+   <tag></tag>
+   <elementGuidId>d0ca8897-1f81-429e-b539-259be6c5b4cc</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//textarea[@placeholder = 'Reject reason']</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>textarea.p-inputtextarea.p-inputtext.p-component.p-element.w-full.ng-untouched.ng-pristine.ng-valid</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>textarea</value>
+      <webElementGuid>ce15f98d-d3a7-4cfd-8283-79d1c04910b5</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>placeholder</name>
+      <type>Main</type>
+      <value>Reject reason</value>
+      <webElementGuid>21f31efd-865a-4191-ac44-e51352e88cb2</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>formcontrolname</name>
+      <type>Main</type>
+      <value>rejectReasons</value>
+      <webElementGuid>b728b290-3aa2-42bf-b203-050b7e08352e</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>p-inputtextarea p-inputtext p-component p-element w-full ng-untouched ng-pristine ng-valid</value>
+      <webElementGuid>fcc115c7-f161-402a-a644-6b9d146f319e</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>ng-reflect-name</name>
+      <type>Main</type>
+      <value>rejectReasons</value>
+      <webElementGuid>c5d82375-4a25-4352-949d-be51413a52e2</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>rows</name>
+      <type>Main</type>
+      <value>5</value>
+      <webElementGuid>003ef7ec-ee73-40a5-a006-4ae3750f657f</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>/html[1]/body[@class=&quot;p-overflow-hidden&quot;]/ata-dashboard-root[1]/div[@class=&quot;app-layout&quot;]/div[@class=&quot;layout-content&quot;]/div[@class=&quot;content-data&quot;]/ata-dashboard-billings[@class=&quot;ng-star-inserted&quot;]/ata-billing-detail[@class=&quot;ng-star-inserted&quot;]/p-dialog[@class=&quot;p-element ng-tns-c79-35 ng-star-inserted&quot;]/div[@class=&quot;ng-tns-c79-35 p-dialog-mask p-component-overlay p-component-overlay-enter p-dialog-mask-scrollblocker ng-star-inserted&quot;]/div[@class=&quot;p-element ng-trigger ng-trigger-animation ng-tns-c79-35 w-28rem p-dialog p-component ng-star-inserted&quot;]/div[@class=&quot;ng-tns-c79-35 p-dialog-content&quot;]/form[@class=&quot;ng-untouched ng-valid ng-dirty ng-tns-c79-35&quot;]/div[@class=&quot;p-field mb-0&quot;]/textarea[@class=&quot;p-inputtextarea p-inputtext p-component p-element w-full ng-untouched ng-pristine ng-valid&quot;]</value>
+      <webElementGuid>52e24453-bd2a-4d77-b6c3-bbe39818fe83</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[2]/form/div/textarea</value>
+      <webElementGuid>1560fc1b-40fe-4cfc-9cd5-bf63b738b54e</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//textarea[@placeholder = 'Reject reason']</value>
+      <webElementGuid>04dde7de-a484-4678-b617-4b2a725535e3</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

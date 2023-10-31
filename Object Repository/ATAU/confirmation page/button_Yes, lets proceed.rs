@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>button_Yes, lets proceed</name>
+   <tag></tag>
+   <elementGuidId>b9729983-2c79-4e90-b28d-7370b8a34807</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>(//button[@type='button'])[3]</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>button.ata-btn.ata-btn-primary.ata-btn-block.ata-mb-2</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>button</value>
+      <webElementGuid>e3455191-29d8-4c35-b635-9cac09c52fb8</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>type</name>
+      <type>Main</type>
+      <value>button</value>
+      <webElementGuid>f9e56f19-b927-4a82-bc45-b19c0084fa4d</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>ata-btn ata-btn-primary ata-btn-block ata-mb-2</value>
+      <webElementGuid>5db4477e-028a-44c1-b7fe-2d670770b552</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Yes, let's proceed</value>
+      <webElementGuid>0b6cfcbc-846c-4d35-a0a0-4bf43a96ac62</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>/html[@class=&quot;ata-text-slate-800 ata-bg-white&quot;]/body[1]/ata-atau[1]/ata-atau-default[@class=&quot;ng-star-inserted&quot;]/section[@class=&quot;main&quot;]/ata-assessment-confirmation[@class=&quot;ng-star-inserted&quot;]/div[@class=&quot;ata-relative ata-flex ata-flex-col ata-grow&quot;]/div[@class=&quot;ata-relative ata-z-2 ata-p-6 ata-text-center&quot;]/button[@class=&quot;ata-btn ata-btn-primary ata-btn-block ata-mb-2&quot;]</value>
+      <webElementGuid>ae810a5f-445b-41c2-92ae-480f3ddbb910</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>(//button[@type='button'])[3]</value>
+      <webElementGuid>98a0841b-fa57-477e-a101-369b0756a44e</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='filo'])[1]/following::button[1]</value>
+      <webElementGuid>81396bac-ed49-464d-a90a-78c837bb673d</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Name'])[1]/following::button[1]</value>
+      <webElementGuid>b2654c9d-6367-4676-b7ec-50188f4f9046</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='I need to make changes'])[1]/preceding::button[1]</value>
+      <webElementGuid>cf0b76ca-f71e-4c46-abb7-753cde35101f</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Capture object:'])[1]/preceding::button[1]</value>
+      <webElementGuid>e863c2d0-4654-41db-891e-5f4fd0a45c00</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[2]/button</value>
+      <webElementGuid>c4111c99-e2fa-41fb-bf1d-421b910a0292</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//button[@type = 'button' and (text() = concat(&quot;Yes, let&quot; , &quot;'&quot; , &quot;s proceed&quot;) or . = concat(&quot;Yes, let&quot; , &quot;'&quot; , &quot;s proceed&quot;))]</value>
+      <webElementGuid>6c11cedf-2986-41da-9818-dfdffa217465</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

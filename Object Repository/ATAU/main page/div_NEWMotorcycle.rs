@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>div_NEWMotorcycle</name>
+   <tag></tag>
+   <elementGuidId>d8206609-61d4-43ec-a5b4-5b516c568205</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>(.//*[normalize-space(text()) and normalize-space(.)='Car'])[1]/following::div[1]</value>
+      </entry>
+      <entry>
+         <key>IMAGE</key>
+      </entry>
+      <entry>
+         <key>CSS</key>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>div</value>
+      <webElementGuid>6e58eeee-b2dd-44b9-bb0e-b70bf90df301</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>ata-relative ata-flex ata-flex-col ata-justify-end ata-p-5 ata-cursor-pointer ata-rounded-base ata-border ata-border-slate-300 hover:ata-bg-slate-50</value>
+      <webElementGuid>8766cf90-dac5-49fc-9ad8-848012d677ec</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>NEWMotorcycle</value>
+      <webElementGuid>3196532e-85dc-43fb-9428-469d5184445b</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>/html[@class=&quot;ata-text-slate-800 ata-bg-white&quot;]/body[1]/ata-atau[1]/ata-atau-default[@class=&quot;ng-star-inserted&quot;]/section[@class=&quot;main&quot;]/atau-home[@class=&quot;ng-star-inserted&quot;]/div[@class=&quot;ata-p-6 -ata-mt-40&quot;]/div[@class=&quot;ata-card ata-card-content&quot;]/div[@class=&quot;ata-grid ata-grid-cols-2 ata-gap-5&quot;]/ata-checkbox-box[2]/div[@class=&quot;ata-relative ata-flex ata-flex-col ata-justify-end ata-p-5 ata-cursor-pointer ata-rounded-base ata-border ata-border-slate-300 hover:ata-bg-slate-50&quot;]</value>
+      <webElementGuid>0a4a3f33-258a-43a7-b189-23246e828174</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Car'])[1]/following::div[1]</value>
+      <webElementGuid>17e315b5-4f43-47bb-9d58-71dacace2ce8</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Select your vehicle type'])[1]/following::div[3]</value>
+      <webElementGuid>e79da122-8417-4478-8f93-3e080e10b6d7</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//ata-checkbox-box[2]/div</value>
+      <webElementGuid>d2b0d176-f76f-4b11-8e1c-02e7685cc881</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//div[(text() = 'NEWMotorcycle' or . = 'NEWMotorcycle')]</value>
+      <webElementGuid>89ff45f9-5a77-4264-98f8-a9298266b6a0</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

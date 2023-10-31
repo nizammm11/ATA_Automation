@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>textarea_additional info</name>
+   <tag></tag>
+   <elementGuidId>ae1909b3-c8e9-4236-ae91-9aa2c0efe89f</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//textarea</value>
+      </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[@placeholder = 'Additional Info']</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>textarea.ata-input.ata-rounded-t-none.ata-border-t-0.-ata-mt-px.ng-untouched.ng-pristine.ng-valid.ng-star-inserted</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>textarea</value>
+      <webElementGuid>eb8a8f55-e1f5-4a70-9a17-ba762293c314</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>placeholder</name>
+      <type>Main</type>
+      <value>Additional Info</value>
+      <webElementGuid>8145589c-5d60-47b4-a11e-e98ce40dfe6e</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>rows</name>
+      <type>Main</type>
+      <value>2</value>
+      <webElementGuid>70457f86-2a6b-4953-b0f5-f215b73b487b</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>ata-input ata-rounded-t-none ata-border-t-0 -ata-mt-px ng-untouched ng-pristine ng-valid ng-star-inserted</value>
+      <webElementGuid>cfafc09f-8c72-4dc3-81d9-ece2762b6219</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>/html[@class=&quot;ata-text-slate-800 ata-bg-white&quot;]/body[1]/ata-atau[1]/ata-atau-empty[@class=&quot;ng-star-inserted&quot;]/ata-location-index[@class=&quot;ng-star-inserted&quot;]/div[@class=&quot;ata-flex ata-flex-col ata-p-5&quot;]/ata-input-place-autocomplete[@class=&quot;ng-untouched ng-pristine ng-valid&quot;]/div[@class=&quot;ata-flex ata-flex-col&quot;]/textarea[@class=&quot;ata-input ata-rounded-t-none ata-border-t-0 -ata-mt-px ng-untouched ng-pristine ng-valid ng-star-inserted&quot;]</value>
+      <webElementGuid>87c7829c-e480-4bfb-8323-71874ec73b5a</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//textarea</value>
+      <webElementGuid>30d45612-8b49-46fa-9a2a-8e427df7dd47</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//textarea[@placeholder = 'Additional Info']</value>
+      <webElementGuid>6bdf9c30-aac1-4227-bab6-5d7bb399d760</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

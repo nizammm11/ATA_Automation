@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>btn_feedback</name>
+   <tag></tag>
+   <elementGuidId>0b4a5a90-fcf2-4641-941c-90a92c28186a</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>(.//*[normalize-space(text()) and normalize-space(.)='Status Tracking'])[1]/following::a[1]</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value></value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>a</value>
+      <webElementGuid>9f11b9d1-9511-4938-ae2b-716a5be3480c</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>ata-flex ata-items-center ata-p-3</value>
+      <webElementGuid>f981a0b5-c5d2-435f-95b9-f26fab77916f</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>ng-reflect-router-link</name>
+      <type>Main</type>
+      <value>/rating/verify</value>
+      <webElementGuid>cf3375d3-d2e1-4bfe-a923-3c85a4b9c6a6</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>href</name>
+      <type>Main</type>
+      <value>/auto/rating/verify</value>
+      <webElementGuid>73274545-cff1-4c5f-afa0-9fc350a3df32</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Share feedback</value>
+      <webElementGuid>b188edb7-1638-4459-a475-827b6c39cc6f</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>/html[@class=&quot;ata-text-slate-800 ata-bg-white&quot;]/body[1]/ata-atau[1]/ata-atau-default[@class=&quot;ng-star-inserted&quot;]/section[@class=&quot;main&quot;]/atau-home[@class=&quot;ng-star-inserted&quot;]/div[@class=&quot;ata-p-6 -ata-mt-40&quot;]/div[@class=&quot;ata-mt-6&quot;]/div[@class=&quot;ata-grid ata-grid-cols-2 ata-gap-6&quot;]/div[@class=&quot;ata-card&quot;]/a[@class=&quot;ata-flex ata-items-center ata-p-3&quot;]</value>
+      <webElementGuid>cf95f4fd-0316-47bc-a933-d3fb4641f877</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Status Tracking'])[1]/following::a[1]</value>
+      <webElementGuid>56e6a6c8-77ab-481a-93e3-0f24128f8a19</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Quick links'])[1]/following::a[2]</value>
+      <webElementGuid>8c82308d-ff4d-4eff-a066-6af37991ff43</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Locate our panel'])[1]/preceding::a[1]</value>
+      <webElementGuid>23345df3-1d79-4fd3-922b-3d95ed728ddf</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:href</name>
+      <type>Main</type>
+      <value>//a[contains(@href, '/auto/rating/verify')]</value>
+      <webElementGuid>8314b4d0-dc4d-458a-b95a-1033ac6fdac8</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[2]/div/div[2]/a</value>
+      <webElementGuid>e7d95bb9-6c06-4e02-82dc-20aecd982bb2</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//a[@href = '/auto/rating/verify' and (text() = 'Share feedback' or . = 'Share feedback')]</value>
+      <webElementGuid>4b135942-9449-4326-a317-e011eb579658</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

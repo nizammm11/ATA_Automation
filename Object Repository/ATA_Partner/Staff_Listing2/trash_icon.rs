@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>trash_icon</name>
+   <tag></tag>
+   <elementGuidId>7d69dd66-537c-4d75-91a7-7537663f06ac</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>/html[1]/body[@class=&quot;overflow-hidden lg:overflow-auto&quot;]/ata-partner[1]/ata-partner-layout-dashboard[@class=&quot;ng-star-inserted&quot;]/section[@class=&quot;main&quot;]/div[@class=&quot;content&quot;]/ata-partner-staff[@class=&quot;ng-star-inserted&quot;]/partner-staff-list[@class=&quot;ng-star-inserted&quot;]/div[@class=&quot;flex-column bg-color&quot;]/div[@class=&quot;p-2 grid&quot;]/div[@class=&quot;p-3 md:col-8 bg-white hidden-xs&quot;]/div[@class=&quot;ng-star-inserted&quot;]/partner-staff-detail[1]/div[@class=&quot;py-4 border-bottom-1&quot;]/div[@class=&quot;p-col-12 p-md-12 info&quot;]/span[@class=&quot;user-info font-bold&quot;]/a[@class=&quot;p-element delete-button p-button-rounded p-button-info p-button-text mr-0 align-items-top p-button p-component p-button-icon-only ng-star-inserted&quot;]/span[@class=&quot;p-button-icon pi pi-trash&quot;]</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[2]/div/partner-staff-detail/div/div[3]/span/a[2]/span</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>span</value>
+      <webElementGuid>623eed8e-37a1-4ca5-bd85-a38b6d2f5dc6</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>p-button-icon pi pi-trash</value>
+      <webElementGuid>d05300ac-f4f3-4efc-a427-80de9cbca572</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>aria-hidden</name>
+      <type>Main</type>
+      <value>true</value>
+      <webElementGuid>d19f0357-cd29-4fd6-bc2f-5e35207de81f</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>/html[1]/body[@class=&quot;overflow-hidden lg:overflow-auto&quot;]/ata-partner[1]/ata-partner-layout-dashboard[@class=&quot;ng-star-inserted&quot;]/section[@class=&quot;main&quot;]/div[@class=&quot;content&quot;]/ata-partner-staff[@class=&quot;ng-star-inserted&quot;]/partner-staff-list[@class=&quot;ng-star-inserted&quot;]/div[@class=&quot;flex-column bg-color&quot;]/div[@class=&quot;p-2 grid&quot;]/div[@class=&quot;p-3 md:col-8 bg-white hidden-xs&quot;]/div[@class=&quot;ng-star-inserted&quot;]/partner-staff-detail[1]/div[@class=&quot;py-4 border-bottom-1&quot;]/div[@class=&quot;p-col-12 p-md-12 info&quot;]/span[@class=&quot;user-info font-bold&quot;]/a[@class=&quot;p-element delete-button p-button-rounded p-button-info p-button-text mr-0 align-items-top p-button p-component p-button-icon-only ng-star-inserted&quot;]/span[@class=&quot;p-button-icon pi pi-trash&quot;]</value>
+      <webElementGuid>70c788d4-1d4e-44a9-942e-9a972d39284b</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[2]/div/partner-staff-detail/div/div[3]/span/a[2]/span</value>
+      <webElementGuid>15406257-e229-4435-975f-c12d452543b0</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

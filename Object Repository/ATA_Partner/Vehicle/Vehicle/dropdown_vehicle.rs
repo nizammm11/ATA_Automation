@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>dropdown_vehicle</name>
+   <tag></tag>
+   <elementGuidId>09adc33f-2be8-4e66-8ea1-07da63bcaeb5</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>/html[1]/body[@class=&quot;overflow-hidden lg:overflow-auto&quot;]/ata-partner[1]/ata-partner-layout-dashboard[@class=&quot;ng-star-inserted&quot;]/section[@class=&quot;main&quot;]/div[@class=&quot;content&quot;]/ata-partner-vehicle[@class=&quot;ng-star-inserted&quot;]/ata-vehicle-add-edit[@class=&quot;ng-star-inserted&quot;]/div[@class=&quot;flex-column bg-color&quot;]/form[@class=&quot;ng-pristine ng-invalid ng-touched&quot;]/div[@class=&quot;p-2 grid justify-content-center&quot;]/div[@class=&quot;col-8 md:col-9 xs:col-12&quot;]/div[@class=&quot;py-4 border-bottom-1&quot;]/div[@class=&quot;field grid&quot;]/div[@class=&quot;col-12 md:col-6&quot;]/p-dropdown[@class=&quot;p-element p-inputwrapper vehicleInput ng-pristine ng-invalid ng-touched&quot;]/div[@class=&quot;p-dropdown p-component&quot;]/div[@class=&quot;p-dropdown-trigger&quot;]/span[@class=&quot;p-dropdown-trigger-icon pi pi-chevron-down&quot;]</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//p-dropdown/div/div[2]/span</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>span.p-dropdown-trigger-icon.pi.pi-chevron-down</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>span</value>
+      <webElementGuid>94b293c9-d5fd-46e5-aba2-f8509aab46d0</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>p-dropdown-trigger-icon pi pi-chevron-down</value>
+      <webElementGuid>f3added4-f222-4d49-b1fe-cd5faa5f52c4</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>ng-reflect-ng-class</name>
+      <type>Main</type>
+      <value>pi pi-chevron-down</value>
+      <webElementGuid>f6b9d79a-78ce-4500-94b8-b50ce3f2ea93</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>/html[1]/body[@class=&quot;overflow-hidden lg:overflow-auto&quot;]/ata-partner[1]/ata-partner-layout-dashboard[@class=&quot;ng-star-inserted&quot;]/section[@class=&quot;main&quot;]/div[@class=&quot;content&quot;]/ata-partner-vehicle[@class=&quot;ng-star-inserted&quot;]/ata-vehicle-add-edit[@class=&quot;ng-star-inserted&quot;]/div[@class=&quot;flex-column bg-color&quot;]/form[@class=&quot;ng-pristine ng-invalid ng-touched&quot;]/div[@class=&quot;p-2 grid justify-content-center&quot;]/div[@class=&quot;col-8 md:col-9 xs:col-12&quot;]/div[@class=&quot;py-4 border-bottom-1&quot;]/div[@class=&quot;field grid&quot;]/div[@class=&quot;col-12 md:col-6&quot;]/p-dropdown[@class=&quot;p-element p-inputwrapper vehicleInput ng-pristine ng-invalid ng-touched&quot;]/div[@class=&quot;p-dropdown p-component&quot;]/div[@class=&quot;p-dropdown-trigger&quot;]/span[@class=&quot;p-dropdown-trigger-icon pi pi-chevron-down&quot;]</value>
+      <webElementGuid>b5504e61-19b4-4e1f-9124-7cbaed879926</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//p-dropdown/div/div[2]/span</value>
+      <webElementGuid>98509562-a372-4e67-9433-0d0ef8a28f8a</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

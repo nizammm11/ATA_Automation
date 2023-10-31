@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>span_TOTAL</name>
+   <tag></tag>
+   <elementGuidId>f38cbb6f-b8c5-4841-a9bc-d0372155e30c</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[(text() = 'TOTAL' or . = 'TOTAL')]</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>(.//*[normalize-space(text()) and normalize-space(.)='Collect from customer'])[1]/following::span[1]</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>span</value>
+      <webElementGuid>c653d44e-a2bd-4937-82f3-1c66abdb1cf6</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>font-bold</value>
+      <webElementGuid>c442d4c8-6dc2-4add-b87d-b6476b12245e</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>TOTAL</value>
+      <webElementGuid>b9d3b791-9bd5-4b4a-8d7d-7f75f594b5dc</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>/html[1]/body[1]/ata-partner[1]/ata-partner-layout-dashboard[@class=&quot;ng-star-inserted&quot;]/section[@class=&quot;main&quot;]/div[@class=&quot;content&quot;]/ata-partner-cases[@class=&quot;ng-star-inserted&quot;]/partner-case-detail[@class=&quot;ng-star-inserted&quot;]/div[@class=&quot;flex flex-column flex-grow-1 lg:flex-row mt-3&quot;]/div[@class=&quot;col-12 lg:col-5 lg:flex lg:flex-column&quot;]/partner-case-info[1]/div[@class=&quot;flex grid lg:p-3&quot;]/div[@class=&quot;col-12 content&quot;]/p-card[@class=&quot;p-element ng-star-inserted&quot;]/div[@class=&quot;p-card p-component&quot;]/div[@class=&quot;p-card-body&quot;]/div[@class=&quot;p-card-content&quot;]/div[@class=&quot;flex justify-content-between&quot;]/span[@class=&quot;font-bold&quot;]</value>
+      <webElementGuid>45423bad-3fd8-4740-bbe6-86513de2a9c2</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Collect from customer'])[1]/following::span[1]</value>
+      <webElementGuid>7944fd08-97c8-4824-94d3-301dff7a2082</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='RM75.00'])[3]/preceding::span[1]</value>
+      <webElementGuid>199c915c-4900-4567-98ad-187c4186bd46</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Status'])[1]/preceding::span[2]</value>
+      <webElementGuid>6182a0cf-5998-4b16-ad70-dd07be8e92dd</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='TOTAL']/parent::*</value>
+      <webElementGuid>c3d11f1c-5f52-4724-81a6-9f42b64c7d0e</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[7]/span</value>
+      <webElementGuid>ba8a0558-bc43-42cc-a017-8e7f5356d52c</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//span[(text() = 'TOTAL' or . = 'TOTAL')]</value>
+      <webElementGuid>4751e4fa-1649-471b-a05f-29a32fd3012a</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>th_Invoice date</name>
+   <tag></tag>
+   <elementGuidId>710cf3b9-09e5-4071-af81-31d1c01ac3b8</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//table[@id='pr_id_6-table']/thead/tr/th</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>th.w-3</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>th</value>
+      <webElementGuid>34c72ca5-1d76-4d96-8d5d-2bd925256ac6</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>w-3</value>
+      <webElementGuid>de8f6260-0cac-4d66-9621-e4f62ed12974</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Invoice date</value>
+      <webElementGuid>b56a51a4-c6a0-4aea-ac6b-14b3a23c6aa5</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;pr_id_6-table&quot;)/thead[@class=&quot;p-datatable-thead&quot;]/tr[@class=&quot;ng-star-inserted&quot;]/th[@class=&quot;w-3&quot;]</value>
+      <webElementGuid>aea20d3c-c04b-48e8-81ba-83b31582cb14</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//table[@id='pr_id_6-table']/thead/tr/th</value>
+      <webElementGuid>c35477fe-0b64-4ee3-b4ad-12db737f620a</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Export CSV'])[1]/following::th[1]</value>
+      <webElementGuid>4ef466dc-17ed-42f7-903a-e37274df436f</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='List of Work Order(s)'])[1]/following::th[1]</value>
+      <webElementGuid>d20887eb-e4ee-4608-90bd-f0dafdf9cb7e</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Work order number'])[1]/preceding::th[1]</value>
+      <webElementGuid>485fbef2-61c1-4d26-b8a3-090287f0bf86</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Total'])[1]/preceding::th[2]</value>
+      <webElementGuid>e57769b1-60dc-49a1-96aa-636634b5c89c</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='Invoice date']/parent::*</value>
+      <webElementGuid>5cc31f38-2c0d-4d08-8a1a-094ed71bea5b</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//th</value>
+      <webElementGuid>edd7df6f-4482-4a91-9f26-9d9a5235c011</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//th[(text() = 'Invoice date' or . = 'Invoice date')]</value>
+      <webElementGuid>e32216c4-8830-47f9-b477-e9a0fa3eaaf3</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

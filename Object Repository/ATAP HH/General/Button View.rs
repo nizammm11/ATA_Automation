@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>Button View</name>
+   <tag></tag>
+   <elementGuidId>ff81960b-3002-4d1d-81e2-e25d32240c64</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//table[@id='pr_id_11-table']/tbody/tr/td[8]/button/span</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>button.p-element.p-button-link.text-cyan-500.text-right.p-button.p-component > span.p-button-label</value>
+      </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[@class = 'p-button-label' and (text() = 'View' or . = 'View')]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>span</value>
+      <webElementGuid>92b23c8e-257a-40b4-9bdc-756835507fe0</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>p-button-label</value>
+      <webElementGuid>ba71144d-8b09-4c15-a064-589268c538f3</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>View</value>
+      <webElementGuid>9dcfea41-5e67-487c-a80e-2d58dd5ec8e2</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;pr_id_11-table&quot;)/tbody[@class=&quot;p-element p-datatable-tbody&quot;]/tr[@class=&quot;ng-star-inserted&quot;]/td[@class=&quot;text-right&quot;]/button[@class=&quot;p-element p-button-link text-cyan-500 text-right p-button p-component&quot;]/span[@class=&quot;p-button-label&quot;]</value>
+      <webElementGuid>b642efa1-3dc5-4583-b693-c7ae2e780767</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//table[@id='pr_id_11-table']/tbody/tr/td[8]/button/span</value>
+      <webElementGuid>7855ecd4-b478-45c3-b38f-58c77756db63</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='RM50'])[1]/following::span[1]</value>
+      <webElementGuid>fb3d692e-7d8e-4dba-b2cc-9dca9fd311d7</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Confirmed'])[1]/following::span[1]</value>
+      <webElementGuid>728eafa2-2761-4057-871f-8e0b48fed107</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Showing 1 to 1 of 1 entries'])[1]/preceding::span[1]</value>
+      <webElementGuid>54c9ba10-e931-409d-a981-09a48524b735</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Verify'])[1]/preceding::span[8]</value>
+      <webElementGuid>ed9e6a4e-e2f3-43d1-9860-eafee2900615</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='View']/parent::*</value>
+      <webElementGuid>029a13d0-e0b0-47c6-9fb7-b5b8b2d07d6d</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//td[8]/button/span</value>
+      <webElementGuid>6d9e3ecd-77c6-424a-9861-e1ee3e6c554d</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//span[(text() = 'View' or . = 'View')]</value>
+      <webElementGuid>15cb0ce2-d73c-4dbd-bbdf-e8a9f126dcbb</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

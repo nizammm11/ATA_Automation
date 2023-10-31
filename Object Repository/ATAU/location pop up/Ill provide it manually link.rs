@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>Ill provide it manually link</name>
+   <tag></tag>
+   <elementGuidId>b3a3c7d7-53b5-4a31-bab6-4d5cabdf8739</elementGuidId>
+   <imagePath></imagePath>
+   <selectorCollection>
+      <entry>
+         <key>IMAGE</key>
+         <value></value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>a.ata-btn.ata-btn-link</value>
+      </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[@href = '/auto/location' and (text() = concat(&quot;I&quot; , &quot;'&quot; , &quot;ll provide it manually&quot;) or . = concat(&quot;I&quot; , &quot;'&quot; , &quot;ll provide it manually&quot;))]</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>(.//*[normalize-space(text()) and normalize-space(.)='Got It'])[1]/following::a[1]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>a</value>
+      <webElementGuid>22631540-c310-42dc-be95-8f341587a310</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>routerlink</name>
+      <type>Main</type>
+      <value>/location</value>
+      <webElementGuid>59c6cc3d-3cf9-4bce-8174-3ba6870e400d</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>ata-btn ata-btn-link</value>
+      <webElementGuid>c45b784a-59ef-4184-a4a2-8464c63fa76a</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>ng-reflect-router-link</name>
+      <type>Main</type>
+      <value>/location</value>
+      <webElementGuid>8692e869-7f25-40d7-bfa9-973f83064202</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>href</name>
+      <type>Main</type>
+      <value>/auto/location</value>
+      <webElementGuid>9690267a-3ba3-45fc-bbdf-01fd5b890f3c</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>I'll provide it manually</value>
+      <webElementGuid>d0755a86-3b7d-4e48-bc19-dee0c8a26f63</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>/html[@class=&quot;ata-text-slate-800 ata-bg-white&quot;]/body[@class=&quot;p-overflow-hidden&quot;]/p-dynamicdialog[@class=&quot;p-element ng-tns-c101-3 ng-star-inserted&quot;]/div[@class=&quot;ng-tns-c101-3 p-dialog-mask p-component-overlay p-component-overlay-enter p-dialog-mask-scrollblocker&quot;]/div[@class=&quot;ng-trigger ng-trigger-animation ng-tns-c101-3 p-dialog p-dynamic-dialog p-component ng-star-inserted&quot;]/div[@class=&quot;p-dialog-content ng-tns-c101-3&quot;]/atau-dialog-location-setting[@class=&quot;ng-star-inserted&quot;]/div[@class=&quot;ata-flex ata-flex-col ata-items-center&quot;]/a[@class=&quot;ata-btn ata-btn-link&quot;]</value>
+      <webElementGuid>46f074ee-73b0-4a6e-b2de-c014ca7ecd27</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Got It'])[1]/following::a[1]</value>
+      <webElementGuid>7a075941-c11f-4522-9152-b44680c3a66d</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='For iOS'])[1]/following::a[1]</value>
+      <webElementGuid>21ee1b7a-6653-4c14-b3e5-ff2a6fbfcdd2</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Capture object:'])[1]/preceding::a[1]</value>
+      <webElementGuid>9f17d296-7efa-4010-976d-ae786bfead2a</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Alt'])[1]/preceding::a[1]</value>
+      <webElementGuid>664fc768-9d2c-4088-b5f5-9fcdf249f306</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:href</name>
+      <type>Main</type>
+      <value>(//a[contains(@href, '/auto/location')])[2]</value>
+      <webElementGuid>2d364e91-4035-47bc-a95b-4433ef446cb3</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[4]/a</value>
+      <webElementGuid>226606d8-518a-4420-8a8e-405a34377f3e</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//a[@href = '/auto/location' and (text() = concat(&quot;I&quot; , &quot;'&quot; , &quot;ll provide it manually&quot;) or . = concat(&quot;I&quot; , &quot;'&quot; , &quot;ll provide it manually&quot;))]</value>
+      <webElementGuid>58df98b7-63ad-4a5b-a538-080aeb65ed77</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

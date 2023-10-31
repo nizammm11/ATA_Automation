@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>Accident_Non-claim</name>
+   <tag></tag>
+   <elementGuidId>4f3c8aeb-6dbb-4d8b-8bc4-7510f5f64d8f</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>(.//*[normalize-space(text()) and normalize-space(.)='Claim'])[1]/following::label[1]</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>label.63c63f18a02b65389b53b3b4.ng-star-inserted</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>label</value>
+      <webElementGuid>7ebfc97a-b041-4211-bb0f-c6e0beee4432</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>63c63f18a02b65389b53b3b4 ng-star-inserted</value>
+      <webElementGuid>2cdf15fa-5e23-44fa-ac73-c382477351e4</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Non-claim</value>
+      <webElementGuid>5065facd-b64b-48cb-8d78-85920aea15b7</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>/html[1]/body[1]/ata-dashboard-root[1]/div[@class=&quot;app-layout&quot;]/div[@class=&quot;layout-content&quot;]/div[@class=&quot;content-data&quot;]/app-case-tab[@class=&quot;ng-star-inserted&quot;]/div[@class=&quot;top&quot;]/div[@class=&quot;grid m-0 ng-star-inserted&quot;]/div[@class=&quot;w-8 pr-5&quot;]/app-case-new[1]/form[@class=&quot;ng-invalid ng-dirty ng-touched&quot;]/p-card[@class=&quot;p-element&quot;]/div[@class=&quot;mt-4 p-card p-component&quot;]/div[@class=&quot;p-card-body&quot;]/div[@class=&quot;p-card-content&quot;]/div[@class=&quot;p-field ng-star-inserted&quot;]/p-selectbutton[@class=&quot;p-element ng-pristine ng-invalid ng-star-inserted ng-touched&quot;]/div[@class=&quot;mt-1 p-selectbutton p-buttonset p-component&quot;]/div[@class=&quot;p-ripple p-element p-button p-component ng-star-inserted&quot;]/label[@class=&quot;63c63f18a02b65389b53b3b4 ng-star-inserted&quot;]</value>
+      <webElementGuid>d543019f-ca18-4cf2-acb2-2ff5090909c8</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Claim'])[1]/following::label[1]</value>
+      <webElementGuid>65551cfd-3fe1-4c42-995d-79e81f122989</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Sub-service'])[1]/following::label[2]</value>
+      <webElementGuid>5d4baf9c-d8a4-4e71-9acf-4af2f9f41f09</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Location Details'])[1]/preceding::label[1]</value>
+      <webElementGuid>910e93fe-4a7e-4022-98a9-f0ca8a9ef361</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Location Locked'])[1]/preceding::label[1]</value>
+      <webElementGuid>7c9cc748-ef0e-4e52-b576-95910183c8ca</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='Non-claim']/parent::*</value>
+      <webElementGuid>fc38c8dc-15fa-4795-87b1-2c826fc67a79</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//p-selectbutton/div/div[2]/label</value>
+      <webElementGuid>9eb2dfbc-3021-4a2d-a259-956ee07c5583</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//label[(text() = 'Non-claim' or . = 'Non-claim')]</value>
+      <webElementGuid>32ed3ea9-91f2-4efd-93e4-2a5c82175794</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

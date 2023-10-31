@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>btn_Back_selectdestination</name>
+   <tag></tag>
+   <elementGuidId>287ecef2-8608-4176-9313-4fe0764050df</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>(.//*[normalize-space(text()) and normalize-space(.)='No preference'])[1]/following::a[1]</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>a.ata-btn.ata-btn-secondary.ng-star-inserted</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>a</value>
+      <webElementGuid>7bcf9215-f683-44a3-b279-cc129aeea66d</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>ata-btn ata-btn-secondary ng-star-inserted</value>
+      <webElementGuid>5c0167b9-d119-459d-a2b9-e27c1b7c9659</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>ng-reflect-router-link</name>
+      <type>Main</type>
+      <value>/assessment/service-type</value>
+      <webElementGuid>b63421cd-332d-4caf-aee3-afbd215236ac</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>href</name>
+      <type>Main</type>
+      <value>/auto/assessment/service-type</value>
+      <webElementGuid>55c76429-3836-4cbc-accd-5824e3d64345</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Back</value>
+      <webElementGuid>7d35ecab-2653-4f15-9bd7-e40a86459503</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>/html[@class=&quot;ata-text-slate-800 ata-bg-white&quot;]/body[1]/ata-atau[1]/ata-atau-default[@class=&quot;ng-star-inserted&quot;]/section[@class=&quot;main&quot;]/ata-assessment-destination[@class=&quot;ng-star-inserted&quot;]/div[@class=&quot;ata-relative ata-flex ata-flex-col ata-grow&quot;]/div[@class=&quot;ata-flex ata-justify-between ata-p-5 ata-shadow-2xl&quot;]/a[@class=&quot;ata-btn ata-btn-secondary ng-star-inserted&quot;]</value>
+      <webElementGuid>359b03ee-1697-470a-b694-612265a1c391</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='No preference'])[1]/following::a[1]</value>
+      <webElementGuid>caf3a5ee-d787-4158-a92b-37dd09b5058a</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Preferred destination'])[1]/following::a[1]</value>
+      <webElementGuid>1e2fc110-422f-4e85-aaf6-1a3d82eead89</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Next'])[1]/preceding::a[1]</value>
+      <webElementGuid>3f2e275b-6704-419e-a869-3754a03d481b</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:href</name>
+      <type>Main</type>
+      <value>//a[contains(@href, '/auto/assessment/service-type')]</value>
+      <webElementGuid>6364692d-0858-44cf-86af-350417c7e300</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[2]/a</value>
+      <webElementGuid>4f99d224-6a0e-449d-b3a1-bc3f5369cd52</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//a[@href = '/auto/assessment/service-type' and (text() = 'Back' or . = 'Back')]</value>
+      <webElementGuid>b038ccc9-2a73-47c5-8cef-b40746d9836d</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>btn_Home</name>
+   <tag></tag>
+   <elementGuidId>e64da1ff-aa59-44c8-b045-e1d46c6ce52e</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>(.//*[normalize-space(text()) and normalize-space(.)='DOWNLOAD'])[1]/following::a[1]</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>a.ata-flex.ata-items-center.ata-py-4</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>a</value>
+      <webElementGuid>a5243848-4a7b-486d-bf1b-f26816f15ff4</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>href</name>
+      <type>Main</type>
+      <value>javascript:;</value>
+      <webElementGuid>661891fb-77dc-4295-8f03-6b52723ea88a</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>ata-flex ata-items-center ata-py-4</value>
+      <webElementGuid>a4b784e2-552c-4182-995b-df00662c7448</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Home</value>
+      <webElementGuid>bbb9b98e-f986-42ef-99c8-4642e63c99d6</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>/html[@class=&quot;ata-text-slate-800 ata-bg-white&quot;]/body[1]/ata-atau[1]/ata-atau-default[@class=&quot;ng-star-inserted&quot;]/div[1]/p-sidebar[@class=&quot;p-element ng-tns-c121-13 ng-star-inserted&quot;]/div[@class=&quot;ng-trigger ng-trigger-panelState ng-tns-c121-13 p-sidebar p-sidebar-active p-sidebar-left ng-star-inserted&quot;]/div[@class=&quot;p-sidebar-content ng-tns-c121-13&quot;]/div[@class=&quot;ata-px-3 ng-tns-c121-13&quot;]/nav[@class=&quot;ata-flex ata-flex-col&quot;]/a[@class=&quot;ata-flex ata-items-center ata-py-4&quot;]</value>
+      <webElementGuid>3f66ecd9-b01d-41fc-8a38-76cf938bd875</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='DOWNLOAD'])[1]/following::a[1]</value>
+      <webElementGuid>5129127d-55dd-4e1d-ae55-8732d5a4b516</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Stay prepared for any situation on the road. Download the Etiqa Smile app today!'])[1]/following::a[2]</value>
+      <webElementGuid>277b123a-2eee-4cd9-aeba-588f8dacc0fa</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Etiqa Auto Assist Care'])[1]/preceding::a[2]</value>
+      <webElementGuid>dce18310-7a22-405f-ae50-07eff04fda7c</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:href</name>
+      <type>Main</type>
+      <value>//a[contains(@href, 'javascript:;')]</value>
+      <webElementGuid>3e183e62-b28c-48e7-8011-e9aa99eb35aa</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//nav/a</value>
+      <webElementGuid>1f78a86d-827e-462e-b7cd-e3a75862b4af</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//a[@href = 'javascript:;' and (text() = 'Home' or . = 'Home')]</value>
+      <webElementGuid>8073def5-2a7c-4b7d-aaa7-490642bce4b8</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

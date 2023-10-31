@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>p_Email</name>
+   <tag></tag>
+   <elementGuidId>94f72d57-b18c-4613-a247-6a308c1748d7</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>(.//*[normalize-space(text()) and normalize-space(.)='N/A'])[10]/following::p[2]</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>p</value>
+      <webElementGuid>bcd3402b-18b5-4ca9-97b0-8fc59bcc495e</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>inline-flex</value>
+      <webElementGuid>4f2e6bd6-c56e-43f1-b366-60fa0a1da0f6</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Email</value>
+      <webElementGuid>36a4237e-d30d-4728-b995-d5ea9e9f5517</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>/html[1]/body[@class=&quot;overflow-hidden lg:overflow-auto&quot;]/ata-partner[1]/ata-partner-layout-dashboard[@class=&quot;ng-star-inserted&quot;]/section[@class=&quot;main&quot;]/div[@class=&quot;content&quot;]/ata-partner-staff[@class=&quot;ng-star-inserted&quot;]/partner-staff-list[@class=&quot;ng-star-inserted&quot;]/div[@class=&quot;flex-column bg-color&quot;]/div[@class=&quot;p-2 grid&quot;]/div[@class=&quot;p-3 md:col-8 bg-white hidden-xs&quot;]/div[@class=&quot;ng-star-inserted&quot;]/partner-staff-detail[1]/div[@class=&quot;py-4 border-bottom-1&quot;]/div[@class=&quot;p-col-12 p-md-12 info&quot;]/p[@class=&quot;inline-flex&quot;]</value>
+      <webElementGuid>1be369ce-10f8-4c4d-b261-123385a15a2a</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='N/A'])[10]/following::p[2]</value>
+      <webElementGuid>9624792c-ff23-48fd-ae15-faec07c15352</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='N/A'])[9]/following::p[2]</value>
+      <webElementGuid>1edbf198-428c-42be-aa18-40e1a7b273c8</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='WA1309'])[3]/preceding::p[5]</value>
+      <webElementGuid>44c429fe-3100-4334-8ade-c557ddba3a22</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='On'])[5]/preceding::p[9]</value>
+      <webElementGuid>2ae9f541-8016-4250-a12f-27624f6188f2</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[2]/div/partner-staff-detail/div/div/p</value>
+      <webElementGuid>8bd0e570-c222-4ef3-ab1f-2e4c9500c3bc</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//p[(text() = 'Email' or . = 'Email')]</value>
+      <webElementGuid>72e00de6-34d8-4980-a6d5-f43823adfa48</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>span_Edit add on service (1)</name>
+   <tag></tag>
+   <elementGuidId>7dc21583-6688-47cf-a65d-a6433d58c29c</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[@id = 'pr_id_10-label' and (text() = 'Edit add on service' or . = 'Edit add on service')]</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//span[@id='pr_id_10-label']</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>#pr_id_10-label</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>span</value>
+      <webElementGuid>526fe12a-729b-4a72-9c3a-4a4d4997d040</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>p-dialog-title ng-tns-c98-9 ng-star-inserted</value>
+      <webElementGuid>8e9055db-6c38-473b-aea7-2f4432b76797</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>id</name>
+      <type>Main</type>
+      <value>pr_id_10-label</value>
+      <webElementGuid>78294ab4-a10c-4916-9fd5-eaf94398562d</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Edit add on service</value>
+      <webElementGuid>f654617c-cc0c-4552-ab9e-4980573309ab</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;pr_id_10-label&quot;)</value>
+      <webElementGuid>017b9444-16af-4f34-b4c4-9068d36af238</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>//span[@id='pr_id_10-label']</value>
+      <webElementGuid>d1d4117b-2b18-49fc-a8e3-3bc5f208e0f5</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Edit'])[1]/following::span[1]</value>
+      <webElementGuid>fd41ae09-128f-4dd4-a9b5-42ab94d0588b</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Edit Add on Service'])[1]/following::span[2]</value>
+      <webElementGuid>6f375372-afe3-4feb-ab49-d406d65b9bdc</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Night shift (10pm-7am)'])[1]/preceding::span[3]</value>
+      <webElementGuid>65bdcd51-5ee5-4947-82ac-0069b4e0ffe5</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Remarks'])[2]/preceding::span[3]</value>
+      <webElementGuid>a44aa8db-3ca9-4f2c-a901-ab223743d6c0</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='Edit add on service']/parent::*</value>
+      <webElementGuid>da2a6d08-d878-47a2-afed-d84c8f42fd45</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//p-dialog/div/div/div[2]/span</value>
+      <webElementGuid>6d25f333-1572-4abf-8b7c-5231d3f2e108</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//span[@id = 'pr_id_10-label' and (text() = 'Edit add on service' or . = 'Edit add on service')]</value>
+      <webElementGuid>301a0502-1ce1-465b-b1ec-fed3b37f2d2d</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

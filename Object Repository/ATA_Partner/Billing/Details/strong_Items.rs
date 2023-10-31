@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>strong_Items</name>
+   <tag></tag>
+   <elementGuidId>473810ca-cbe4-44ea-b69c-93f0ab9221d8</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>(.//*[normalize-space(text()) and normalize-space(.)='Cancel'])[1]/following::strong[1]</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>strong</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>strong</value>
+      <webElementGuid>c577149e-981e-4f2f-9eea-72a6e310a41e</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Items</value>
+      <webElementGuid>5b61502c-71ba-43d5-9be8-e691caff7c9e</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>/html[1]/body[1]/ata-partner[1]/ata-partner-layout-dashboard[@class=&quot;ng-star-inserted&quot;]/section[@class=&quot;main&quot;]/div[@class=&quot;content&quot;]/ata-billings[@class=&quot;ng-star-inserted&quot;]/ata-billing-detail[@class=&quot;ng-star-inserted&quot;]/div[@class=&quot;p-4&quot;]/div[@class=&quot;grid&quot;]/div[@class=&quot;col-4&quot;]/p-card[@class=&quot;p-element&quot;]/div[@class=&quot;mb-4 p-card p-component&quot;]/div[@class=&quot;p-card-body&quot;]/div[@class=&quot;p-card-content&quot;]/ata-billing-summary[@class=&quot;ng-untouched ng-pristine ng-valid&quot;]/div[@class=&quot;grid grid-nogutter px-4 py-3 bg-gray-100&quot;]/div[@class=&quot;col&quot;]/strong[1]</value>
+      <webElementGuid>74a5cb68-d5e1-417b-a42d-55155d96951c</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Cancel'])[1]/following::strong[1]</value>
+      <webElementGuid>217590a4-3671-4cce-9853-d93e9e48f267</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Save'])[1]/following::strong[1]</value>
+      <webElementGuid>2821ddb8-1302-4e9a-9a7f-36b625afa212</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Amount (RM)'])[1]/preceding::strong[1]</value>
+      <webElementGuid>03aa25a9-9f27-4d0c-916a-8e1c98511438</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Service Type'])[1]/preceding::strong[2]</value>
+      <webElementGuid>ad3f59bb-b749-4d53-acbb-5cbb9ce26cb0</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='Items']/parent::*</value>
+      <webElementGuid>1069a6cd-c7ef-4dc0-984c-d7f9c2247b27</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//strong</value>
+      <webElementGuid>8f179794-9e93-40ce-b847-66bafb9df17a</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//strong[(text() = 'Items' or . = 'Items')]</value>
+      <webElementGuid>a0dd5487-3ddd-494b-a471-e4e1d81abc50</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

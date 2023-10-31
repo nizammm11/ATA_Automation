@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>image5</name>
+   <tag></tag>
+   <elementGuidId>c131402e-99ab-4a56-8c33-369b9841f0c8</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//img[@alt='Landmark 5']</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value></value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>img</value>
+      <webElementGuid>858c4624-13af-44ca-b14d-a413864b1a8e</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>src</name>
+      <type>Main</type>
+      <value>assets/images/landmark-5.png</value>
+      <webElementGuid>76007852-e129-4b3b-aeeb-04c2c052e7ce</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>alt</name>
+      <type>Main</type>
+      <value>Landmark 5</value>
+      <webElementGuid>5a9bb15a-a435-4ebc-82e7-090a00930bfc</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>ata-w-full</value>
+      <webElementGuid>81c96ab6-19d5-401d-b4ef-5b1d49ebf991</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>/html[@class=&quot;ata-text-slate-800 ata-bg-white&quot;]/body[1]/ata-atau[1]/ata-atau-empty[@class=&quot;ng-star-inserted&quot;]/ata-location-tip[@class=&quot;ng-star-inserted&quot;]/div[@class=&quot;ata-flex ata-flex-col ata-grow ata-p-5&quot;]/div[@class=&quot;ata-grid ata-grid-cols-2 ata-gap-5&quot;]/img[@class=&quot;ata-w-full&quot;]</value>
+      <webElementGuid>9f2de7f8-9489-4832-b084-616760fc8d4f</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:img</name>
+      <type>Main</type>
+      <value>//img[@alt='Landmark 5']</value>
+      <webElementGuid>d6d5990e-9fbe-436f-819e-65ec054911bd</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//img[5]</value>
+      <webElementGuid>edd8c3f9-c67e-458a-bc4b-7e5fe7733a75</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//img[@src = 'assets/images/landmark-5.png' and @alt = 'Landmark 5']</value>
+      <webElementGuid>51a750b7-98fe-4d03-95eb-96f39c857637</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

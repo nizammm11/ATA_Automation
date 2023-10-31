@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>input_Alternate Mobile Number</name>
+   <tag></tag>
+   <elementGuidId>c2886e5b-5b58-4787-8680-ad717b6975d6</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>ata-input-phone.ng-untouched.ng-pristine.ng-valid > div.p-inputgroup > input.ata-input.ata-rounded-l-none.p-inputtext.border-noround-left.ng-untouched.ng-pristine.ng-valid</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>(//input[@type='number'])[2]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>input</value>
+      <webElementGuid>2788d003-baa6-47c0-a677-a1a88f4dde29</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>placeholder</name>
+      <type>Main</type>
+      <value>123456789</value>
+      <webElementGuid>97a81d3e-f543-4725-a842-083fe32a7813</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>type</name>
+      <type>Main</type>
+      <value>number</value>
+      <webElementGuid>e1ffb91c-6c18-4ad2-9c31-f91a593726f3</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>ata-input ata-rounded-l-none p-inputtext border-noround-left ng-untouched ng-pristine ng-valid</value>
+      <webElementGuid>377d98cd-4cf4-4204-84f0-e2de27702d9e</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>ng-reflect-is-disabled</name>
+      <type>Main</type>
+      <value>false</value>
+      <webElementGuid>1c36962b-6096-4326-b5a5-7e25f8c32622</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>/html[@class=&quot;ata-text-slate-800 ata-bg-white&quot;]/body[1]/ata-atau[1]/ata-atau-default[@class=&quot;ng-star-inserted&quot;]/section[@class=&quot;main&quot;]/ata-assessment-detail[@class=&quot;ng-star-inserted&quot;]/form[@class=&quot;ata-relative ata-flex ata-flex-col ata-grow ng-pristine ng-invalid ng-touched&quot;]/div[@class=&quot;ata-relative ata-z-1 ata-flex ata-flex-col ata-grow&quot;]/div[@class=&quot;ata-absolute ata-inset-0 ata-p-6 ata-overflow-auto&quot;]/div[@class=&quot;ata-flex ata-flex-col ata-mb-5 ng-untouched ng-pristine ng-valid&quot;]/ata-input-phone[@class=&quot;ng-untouched ng-pristine ng-valid&quot;]/div[@class=&quot;p-inputgroup&quot;]/input[@class=&quot;ata-input ata-rounded-l-none p-inputtext border-noround-left ng-untouched ng-pristine ng-valid&quot;]</value>
+      <webElementGuid>e0fabf03-5851-4b5b-861d-dcf344f15582</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>(//input[@type='number'])[2]</value>
+      <webElementGuid>acc6b3e8-cd80-4c6b-a554-d1aa960d46e5</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[5]/ata-input-phone/div/input</value>
+      <webElementGuid>a6d8d86f-16a5-4cb4-bbb0-1df29386b220</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//input[@placeholder = '123456789' and @type = 'number']</value>
+      <webElementGuid>f0bffc65-8798-4cf5-a7df-1a0a9d1f325d</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

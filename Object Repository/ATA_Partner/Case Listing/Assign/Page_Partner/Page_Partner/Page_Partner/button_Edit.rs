@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>button_Edit</name>
+   <tag></tag>
+   <elementGuidId>e06f66ca-792e-4146-8e83-20fd2639bf39</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[@type = 'button' and (text() = 'Edit' or . = 'Edit')]</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>(//button[@type='button'])[3]</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>p-card.p-element.ng-star-inserted > div.p-card.p-component > div.p-card-body > div.p-card-content > div.flex.justify-content-between > button.p-element.p-button-outlined.p-button-success.p-button-sm.p-button.p-component</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>button</value>
+      <webElementGuid>b8cb8cde-1e55-465d-985e-6a8f5c7344d1</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>type</name>
+      <type>Main</type>
+      <value>button</value>
+      <webElementGuid>059c6dd6-a5be-465e-a767-914ae1357f8e</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>label</name>
+      <type>Main</type>
+      <value>Edit</value>
+      <webElementGuid>8a845629-b5c9-4ce4-899e-9b57c8ef736d</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>p-element p-button-outlined p-button-success p-button-sm p-button p-component</value>
+      <webElementGuid>65bceeb1-2ea9-4d08-9b69-b02c06c97cc5</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>ng-reflect-label</name>
+      <type>Main</type>
+      <value>Edit</value>
+      <webElementGuid>9db98403-0540-4550-98be-19d914a22a34</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Edit</value>
+      <webElementGuid>a78cce6f-8075-4f0c-b3b4-9e64a3b564b3</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>/html[1]/body[1]/ata-partner[1]/ata-partner-layout-dashboard[@class=&quot;ng-star-inserted&quot;]/section[@class=&quot;main&quot;]/div[@class=&quot;content&quot;]/ata-partner-cases[@class=&quot;ng-star-inserted&quot;]/partner-case-detail[@class=&quot;ng-star-inserted&quot;]/div[@class=&quot;flex flex-column flex-grow-1 lg:flex-row mt-3&quot;]/div[@class=&quot;col-12 lg:col-5 lg:flex lg:flex-column&quot;]/partner-case-info[1]/div[@class=&quot;flex grid lg:p-3&quot;]/div[@class=&quot;col-12 content&quot;]/div[@class=&quot;space&quot;]/p-card[@class=&quot;p-element ng-star-inserted&quot;]/div[@class=&quot;p-card p-component&quot;]/div[@class=&quot;p-card-body&quot;]/div[@class=&quot;p-card-content&quot;]/div[@class=&quot;flex justify-content-between&quot;]/button[@class=&quot;p-element p-button-outlined p-button-success p-button-sm p-button p-component&quot;]</value>
+      <webElementGuid>3e84b155-b56e-4f05-a438-8c0da9662606</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>(//button[@type='button'])[3]</value>
+      <webElementGuid>55b75c73-ad39-4b7a-8148-cf727370005d</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Edit Add on Service'])[1]/following::button[1]</value>
+      <webElementGuid>f1f9a33c-a509-4856-bd59-8b6d2ee9d704</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Haziq'])[3]/following::button[1]</value>
+      <webElementGuid>cad2ff48-fcdd-40db-b93f-14aa08f7062a</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Haziq'])[4]/preceding::button[1]</value>
+      <webElementGuid>beb5d36b-0b96-4283-af8b-79fa96545ac5</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//p-card[2]/div/div/div/div/button</value>
+      <webElementGuid>ec722abd-352e-4b2c-9c30-a776413f220f</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//button[@type = 'button' and (text() = 'Edit' or . = 'Edit')]</value>
+      <webElementGuid>1cfe3bc7-3048-45e8-8277-7b9f7a91d16c</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

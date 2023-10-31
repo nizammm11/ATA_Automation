@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>input_vehicle number</name>
+   <tag></tag>
+   <elementGuidId>e172fd5d-8003-4e25-8f3d-5e65b2cd7f31</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>input.p-inputtext.p-component.p-element.w-17rem.ml-2.ng-untouched.ng-pristine.ng-invalid</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[2]/div/div[2]/div/div/div/div/input</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>input</value>
+      <webElementGuid>41202479-2ea7-4ed0-8972-1f7a53362090</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>placeholder</name>
+      <type>Main</type>
+      <value>Vehicle registration number</value>
+      <webElementGuid>5f85ab92-bed5-421a-8a9c-228219cedc47</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>formcontrolname</name>
+      <type>Main</type>
+      <value>vehicleNo</value>
+      <webElementGuid>554eaae0-3618-48f4-9c51-5e9deb1bab39</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>onkeyup</name>
+      <type>Main</type>
+      <value>this.value = this.value.toUpperCase();</value>
+      <webElementGuid>665f091c-df85-452c-9946-26c88e8d74e8</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>p-inputtext p-component p-element w-17rem ml-2 ng-untouched ng-pristine ng-invalid</value>
+      <webElementGuid>7e764bf4-428b-4c0b-b164-a385d1312676</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>ng-reflect-name</name>
+      <type>Main</type>
+      <value>vehicleNo</value>
+      <webElementGuid>06c57555-ac2a-4b95-88c4-1149651f9ab5</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>ng-reflect-ng-class</name>
+      <type>Main</type>
+      <value>[object Object]</value>
+      <webElementGuid>be893336-1576-4cbb-bb81-701289e2095d</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>/html[1]/body[1]/ata-dashboard-root[1]/div[@class=&quot;app-layout&quot;]/div[@class=&quot;layout-content&quot;]/div[@class=&quot;content-data&quot;]/app-case-tab[@class=&quot;ng-star-inserted&quot;]/div[@class=&quot;top&quot;]/div[@class=&quot;flex ng-star-inserted&quot;]/div[@class=&quot;w-8 pr-5&quot;]/app-case-new[1]/form[@class=&quot;ng-pristine ng-invalid ng-touched&quot;]/p-card[@class=&quot;p-element&quot;]/div[@class=&quot;p-card p-component&quot;]/div[@class=&quot;p-card-body&quot;]/div[@class=&quot;p-card-content&quot;]/div[@class=&quot;p-field&quot;]/div[@class=&quot;grid&quot;]/div[@class=&quot;col&quot;]/div[@class=&quot;grid&quot;]/div[1]/input[@class=&quot;p-inputtext p-component p-element w-17rem ml-2 ng-untouched ng-pristine ng-invalid&quot;]</value>
+      <webElementGuid>69f7d209-2c2b-4ed6-a93e-1d541f5227b8</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[2]/div/div[2]/div/div/div/div/input</value>
+      <webElementGuid>a3986022-d9ae-47d8-aec0-c96cb91e448d</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//input[@placeholder = 'Vehicle registration number']</value>
+      <webElementGuid>71cea3d8-36a4-4c56-a6ed-2c4ad5e3965e</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

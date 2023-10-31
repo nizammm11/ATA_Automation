@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>button_Close</name>
+   <tag></tag>
+   <elementGuidId>c31c2ae8-b346-4277-a7cb-ce40ee5bd97d</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[@type = 'button' and (text() = 'Close' or . = 'Close')]</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>(//button[@type='button'])[5]</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>p-footer.ng-tns-c98-9 > button.p-element.p-button-secondary.p-button.p-component</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>button</value>
+      <webElementGuid>83cc321d-cd08-4942-ab36-2e126181c909</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>type</name>
+      <type>Main</type>
+      <value>button</value>
+      <webElementGuid>d49f657d-236a-4194-b6bf-1b6de689e831</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>label</name>
+      <type>Main</type>
+      <value>Close</value>
+      <webElementGuid>a6cea0d9-5316-4d8f-886f-91df1176f011</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>p-element p-button-secondary p-button p-component</value>
+      <webElementGuid>3e2de8be-6185-49d0-984b-a8bf6ab4425e</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>ng-reflect-label</name>
+      <type>Main</type>
+      <value>Close</value>
+      <webElementGuid>3e2d1521-670b-4ea6-886c-a8ad04096d9f</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Close</value>
+      <webElementGuid>a70deab3-21f6-40d0-a103-b30ef5e6c513</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>/html[1]/body[@class=&quot;p-overflow-hidden&quot;]/ata-partner[1]/ata-partner-layout-dashboard[@class=&quot;ng-star-inserted&quot;]/section[@class=&quot;main&quot;]/div[@class=&quot;content&quot;]/ata-partner-cases[@class=&quot;ng-star-inserted&quot;]/partner-case-detail[@class=&quot;ng-star-inserted&quot;]/div[@class=&quot;flex flex-column flex-grow-1 lg:flex-row mt-3&quot;]/div[@class=&quot;col-12 lg:col-5 lg:flex lg:flex-column&quot;]/partner-case-info[1]/p-dialog[@class=&quot;p-element dialog-partner ng-tns-c98-9 ng-star-inserted&quot;]/div[@class=&quot;ng-tns-c98-9 p-dialog-mask p-component-overlay p-component-overlay-enter p-dialog-mask-scrollblocker ng-star-inserted&quot;]/div[@class=&quot;p-element ng-trigger ng-trigger-animation ng-tns-c98-9 p-dialog p-component p-dialog-draggable p-dialog-resizable ng-star-inserted&quot;]/div[@class=&quot;p-dialog-footer ng-tns-c98-9 ng-star-inserted&quot;]/p-footer[@class=&quot;ng-tns-c98-9&quot;]/button[@class=&quot;p-element p-button-secondary p-button p-component&quot;]</value>
+      <webElementGuid>b56f8cf8-9a0b-4395-b7bb-36c95769688d</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>(//button[@type='button'])[5]</value>
+      <webElementGuid>0b1055c7-4197-46a4-9254-5616bc72c23b</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='*'])[1]/following::button[1]</value>
+      <webElementGuid>817a3a64-05f0-4aca-8d38-a73e3949bd1a</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Remarks'])[2]/following::button[1]</value>
+      <webElementGuid>14a67a16-da3d-4e93-ae82-2b3209f2dac3</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Save'])[1]/preceding::button[1]</value>
+      <webElementGuid>7bc3e095-e296-4a97-a5c0-5b4088437cf9</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//p-footer/button</value>
+      <webElementGuid>b7bbc7f2-ba07-4fd7-97ab-512a31e580b1</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//button[@type = 'button' and (text() = 'Close' or . = 'Close')]</value>
+      <webElementGuid>d2478ce4-b0c4-4a9a-8d20-7c70807ebfe4</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

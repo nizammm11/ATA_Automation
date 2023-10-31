@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>Status_Accepted</name>
+   <tag></tag>
+   <elementGuidId>de5c9c90-cb3c-4f48-b353-ec57523b688c</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//span[(text() = 'Accepted' or . = 'Accepted')]</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>span.p-tag-accepted.p-tag.p-component > span.p-tag-value</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>span</value>
+      <webElementGuid>8781ba5a-173c-4923-8b86-ed5c77d6fb0f</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>p-tag-value</value>
+      <webElementGuid>be9c7750-0803-4dcf-975a-1441bb73e160</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Accepted</value>
+      <webElementGuid>7177b04c-be1b-4c11-82a9-16e3ec8a73fd</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;pr_id_3-table&quot;)/tbody[@class=&quot;p-element p-datatable-tbody&quot;]/tr[@class=&quot;ng-star-inserted&quot;]/td[7]/ata-case-status[1]/p-tag[@class=&quot;p-element&quot;]/span[@class=&quot;p-tag-accepted p-tag p-component&quot;]/span[@class=&quot;p-tag-value&quot;]</value>
+      <webElementGuid>14b4f16c-8c38-4d35-9694-d852feb5248d</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//table[@id='pr_id_3-table']/tbody/tr[2]/td[7]/ata-case-status/p-tag/span/span</value>
+      <webElementGuid>34a51256-a3ee-409e-8816-8a9c8d80f3d7</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='ATA Baterikau'])[2]/following::span[2]</value>
+      <webElementGuid>d29e0ee8-f67a-40e0-b4a7-ac33b7885c83</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Web'])[2]/following::span[2]</value>
+      <webElementGuid>7deb7b69-dfa9-4cad-b31e-5f73af921eb4</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='JHZ1301'])[1]/preceding::span[1]</value>
+      <webElementGuid>72d53f78-3320-490a-abab-cf88cb92277f</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='car'])[3]/preceding::span[3]</value>
+      <webElementGuid>ecc20d73-ced8-45d1-894d-2c6a0c2ea5ee</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='Accepted']/parent::*</value>
+      <webElementGuid>884708d1-0e2d-498c-8c9c-a5ac8b56cf88</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//tr[2]/td[7]/ata-case-status/p-tag/span/span</value>
+      <webElementGuid>c1fd1780-eadf-4695-ba9e-b737a4b3a3f4</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//span[(text() = 'Accepted' or . = 'Accepted')]</value>
+      <webElementGuid>9415774d-69aa-4f47-9cde-326a92dc6d00</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>button_hamburger</name>
+   <tag></tag>
+   <elementGuidId>94cab55f-550f-420e-b70e-043fd18c90d0</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>(//button[@type='button'])[2]</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>button.p-element.p-button-rounded.p-button-text.p-button-lg.p-button.p-component.p-button-icon-only</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>button</value>
+      <webElementGuid>26cdc118-7eb0-44e4-bb50-93d74ac0eaa5</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>type</name>
+      <type>Main</type>
+      <value>button</value>
+      <webElementGuid>9a079a4a-d3f6-49aa-b097-5dd70c6960a9</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>icon</name>
+      <type>Main</type>
+      <value>pi pi-bars</value>
+      <webElementGuid>81c1330a-75a2-48bc-a77a-0141de63571e</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>p-element p-button-rounded p-button-text p-button-lg p-button p-component p-button-icon-only</value>
+      <webElementGuid>0e0b242c-beac-4b37-9244-e02dca73cf1c</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>ng-reflect-icon</name>
+      <type>Main</type>
+      <value>pi pi-bars</value>
+      <webElementGuid>776af24d-f2ae-40c8-af13-de4319d61859</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>/html[@class=&quot;ata-text-slate-800 ata-bg-white&quot;]/body[1]/ata-atau[1]/ata-atau-default[@class=&quot;ng-star-inserted&quot;]/div[1]/header[@class=&quot;flex header&quot;]/div[@class=&quot;header-nav&quot;]/button[@class=&quot;p-element p-button-rounded p-button-text p-button-lg p-button p-component p-button-icon-only&quot;]</value>
+      <webElementGuid>cd988dea-b8e1-47a2-a6c4-61e71e2c20dd</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>(//button[@type='button'])[2]</value>
+      <webElementGuid>84fc32cc-1d2b-4700-a46d-9153a1b19322</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='DOWNLOAD'])[1]/following::button[1]</value>
+      <webElementGuid>fd6f32d3-9694-469c-9ebc-7226a8477e9e</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Stay prepared for any situation on the road. Download the Etiqa Smile app today!'])[1]/following::button[1]</value>
+      <webElementGuid>e6b759b8-9154-48a8-b72b-11e988df54ac</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Etiqa Auto Assist Care'])[1]/preceding::button[2]</value>
+      <webElementGuid>63e2262b-9157-4ec8-a6d7-425f96729de0</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Where are you now?'])[1]/preceding::button[2]</value>
+      <webElementGuid>44d5b5df-a810-495a-b01f-0d7498bbab0e</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//header/div/button</value>
+      <webElementGuid>ba3df203-b658-4943-a578-c3c32e349f19</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//button[@type = 'button']</value>
+      <webElementGuid>0eef9f6e-3a79-4ae8-b134-1fb3f4769a2a</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

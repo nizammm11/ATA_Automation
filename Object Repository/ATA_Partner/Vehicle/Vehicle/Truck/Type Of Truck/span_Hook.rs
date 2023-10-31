@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>span_Hook</name>
+   <tag></tag>
+   <elementGuidId>57c1e9ce-e8f9-401b-ab93-dd1ce80a242b</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//li[@id='p-highlighted-option']/span</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>#p-highlighted-option > span.ng-star-inserted</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>span</value>
+      <webElementGuid>b8e5488e-19ac-4451-bc61-8cfe31fca9ec</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>ng-star-inserted</value>
+      <webElementGuid>16fd0f5e-41e7-4fe8-ba80-4821a6c08e25</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Hook</value>
+      <webElementGuid>a3b4d109-e7ee-443b-ac97-926718e25d4a</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;p-highlighted-option&quot;)/span[@class=&quot;ng-star-inserted&quot;]</value>
+      <webElementGuid>e0ab06ef-7b5f-40bc-acc3-5b35ff0bd906</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//li[@id='p-highlighted-option']/span</value>
+      <webElementGuid>086299f8-667c-4212-a038-c3fc798e81f4</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Hook'])[1]/following::span[2]</value>
+      <webElementGuid>2076a1dd-bf9e-48c5-bc04-07db2308edbf</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Select'])[2]/following::span[4]</value>
+      <webElementGuid>6b451b29-9abb-452d-a49d-2c39806a3c1f</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Carrier'])[1]/preceding::span[1]</value>
+      <webElementGuid>a0786855-510e-4da4-bad9-3a9bf50dc634</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Full drop carrier'])[1]/preceding::span[2]</value>
+      <webElementGuid>a424f9c5-177c-4d1b-b3ec-b765f8d65bc4</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//li/span</value>
+      <webElementGuid>a380b267-6411-4f15-9cda-ede52e88708a</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//span[(text() = 'Hook' or . = 'Hook')]</value>
+      <webElementGuid>2d7f6107-df76-4af0-8fdd-6e61b7f848c0</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

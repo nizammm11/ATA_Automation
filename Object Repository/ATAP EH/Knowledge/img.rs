@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>img</name>
+   <tag></tag>
+   <elementGuidId>8c13ff0b-5172-4fcf-aa04-560cc77773e2</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//img[@alt='how to jumpstart your car']</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>img[alt=&quot;how to jumpstart your car&quot;]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>img</value>
+      <webElementGuid>18455787-a627-47c2-b949-506fd33b390b</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>src</name>
+      <type>Main</type>
+      <value>assets/images/knowledge-base/guide-to-jumpstart-correctly.jpg</value>
+      <webElementGuid>5e214906-51ad-4a5f-b632-c5684b1cb865</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>alt</name>
+      <type>Main</type>
+      <value>how to jumpstart your car</value>
+      <webElementGuid>f66a1c20-b5a8-44fa-8d91-6ae9bf073d6c</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>/html[1]/body[1]/ata-dashboard-root[1]/div[@class=&quot;app-layout&quot;]/div[@class=&quot;layout-content&quot;]/div[@class=&quot;content-data&quot;]/app-knowledge-base[@class=&quot;ng-star-inserted&quot;]/img[1]</value>
+      <webElementGuid>a9eb88ef-5ccd-4f5f-96b7-0cbffe72f43b</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:img</name>
+      <type>Main</type>
+      <value>//img[@alt='how to jumpstart your car']</value>
+      <webElementGuid>79b9d048-f599-4ca8-b308-d797299b2e79</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//app-knowledge-base/img</value>
+      <webElementGuid>0f2cd702-6296-46bc-b767-9bf31a4eea2b</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//img[@src = 'assets/images/knowledge-base/guide-to-jumpstart-correctly.jpg' and @alt = 'how to jumpstart your car']</value>
+      <webElementGuid>0f9c9dbf-612c-4de1-bf75-3c75624a9a99</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>label_Name</name>
+   <tag></tag>
+   <elementGuidId>801c2719-bb9f-498d-b3fb-b73de59cd1bb</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>(.//*[normalize-space(text()) and normalize-space(.)='eds@etiqa.com.my'])[1]/following::label[1]</value>
+      </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[(text() = 'Name' or . = 'Name')]</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>div:nth-of-type(8) > label.ata-font-bold</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>label</value>
+      <webElementGuid>e184b79c-b840-4039-a3eb-c408acbde22a</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>ata-font-bold</value>
+      <webElementGuid>0d7e0a0f-3b4f-44ed-97e7-9b04ca363b2d</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Name</value>
+      <webElementGuid>f588911f-14cc-48ad-8eff-b407f2f6bec8</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>/html[@class=&quot;ata-text-slate-800 ata-bg-white&quot;]/body[1]/ata-atau[1]/ata-atau-default[@class=&quot;ng-star-inserted&quot;]/section[@class=&quot;main&quot;]/ata-assessment-confirmation[@class=&quot;ng-star-inserted&quot;]/div[@class=&quot;ata-relative ata-flex ata-flex-col ata-grow&quot;]/div[@class=&quot;ata-relative ata-z-1 ata-flex ata-flex-col ata-grow&quot;]/div[@class=&quot;ata-absolute ata-inset-0 ata-p-6 ata-overflow-auto&quot;]/div[8]/label[@class=&quot;ata-font-bold&quot;]</value>
+      <webElementGuid>fdc03b5b-7b87-471e-b353-e9babcb3aeec</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='eds@etiqa.com.my'])[1]/following::label[1]</value>
+      <webElementGuid>d473e253-c0d0-4c63-9d25-614093efdef3</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Email address'])[1]/following::label[1]</value>
+      <webElementGuid>edb96460-dd63-4b72-9728-c59138a2785b</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='eds'])[1]/preceding::label[1]</value>
+      <webElementGuid>3addbc5b-14d2-48d8-850c-471bf828e536</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)=concat('Yes, let', &quot;'&quot;, 's proceed')])[1]/preceding::label[1]</value>
+      <webElementGuid>b5f1f529-eae6-4c8a-b381-f5f910e0a33f</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='Name']/parent::*</value>
+      <webElementGuid>03c09038-76cd-4c5a-8d57-0e2d11e31ca2</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[8]/label</value>
+      <webElementGuid>6aa7e595-4ec4-434d-bfa7-89aec9dc585f</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//label[(text() = 'Name' or . = 'Name')]</value>
+      <webElementGuid>c839fccb-5db9-4cad-bedf-3b743c2578c7</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

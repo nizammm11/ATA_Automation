@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>icon_car</name>
+   <tag></tag>
+   <elementGuidId>0ea6f563-8fd3-4d2f-aba1-2e12f4f9d8ae</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>(.//*[normalize-space(text()) and normalize-space(.)='Select your vehicle type'])[1]/following::*[name()='svg'][1]</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>svg-icon.ata-mb-4 > svg</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>svg</value>
+      <webElementGuid>44507f62-739e-4abb-a868-fc7f62369b08</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xmlns</name>
+      <type>Main</type>
+      <value>http://www.w3.org/2000/svg</value>
+      <webElementGuid>c68d8396-8bdb-452d-9f78-07b687c83a5f</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>width</name>
+      <type>Main</type>
+      <value>44</value>
+      <webElementGuid>9f867de0-c806-4e11-8376-838751117e4b</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>height</name>
+      <type>Main</type>
+      <value>34</value>
+      <webElementGuid>19dca54f-096b-4026-a028-63d8d71d355c</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>fill</name>
+      <type>Main</type>
+      <value>none</value>
+      <webElementGuid>3300b5e8-00a3-4b77-9fef-9a7f357b932e</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>aria-hidden</name>
+      <type>Main</type>
+      <value>true</value>
+      <webElementGuid>d20ae88e-00b4-463e-8700-26954e74250d</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>/html[@class=&quot;ata-text-slate-800 ata-bg-white&quot;]/body[1]/ata-atau[1]/ata-atau-default[@class=&quot;ng-star-inserted&quot;]/section[@class=&quot;main&quot;]/atau-home[@class=&quot;ng-star-inserted&quot;]/div[@class=&quot;ata-p-6 -ata-mt-40&quot;]/div[@class=&quot;ata-card ata-card-content&quot;]/div[@class=&quot;ata-grid ata-grid-cols-2 ata-gap-5&quot;]/ata-checkbox-box[1]/div[@class=&quot;ata-relative ata-flex ata-flex-col ata-justify-end ata-p-5 ata-cursor-pointer ata-rounded-base ata-border ata-border-slate-300 hover:ata-bg-slate-50&quot;]/svg-icon[@class=&quot;ata-mb-4&quot;]/svg[1]</value>
+      <webElementGuid>221b4212-7db9-4479-8537-bbde562d17f7</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Select your vehicle type'])[1]/following::*[name()='svg'][1]</value>
+      <webElementGuid>b8fffa7b-c0ab-4dc5-9de7-2377239fc003</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Not the right location? Tap to change'])[1]/following::*[name()='svg'][1]</value>
+      <webElementGuid>cc61cef1-9cc7-434b-8c11-384fe7696cd9</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Car'])[1]/preceding::*[name()='svg'][1]</value>
+      <webElementGuid>be19a25c-f90c-4937-971f-32a8f66b5d79</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='NEW'])[1]/preceding::*[name()='svg'][1]</value>
+      <webElementGuid>f83f7532-fedd-4b8e-8435-0ebd7ac5d639</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

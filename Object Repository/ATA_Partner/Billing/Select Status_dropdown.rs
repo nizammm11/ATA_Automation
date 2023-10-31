@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>Select Status_dropdown</name>
+   <tag></tag>
+   <elementGuidId>1b7d12fe-8ebe-4c25-9a4c-08ba7cf87179</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//table[@id='pr_id_7-table']/thead/tr/th[5]/form/p-dropdown/div/div[2]</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>div.p-dropdown.p-component.p-dropdown-open.p-dropdown-clearable > div.p-dropdown-trigger</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>div</value>
+      <webElementGuid>07f27ce7-23e5-47dd-a2be-0c2bfd74168e</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>role</name>
+      <type>Main</type>
+      <value>button</value>
+      <webElementGuid>8384eb67-5461-483d-92ec-6a0a9413f0d4</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>aria-label</name>
+      <type>Main</type>
+      <value>dropdown trigger</value>
+      <webElementGuid>b4daad92-57f5-4147-9450-3f7473fbc2bd</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>aria-haspopup</name>
+      <type>Main</type>
+      <value>listbox</value>
+      <webElementGuid>c8fc0fdb-362d-4a24-908b-2b76be04e737</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>p-dropdown-trigger</value>
+      <webElementGuid>3cc667e3-3c5d-4a10-8b10-b9f5b5281005</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>aria-expanded</name>
+      <type>Main</type>
+      <value>true</value>
+      <webElementGuid>af3ae959-e736-4992-b12a-00be11883741</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;pr_id_7-table&quot;)/thead[@class=&quot;p-datatable-thead&quot;]/tr[@class=&quot;ng-star-inserted&quot;]/th[5]/form[@class=&quot;ng-pristine ng-valid ng-touched&quot;]/p-dropdown[@class=&quot;p-element p-inputwrapper ng-pristine ng-valid ng-touched p-inputwrapper-focus&quot;]/div[@class=&quot;p-dropdown p-component p-dropdown-open p-dropdown-clearable&quot;]/div[@class=&quot;p-dropdown-trigger&quot;]</value>
+      <webElementGuid>eef7f6b1-ef75-4413-a6b2-48f67ff1963c</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//table[@id='pr_id_7-table']/thead/tr/th[5]/form/p-dropdown/div/div[2]</value>
+      <webElementGuid>5c1b82fb-e8da-4b63-9ce1-f5ffd33af64c</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Select Status'])[1]/following::div[1]</value>
+      <webElementGuid>7338906e-a691-4f58-8ce6-57a5e2639a43</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Select Entity'])[1]/following::div[4]</value>
+      <webElementGuid>13454d05-09b5-4cde-966d-1e40ebf5c93c</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='NEW'])[1]/preceding::div[1]</value>
+      <webElementGuid>648c8b69-9c62-4b02-8c69-0b15a148c588</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Assignment Date'])[1]/preceding::div[5]</value>
+      <webElementGuid>4e703d6b-f759-4775-a3d0-5654a098a90d</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//th[5]/form/p-dropdown/div/div[2]</value>
+      <webElementGuid>2f67aa2a-5387-49fc-8235-022fadbae810</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

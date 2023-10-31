@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>a_Back</name>
+   <tag></tag>
+   <elementGuidId>7b17f498-13b6-4e2b-9948-a60bdb91d3aa</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>a.ata-btn.ata-btn-secondary.ata-mr-auto</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>(.//*[normalize-space(text()) and normalize-space(.)=concat('I', &quot;'&quot;, 'm not sure what', &quot;'&quot;, 's wrong')])[1]/following::a[1]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>a</value>
+      <webElementGuid>4a877c2f-d272-428d-a9b3-bb7aad3bb85e</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>routerlink</name>
+      <type>Main</type>
+      <value>/help</value>
+      <webElementGuid>ee6608da-776b-44ba-a072-ef3ea86bd372</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>ata-btn ata-btn-secondary ata-mr-auto</value>
+      <webElementGuid>79022f20-d766-4a6d-85c9-c30ee9440cad</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>ng-reflect-router-link</name>
+      <type>Main</type>
+      <value>/help</value>
+      <webElementGuid>2c72d920-ee31-4d14-8fe4-4154f5722264</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>href</name>
+      <type>Main</type>
+      <value>/auto/help</value>
+      <webElementGuid>1ba528dd-6f2c-4625-9fa5-aa3245dfddbf</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Back</value>
+      <webElementGuid>94099796-dccb-47ce-a99b-1cab77dc33ec</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>/html[@class=&quot;ata-text-slate-800 ata-bg-white&quot;]/body[1]/ata-atau[1]/ata-atau-default[@class=&quot;ng-star-inserted&quot;]/section[@class=&quot;main&quot;]/ata-assessment-service-type[@class=&quot;ng-star-inserted&quot;]/div[@class=&quot;ata-relative ata-flex ata-flex-col ata-grow&quot;]/div[@class=&quot;ata-relative ata-z-2 ata-p-5 ata-shadow-2xl&quot;]/a[@class=&quot;ata-btn ata-btn-secondary ata-mr-auto&quot;]</value>
+      <webElementGuid>f163c369-286e-45cd-85f6-ee396ec04635</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)=concat('I', &quot;'&quot;, 'm not sure what', &quot;'&quot;, 's wrong')])[1]/following::a[1]</value>
+      <webElementGuid>2389cf9c-2c68-4c66-80f8-d1111d710477</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='I have problems changing gear'])[1]/following::a[2]</value>
+      <webElementGuid>19befb46-1b3f-40f9-92a0-d3288b31cda4</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Capture object:'])[1]/preceding::a[1]</value>
+      <webElementGuid>0b660ab7-a902-4a6f-a4f1-e094cd2b9f4a</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:href</name>
+      <type>Main</type>
+      <value>//a[contains(@href, '/auto/help')]</value>
+      <webElementGuid>bef70336-4472-477b-9c2b-53c35ced4794</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[2]/a</value>
+      <webElementGuid>4f8a1992-decf-4c50-aa08-afcf83ed0abe</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//a[@href = '/auto/help' and (text() = 'Back' or . = 'Back')]</value>
+      <webElementGuid>8e96e182-bd50-4a08-8e76-9cb5336be7c9</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>Tab_Resolved</name>
+   <tag></tag>
+   <elementGuidId>bb1d2042-3167-43d5-abdd-fdec8c55c276</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[(text() = 'Resolved' or . = 'Resolved')]</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>#p-tabpanel-3-label > span.p-tabview-title.ng-star-inserted</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//a[@id='p-tabpanel-3-label']/span</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>span</value>
+      <webElementGuid>00ff9e09-1f6f-4bed-be32-16d60d75438c</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>p-tabview-title ng-star-inserted</value>
+      <webElementGuid>523541a7-e97a-4083-add3-11ff2b4efc32</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Resolved</value>
+      <webElementGuid>5b470e8c-287d-451e-9d6b-7b1b96ff9b5d</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;p-tabpanel-3-label&quot;)/span[@class=&quot;p-tabview-title ng-star-inserted&quot;]</value>
+      <webElementGuid>fc1a55c9-3089-4968-891d-6393d926e58c</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//a[@id='p-tabpanel-3-label']/span</value>
+      <webElementGuid>f3f1ed2a-9e1d-4b97-82e2-7e8b30e7a74e</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='In progress (151)'])[1]/following::span[1]</value>
+      <webElementGuid>9d98412a-f7f6-405a-bdcd-d93506f999a8</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Open (90)'])[1]/following::span[2]</value>
+      <webElementGuid>bfee51c2-f86a-4fb8-a974-bf66ea0de3e5</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='History (547)'])[1]/preceding::span[1]</value>
+      <webElementGuid>dc682a17-11ce-4955-b6a5-3161d3168d3a</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Select Service Type'])[1]/preceding::span[2]</value>
+      <webElementGuid>2223a69f-9937-455e-8b7f-ea7943b5714e</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='Resolved (208)']/parent::*</value>
+      <webElementGuid>6b35e556-88d6-4c7b-aa2d-105611ae9cda</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//li[4]/a/span</value>
+      <webElementGuid>c7318d58-b797-46b3-9185-04f810c85819</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//span[(text() = 'Resolved (208)' or . = 'Resolved (208)')]</value>
+      <webElementGuid>605b1c7a-873e-4509-bb0b-dae6b54cf102</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

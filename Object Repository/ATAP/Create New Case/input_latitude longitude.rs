@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>input_latitude longitude</name>
+   <tag></tag>
+   <elementGuidId>4bd5c059-e1d2-4216-9031-c7143df3dc89</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>div.login-input > input.p-inputtext.p-component.p-element.ng-untouched.ng-pristine.ng-invalid</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[3]/div/input</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>input</value>
+      <webElementGuid>c6d9f84e-7b9f-46f8-b334-1344b7cdd7ea</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>placeholder</name>
+      <type>Main</type>
+      <value>Location</value>
+      <webElementGuid>1acff86f-3cfb-4544-8914-2b0b3300ef3d</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>formcontrolname</name>
+      <type>Main</type>
+      <value>geoLocation</value>
+      <webElementGuid>0adfdeee-0c0b-48b5-9c3a-a52d7f52e689</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>styleclass</name>
+      <type>Main</type>
+      <value>w-30rem</value>
+      <webElementGuid>fe158bc8-af09-442b-a783-fddaeca89e0d</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>p-inputtext p-component p-element ng-untouched ng-pristine ng-invalid</value>
+      <webElementGuid>ee4d4c16-7f8e-4d75-98ea-f2f7b195bcf5</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>ng-reflect-name</name>
+      <type>Main</type>
+      <value>geoLocation</value>
+      <webElementGuid>c6db0755-2b3e-478e-ae84-ed1ef60034ac</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>ng-reflect-ng-class</name>
+      <type>Main</type>
+      <value>[object Object]</value>
+      <webElementGuid>c31a2b8c-a64a-412b-aed3-934507bd90fe</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>/html[1]/body[1]/ata-dashboard-root[1]/div[@class=&quot;app-layout&quot;]/div[@class=&quot;layout-content&quot;]/div[@class=&quot;content-data&quot;]/app-case-tab[@class=&quot;ng-star-inserted&quot;]/div[@class=&quot;top&quot;]/div[@class=&quot;flex ng-star-inserted&quot;]/div[@class=&quot;w-8 pr-5&quot;]/app-case-new[1]/form[@class=&quot;ng-invalid ng-touched ng-dirty&quot;]/p-card[@class=&quot;p-element&quot;]/div[@class=&quot;mt-4 p-card p-component&quot;]/div[@class=&quot;p-card-body&quot;]/div[@class=&quot;p-card-content&quot;]/div[@class=&quot;p-field&quot;]/div[@class=&quot;login-input&quot;]/input[@class=&quot;p-inputtext p-component p-element ng-untouched ng-pristine ng-invalid&quot;]</value>
+      <webElementGuid>577a3f2a-8d5d-46b3-a998-165866755a8b</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[3]/div/input</value>
+      <webElementGuid>0827d909-8940-47da-9034-7eb6dc4ef799</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//input[@placeholder = 'Location']</value>
+      <webElementGuid>563c796b-f918-4c2f-be4f-fc8ca240304e</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

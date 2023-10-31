@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>on_bt (1)</name>
+   <tag></tag>
+   <elementGuidId>1abe3497-7afa-450d-9ebb-84ceb7c55cee</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>(.//*[normalize-space(text()) and normalize-space(.)='Off'])[5]/following::div[3]</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>p-selectbutton.p-element.ng-valid.ng-touched.ng-dirty > div.p-selectbutton.p-buttonset.p-component > div.p-ripple.p-element.p-button.p-component.ng-star-inserted.p-highlight</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>div</value>
+      <webElementGuid>6da8b647-c766-461f-8e09-5183f4fdde2a</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>role</name>
+      <type>Main</type>
+      <value>button</value>
+      <webElementGuid>ab70c10c-d92b-45ce-b20d-5ed687b18b45</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>p-ripple p-element p-button p-component ng-star-inserted p-highlight</value>
+      <webElementGuid>9b1b90d4-c81e-4762-ab7d-2fe3d7566248</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>ng-reflect-ng-class</name>
+      <type>Main</type>
+      <value>[object Object]</value>
+      <webElementGuid>e539e66b-71fd-4360-9a34-d9f0eba8178c</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>aria-pressed</name>
+      <type>Main</type>
+      <value>true</value>
+      <webElementGuid>a68a5102-301e-4d0c-af5b-d40061e9fdbd</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>aria-label</name>
+      <type>Main</type>
+      <value>On</value>
+      <webElementGuid>92a43632-f260-4e99-9b81-7bb2df2bbcb7</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tabindex</name>
+      <type>Main</type>
+      <value>0</value>
+      <webElementGuid>1e285364-74f8-45e9-8b3a-fcd028618f13</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>aria-labelledby</name>
+      <type>Main</type>
+      <value>On</value>
+      <webElementGuid>c7dbb042-d48c-46af-87b3-9a336bce0cb8</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>On</value>
+      <webElementGuid>063ef9b4-230e-437b-b6aa-4503a25363f7</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>/html[1]/body[@class=&quot;overflow-hidden lg:overflow-auto&quot;]/ata-partner[1]/ata-partner-layout-dashboard[@class=&quot;ng-star-inserted&quot;]/section[@class=&quot;main&quot;]/div[@class=&quot;content&quot;]/ata-partner-staff[@class=&quot;ng-star-inserted&quot;]/partner-staff-list[@class=&quot;ng-star-inserted&quot;]/div[@class=&quot;flex-column bg-color&quot;]/div[@class=&quot;p-2 grid&quot;]/div[@class=&quot;p-3 md:col-8 bg-white hidden-xs&quot;]/div[@class=&quot;ng-star-inserted&quot;]/partner-staff-detail[1]/div[@class=&quot;py-4 border-bottom-1&quot;]/div[@class=&quot;flex flex-column flex-wrap lg:flex-row justify-content-between&quot;]/div[@class=&quot;lg:col-6 xl:col-3 px-3&quot;]/p-selectbutton[@class=&quot;p-element ng-valid ng-touched ng-dirty&quot;]/div[@class=&quot;p-selectbutton p-buttonset p-component&quot;]/div[@class=&quot;p-ripple p-element p-button p-component ng-star-inserted p-highlight&quot;]</value>
+      <webElementGuid>e0bfaba7-c698-415f-a35e-fd284fca80b2</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Off'])[5]/following::div[3]</value>
+      <webElementGuid>98c53f86-9b88-4eab-b9ef-e052b26e7882</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='On'])[5]/following::div[4]</value>
+      <webElementGuid>3de4f4a8-e8b0-421d-8325-c74247dd5277</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Off'])[6]/preceding::div[1]</value>
+      <webElementGuid>1c1154f1-b113-4ecb-8f80-3c87253a7d96</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[2]/div/partner-staff-detail/div[2]/div/div[2]/p-selectbutton/div/div</value>
+      <webElementGuid>7b27af5c-d175-4548-9874-4bf5f41681b3</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//div[(text() = 'On' or . = 'On')]</value>
+      <webElementGuid>ecfaf06f-e1c3-46c0-976a-a21367e9aeff</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

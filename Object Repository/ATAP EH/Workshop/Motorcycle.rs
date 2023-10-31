@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>Motorcycle</name>
+   <tag></tag>
+   <elementGuidId>d9aa614d-ba1a-4167-ad63-772eb137816f</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[(text() = 'Motorcycle' or . = 'Motorcycle')]</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//ul[@id='pr_id_22_list']/p-dropdownitem[3]/li/span</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>span.customer-badge.status-Motorcycle.ng-star-inserted</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>span</value>
+      <webElementGuid>708e32c6-eaeb-43a0-b709-525006be7dbe</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>customer-badge status-Motorcycle ng-star-inserted</value>
+      <webElementGuid>c542feaa-f74c-4bf1-99ab-e1f9601d797d</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Motorcycle</value>
+      <webElementGuid>ea68cde2-3825-465c-ad07-617d9158b45d</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;pr_id_22_list&quot;)/p-dropdownitem[@class=&quot;p-element ng-star-inserted&quot;]/li[@class=&quot;p-ripple p-element p-dropdown-item&quot;]/span[@class=&quot;customer-badge status-Motorcycle ng-star-inserted&quot;]</value>
+      <webElementGuid>b070cec8-f6db-4930-89ed-91ad69826e74</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//ul[@id='pr_id_22_list']/p-dropdownitem[3]/li/span</value>
+      <webElementGuid>1755246c-57fe-408e-8527-6df61455064a</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Normal'])[1]/following::span[1]</value>
+      <webElementGuid>e3589140-9c3a-4a4b-b7be-2534e359ff24</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Premier'])[1]/following::span[2]</value>
+      <webElementGuid>8b9f9c5e-31c7-4a23-b4fd-5c373b54a8df</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Submit'])[1]/preceding::span[2]</value>
+      <webElementGuid>62fb4bda-2ea0-4624-b977-73d5e43c4230</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Cancel'])[1]/preceding::span[4]</value>
+      <webElementGuid>742008e1-0905-447d-9f1b-6245cc12a4d8</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='Motorcycle']/parent::*</value>
+      <webElementGuid>905765b1-1cb4-487a-ae20-ece24229903b</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//p-dropdownitem[3]/li/span</value>
+      <webElementGuid>85e09e77-2aba-4ed9-b4b8-17df61263ae2</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//span[(text() = 'Motorcycle' or . = 'Motorcycle')]</value>
+      <webElementGuid>f87c8a02-fd29-4c39-8174-3788c95cb80c</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

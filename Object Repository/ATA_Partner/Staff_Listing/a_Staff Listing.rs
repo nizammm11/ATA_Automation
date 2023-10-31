@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>a_Staff Listing</name>
+   <tag></tag>
+   <elementGuidId>90b2c002-39f2-4791-a887-629a26aea8b6</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[@href = '/partner/staff' and (text() = 'Staff Listing' or . = 'Staff Listing')]</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>(.//*[normalize-space(text()) and normalize-space(.)='Case Listing'])[1]/following::a[1]</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>a</value>
+      <webElementGuid>7ec41895-6ae6-4e2b-81ed-709ad73fdc4e</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>routerlinkactive</name>
+      <type>Main</type>
+      <value>active</value>
+      <webElementGuid>c697b30f-b369-4e88-9df8-fd39019a0af0</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>ng-reflect-router-link-active</name>
+      <type>Main</type>
+      <value>active</value>
+      <webElementGuid>ad406d3f-edde-4bfb-820f-96b9f0873897</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>ng-reflect-router-link</name>
+      <type>Main</type>
+      <value>/staff</value>
+      <webElementGuid>674aedcc-211c-43be-88bc-82ac9c171d1c</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>href</name>
+      <type>Main</type>
+      <value>/partner/staff</value>
+      <webElementGuid>86dd7338-afad-4777-a68e-814a87ba59ee</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Staff Listing</value>
+      <webElementGuid>fe01c01d-26e9-4bf5-a24e-4240dce5bc0a</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>/html[1]/body[1]/ata-partner[1]/ata-partner-layout-dashboard[@class=&quot;ng-star-inserted&quot;]/section[@class=&quot;main&quot;]/aside[@class=&quot;sidebar no-print ng-star-inserted&quot;]/nav[@class=&quot;sidebar-nav&quot;]/ul[1]/li[@class=&quot;ng-star-inserted&quot;]/a[1]</value>
+      <webElementGuid>13a48ce7-8b67-45b7-bfc6-77134ebb3b1a</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Case Listing'])[1]/following::a[1]</value>
+      <webElementGuid>ebfbb04a-03e9-45ba-a2c9-29efe8897f1f</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='MENU'])[1]/following::a[2]</value>
+      <webElementGuid>5ff757ab-9ab6-43d5-99d6-0bd2c79e5cf9</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Vehicle Listing'])[1]/preceding::a[1]</value>
+      <webElementGuid>25ba5634-db5a-48a1-974c-560fe0872656</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:href</name>
+      <type>Main</type>
+      <value>//a[contains(@href, '/partner/staff')]</value>
+      <webElementGuid>c381473a-959a-4b5e-9361-b377e7e0b15b</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//li[2]/a</value>
+      <webElementGuid>22a69099-5fd9-4819-932e-91d8a55b7426</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//a[@href = '/partner/staff' and (text() = 'Staff Listing' or . = 'Staff Listing')]</value>
+      <webElementGuid>62bfb1d6-90c7-42d6-80e3-9e53fd22bda9</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

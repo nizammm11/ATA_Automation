@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>icon_email</name>
+   <tag></tag>
+   <elementGuidId>4d173fd7-49ba-4446-b21c-32f4178162b6</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>(.//*[normalize-space(text()) and normalize-space(.)='Sum Motor Sdn. Bhd. (HQ)'])[2]/following::*[name()='svg'][3]</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value></value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>svg</value>
+      <webElementGuid>6f13440d-73ac-4a5c-bb7b-ad644a2ee2c3</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xmlns</name>
+      <type>Main</type>
+      <value>http://www.w3.org/2000/svg</value>
+      <webElementGuid>4a50d7aa-1ec8-4143-88a5-2ed91375afad</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>width</name>
+      <type>Main</type>
+      <value>1.5em</value>
+      <webElementGuid>4e62562c-6ba6-4036-afff-1a9ec6c16847</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>height</name>
+      <type>Main</type>
+      <value>1.5em</value>
+      <webElementGuid>eb8b0f93-e9e4-4d14-81cc-b3b5728719d7</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>viewBox</name>
+      <type>Main</type>
+      <value>0 0 24 24</value>
+      <webElementGuid>6a36e345-0b7e-4436-b46d-f9883fe02aff</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>aria-hidden</name>
+      <type>Main</type>
+      <value>true</value>
+      <webElementGuid>d08ff0f8-609e-4f26-bc01-11065556381e</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>/html[@class=&quot;ata-text-slate-800 ata-bg-white&quot;]/body[@class=&quot;p-overflow-hidden&quot;]/p-dynamicdialog[@class=&quot;p-element ng-tns-c101-18 ng-star-inserted&quot;]/div[@class=&quot;ng-tns-c101-18 p-dialog-mask p-component-overlay p-component-overlay-enter p-dialog-mask-scrollblocker&quot;]/div[@class=&quot;ng-trigger ng-trigger-animation ng-tns-c101-18 p-dialog p-dynamic-dialog p-component ng-star-inserted&quot;]/div[@class=&quot;p-dialog-content ng-tns-c101-18&quot;]/ata-dialog-workshop-location[@class=&quot;ng-star-inserted&quot;]/div[@class=&quot;ata-relative -ata-mt-8&quot;]/div[@class=&quot;ata-flex&quot;]/div[@class=&quot;ata-w-10 ata-self-center&quot;]/svg-icon[@class=&quot;ata-text-lg ata-text-slate-500&quot;]/svg[1]</value>
+      <webElementGuid>1bded7b9-5063-48ca-b691-0f6c5853d48b</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Sum Motor Sdn. Bhd. (HQ)'])[2]/following::*[name()='svg'][3]</value>
+      <webElementGuid>b5c2d6c2-661c-4816-a691-228e6db0bb25</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='`'])[2]/following::*[name()='svg'][4]</value>
+      <webElementGuid>8de8fe3b-1107-44c6-bfff-3e64245fde2b</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

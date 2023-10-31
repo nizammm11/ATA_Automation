@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>button_All Drivers</name>
+   <tag></tag>
+   <elementGuidId>e95f90d9-abda-4075-99c6-313a6c566f7e</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>(//button[@type='button'])[7]</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>button.p-element.p-button.btn1.button-right.p-component</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>button</value>
+      <webElementGuid>7009442a-59dd-40b2-a8c1-17667c17dfba</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>type</name>
+      <type>Main</type>
+      <value>button</value>
+      <webElementGuid>2fdbe26f-5cf4-4c9d-ac1c-656ffc50f3c8</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>label</name>
+      <type>Main</type>
+      <value>All Drivers</value>
+      <webElementGuid>b9f67ae2-8a86-438b-a8f5-607a1799cf95</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>p-element p-button btn1 button-right p-component</value>
+      <webElementGuid>0a0f000d-c079-4762-b623-8449a4784a5d</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>ng-reflect-label</name>
+      <type>Main</type>
+      <value>All Drivers</value>
+      <webElementGuid>a35fc150-25ca-45b2-8dc6-828232971c91</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>All Drivers</value>
+      <webElementGuid>35b90e1c-ecab-4c35-b693-9c2eae9a9077</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>/html[1]/body[@class=&quot;p-overflow-hidden&quot;]/ata-partner[1]/ata-partner-layout-dashboard[@class=&quot;ng-star-inserted&quot;]/section[@class=&quot;main&quot;]/div[@class=&quot;content&quot;]/ata-partner-cases[@class=&quot;ng-star-inserted&quot;]/partner-case-detail[@class=&quot;ng-star-inserted&quot;]/p-dialog[@class=&quot;p-element dialog-partner ng-tns-c98-7 ng-star-inserted&quot;]/div[@class=&quot;ng-tns-c98-7 p-dialog-mask p-component-overlay p-component-overlay-enter p-dialog-mask-scrollblocker ng-star-inserted&quot;]/div[@class=&quot;p-element ng-trigger ng-trigger-animation ng-tns-c98-7 p-dialog p-component p-dialog-draggable p-dialog-resizable ng-star-inserted&quot;]/div[@class=&quot;ng-tns-c98-7 p-dialog-content&quot;]/div[@class=&quot;flex flex-column mb-5 ng-tns-c98-7&quot;]/div[@class=&quot;w-full pt-2&quot;]/div[@class=&quot;mt-4 div1&quot;]/div[@class=&quot;grid&quot;]/div[@class=&quot;col btn1-col&quot;]/button[@class=&quot;p-element p-button btn1 button-right p-component&quot;]</value>
+      <webElementGuid>21f7d914-54d8-4d7c-93d4-e361c7ee357b</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>(//button[@type='button'])[7]</value>
+      <webElementGuid>84041f3c-23cc-49ef-9e20-9c4da4887b7f</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Nearest...'])[1]/following::button[1]</value>
+      <webElementGuid>456df620-5fa4-48db-9456-bf19ca6d7c1e</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Assign the driver for this case'])[1]/following::button[2]</value>
+      <webElementGuid>4aae974e-a44f-4665-b0a5-8be7a5ebed6a</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Haziq'])[5]/preceding::button[1]</value>
+      <webElementGuid>d5a726ab-9057-4983-a279-de9ac353ba10</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[2]/button</value>
+      <webElementGuid>7a819569-6693-49f3-a23b-37cecd006e02</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//button[@type = 'button' and (text() = 'All Drivers' or . = 'All Drivers')]</value>
+      <webElementGuid>f9093677-a14f-4c9c-9c6d-f9219c724496</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

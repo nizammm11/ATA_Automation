@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>checkbox_tyre</name>
+   <tag></tag>
+   <elementGuidId>9d13cc85-9727-4d8f-8ed2-0e767a262993</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>/html[1]/body[@class=&quot;overflow-hidden lg:overflow-auto&quot;]/ata-partner[1]/ata-partner-layout-dashboard[@class=&quot;ng-star-inserted&quot;]/section[@class=&quot;main&quot;]/div[@class=&quot;content&quot;]/ata-partner-vehicle[@class=&quot;ng-star-inserted&quot;]/ata-vehicle-add-edit[@class=&quot;ng-star-inserted&quot;]/div[@class=&quot;flex-column bg-color&quot;]/form[@class=&quot;ng-untouched ng-pristine ng-invalid&quot;]/div[@class=&quot;p-2 grid justify-content-center&quot;]/div[@class=&quot;col-8 md:col-9 xs:col-12&quot;]/div[@class=&quot;py-4&quot;]/div[@class=&quot;grid&quot;]/div[@class=&quot;p-field-checkbox pb-3 xl:col-4 lg:col-6 md:col-6 col-12 vehicle-checkbox ng-star-inserted&quot;]/p-checkbox[@class=&quot;p-element ng-valid ng-dirty ng-touched&quot;]/div[@class=&quot;p-checkbox p-component p-checkbox-checked&quot;]/div[@class=&quot;p-checkbox-box p-highlight&quot;]/span[@class=&quot;p-checkbox-icon pi pi-check&quot;]</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//p-checkbox/div/div[2]/span</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>span.p-checkbox-icon.pi.pi-check</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>span</value>
+      <webElementGuid>64a02bdb-a1d7-425a-bc19-3ad4b9105d89</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>p-checkbox-icon pi pi-check</value>
+      <webElementGuid>7ec388fe-8ad8-4238-8bb5-e28e8ce4343c</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>ng-reflect-ng-class</name>
+      <type>Main</type>
+      <value>pi pi-check</value>
+      <webElementGuid>ac133311-857f-4a9e-b4e1-df7e2b5a2eef</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>/html[1]/body[@class=&quot;overflow-hidden lg:overflow-auto&quot;]/ata-partner[1]/ata-partner-layout-dashboard[@class=&quot;ng-star-inserted&quot;]/section[@class=&quot;main&quot;]/div[@class=&quot;content&quot;]/ata-partner-vehicle[@class=&quot;ng-star-inserted&quot;]/ata-vehicle-add-edit[@class=&quot;ng-star-inserted&quot;]/div[@class=&quot;flex-column bg-color&quot;]/form[@class=&quot;ng-untouched ng-pristine ng-invalid&quot;]/div[@class=&quot;p-2 grid justify-content-center&quot;]/div[@class=&quot;col-8 md:col-9 xs:col-12&quot;]/div[@class=&quot;py-4&quot;]/div[@class=&quot;grid&quot;]/div[@class=&quot;p-field-checkbox pb-3 xl:col-4 lg:col-6 md:col-6 col-12 vehicle-checkbox ng-star-inserted&quot;]/p-checkbox[@class=&quot;p-element ng-valid ng-dirty ng-touched&quot;]/div[@class=&quot;p-checkbox p-component p-checkbox-checked&quot;]/div[@class=&quot;p-checkbox-box p-highlight&quot;]/span[@class=&quot;p-checkbox-icon pi pi-check&quot;]</value>
+      <webElementGuid>d9111165-d4b9-4ed5-a309-c2960d0e4620</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//p-checkbox/div/div[2]/span</value>
+      <webElementGuid>6aadf4f1-d05c-4fdf-8602-72d2aa29d29a</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>link_DOWNLOAD</name>
+   <tag></tag>
+   <elementGuidId>f08806b0-e3f6-4e7a-aefe-351abb2ef227</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>(.//*[normalize-space(text()) and normalize-space(.)='Get 24/7 auto assist services with Etiqa SMILE app'])[1]/following::a[1]</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>a.p-element.p-button.link-button.p-2.p-component</value>
+      </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[@href = 'https://eti.qa/autodownload' and (text() = 'DOWNLOAD' or . = 'DOWNLOAD')]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>a</value>
+      <webElementGuid>415718cc-7c0b-4b62-8200-36795edccc4d</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>href</name>
+      <type>Main</type>
+      <value>https://eti.qa/autodownload</value>
+      <webElementGuid>430c3616-b9c5-4e1d-97b8-57af727f4dab</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>target</name>
+      <type>Main</type>
+      <value>_blank</value>
+      <webElementGuid>b6751635-d9e9-4e77-8285-989f9427ba4a</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>label</name>
+      <type>Main</type>
+      <value>DOWNLOAD</value>
+      <webElementGuid>700e694d-99d3-4404-a9a6-196938da3fc5</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>p-element p-button link-button p-2 p-component</value>
+      <webElementGuid>e8473019-4997-460a-b886-68b2ffa82157</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>ng-reflect-label</name>
+      <type>Main</type>
+      <value>DOWNLOAD</value>
+      <webElementGuid>2b632abe-c392-4270-b85f-3e36d63b88b2</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>DOWNLOAD</value>
+      <webElementGuid>ca7a9311-03da-46b0-b497-e04e1f16f566</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>/html[@class=&quot;ata-text-slate-800 ata-bg-white&quot;]/body[1]/ata-atau[1]/ata-atau-default[@class=&quot;ng-star-inserted&quot;]/p-messages[@class=&quot;p-element ng-tns-c114-2 ng-star-inserted&quot;]/div[@class=&quot;p-messages p-component ng-tns-c114-2 custom-message&quot;]/div[@class=&quot;ng-tns-c114-2 p-message p-message-info ng-star-inserted&quot;]/div[@class=&quot;p-message-wrapper ng-tns-c114-2&quot;]/div[@class=&quot;flex justify-content-center align-content-center w-full ng-star-inserted&quot;]/div[@class=&quot;ml-3 align-self-center&quot;]/a[@class=&quot;p-element p-button link-button p-2 p-component&quot;]</value>
+      <webElementGuid>355a4423-5373-45f2-a1cb-04fae0223ea3</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Get 24/7 auto assist services with Etiqa SMILE app'])[1]/following::a[1]</value>
+      <webElementGuid>a1f88fce-1153-49a9-9efd-5c93be4ee4d3</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='×'])[1]/following::a[1]</value>
+      <webElementGuid>2ee2d17e-c298-467a-9103-28beec5065d0</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Etiqa Auto Assist Care'])[1]/preceding::a[2]</value>
+      <webElementGuid>14c3b1bf-1d0d-49bf-9fe3-b301cd499a64</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:href</name>
+      <type>Main</type>
+      <value>//a[contains(@href, 'https://eti.qa/autodownload')]</value>
+      <webElementGuid>7ea02ac4-27da-4bff-a356-2ee5c2a050ce</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//a</value>
+      <webElementGuid>8602a94a-18d5-4480-a498-5b9b7398c098</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//a[@href = 'https://eti.qa/autodownload' and (text() = 'DOWNLOAD' or . = 'DOWNLOAD')]</value>
+      <webElementGuid>c4abcbc6-2b03-497a-9f07-bc698a9a8780</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

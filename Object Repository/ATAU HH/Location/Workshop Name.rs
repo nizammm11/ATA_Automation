@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>Workshop Name</name>
+   <tag></tag>
+   <elementGuidId>9b91d142-15bb-4d75-ab38-673e1c70a3d4</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//input</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>input.ata-input.ata-pl-12.ng-pristine.ng-valid.ng-touched</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>input</value>
+      <webElementGuid>2582adf7-5e5a-4410-85ae-e51f783b0d00</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>placeholder</name>
+      <type>Main</type>
+      <value>Workshop name</value>
+      <webElementGuid>e0579af3-7a28-4dc0-afb6-48a1b1787a4f</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>formcontrolname</name>
+      <type>Main</type>
+      <value>name_regex</value>
+      <webElementGuid>c71c89fb-b165-46c5-b3bf-c09a3d4fd834</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>ata-input ata-pl-12 ng-pristine ng-valid ng-touched</value>
+      <webElementGuid>11d83814-475e-4d8c-bac4-14682de4fe17</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>ng-reflect-name</name>
+      <type>Main</type>
+      <value>name_regex</value>
+      <webElementGuid>3e9d2f94-715d-41b6-ae8b-3173321f3c33</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>/html[@class=&quot;ata-text-slate-800 ata-bg-white&quot;]/body[1]/ata-atau[1]/ata-atau-default[@class=&quot;ng-star-inserted&quot;]/section[@class=&quot;main&quot;]/ata-assessment-destination[@class=&quot;ng-star-inserted&quot;]/div[@class=&quot;ata-relative ata-flex ata-flex-col ata-grow&quot;]/div[@class=&quot;ata-relative ata-z-1 ata-flex ata-flex-col ata-grow&quot;]/div[@class=&quot;ata-flex ata-flex-col ata-absolute ata-inset-0 ata-overflow-auto&quot;]/div[@class=&quot;ata-p-6 ng-star-inserted&quot;]/ata-workshop-list[1]/ata-workshop-filter[@class=&quot;ata-mb-6&quot;]/form[@class=&quot;ng-pristine ng-valid ng-touched&quot;]/div[@class=&quot;ata-flex ata-items-center&quot;]/div[@class=&quot;ata-relative ata-grow ata-mr-6&quot;]/input[@class=&quot;ata-input ata-pl-12 ng-pristine ng-valid ng-touched&quot;]</value>
+      <webElementGuid>9e16c9eb-e62c-46f7-b544-7f2f28200159</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//input</value>
+      <webElementGuid>af26b995-373d-4a86-82bd-39dc7128ff13</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//input[@placeholder = 'Workshop name']</value>
+      <webElementGuid>88bdeeef-cf1b-493e-aa7f-a2951d472b90</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

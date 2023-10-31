@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>current location icon</name>
+   <tag></tag>
+   <elementGuidId>a1968f3b-8bce-4fb3-a609-a39caa34cee5</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>(.//*[normalize-space(text()) and normalize-space(.)='Or use my current location'])[1]/following::*[name()='svg'][1]</value>
+      </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>/html[@class=&quot;ata-text-slate-800 ata-bg-white&quot;]/body[1]/ata-atau[1]/ata-atau-empty[@class=&quot;ng-star-inserted&quot;]/ata-location-index[@class=&quot;ng-star-inserted&quot;]/div[@class=&quot;ata-flex ata-flex-col ata-p-5&quot;]/ata-input-place-autocomplete[@class=&quot;ng-untouched ng-pristine ng-valid&quot;]/div[@class=&quot;ata-flex ata-flex-col&quot;]/button[@class=&quot;ata-flex ata-items-center ata-px-4 ata-py-2 ata-font-bold ata-border-x ata-border-b ata-bg-white ata-border-slate-300 ata-text-secondary-500 ng-star-inserted&quot;]/svg-icon[@class=&quot;ata-flex ata-items-center ata-text-lg&quot;]/svg[1]</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>button.ata-flex.ata-items-center.ata-px-4.ata-py-2.ata-font-bold.ata-border-x.ata-border-b.ata-bg-white.ata-border-slate-300.ata-text-secondary-500.ng-star-inserted > svg-icon.ata-flex.ata-items-center.ata-text-lg > svg</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>svg</value>
+      <webElementGuid>842cd46f-abf1-47a7-b2a4-f6ecc56c95fa</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xmlns</name>
+      <type>Main</type>
+      <value>http://www.w3.org/2000/svg</value>
+      <webElementGuid>49b369aa-36c0-4bfa-ba19-a7d5fd12576b</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>width</name>
+      <type>Main</type>
+      <value>1em</value>
+      <webElementGuid>04b60e0d-eb3a-4452-8dc9-7bbc447b62b3</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>height</name>
+      <type>Main</type>
+      <value>1em</value>
+      <webElementGuid>52266ade-e441-4611-8e56-d3856a1c34fe</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>viewBox</name>
+      <type>Main</type>
+      <value>0 0 25 25</value>
+      <webElementGuid>63ee2d80-0a32-41bf-93c9-0dad98077508</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>fill</name>
+      <type>Main</type>
+      <value>none</value>
+      <webElementGuid>bbb58197-3fca-407f-ba1f-98a5357fcbe7</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>aria-hidden</name>
+      <type>Main</type>
+      <value>true</value>
+      <webElementGuid>28fa475d-612a-4870-89cd-d6366fc14e4f</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>/html[@class=&quot;ata-text-slate-800 ata-bg-white&quot;]/body[1]/ata-atau[1]/ata-atau-empty[@class=&quot;ng-star-inserted&quot;]/ata-location-index[@class=&quot;ng-star-inserted&quot;]/div[@class=&quot;ata-flex ata-flex-col ata-p-5&quot;]/ata-input-place-autocomplete[@class=&quot;ng-untouched ng-pristine ng-valid&quot;]/div[@class=&quot;ata-flex ata-flex-col&quot;]/button[@class=&quot;ata-flex ata-items-center ata-px-4 ata-py-2 ata-font-bold ata-border-x ata-border-b ata-bg-white ata-border-slate-300 ata-text-secondary-500 ng-star-inserted&quot;]/svg-icon[@class=&quot;ata-flex ata-items-center ata-text-lg&quot;]/svg[1]</value>
+      <webElementGuid>0c5097cb-fcc1-4cfa-a61c-5886a7de3e14</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Or use my current location'])[1]/following::*[name()='svg'][1]</value>
+      <webElementGuid>bb04797f-941f-4eaf-aed8-a1bcc494b309</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)=concat('I', &quot;'&quot;, 'm not sure where I am')])[1]/preceding::*[name()='svg'][2]</value>
+      <webElementGuid>de82b62a-e009-4c09-84fa-acbea0b03d24</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='To navigate, press the arrow keys.'])[1]/preceding::*[name()='svg'][2]</value>
+      <webElementGuid>c9aa5181-930d-4cbf-9d4f-88afbea03b7b</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>Air_pump</name>
+   <tag></tag>
+   <elementGuidId>f8241760-d0e3-4b10-ac73-5a48294fa04e</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[5]/p-checkbox/div/div[2]/span</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>span.p-checkbox-icon.pi.pi-check</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>span</value>
+      <webElementGuid>42004d92-23c5-47eb-83ac-8307bacdc94f</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>p-checkbox-icon pi pi-check</value>
+      <webElementGuid>077ec5fe-4c14-48a2-96b7-b21f61a73fbd</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>ng-reflect-ng-class</name>
+      <type>Main</type>
+      <value>pi pi-check</value>
+      <webElementGuid>ffb4c3f0-8c24-43e7-9a54-d798f2475f5e</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>/html[1]/body[@class=&quot;overflow-hidden lg:overflow-auto&quot;]/ata-partner[1]/ata-partner-layout-dashboard[@class=&quot;ng-star-inserted&quot;]/section[@class=&quot;main&quot;]/div[@class=&quot;content&quot;]/ata-partner-vehicle[@class=&quot;ng-star-inserted&quot;]/ata-vehicle-add-edit[@class=&quot;ng-star-inserted&quot;]/div[@class=&quot;flex-column bg-color&quot;]/form[@class=&quot;ng-invalid ng-touched ng-dirty&quot;]/div[@class=&quot;p-2 grid justify-content-center&quot;]/div[@class=&quot;col-8 md:col-9 xs:col-12&quot;]/div[@class=&quot;py-4&quot;]/div[@class=&quot;grid&quot;]/div[@class=&quot;p-field-checkbox pb-3 xl:col-4 lg:col-6 md:col-6 col-12 vehicle-checkbox ng-star-inserted&quot;]/p-checkbox[@class=&quot;p-element ng-valid ng-dirty ng-touched&quot;]/div[@class=&quot;p-checkbox p-component p-checkbox-checked&quot;]/div[@class=&quot;p-checkbox-box p-highlight&quot;]/span[@class=&quot;p-checkbox-icon pi pi-check&quot;]</value>
+      <webElementGuid>eefd51a8-4c78-4007-8dd5-338c277335b9</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[5]/p-checkbox/div/div[2]/span</value>
+      <webElementGuid>4d91a031-14aa-4f54-b34c-09c93dc6a22f</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

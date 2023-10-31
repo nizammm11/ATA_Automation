@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>word_email</name>
+   <tag></tag>
+   <elementGuidId>39b45567-2c1b-4622-9596-7efdf869fc3d</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>(.//*[normalize-space(text()) and normalize-space(.)='Sum Motor Sdn. Bhd. (HQ)'])[2]/following::p[5]</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value></value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>p</value>
+      <webElementGuid>3a587992-1a32-4f93-9b8f-b62b65f5b8cc</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>summotor@yahoo.com</value>
+      <webElementGuid>a83cc84c-a315-4ef8-9c19-30cb736f8d98</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>/html[@class=&quot;ata-text-slate-800 ata-bg-white&quot;]/body[@class=&quot;p-overflow-hidden&quot;]/p-dynamicdialog[@class=&quot;p-element ng-tns-c101-18 ng-star-inserted&quot;]/div[@class=&quot;ng-tns-c101-18 p-dialog-mask p-component-overlay p-component-overlay-enter p-dialog-mask-scrollblocker&quot;]/div[@class=&quot;ng-trigger ng-trigger-animation ng-tns-c101-18 p-dialog p-dynamic-dialog p-component ng-star-inserted&quot;]/div[@class=&quot;p-dialog-content ng-tns-c101-18&quot;]/ata-dialog-workshop-location[@class=&quot;ng-star-inserted&quot;]/div[@class=&quot;ata-relative -ata-mt-8&quot;]/div[@class=&quot;ata-flex&quot;]/div[@class=&quot;ata-flex-1&quot;]/p[1]</value>
+      <webElementGuid>f3f9b229-5e2b-4147-af33-027052298b53</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Sum Motor Sdn. Bhd. (HQ)'])[2]/following::p[5]</value>
+      <webElementGuid>00dbd3f3-5701-4e71-bb53-452b4d805477</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='`'])[2]/following::p[5]</value>
+      <webElementGuid>a2b838b4-0ce9-4ce8-9d4b-9f4ba11c0130</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='summotor@yahoo.com']/parent::*</value>
+      <webElementGuid>45ccbad3-08c5-4d99-aa52-9d5deb3b482c</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[7]/div[2]/p</value>
+      <webElementGuid>adad27d1-db64-41a5-a4c4-1171c7a30041</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//p[(text() = 'summotor@yahoo.com' or . = 'summotor@yahoo.com')]</value>
+      <webElementGuid>e6743c49-3c46-49e2-a9cc-305047100ab5</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

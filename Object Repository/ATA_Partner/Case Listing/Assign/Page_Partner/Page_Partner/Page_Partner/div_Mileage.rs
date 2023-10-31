@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>div_Mileage</name>
+   <tag></tag>
+   <elementGuidId>22ffa1d0-0e67-4185-85d9-a5bba4ccc359</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[(text() = 'Mileage' or . = 'Mileage')]</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>(.//*[normalize-space(text()) and normalize-space(.)='EGTB'])[1]/following::div[4]</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>div.p-card-content > div.font-bold</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>div</value>
+      <webElementGuid>9de147c7-b0d0-44ed-abf6-3a7cda3228d2</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>font-bold</value>
+      <webElementGuid>875295c1-5f25-4b9c-93e1-fedf37c6ccd4</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Mileage</value>
+      <webElementGuid>6fad1c54-acff-45d0-8ece-45fc51726a63</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>/html[1]/body[1]/ata-partner[1]/ata-partner-layout-dashboard[@class=&quot;ng-star-inserted&quot;]/section[@class=&quot;main&quot;]/div[@class=&quot;content&quot;]/ata-partner-cases[@class=&quot;ng-star-inserted&quot;]/partner-case-detail[@class=&quot;ng-star-inserted&quot;]/div[@class=&quot;flex flex-column flex-grow-1 lg:flex-row mt-3&quot;]/div[@class=&quot;col-12 lg:col-5 lg:flex lg:flex-column&quot;]/partner-case-info[1]/div[@class=&quot;flex grid lg:p-3&quot;]/div[@class=&quot;col-12 content&quot;]/p-card[@class=&quot;p-element ng-star-inserted&quot;]/div[@class=&quot;p-card p-component&quot;]/div[@class=&quot;p-card-body&quot;]/div[@class=&quot;p-card-content&quot;]/div[@class=&quot;font-bold&quot;]</value>
+      <webElementGuid>372fd18c-bfdb-41a0-bbc2-da3d58ee3b9e</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='EGTB'])[1]/following::div[4]</value>
+      <webElementGuid>9cc1e3f3-a99a-43fc-a095-b27be9ddb41a</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Entity'])[1]/following::div[5]</value>
+      <webElementGuid>f37a5fa1-1c6a-4d99-8b97-4f4bb22a309d</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='KLANG VALLEY (10.38KM)'])[1]/preceding::div[1]</value>
+      <webElementGuid>78d23272-c5c3-421c-84a9-0a593c763efa</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='RM75.00'])[1]/preceding::div[1]</value>
+      <webElementGuid>09b615a8-41d0-4d03-8eae-0c9a2ec5751d</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='Mileage']/parent::*</value>
+      <webElementGuid>d1573b57-641a-4786-9f33-7303baea67f4</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//p-card[5]/div/div/div/div</value>
+      <webElementGuid>20d319a8-b887-4d9f-b1f9-785052a5be03</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//div[(text() = 'Mileage' or . = 'Mileage')]</value>
+      <webElementGuid>f72b72e2-c4d8-47ad-832d-23cdd4f91d34</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

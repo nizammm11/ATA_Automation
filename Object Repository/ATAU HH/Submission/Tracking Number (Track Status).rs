@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>Tracking Number (Track Status)</name>
+   <tag></tag>
+   <elementGuidId>a216bab2-7d29-42d3-b3d5-7d4c9a6d0dc6</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>(//input[@type='text'])[2]</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>input.p-inputtext.p-component.p-element.p-inputmask.ata-input.ata-uppercase.ata-text-center.ata-mb-1.p-filled</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>input</value>
+      <webElementGuid>0fc37c79-7e7f-4e56-9d9c-380f827eec7f</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>p-inputtext p-component p-element p-inputmask ata-input ata-uppercase ata-text-center ata-mb-1 p-filled</value>
+      <webElementGuid>f8130970-6ebe-4272-ac7c-70013e6d8e36</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>ng-reflect-ng-class</name>
+      <type>Main</type>
+      <value>ata-input ata-uppercase ata-te</value>
+      <webElementGuid>3f1609ba-f452-4f06-8b25-0ff2b56f24f2</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>type</name>
+      <type>Main</type>
+      <value>text</value>
+      <webElementGuid>3b1a1cc7-45e0-4f7a-8bb0-6921d827b4a8</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>placeholder</name>
+      <type>Main</type>
+      <value>1234-12345</value>
+      <webElementGuid>d3e5c4c1-200b-49bb-b44b-62129b65736a</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>/html[@class=&quot;ata-text-slate-800 ata-bg-white&quot;]/body[1]/ata-atau[1]/ata-atau-default[@class=&quot;ng-star-inserted&quot;]/section[@class=&quot;main&quot;]/atau-tracking[@class=&quot;ng-star-inserted&quot;]/atau-tracking-verification[@class=&quot;ng-star-inserted&quot;]/form[@class=&quot;ata-p-6 ng-dirty ng-touched ng-valid&quot;]/div[@class=&quot;ata-flex ata-flex-col ata-mb-12&quot;]/p-inputmask[@class=&quot;p-element ng-touched ng-dirty p-inputwrapper-focus p-inputwrapper-filled ng-valid&quot;]/input[@class=&quot;p-inputtext p-component p-element p-inputmask ata-input ata-uppercase ata-text-center ata-mb-1 p-filled&quot;]</value>
+      <webElementGuid>1b98591d-df54-4b3b-b94a-c5c5c2515af5</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>(//input[@type='text'])[2]</value>
+      <webElementGuid>c3e66f41-a0ae-4d92-bd86-a7e6a70ef7da</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//p-inputmask/input</value>
+      <webElementGuid>a8ff2981-30bc-4632-a7bb-1fcdf621ca42</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//input[@type = 'text' and @placeholder = '1234-12345']</value>
+      <webElementGuid>a626607d-df70-4e52-89e4-d98b1b14352b</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>Icon User Logout</name>
+   <tag></tag>
+   <elementGuidId>02160635-3502-4c6c-a975-b4cea6dbf2a2</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//div/span</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>span.pi.pi-user.p-avatar-icon.ng-star-inserted</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>span</value>
+      <webElementGuid>232de648-6422-41cf-a9cb-65bfda4e6ec9</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>pi pi-user p-avatar-icon ng-star-inserted</value>
+      <webElementGuid>61e6f900-1547-4109-be29-8f9a69deb55a</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>ng-reflect-ng-class</name>
+      <type>Main</type>
+      <value>p-avatar-icon</value>
+      <webElementGuid>a132b11b-2532-4aa7-8977-b2663835a622</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>/html[1]/body[1]/ata-dashboard-root[1]/div[@class=&quot;app-layout&quot;]/div[@class=&quot;layout-wrapper ng-star-inserted&quot;]/app-top-bar[@class=&quot;p-shadow-3&quot;]/div[@class=&quot;layout-topbar no-print&quot;]/ul[@class=&quot;topbar-menu topnav-right&quot;]/li[@class=&quot;topbar-menu-avatar topbar-submenu&quot;]/a[@class=&quot;topbar-submenu-header&quot;]/p-avatar[@class=&quot;p-element&quot;]/div[@class=&quot;p-mr-2 p-avatar p-component p-avatar-circle&quot;]/span[@class=&quot;pi pi-user p-avatar-icon ng-star-inserted&quot;]</value>
+      <webElementGuid>65c3cf91-9d94-4283-843c-6bcceea54350</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div/span</value>
+      <webElementGuid>262c66ac-d4a9-4a31-b077-6fe6277333f4</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

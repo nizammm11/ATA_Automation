@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>word_Filter</name>
+   <tag></tag>
+   <elementGuidId>40f5413b-b5d4-42ff-bff8-1cebca18f97d</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>(.//*[normalize-space(text()) and normalize-space(.)='Workshops near you'])[1]/preceding::span[1]</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>span.ata-text-sm</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>span</value>
+      <webElementGuid>2aa5c0d0-0dc1-4484-ab3a-b1ed9ad929d8</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>ata-text-sm</value>
+      <webElementGuid>82f29ecc-2ceb-4c37-a4c2-99b0ad1939e1</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Filter</value>
+      <webElementGuid>3974afee-2d92-4a6b-a3b0-ed6022dfe6e7</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>/html[@class=&quot;ata-text-slate-800 ata-bg-white&quot;]/body[1]/ata-atau[1]/ata-atau-default[@class=&quot;ng-star-inserted&quot;]/section[@class=&quot;main&quot;]/ata-workshop-directory[@class=&quot;ng-star-inserted&quot;]/div[@class=&quot;ata-p-6&quot;]/ata-workshop-list[1]/ata-workshop-filter[@class=&quot;ata-mb-6&quot;]/form[@class=&quot;ng-pristine ng-valid ng-touched&quot;]/div[@class=&quot;ata-flex ata-items-center&quot;]/a[@class=&quot;ata-flex ata-flex-col ata-justify-center ata-items-center ata-cursor-pointer&quot;]/span[@class=&quot;ata-text-sm&quot;]</value>
+      <webElementGuid>f8caf972-665a-4996-8b29-469e3f281b7a</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Workshops near you'])[1]/preceding::span[1]</value>
+      <webElementGuid>8648c438-de9c-42a1-9981-460788dcd41f</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Normal'])[1]/preceding::span[1]</value>
+      <webElementGuid>bad113e8-015a-40f4-910e-76d34f59bb03</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='Filter']/parent::*</value>
+      <webElementGuid>db581d69-59d4-438b-91b3-1f297c48914e</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//a/span</value>
+      <webElementGuid>33d1e300-0251-41c5-ab56-507039dec337</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//span[(text() = 'Filter' or . = 'Filter')]</value>
+      <webElementGuid>9a2a77db-d6ec-4785-9a2b-b9c601dab4fb</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

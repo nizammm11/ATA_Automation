@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>btn_Car</name>
+   <tag></tag>
+   <elementGuidId>a79fd299-03aa-48b5-9d9c-e6c01e039bf8</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>(.//*[normalize-space(text()) and normalize-space(.)='Select your vehicle type'])[1]/following::div[2]</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>div</value>
+      <webElementGuid>c14410fe-7fd9-458c-a842-bf6cf373f79e</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>ata-relative ata-flex ata-flex-col ata-justify-end ata-p-5 ata-cursor-pointer ata-rounded-base ata-border ata-border-slate-300 hover:ata-bg-slate-50</value>
+      <webElementGuid>8b4f32ab-ee55-4bc6-9f60-1366b8978260</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Car</value>
+      <webElementGuid>aa79b118-0217-48fc-b943-aed07f65885e</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>/html[@class=&quot;ata-text-slate-800 ata-bg-white&quot;]/body[1]/ata-atau[1]/ata-atau-default[@class=&quot;ng-star-inserted&quot;]/section[@class=&quot;main&quot;]/atau-home[@class=&quot;ng-star-inserted&quot;]/div[@class=&quot;ata-p-6 -ata-mt-40&quot;]/div[@class=&quot;ata-card ata-card-content&quot;]/div[@class=&quot;ata-grid ata-grid-cols-2 ata-gap-5&quot;]/ata-checkbox-box[1]/div[@class=&quot;ata-relative ata-flex ata-flex-col ata-justify-end ata-p-5 ata-cursor-pointer ata-rounded-base ata-border ata-border-slate-300 hover:ata-bg-slate-50&quot;]</value>
+      <webElementGuid>769c80b5-7c30-4bfb-8cc4-498513156207</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Select your vehicle type'])[1]/following::div[2]</value>
+      <webElementGuid>307ad756-3fb2-415c-bc7c-8a6a8e817248</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Not the right location? Tap to change'])[1]/following::div[2]</value>
+      <webElementGuid>e773c730-7301-4537-adfd-1b739814b8ee</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='NEW'])[1]/preceding::div[1]</value>
+      <webElementGuid>a033da5e-e9e8-4e81-af0d-07fec493c10f</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//ata-checkbox-box/div</value>
+      <webElementGuid>8716a8e7-2c00-42c3-bc0d-3272b560005f</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//div[(text() = 'Car' or . = 'Car')]</value>
+      <webElementGuid>77d64148-d6e9-4934-ba47-da7c6f2fc76a</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

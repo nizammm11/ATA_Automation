@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>text_Malaysia</name>
+   <tag></tag>
+   <elementGuidId>ac555ed2-34c6-4f8a-9423-407752a76146</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>(.//*[normalize-space(text()) and normalize-space(.)='Looking for a workshop? Explore here'])[1]/following::h4[1]</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>h4.ata-font-semibold.ata-mb-1</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>h4</value>
+      <webElementGuid>59adcf7e-c826-47df-9271-ae7636d6c4ce</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>ata-font-semibold ata-mb-1</value>
+      <webElementGuid>4df98f8c-f055-4bbf-bf43-8ae94dfc0776</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Malaysia</value>
+      <webElementGuid>7fb3eecb-b2ae-4e66-bfbe-f4ae17fc1533</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>/html[@class=&quot;ata-text-slate-800 ata-bg-white&quot;]/body[@class=&quot;p-overflow-hidden&quot;]/ata-atau[1]/ata-atau-default[@class=&quot;ng-star-inserted&quot;]/p-dialog[@class=&quot;p-element ng-tns-c98-1 ng-star-inserted&quot;]/div[@class=&quot;ng-tns-c98-1 p-dialog-mask p-component-overlay p-component-overlay-enter p-dialog-mask-scrollblocker p-dialog-bottom ng-star-inserted&quot;]/div[@class=&quot;p-element ng-trigger ng-trigger-animation ng-tns-c98-1 p-dialog p-component ng-star-inserted&quot;]/div[@class=&quot;ng-tns-c98-1 p-dialog-content&quot;]/div[@class=&quot;ata-flex ata-items-center ng-tns-c98-1&quot;]/div[@class=&quot;ata-flex-grow&quot;]/h4[@class=&quot;ata-font-semibold ata-mb-1&quot;]</value>
+      <webElementGuid>043658b8-5d26-432b-b80c-ecc7df89f4b6</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Looking for a workshop? Explore here'])[1]/following::h4[1]</value>
+      <webElementGuid>f1ac0716-5cf3-479d-88e7-1a91f12a471b</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Locate our panel'])[1]/following::h4[1]</value>
+      <webElementGuid>7b88a415-71b0-4bf9-8f46-dad34a39fe73</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Singapore, Thailand &amp; Brunei'])[1]/preceding::h4[1]</value>
+      <webElementGuid>4daad11e-8ef1-4de4-8aa4-8dd99b2bc769</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Capture object:'])[1]/preceding::h4[2]</value>
+      <webElementGuid>0e2c80cf-7bf0-4ebb-bc2a-939f2fd86f3d</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='Malaysia']/parent::*</value>
+      <webElementGuid>2c20db7e-18ce-40e5-a027-5250ad628428</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div/div/div/h4</value>
+      <webElementGuid>0d500c64-403d-4a2d-b487-3df911ded4ba</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//h4[(text() = 'Malaysia' or . = 'Malaysia')]</value>
+      <webElementGuid>c26b1996-6d74-4339-844e-10af52a24476</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

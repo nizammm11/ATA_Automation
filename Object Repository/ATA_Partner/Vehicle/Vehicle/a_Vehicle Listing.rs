@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>a_Vehicle Listing</name>
+   <tag></tag>
+   <elementGuidId>a5845791-3917-4575-99a7-bacce0f4b953</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>(.//*[normalize-space(text()) and normalize-space(.)='Staff Listing'])[1]/following::a[1]</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>a</value>
+      <webElementGuid>3b9f2d32-3bb1-4bdd-bc4f-d2c1c39737b5</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>routerlinkactive</name>
+      <type>Main</type>
+      <value>active</value>
+      <webElementGuid>7b9d309d-2415-4df6-b4bc-86e0e35fd5fe</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>ng-reflect-router-link-active</name>
+      <type>Main</type>
+      <value>active</value>
+      <webElementGuid>cced68fc-6009-4b91-bc28-a5fbf55f707f</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>ng-reflect-router-link</name>
+      <type>Main</type>
+      <value>/vehicle</value>
+      <webElementGuid>cebba7d6-35eb-4d6b-a852-66c927d5d90c</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>href</name>
+      <type>Main</type>
+      <value>/partner/vehicle</value>
+      <webElementGuid>11ac5f7b-2043-470b-855d-c6ab3eac14e3</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Vehicle Listing</value>
+      <webElementGuid>bf249404-297c-48a4-8dde-c1c3cac5e859</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>/html[1]/body[1]/ata-partner[1]/ata-partner-layout-dashboard[@class=&quot;ng-star-inserted&quot;]/section[@class=&quot;main&quot;]/aside[@class=&quot;sidebar no-print ng-star-inserted&quot;]/nav[@class=&quot;sidebar-nav&quot;]/ul[1]/li[@class=&quot;ng-star-inserted&quot;]/a[1]</value>
+      <webElementGuid>a5e77ba3-be55-4cc4-a093-9336ec070207</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Staff Listing'])[1]/following::a[1]</value>
+      <webElementGuid>8155f359-faeb-49a3-93dc-c4a4372e4e30</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Case Listing'])[1]/following::a[2]</value>
+      <webElementGuid>eba8edef-abe4-45ae-a1c2-c285661875b0</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Billings'])[1]/preceding::a[1]</value>
+      <webElementGuid>5b22d0fa-615d-4fc7-93ed-80935fd34fa3</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:href</name>
+      <type>Main</type>
+      <value>//a[contains(@href, '/partner/vehicle')]</value>
+      <webElementGuid>5fd678e8-fb6e-4ca3-97d7-a6253ffce9ea</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//li[3]/a</value>
+      <webElementGuid>bb9dc402-4fdd-48e4-8145-af9b4ff8d14f</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//a[@href = '/partner/vehicle' and (text() = 'Vehicle Listing' or . = 'Vehicle Listing')]</value>
+      <webElementGuid>bb2675fa-f944-467e-ae1c-9f06e9a055bd</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

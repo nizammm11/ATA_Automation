@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>word_Motorcycle</name>
+   <tag></tag>
+   <elementGuidId>be157ee2-413a-41cf-a02e-ea8c6e3d391e</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>(.//*[normalize-space(text()) and normalize-space(.)='NEW'])[1]/following::h4[1]</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value></value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>h4</value>
+      <webElementGuid>60a94a59-b28e-4157-bd52-185de9fd689c</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>ata-text-base</value>
+      <webElementGuid>bd4f945e-68fb-4834-8577-264f652f8e98</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Motorcycle</value>
+      <webElementGuid>3f83da11-4327-48a4-bd80-73c2b44a6daa</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>/html[@class=&quot;ata-text-slate-800 ata-bg-white&quot;]/body[1]/ata-atau[1]/ata-atau-default[@class=&quot;ng-star-inserted&quot;]/section[@class=&quot;main&quot;]/atau-home[@class=&quot;ng-star-inserted&quot;]/div[@class=&quot;ata-p-6 -ata-mt-40&quot;]/div[@class=&quot;ata-card ata-card-content&quot;]/div[@class=&quot;ata-grid ata-grid-cols-2 ata-gap-5&quot;]/ata-checkbox-box[2]/div[@class=&quot;ata-relative ata-flex ata-flex-col ata-justify-end ata-p-5 ata-cursor-pointer ata-rounded-base ata-border ata-border-slate-300 hover:ata-bg-slate-50&quot;]/h4[@class=&quot;ata-text-base&quot;]</value>
+      <webElementGuid>2467251d-8abc-4ff1-b489-be00cb30c64b</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='NEW'])[1]/following::h4[1]</value>
+      <webElementGuid>62d97869-9353-49ae-9147-a936341e1fd1</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Car'])[1]/following::h4[1]</value>
+      <webElementGuid>76cb252c-fd65-4f90-9917-6addfbdbfd75</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Quick links'])[1]/preceding::h4[1]</value>
+      <webElementGuid>ddd6bd0e-6400-48a6-8bcf-210fc1b3f4c0</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Status Tracking'])[1]/preceding::h4[2]</value>
+      <webElementGuid>850971fd-116a-40b4-9695-add0928590a9</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='Motorcycle']/parent::*</value>
+      <webElementGuid>b6e998fc-b84c-43b8-a358-664da61e3bc0</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//ata-checkbox-box[2]/div/h4</value>
+      <webElementGuid>b78da49a-bd0a-4323-ba22-60fa9a43b029</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//h4[(text() = 'Motorcycle' or . = 'Motorcycle')]</value>
+      <webElementGuid>58a5c7c4-90ee-42a3-9ab8-fe11cd978317</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

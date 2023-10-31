@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>Button_Save</name>
+   <tag></tag>
+   <elementGuidId>6a2b1d29-feba-4ac4-a282-0c693f749c52</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>(.//*[normalize-space(text()) and normalize-space(.)='Close'])[1]/following::span[1]</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>button.p-element.button.btn.p-button-primary.btn-style.mr-0.p-button.p-component > span.p-button-label</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>span</value>
+      <webElementGuid>578330cc-3bb2-470c-893a-613abcdca8e0</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>p-button-label</value>
+      <webElementGuid>948f88cb-5199-4d06-a923-a82ebd9c3d69</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Save</value>
+      <webElementGuid>d9f1fc6d-81fd-4652-9255-a4c6c71f4b2f</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>/html[1]/body[1]/ata-dashboard-root[1]/div[@class=&quot;app-layout&quot;]/div[@class=&quot;layout-content&quot;]/div[@class=&quot;content-data&quot;]/app-case-tab[@class=&quot;ng-star-inserted&quot;]/div[@class=&quot;top&quot;]/div[@class=&quot;grid m-0 ng-star-inserted&quot;]/div[@class=&quot;w-4&quot;]/app-activities[@class=&quot;block mb-4&quot;]/p-dialog[@class=&quot;p-element ng-tns-c79-62 ng-star-inserted&quot;]/div[@class=&quot;ng-tns-c79-62 p-dialog-mask ng-star-inserted&quot;]/div[@class=&quot;p-element ng-trigger ng-trigger-animation ng-tns-c79-62 p-dialog p-component p-dialog-resizable ng-star-inserted&quot;]/div[@class=&quot;p-dialog-footer ng-tns-c79-62 ng-star-inserted&quot;]/p-footer[@class=&quot;ng-tns-c79-62&quot;]/button[@class=&quot;p-element button btn p-button-primary btn-style mr-0 p-button p-component&quot;]/span[@class=&quot;p-button-label&quot;]</value>
+      <webElementGuid>a862ad9a-f8b0-4117-a556-10eddd9d07c1</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Close'])[1]/following::span[1]</value>
+      <webElementGuid>02e13cf0-e4b0-4449-87b9-a5e2ec71e2ae</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Save Activity'])[1]/preceding::span[1]</value>
+      <webElementGuid>9b88992c-1fc7-42c9-807f-8b8982ded77b</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//button[2]/span</value>
+      <webElementGuid>6ddc8d0c-8ca3-4498-8f86-a681ebb006fe</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//span[(text() = 'Save' or . = 'Save')]</value>
+      <webElementGuid>241f4e19-51db-4617-a83e-baba00753ac1</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

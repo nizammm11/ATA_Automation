@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>input2_tracking number</name>
+   <tag></tag>
+   <elementGuidId>28697f64-fd3e-4668-896f-dbf573495a84</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>input.p-inputtext.p-component.p-element.p-inputmask.ata-input.ata-uppercase.ata-text-center.ata-mb-1</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>(//input[@type='text'])[2]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>input</value>
+      <webElementGuid>0b892cbe-a7ab-45e9-a6aa-8acd8bb76a59</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>p-inputtext p-component p-element p-inputmask ata-input ata-uppercase ata-text-center ata-mb-1</value>
+      <webElementGuid>d169a73f-9d3e-4c49-89b2-eb7939372b63</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>ng-reflect-ng-class</name>
+      <type>Main</type>
+      <value>ata-input ata-uppercase ata-te</value>
+      <webElementGuid>c3865f38-f2bb-404e-b561-818ca1d8f136</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>type</name>
+      <type>Main</type>
+      <value>text</value>
+      <webElementGuid>401f6c5f-6d03-41de-a58e-c04bb381b00e</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>placeholder</name>
+      <type>Main</type>
+      <value>1234-12345</value>
+      <webElementGuid>fb8fb462-50cf-41c1-a5b7-1d601bccea88</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>/html[@class=&quot;ata-text-slate-800 ata-bg-white&quot;]/body[1]/ata-atau[1]/ata-atau-default[@class=&quot;ng-star-inserted&quot;]/section[@class=&quot;main&quot;]/atau-tracking[@class=&quot;ng-star-inserted&quot;]/atau-tracking-verification[@class=&quot;ng-star-inserted&quot;]/form[@class=&quot;ata-p-6 ng-invalid ng-touched ng-dirty&quot;]/div[@class=&quot;ata-flex ata-flex-col ata-mb-12&quot;]/p-inputmask[@class=&quot;p-element ng-invalid ng-touched ng-dirty p-inputwrapper-focus&quot;]/input[@class=&quot;p-inputtext p-component p-element p-inputmask ata-input ata-uppercase ata-text-center ata-mb-1&quot;]</value>
+      <webElementGuid>8e5703c9-7de0-4a9f-8b73-5d4cf81bcc0c</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>(//input[@type='text'])[2]</value>
+      <webElementGuid>1d360b59-49d7-45ab-9a8d-4b22e6db3298</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//p-inputmask/input</value>
+      <webElementGuid>4a2305e7-f570-4360-80a1-76680d90e1fb</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//input[@type = 'text' and @placeholder = '1234-12345']</value>
+      <webElementGuid>9380c40d-40ce-4e1f-90fc-88014c4f1f27</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

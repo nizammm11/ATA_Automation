@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>span_31</name>
+   <tag></tag>
+   <elementGuidId>db69a899-f1cc-41ed-a8ce-ad40c114744b</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[(text() = '31' or . = '31')]</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>(.//*[normalize-space(text()) and normalize-space(.)='Sa'])[1]/following::span[37]</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>span</value>
+      <webElementGuid>cfe30876-40e1-42de-8da8-caf8d84ba1a8</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>draggable</name>
+      <type>Main</type>
+      <value>false</value>
+      <webElementGuid>36980f3d-5331-425d-a0fe-d9dda1df8bef</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>p-ripple p-element ng-tns-c81-6 ng-star-inserted</value>
+      <webElementGuid>fc5fe322-5447-49f7-8b8e-8d7e3226479b</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>ng-reflect-ng-class</name>
+      <type>Main</type>
+      <value>[object Object]</value>
+      <webElementGuid>55ca256d-0556-489e-b846-7e0ed63286de</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>31</value>
+      <webElementGuid>cc3d490e-f2bc-4b9a-a8ab-145f0def80d8</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>/html[1]/body[@class=&quot;overflow-hidden lg:overflow-auto&quot;]/ata-partner[1]/ata-partner-layout-dashboard[@class=&quot;ng-star-inserted&quot;]/section[@class=&quot;main&quot;]/div[@class=&quot;content&quot;]/ata-partner-invoices[@class=&quot;ng-star-inserted&quot;]/ata-invoice-list[@class=&quot;ng-star-inserted&quot;]/div[@class=&quot;p-4 hidden lg:block&quot;]/div[@class=&quot;flex align-items-center justify-content-between&quot;]/ata-invoice-export[1]/div[@class=&quot;flex align-items-center justify-content-between mb-4&quot;]/div[@class=&quot;flex-column&quot;]/form[@class=&quot;flex ng-invalid ng-touched ng-dirty&quot;]/div[@class=&quot;filter-container flex flex-wrap justify-content-center p-3 gap-2 partner-filter-container&quot;]/div[@class=&quot;p-field mb-0 mr-2&quot;]/p-calendar[@class=&quot;p-element p-inputwrapper ng-tns-c81-6 ng-pristine ng-invalid ng-star-inserted ng-touched&quot;]/span[@class=&quot;ng-tns-c81-6 p-calendar&quot;]/div[@class=&quot;ng-trigger ng-trigger-overlayAnimation ng-tns-c81-6 p-datepicker p-component ng-star-inserted&quot;]/div[@class=&quot;p-datepicker-group-container ng-tns-c81-6 ng-star-inserted&quot;]/div[@class=&quot;p-datepicker-group ng-tns-c81-6 ng-star-inserted&quot;]/div[@class=&quot;p-datepicker-calendar-container ng-tns-c81-6 ng-star-inserted&quot;]/table[@class=&quot;p-datepicker-calendar ng-tns-c81-6&quot;]/tbody[@class=&quot;ng-tns-c81-6&quot;]/tr[@class=&quot;ng-tns-c81-6 ng-star-inserted&quot;]/td[@class=&quot;ng-tns-c81-6 ng-star-inserted&quot;]/span[@class=&quot;p-ripple p-element ng-tns-c81-6 ng-star-inserted&quot;]</value>
+      <webElementGuid>fd1fed66-13df-4595-b0b3-1fff2aee2213</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Sa'])[1]/following::span[37]</value>
+      <webElementGuid>a12429f8-5796-43cb-a2e8-f7a086601ea9</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Fr'])[1]/following::span[38]</value>
+      <webElementGuid>02dd812b-4d31-4e84-859f-485a8eb5301a</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Export CSV'])[1]/preceding::span[6]</value>
+      <webElementGuid>dbc96542-9124-43cd-829d-d4714c2618fb</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Invoice Date'])[1]/preceding::span[7]</value>
+      <webElementGuid>ec2a7e25-39bd-4c74-90d4-402974d52fca</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='31']/parent::*</value>
+      <webElementGuid>c860361f-c93c-412e-a4bd-2befa5372eb0</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//tr[6]/td[2]/span</value>
+      <webElementGuid>eecaf7c0-c356-4847-b911-9dd41005b528</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//span[(text() = '31' or . = '31')]</value>
+      <webElementGuid>3f613b75-a937-429d-85df-ef43dc74e950</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

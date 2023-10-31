@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>img_sad</name>
+   <tag></tag>
+   <elementGuidId>e6d7cace-4321-4e0a-bd70-0a6299bbed5f</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>img.ata-w-30.ata-h-30.ata-mx-auto.ata-mb-6</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div/img</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>img</value>
+      <webElementGuid>3bb5f965-f732-4369-9a58-4eb64c2c0e7e</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>src</name>
+      <type>Main</type>
+      <value>assets/lottie/cancelled-request.gif</value>
+      <webElementGuid>0e298594-8860-4ef3-bdaf-7afc0323ca4a</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>ata-w-30 ata-h-30 ata-mx-auto ata-mb-6</value>
+      <webElementGuid>ff4749ca-74ef-47fc-9cb0-888b0e8a5fe8</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>/html[@class=&quot;ata-text-slate-800 ata-bg-white&quot;]/body[1]/ata-atau[1]/ata-atau-default[@class=&quot;ng-star-inserted&quot;]/section[@class=&quot;main&quot;]/ata-assessment-cancelled[@class=&quot;ng-star-inserted&quot;]/div[@class=&quot;ata-relative ata-flex ata-flex-col ata-grow&quot;]/div[@class=&quot;ata-relative ata-z-1 ata-flex ata-flex-col ata-grow&quot;]/div[@class=&quot;ata-absolute ata-inset-0 ata-p-6 ata-overflow-auto ata-text-center&quot;]/img[@class=&quot;ata-w-30 ata-h-30 ata-mx-auto ata-mb-6&quot;]</value>
+      <webElementGuid>13114b05-1ee3-43c4-809f-d96cd6201a79</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div/img</value>
+      <webElementGuid>af9941a8-ee47-409d-8eea-4831c3e805d5</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//img[@src = 'assets/lottie/cancelled-request.gif']</value>
+      <webElementGuid>83bf9546-76dc-47c6-9a47-cbcee096cd2f</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

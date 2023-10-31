@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>div_Off Duty</name>
+   <tag></tag>
+   <elementGuidId>2978b590-8c3d-44e0-9314-894814ec5e5a</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>(.//*[normalize-space(text()) and normalize-space(.)='Log Out'])[1]/following::div[3]</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>div.p-ripple.p-element.p-button.p-component.ng-star-inserted.p-highlight</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>div</value>
+      <webElementGuid>848fc1be-fe35-48d6-ad1a-b864781b12cb</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>role</name>
+      <type>Main</type>
+      <value>button</value>
+      <webElementGuid>66361c13-5070-4887-a3b2-a32cec82fa77</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>p-ripple p-element p-button p-component ng-star-inserted p-highlight</value>
+      <webElementGuid>c9c52f5b-e572-4aea-93c5-a1f74c957323</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>ng-reflect-ng-class</name>
+      <type>Main</type>
+      <value>[object Object]</value>
+      <webElementGuid>299ad0d7-246f-4d48-802b-d22d828e8a00</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>aria-pressed</name>
+      <type>Main</type>
+      <value>true</value>
+      <webElementGuid>3ffbb1f9-6f25-404a-923f-6eca8499f1e9</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>aria-label</name>
+      <type>Main</type>
+      <value>Off Duty</value>
+      <webElementGuid>02b56085-0a6e-4f93-9aa6-b872f5bb5485</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tabindex</name>
+      <type>Main</type>
+      <value>0</value>
+      <webElementGuid>de8e9224-5039-46d9-8f15-ae9e903f11b3</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>aria-labelledby</name>
+      <type>Main</type>
+      <value>Off Duty</value>
+      <webElementGuid>97032ef3-e2df-4b3c-9367-1d2953491794</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Off Duty</value>
+      <webElementGuid>e1265024-e666-438e-a1e1-a223e5fbbdb7</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>/html[1]/body[1]/ata-partner[1]/ata-partner-layout-dashboard[@class=&quot;ng-star-inserted&quot;]/section[@class=&quot;main&quot;]/aside[@class=&quot;sidebar no-print ng-star-inserted&quot;]/div[@class=&quot;flex flex-column align-items-center mb-4 mt-auto&quot;]/p-selectbutton[@class=&quot;p-element ng-valid ng-dirty ng-touched&quot;]/div[@class=&quot;p-selectbutton p-buttonset p-component&quot;]/div[@class=&quot;p-ripple p-element p-button p-component ng-star-inserted p-highlight&quot;]</value>
+      <webElementGuid>ddccaa3d-8f51-4816-8ed9-1ede77e13947</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Log Out'])[1]/following::div[3]</value>
+      <webElementGuid>62838765-bc0b-422c-99ab-3ca7e7ff6c46</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Invoices'])[1]/following::div[3]</value>
+      <webElementGuid>931b87b8-a4f9-41d4-bc33-a1d56b017e7a</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='On Duty'])[1]/preceding::div[1]</value>
+      <webElementGuid>a3a86db3-1035-426c-845b-8e58a12edd78</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//p-selectbutton/div/div</value>
+      <webElementGuid>c1dd3d83-17c3-448d-9c60-d6718919717f</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//div[(text() = 'Off Duty' or . = 'Off Duty')]</value>
+      <webElementGuid>23507638-62ed-4296-8b9a-688fef808052</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>img_animation</name>
+   <tag></tag>
+   <elementGuidId>550f9f1c-ad31-4aa3-a62e-77cbf8a310fc</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>img.ata-w-30.ata-h-30.ata-mx-auto.ata-mb-6</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div/img</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>img</value>
+      <webElementGuid>90adeeed-6ec2-4487-b65a-e1577d320cd7</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>src</name>
+      <type>Main</type>
+      <value>assets/lottie/location-receive.gif</value>
+      <webElementGuid>a2e1aa86-0232-4a53-bfed-38ec8e7a0027</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>ata-w-30 ata-h-30 ata-mx-auto ata-mb-6</value>
+      <webElementGuid>6cf233ba-4b26-4281-a475-cd8cae4399d4</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>/html[@class=&quot;ata-text-slate-800 ata-bg-white&quot;]/body[1]/ata-atau[1]/ata-atau-default[@class=&quot;ng-star-inserted&quot;]/section[@class=&quot;main&quot;]/ata-assessment-completed[@class=&quot;ng-star-inserted&quot;]/div[@class=&quot;ata-relative ata-flex ata-flex-col ata-grow&quot;]/div[@class=&quot;ata-relative ata-z-1 ata-flex ata-flex-col ata-grow&quot;]/div[@class=&quot;ata-absolute ata-inset-0 ata-p-6 ata-overflow-auto ata-text-center&quot;]/img[@class=&quot;ata-w-30 ata-h-30 ata-mx-auto ata-mb-6&quot;]</value>
+      <webElementGuid>e901a2bb-a6a5-433c-af83-532e6502dd42</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div/img</value>
+      <webElementGuid>97c629df-61d8-4e79-b582-edb7bf3d7b0d</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//img[@src = 'assets/lottie/location-receive.gif']</value>
+      <webElementGuid>30cf2ce0-484b-4216-840c-4098e043cd51</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

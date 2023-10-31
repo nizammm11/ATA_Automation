@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>Towing Destination (Input)</name>
+   <tag></tag>
+   <elementGuidId>7d5e99e6-9012-4cd0-b12d-268dfaf4f67c</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//input[@type='text']</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>input.ata-input.ata-pl-12.ata-rounded-b-none.ng-untouched.ng-pristine.ng-valid.pac-target-input</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>input</value>
+      <webElementGuid>d5a0c7b4-239d-4a53-afbb-d45c741d0407</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>type</name>
+      <type>Main</type>
+      <value>text</value>
+      <webElementGuid>38b8a581-da34-4c03-97d8-1c0714962858</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>ata-input ata-pl-12 ata-rounded-b-none ng-untouched ng-pristine ng-valid pac-target-input</value>
+      <webElementGuid>e13cd0e3-7f08-430d-bf9a-0798d994be46</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>placeholder</name>
+      <type>Main</type>
+      <value>I would like to go to...</value>
+      <webElementGuid>200b14f6-8279-4ae6-918e-30091c9ed151</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>autocomplete</name>
+      <type>Main</type>
+      <value>off</value>
+      <webElementGuid>5cab8c4f-b85f-45d0-9b8b-c299abf72cf0</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>/html[@class=&quot;ata-text-slate-800 ata-bg-white&quot;]/body[1]/ata-atau[1]/ata-atau-default[@class=&quot;ng-star-inserted&quot;]/section[@class=&quot;main&quot;]/ata-assessment-destination[@class=&quot;ng-star-inserted&quot;]/div[@class=&quot;ata-relative ata-flex ata-flex-col ata-grow&quot;]/div[@class=&quot;ata-relative ata-z-1 ata-flex ata-flex-col ata-grow&quot;]/div[@class=&quot;ata-flex ata-flex-col ata-absolute ata-inset-0 ata-overflow-auto&quot;]/div[@class=&quot;ata-flex ata-flex-col ata-grow ata-relative&quot;]/div[@class=&quot;ata-absolute ata-z-2 ata-top-0 ata-inset-x-0 ata-p-5&quot;]/ata-input-place-autocomplete[@class=&quot;ng-untouched ng-pristine ng-valid&quot;]/div[@class=&quot;ata-flex ata-flex-col&quot;]/div[@class=&quot;ata-relative&quot;]/input[@class=&quot;ata-input ata-pl-12 ata-rounded-b-none ng-untouched ng-pristine ng-valid pac-target-input&quot;]</value>
+      <webElementGuid>1898c812-f5e0-4d30-9863-28693d11a569</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>//input[@type='text']</value>
+      <webElementGuid>681858a6-f789-43db-b5d7-5f828868d60d</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//input</value>
+      <webElementGuid>184fa68f-6927-4c8a-b253-11bf8009a66b</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//input[@type = 'text' and @placeholder = 'I would like to go to...']</value>
+      <webElementGuid>832d9c61-2e57-4661-ab48-7f53afafd336</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

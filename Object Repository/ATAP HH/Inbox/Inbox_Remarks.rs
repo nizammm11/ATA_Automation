@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>Inbox_Remarks</name>
+   <tag></tag>
+   <elementGuidId>057c0ff6-880d-44da-b718-73ab0fd1e504</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>(.//*[normalize-space(text()) and normalize-space(.)='Remarks'])[1]/following::textarea[1]</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>textarea.p-inputtextarea.p-inputtext.p-component.p-element.mt-1.ng-untouched.ng-pristine.ng-invalid</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>textarea</value>
+      <webElementGuid>7f594654-ce39-4ccc-b68d-f6d6b6eb3f65</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>rows</name>
+      <type>Main</type>
+      <value>8</value>
+      <webElementGuid>8273329c-586c-46e0-bbb4-f25ef9c2b064</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>cols</name>
+      <type>Main</type>
+      <value>80</value>
+      <webElementGuid>ad56607d-dff2-4e2a-a5ef-d330dccb8ff2</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>formcontrolname</name>
+      <type>Main</type>
+      <value>remarks</value>
+      <webElementGuid>ca1cfc24-62f3-4ee4-8c3a-2e9fe0d67b3a</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>p-inputtextarea p-inputtext p-component p-element mt-1 ng-untouched ng-pristine ng-invalid</value>
+      <webElementGuid>0b4e9a7a-e4fe-4d97-8767-c23f68d277cb</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>ng-reflect-name</name>
+      <type>Main</type>
+      <value>remarks</value>
+      <webElementGuid>c92c2bf4-e998-415c-862e-06c7fa2dfe74</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>/html[1]/body[@class=&quot;p-overflow-hidden&quot;]/ata-dashboard-root[1]/div[@class=&quot;app-layout&quot;]/div[@class=&quot;layout-content&quot;]/div[@class=&quot;content-data&quot;]/ata-dashboard-inbox[@class=&quot;ng-star-inserted&quot;]/p-dialog[@class=&quot;p-element ng-tns-c79-10 ng-star-inserted&quot;]/div[@class=&quot;ng-tns-c79-10 p-dialog-mask p-component-overlay p-component-overlay-enter p-dialog-mask-scrollblocker ng-star-inserted&quot;]/div[@class=&quot;p-element ng-trigger ng-trigger-animation ng-tns-c79-10 p-dialog p-component p-dialog-draggable p-dialog-resizable ng-star-inserted&quot;]/div[@class=&quot;ng-tns-c79-10 p-dialog-content&quot;]/form[@class=&quot;ng-untouched ng-pristine ng-invalid ng-tns-c79-10&quot;]/div[@class=&quot;p-3&quot;]/div[@class=&quot;flex mb-5&quot;]/div[@class=&quot;w-full&quot;]/textarea[@class=&quot;p-inputtextarea p-inputtext p-component p-element mt-1 ng-untouched ng-pristine ng-invalid&quot;]</value>
+      <webElementGuid>4be726de-76d3-4fe9-8f75-b9de682fda60</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Remarks'])[1]/following::textarea[1]</value>
+      <webElementGuid>9c719f7a-0324-4d2d-9297-ea451f8bfaa5</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Reason'])[1]/following::textarea[1]</value>
+      <webElementGuid>3a069379-fd05-407c-b08f-29be89df84fb</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Close'])[1]/preceding::textarea[1]</value>
+      <webElementGuid>34adb7e5-bf23-497a-bf18-9b608366db1b</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Approve'])[6]/preceding::textarea[1]</value>
+      <webElementGuid>49310799-e108-427a-8690-55fe9d6d83ca</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//textarea</value>
+      <webElementGuid>ae5a9752-da80-423a-8612-2239690f194c</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

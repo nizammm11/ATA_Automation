@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>button_Request OTP</name>
+   <tag></tag>
+   <elementGuidId>a6cceffe-3ecb-4d61-9e1e-e47cc70d67aa</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//button[@type='submit']</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>button.p-element.p-button-warning.w-full.p-button.p-component</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>button</value>
+      <webElementGuid>0d61f4ad-2983-4d7d-ae05-f5574a9592df</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>type</name>
+      <type>Main</type>
+      <value>submit</value>
+      <webElementGuid>d6be850a-274c-4e9e-8ceb-f37697f68af4</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>label</name>
+      <type>Main</type>
+      <value>Request OTP</value>
+      <webElementGuid>10fd9a35-47ed-4baa-92f7-a6614063b5c7</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>p-element p-button-warning w-full p-button p-component</value>
+      <webElementGuid>46356015-c1b5-4987-9e76-0480df269620</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>ng-reflect-label</name>
+      <type>Main</type>
+      <value>Request OTP</value>
+      <webElementGuid>96cc4992-3ea0-4a47-9d4e-27d6496cf882</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>ng-reflect-loading</name>
+      <type>Main</type>
+      <value>false</value>
+      <webElementGuid>cf36b7d0-692f-488b-b79c-36c4d27220f8</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Request OTP</value>
+      <webElementGuid>e306a1b8-c98e-4723-b3ff-c97646263467</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>/html[1]/body[1]/ata-partner[1]/ata-partner-layout-auth[@class=&quot;ng-star-inserted&quot;]/ata-partner-auth[@class=&quot;ng-star-inserted&quot;]/partner-auth-login[@class=&quot;ng-star-inserted&quot;]/div[@class=&quot;login-card lg:mt-5&quot;]/div[@class=&quot;p-4 mt-5 md:flex flex-column md:align-items-center&quot;]/form[@class=&quot;ng-dirty ng-touched ng-valid&quot;]/div[@class=&quot;p-field pb-3&quot;]/button[@class=&quot;p-element p-button-warning w-full p-button p-component&quot;]</value>
+      <webElementGuid>fd48bd48-e4f9-41d7-aa39-c4e20db2ab40</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>//button[@type='submit']</value>
+      <webElementGuid>5f970c00-5c00-4537-849a-b4fb0f411872</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Welcome to ATA Partner'])[1]/following::button[1]</value>
+      <webElementGuid>e69f328e-8b3c-4337-89b0-1a5c4be0d401</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='WARNING'])[1]/preceding::button[1]</value>
+      <webElementGuid>d1869163-3e4b-4228-a77c-38ababfd26fe</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//button</value>
+      <webElementGuid>fa8f4a80-dc45-4e47-a449-beb1e13de128</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//button[@type = 'submit' and (text() = 'Request OTP' or . = 'Request OTP')]</value>
+      <webElementGuid>63f78cf2-6121-4613-a885-35521b0d99d1</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

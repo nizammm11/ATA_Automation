@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>span_Motorcycle</name>
+   <tag></tag>
+   <elementGuidId>b4e97849-2e4b-437d-b7dc-f22eafa9a86a</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[(text() = 'Motorcycle' or . = 'Motorcycle')]</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//a[@id='p-tabpanel-18-label']/span</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>#p-tabpanel-18-label > span.p-tabview-title.ng-star-inserted</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>span</value>
+      <webElementGuid>dd364161-bd63-4bdb-ba93-f69f9903c08a</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>p-tabview-title ng-star-inserted</value>
+      <webElementGuid>b181062a-de6f-4206-8317-d4095d943a4a</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Motorcycle</value>
+      <webElementGuid>b6d11093-9c7b-4c9f-b1ab-43d4647d2d05</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;p-tabpanel-18-label&quot;)/span[@class=&quot;p-tabview-title ng-star-inserted&quot;]</value>
+      <webElementGuid>4074ee8b-29d7-4f05-b27b-dc16d4eb9ab3</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//a[@id='p-tabpanel-18-label']/span</value>
+      <webElementGuid>da2e1606-1d3f-44ba-852f-d1ba866086cf</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Car'])[1]/following::span[1]</value>
+      <webElementGuid>bf1b73f0-73d7-49f9-a9ab-da883a2102ed</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Tariff'])[2]/following::span[2]</value>
+      <webElementGuid>3a16f427-a1b7-4345-8747-288b7c36ae35</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Distance'])[1]/preceding::span[1]</value>
+      <webElementGuid>ae584b09-81f6-4085-8485-0ebd0d103b7d</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Breakdown / Accident Towing Charges (Private Car)'])[1]/preceding::span[1]</value>
+      <webElementGuid>7272787b-730f-4044-a1f4-9b33d161c774</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='Motorcycle']/parent::*</value>
+      <webElementGuid>2dc2b3be-3296-4992-93de-ccde0c206cf6</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//li[2]/a/span</value>
+      <webElementGuid>f779ef06-91e9-4cc5-8153-280b8223f169</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//span[(text() = 'Motorcycle' or . = 'Motorcycle')]</value>
+      <webElementGuid>01b8ab0c-1a87-4549-9e4f-0465728473ed</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

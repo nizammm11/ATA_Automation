@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>dropdown_weight</name>
+   <tag></tag>
+   <elementGuidId>484fbd29-4467-44d8-828f-74669ed5b289</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[4]/div/p-dropdown/div/div[2]/span</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>p-dropdown.p-element.p-inputwrapper.vehicleInput.ng-pristine.ng-valid.ng-touched > div.p-dropdown.p-component > div.p-dropdown-trigger > span.p-dropdown-trigger-icon.pi.pi-chevron-down</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>span</value>
+      <webElementGuid>d3ed2d6f-7d37-44d9-bb34-b91bdf6be877</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>p-dropdown-trigger-icon pi pi-chevron-down</value>
+      <webElementGuid>eebde25d-dd69-4c9b-b7c9-38203c7dc853</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>ng-reflect-ng-class</name>
+      <type>Main</type>
+      <value>pi pi-chevron-down</value>
+      <webElementGuid>13ebe424-3965-44b2-84c5-4a9f8fc981d6</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>/html[1]/body[@class=&quot;overflow-hidden lg:overflow-auto&quot;]/ata-partner[1]/ata-partner-layout-dashboard[@class=&quot;ng-star-inserted&quot;]/section[@class=&quot;main&quot;]/div[@class=&quot;content&quot;]/ata-partner-vehicle[@class=&quot;ng-star-inserted&quot;]/ata-vehicle-add-edit[@class=&quot;ng-star-inserted&quot;]/div[@class=&quot;flex-column bg-color&quot;]/form[@class=&quot;ng-invalid ng-touched ng-dirty&quot;]/div[@class=&quot;p-2 grid justify-content-center&quot;]/div[@class=&quot;col-8 md:col-9 xs:col-12&quot;]/div[@class=&quot;py-4 border-bottom-1&quot;]/div[@class=&quot;field grid ng-star-inserted&quot;]/div[@class=&quot;col-12 md:col-6&quot;]/p-dropdown[@class=&quot;p-element p-inputwrapper vehicleInput ng-pristine ng-valid ng-touched&quot;]/div[@class=&quot;p-dropdown p-component&quot;]/div[@class=&quot;p-dropdown-trigger&quot;]/span[@class=&quot;p-dropdown-trigger-icon pi pi-chevron-down&quot;]</value>
+      <webElementGuid>ccfcaf1a-2a82-4c4b-8de2-5564374c196e</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[4]/div/p-dropdown/div/div[2]/span</value>
+      <webElementGuid>89255b2c-b2e2-451d-9a1e-493f7278fc99</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

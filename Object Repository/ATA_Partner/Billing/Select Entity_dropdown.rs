@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>Select Entity_dropdown</name>
+   <tag></tag>
+   <elementGuidId>60705a1f-2f2e-4cf5-9247-766ae4d21400</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>id(&quot;pr_id_7-table&quot;)/thead[@class=&quot;p-datatable-thead&quot;]/tr[@class=&quot;ng-star-inserted&quot;]/th[4]/form[@class=&quot;ng-pristine ng-valid ng-touched&quot;]/p-dropdown[@class=&quot;p-element p-inputwrapper ng-pristine ng-valid ng-touched p-inputwrapper-focus&quot;]/div[@class=&quot;p-dropdown p-component p-dropdown-open p-dropdown-clearable&quot;]/div[@class=&quot;p-dropdown-trigger&quot;]/span[@class=&quot;p-dropdown-trigger-icon pi pi-chevron-down&quot;]</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//table[@id='pr_id_7-table']/thead/tr/th[4]/form/p-dropdown/div/div[2]/span</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>span.p-dropdown-trigger-icon.pi.pi-chevron-down</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>span</value>
+      <webElementGuid>d16c769e-9bb1-47c6-b1da-c6d620dab8a3</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>p-dropdown-trigger-icon pi pi-chevron-down</value>
+      <webElementGuid>ce2e94c1-c274-46a5-9250-4144ab66bf8d</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>ng-reflect-ng-class</name>
+      <type>Main</type>
+      <value>pi pi-chevron-down</value>
+      <webElementGuid>6b6c3fe7-8730-4d2d-853c-60a1855f63de</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;pr_id_7-table&quot;)/thead[@class=&quot;p-datatable-thead&quot;]/tr[@class=&quot;ng-star-inserted&quot;]/th[4]/form[@class=&quot;ng-pristine ng-valid ng-touched&quot;]/p-dropdown[@class=&quot;p-element p-inputwrapper ng-pristine ng-valid ng-touched p-inputwrapper-focus&quot;]/div[@class=&quot;p-dropdown p-component p-dropdown-open p-dropdown-clearable&quot;]/div[@class=&quot;p-dropdown-trigger&quot;]/span[@class=&quot;p-dropdown-trigger-icon pi pi-chevron-down&quot;]</value>
+      <webElementGuid>87f8acee-9689-4574-be81-62caf9a506c1</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//table[@id='pr_id_7-table']/thead/tr/th[4]/form/p-dropdown/div/div[2]/span</value>
+      <webElementGuid>89b2b15f-86cf-4c16-a266-055368aca19e</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//p-dropdown/div/div[2]/span</value>
+      <webElementGuid>0610f9ef-3a9e-4de5-ae4b-2087589a0af9</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

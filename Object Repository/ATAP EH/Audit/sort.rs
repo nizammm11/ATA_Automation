@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>sort</name>
+   <tag></tag>
+   <elementGuidId>60563bb9-81ad-4ee6-9f4b-f95a3d04f4e2</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>id(&quot;pr_id_80-table&quot;)/thead[@class=&quot;p-datatable-thead&quot;]/tr[@class=&quot;ng-star-inserted&quot;]/th[@class=&quot;p-element p-sortable-column&quot;]/p-sorticon[@class=&quot;p-element&quot;]/i[@class=&quot;p-sortable-column-icon pi pi-fw pi-sort-alt&quot;]</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//table[@id='pr_id_80-table']/thead/tr/th[4]/p-sorticon/i</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>i</value>
+      <webElementGuid>f64e5ca3-e4e2-476b-85b4-bc8fe7b71095</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>p-sortable-column-icon pi pi-fw pi-sort-alt</value>
+      <webElementGuid>373d8cf5-197a-483c-9bf1-503c1ecdc213</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>ng-reflect-ng-class</name>
+      <type>Main</type>
+      <value>[object Object]</value>
+      <webElementGuid>5d1f6d46-431d-4690-ae11-e96e0d00bb68</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;pr_id_80-table&quot;)/thead[@class=&quot;p-datatable-thead&quot;]/tr[@class=&quot;ng-star-inserted&quot;]/th[@class=&quot;p-element p-sortable-column&quot;]/p-sorticon[@class=&quot;p-element&quot;]/i[@class=&quot;p-sortable-column-icon pi pi-fw pi-sort-alt&quot;]</value>
+      <webElementGuid>71e855e9-045d-46f7-bcbb-7f1be2012357</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//table[@id='pr_id_80-table']/thead/tr/th[4]/p-sorticon/i</value>
+      <webElementGuid>ce44d648-424c-42a0-90ec-0259548c9432</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//th[4]/p-sorticon/i</value>
+      <webElementGuid>16b89f50-9edf-4b71-a761-f92c63d141ec</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

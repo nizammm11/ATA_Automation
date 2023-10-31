@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>label_Destination</name>
+   <tag></tag>
+   <elementGuidId>086becc1-f83e-425a-a324-62fde387863d</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[(text() = 'Destination' or . = 'Destination')]</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value></value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>(.//*[normalize-space(text()) and normalize-space(.)='Location'])[1]/following::label[1]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>label</value>
+      <webElementGuid>d330237e-ce29-47f7-822f-b733ae86eeb4</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>ata-font-bold</value>
+      <webElementGuid>037b399e-e19f-45e2-b8ae-22fb71519736</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Destination</value>
+      <webElementGuid>796b905d-f3c4-43c5-b703-88b4e5c5e84c</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>/html[@class=&quot;ata-text-slate-800 ata-bg-white&quot;]/body[1]/ata-atau[1]/ata-atau-default[@class=&quot;ng-star-inserted&quot;]/section[@class=&quot;main&quot;]/ata-assessment-completed[@class=&quot;ng-star-inserted&quot;]/p-sidebar[@class=&quot;p-element ng-tns-c121-10 ng-star-inserted&quot;]/div[@class=&quot;ng-trigger ng-trigger-panelState ng-tns-c121-10 p-sidebar p-sidebar-active p-sidebar-bottom ng-star-inserted&quot;]/div[@class=&quot;p-sidebar-content ng-tns-c121-10&quot;]/div[@class=&quot;ata-grow ata-relative ng-tns-c121-10&quot;]/div[@class=&quot;ata-absolute ata-inset-0 ata-overflow-y-auto&quot;]/div[@class=&quot;ata-px-6 ata-pb-6 ata-pt-3&quot;]/div[@class=&quot;ata-mb-6&quot;]/label[@class=&quot;ata-font-bold&quot;]</value>
+      <webElementGuid>b2c02364-709d-453d-beb5-abbdc1efe1f1</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Location'])[1]/following::label[1]</value>
+      <webElementGuid>2951589e-2850-421f-9167-24d1836dd5b0</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)=concat('I', &quot;'&quot;, 'm having a brake issue')])[1]/following::label[2]</value>
+      <webElementGuid>e1f9e70f-7cf8-48bb-b8f2-1571991a35d4</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Bengkel Motorsikal, 40150 Shah Alam, Selangor, Malaysia'])[1]/preceding::label[1]</value>
+      <webElementGuid>9de12f0d-7628-42ba-a5b2-dffbf8fad7be</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Vehicle registration number'])[1]/preceding::label[1]</value>
+      <webElementGuid>af02e3d8-943e-4ad5-a84f-253656557e91</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='Destination']/parent::*</value>
+      <webElementGuid>a9289e1f-3f5d-4603-b454-b5c4e4775bc1</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[4]/label</value>
+      <webElementGuid>b5f074a1-13d7-45f7-a717-2f6c70194bd4</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//label[(text() = 'Destination' or . = 'Destination')]</value>
+      <webElementGuid>71f82f32-8c5b-409f-86ad-48ab6ffca232</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>button_Nurul Azika</name>
+   <tag></tag>
+   <elementGuidId>ca0a0b18-50f2-4eb4-afb9-5efded65f9e7</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//button[@type='button']</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>button.p-ripple.p-element.dropdown__rider.p-button-secondary.p-button-lg.p-button.p-component</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>button</value>
+      <webElementGuid>d230cfea-1c2f-4892-9c8f-05cacaad7875</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>p-ripple p-element dropdown__rider p-button-secondary p-button-lg p-button p-component</value>
+      <webElementGuid>0433a8fa-3b20-49b8-9509-57471d425901</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>ng-reflect-ng-class</name>
+      <type>Main</type>
+      <value>[object Object]</value>
+      <webElementGuid>28098edb-18ba-4e8b-a872-571e677e4d42</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>type</name>
+      <type>Main</type>
+      <value>button</value>
+      <webElementGuid>3e985e3c-f436-447c-8855-b78026e2b1d1</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Nurul Azika</value>
+      <webElementGuid>5d401ac9-0f29-4b0f-8ef3-af69fec2dc1b</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>/html[1]/body[1]/ata-partner[1]/ata-partner-layout-dashboard[@class=&quot;ng-star-inserted&quot;]/section[@class=&quot;main&quot;]/div[@class=&quot;content&quot;]/ata-partner-cases[@class=&quot;ng-star-inserted&quot;]/partner-case-detail[@class=&quot;ng-star-inserted&quot;]/div[@class=&quot;flex flex-column flex-grow-1 lg:flex-row mt-3&quot;]/div[@class=&quot;col-12 lg:col-5 lg:flex lg:flex-column&quot;]/div[@class=&quot;ng-star-inserted&quot;]/div[@class=&quot;hidden lg:flex flex-column p-4&quot;]/div[@class=&quot;mt-3 mb-3&quot;]/p-button[@class=&quot;p-element flex flex-column&quot;]/button[@class=&quot;p-ripple p-element dropdown__rider p-button-secondary p-button-lg p-button p-component&quot;]</value>
+      <webElementGuid>6ea4b1f6-6e8a-4011-af2d-9ae551e1b2f1</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>//button[@type='button']</value>
+      <webElementGuid>47a15dc7-915c-45a0-a063-adb80aa47604</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Please use ATA Pro to accept this case'])[1]/following::button[1]</value>
+      <webElementGuid>3141f942-e084-45a5-b810-763178aa9296</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Please assign the case to Driver/Technician to view this map'])[1]/following::button[1]</value>
+      <webElementGuid>1f442279-3746-4157-a360-c8475d2b77cf</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Service Type'])[1]/preceding::button[1]</value>
+      <webElementGuid>2dde12b0-8401-487d-ac7a-001e746f68dd</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//button</value>
+      <webElementGuid>98eaecb0-d81a-4ad4-b63b-41218a686b4d</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//button[@type = 'button' and (text() = 'Nurul Azika' or . = 'Nurul Azika')]</value>
+      <webElementGuid>2f2e554c-9e45-4a98-b5e2-20924dd1752d</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

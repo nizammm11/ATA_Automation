@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>img_smile logo</name>
+   <tag></tag>
+   <elementGuidId>4c2ce10c-3737-4d71-8878-20620335089a</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>img.link-image</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div/div/div/div/img</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>img</value>
+      <webElementGuid>b18e1668-cc72-4be8-b2e9-ae2ccd8ee8cf</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>src</name>
+      <type>Main</type>
+      <value>assets/images/smile-app.svg</value>
+      <webElementGuid>74f18cf7-6183-4d1e-8f92-81ca92b4bbfe</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>link-image</value>
+      <webElementGuid>55276d6f-1c5f-4bf0-8fbb-9876fdf0e1d8</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>/html[@class=&quot;ata-text-slate-800 ata-bg-white&quot;]/body[1]/ata-atau[1]/ata-atau-default[@class=&quot;ng-star-inserted&quot;]/section[@class=&quot;main&quot;]/ata-assessment-completed[@class=&quot;ng-star-inserted&quot;]/div[@class=&quot;ata-relative ata-flex ata-flex-col ata-grow&quot;]/div[@class=&quot;ata-relative ata-z-1 ata-flex ata-flex-col ata-grow&quot;]/div[@class=&quot;ata-absolute ata-inset-0 ata-p-6 ata-overflow-auto ata-text-center&quot;]/div[@class=&quot;message-content border-round-md mt-5 ng-star-inserted&quot;]/div[@class=&quot;flex align-center p-3&quot;]/div[1]/img[@class=&quot;link-image&quot;]</value>
+      <webElementGuid>821af638-fe65-4062-89b2-5855774e11fa</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div/div/div/div/img</value>
+      <webElementGuid>c8c68ae5-b706-4c63-8fc4-1fbdf4a8884a</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//img[@src = 'assets/images/smile-app.svg']</value>
+      <webElementGuid>2fd7e82e-686f-4435-9e91-76e0aa1d221e</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

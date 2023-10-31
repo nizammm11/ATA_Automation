@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>span_Edit</name>
+   <tag></tag>
+   <elementGuidId>bf551660-d348-4522-8189-c918588e1f7e</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>(.//*[normalize-space(text()) and normalize-space(.)='Billing Summary'])[1]/following::span[1]</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>button.p-element.p-button-secondary.p-button-sm.p-button.p-component.ng-star-inserted > span.p-button-label</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>span</value>
+      <webElementGuid>d35de864-90d8-4410-938e-1385838c4919</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>p-button-label</value>
+      <webElementGuid>1b23ab73-bce5-4e4e-9401-b209b645dde2</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Edit</value>
+      <webElementGuid>8468058d-56ef-493c-af56-3efd8f41e23f</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>/html[1]/body[@class=&quot;overflow-hidden lg:overflow-auto&quot;]/ata-partner[1]/ata-partner-layout-dashboard[@class=&quot;ng-star-inserted&quot;]/section[@class=&quot;main&quot;]/div[@class=&quot;content&quot;]/ata-billings[@class=&quot;ng-star-inserted&quot;]/ata-billing-detail[@class=&quot;ng-star-inserted&quot;]/div[@class=&quot;p-4&quot;]/div[@class=&quot;grid&quot;]/div[@class=&quot;col-4&quot;]/p-card[@class=&quot;p-element&quot;]/div[@class=&quot;mb-4 p-card p-component&quot;]/div[@class=&quot;p-card-header ng-star-inserted&quot;]/div[@class=&quot;flex align-items-center ng-star-inserted&quot;]/button[@class=&quot;p-element p-button-secondary p-button-sm p-button p-component ng-star-inserted&quot;]/span[@class=&quot;p-button-label&quot;]</value>
+      <webElementGuid>3ce51880-1607-4941-8cc2-0214831e5537</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Billing Summary'])[1]/following::span[1]</value>
+      <webElementGuid>73266674-2072-4349-a48d-3009e1450397</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Name / Address of Preferred Destination'])[1]/following::span[1]</value>
+      <webElementGuid>de2cc8de-2bc9-4db6-b606-201f3175e91c</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Items'])[1]/preceding::span[1]</value>
+      <webElementGuid>15009642-ca4c-427c-bda3-f5c511bf241e</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Amount (RM)'])[1]/preceding::span[1]</value>
+      <webElementGuid>892482c5-5dbc-46b3-b7aa-7c4878c070f6</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='Edit']/parent::*</value>
+      <webElementGuid>53b39f77-34c9-4823-a23c-f9ba03ea7763</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//p-card/div/div/div/button/span</value>
+      <webElementGuid>4d4f2e1a-8d43-422e-884b-0a4c3b800559</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//span[(text() = 'Edit' or . = 'Edit')]</value>
+      <webElementGuid>b5458a5a-e66b-49ec-8c18-2d5cab28d160</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

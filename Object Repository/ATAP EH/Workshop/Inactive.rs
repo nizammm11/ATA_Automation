@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>Inactive</name>
+   <tag></tag>
+   <elementGuidId>20325449-f77e-4bb0-8bf6-948a0a7852c8</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[(text() = 'Inactive' or . = 'Inactive')]</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//li[@id='p-highlighted-option']/span</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>span.customer-badge.status-Inactive.ng-star-inserted</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>span</value>
+      <webElementGuid>8f1616f5-3db5-46f9-b4c2-1bb91acd9351</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>customer-badge status-Inactive ng-star-inserted</value>
+      <webElementGuid>5c759690-d5e1-4a1d-b0e7-910f4fa3bcbb</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Inactive</value>
+      <webElementGuid>b1518951-a881-4e33-85dd-0b97e63c108a</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;p-highlighted-option&quot;)/span[@class=&quot;customer-badge status-Inactive ng-star-inserted&quot;]</value>
+      <webElementGuid>ad65b1ee-953e-4782-8521-824ad7e42141</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//li[@id='p-highlighted-option']/span</value>
+      <webElementGuid>7eae719d-7fc8-4a8f-871e-7cd6ed217db8</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Active'])[1]/following::span[1]</value>
+      <webElementGuid>8a696884-aa2b-4cbc-afd2-da293c439bfd</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Inactive'])[1]/following::span[3]</value>
+      <webElementGuid>a96896f0-aae7-4e7a-91f7-7a3a49ca5ed4</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Category'])[1]/preceding::span[1]</value>
+      <webElementGuid>fd5b4f74-f694-4cb0-8a51-defdf9f51b4f</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Select a Category'])[1]/preceding::span[1]</value>
+      <webElementGuid>bb81dc1a-eb7f-4e58-8c69-1b1caa9b655f</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//p-dropdownitem[2]/li/span</value>
+      <webElementGuid>daca6366-9040-4691-8018-4a8225ae13eb</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//span[(text() = 'Inactive' or . = 'Inactive')]</value>
+      <webElementGuid>31bc656e-8b20-4a32-95cb-ba7934a07aad</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

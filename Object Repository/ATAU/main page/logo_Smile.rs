@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>logo_Smile</name>
+   <tag></tag>
+   <elementGuidId>e4c8240a-12aa-448f-957a-7523f38c904e</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//img</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>img</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>img</value>
+      <webElementGuid>09343507-0702-4a4c-817e-cf0aca4cec86</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>src</name>
+      <type>Main</type>
+      <value>assets/images/smile-app.svg</value>
+      <webElementGuid>a6c27bf3-936e-4b06-ae78-16218a71944b</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>width</name>
+      <type>Main</type>
+      <value>32</value>
+      <webElementGuid>eb483013-ebb2-4991-b5d5-9d1a843af224</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>/html[@class=&quot;ata-text-slate-800 ata-bg-white&quot;]/body[1]/ata-atau[1]/ata-atau-default[@class=&quot;ng-star-inserted&quot;]/p-messages[@class=&quot;p-element ng-tns-c114-2 ng-star-inserted&quot;]/div[@class=&quot;p-messages p-component ng-tns-c114-2 custom-message&quot;]/div[@class=&quot;ng-tns-c114-2 p-message p-message-info ng-star-inserted&quot;]/div[@class=&quot;p-message-wrapper ng-tns-c114-2&quot;]/div[@class=&quot;flex justify-content-center align-content-center w-full ng-star-inserted&quot;]/img[1]</value>
+      <webElementGuid>65da1a14-8189-4c00-b218-f15c5837ddc8</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//img</value>
+      <webElementGuid>cadc6633-ea88-40b7-9985-c38e9937b56c</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//img[@src = 'assets/images/smile-app.svg']</value>
+      <webElementGuid>e9f39f5f-2b31-4bb0-a719-8b350003d1ce</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>plat_number</name>
+   <tag></tag>
+   <elementGuidId>205b7b6a-aa75-4f98-8f9d-c7063c62449a</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value></value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>(.//*[normalize-space(text()) and normalize-space(.)='Vehicle registration number'])[1]/following::div[1]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>div</value>
+      <webElementGuid>662cdd8d-8539-44cf-aafe-01a43d075ff9</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>BHS325</value>
+      <webElementGuid>7a1d66c0-b096-4849-89fb-0acc1eecd7d0</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>/html[@class=&quot;ata-text-slate-800 ata-bg-white&quot;]/body[1]/ata-atau[1]/ata-atau-default[@class=&quot;ng-star-inserted&quot;]/section[@class=&quot;main&quot;]/ata-assessment-completed[@class=&quot;ng-star-inserted&quot;]/p-sidebar[@class=&quot;p-element ng-tns-c121-10 ng-star-inserted&quot;]/div[@class=&quot;ng-trigger ng-trigger-panelState ng-tns-c121-10 p-sidebar p-sidebar-active p-sidebar-bottom ng-star-inserted&quot;]/div[@class=&quot;p-sidebar-content ng-tns-c121-10&quot;]/div[@class=&quot;ata-grow ata-relative ng-tns-c121-10&quot;]/div[@class=&quot;ata-absolute ata-inset-0 ata-overflow-y-auto&quot;]/div[@class=&quot;ata-px-6 ata-pb-6 ata-pt-3&quot;]/div[@class=&quot;ata-mb-6&quot;]/div[1]</value>
+      <webElementGuid>df192a6e-5ce1-49c6-8ecc-7b1acaa88218</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Vehicle registration number'])[1]/following::div[1]</value>
+      <webElementGuid>943fd653-a784-4793-9f5d-bb4220ca057f</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Bengkel Motorsikal, 40150 Shah Alam, Selangor, Malaysia'])[1]/following::div[2]</value>
+      <webElementGuid>7918217f-9fd6-4d06-b4d8-c15b20561cef</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Mobile number'])[1]/preceding::div[1]</value>
+      <webElementGuid>6e692d0c-53a8-4db6-b578-0c03ee11c7d7</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Alternate mobile number'])[1]/preceding::div[3]</value>
+      <webElementGuid>354c3799-441f-4531-812a-616b6a52a213</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='BHS325']/parent::*</value>
+      <webElementGuid>38c03ec5-4cb5-4f3c-980d-a5b374ee551f</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[5]/div</value>
+      <webElementGuid>812641a1-c51e-4d1d-9218-b41087e18217</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//div[(text() = 'BHS325' or . = 'BHS325')]</value>
+      <webElementGuid>94c4b212-44e6-438f-ba93-514a0f5d85fe</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

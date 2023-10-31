@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>select_status</name>
+   <tag></tag>
+   <elementGuidId>8afa3ff2-2395-42a6-8334-22237d2fd2c9</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='p-panel-1-content']/div/form/div/div[7]/div/div/p-dropdown/div/span</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>span.p-dropdown-label.p-inputtext.p-placeholder.ng-star-inserted</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>span</value>
+      <webElementGuid>32fb04d2-ffd4-49b8-8ec5-ec65f6e9f8c6</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>ng-reflect-ng-class</name>
+      <type>Main</type>
+      <value>[object Object]</value>
+      <webElementGuid>ce6cbfff-9308-4f3b-9242-ee48d8ff9c89</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>p-dropdown-label p-inputtext p-placeholder ng-star-inserted</value>
+      <webElementGuid>245a5832-0917-4244-927c-a4e5402549f7</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Select a Status</value>
+      <webElementGuid>c8478e8a-e2a4-4bc5-a85b-6d5af39b36b5</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;p-panel-1-content&quot;)/div[@class=&quot;p-panel-content ng-tns-c86-19&quot;]/form[@class=&quot;ng-tns-c86-19 ng-pristine ng-invalid ng-touched&quot;]/div[1]/div[@class=&quot;grid form-group pb-3&quot;]/div[@class=&quot;col-6&quot;]/div[@class=&quot;ui-inputgroup&quot;]/p-dropdown[@class=&quot;p-element p-inputwrapper ng-pristine ng-invalid ng-touched&quot;]/div[@class=&quot;w-6 p-dropdown p-component&quot;]/span[@class=&quot;p-dropdown-label p-inputtext p-placeholder ng-star-inserted&quot;]</value>
+      <webElementGuid>d8893115-92aa-41e7-aa84-9b364217c81a</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='p-panel-1-content']/div/form/div/div[7]/div/div/p-dropdown/div/span</value>
+      <webElementGuid>32fab866-330c-4663-8595-b12965d019f2</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Status'])[1]/following::span[1]</value>
+      <webElementGuid>ee4498cd-1a43-4d95-93b9-10c6bbc7a2a8</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='State'])[1]/following::span[1]</value>
+      <webElementGuid>9cf4e720-3a40-4504-9c82-5660fa3295ed</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Category'])[1]/preceding::span[2]</value>
+      <webElementGuid>e26bba40-2cf7-480c-8e95-812b18a8df05</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Select a Category'])[1]/preceding::span[2]</value>
+      <webElementGuid>8151137e-eb2f-47a2-951e-8b9d6e91bae2</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='Select a Status']/parent::*</value>
+      <webElementGuid>c43b67ad-d825-4802-90e0-2d16522d9a09</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//p-dropdown/div/span</value>
+      <webElementGuid>cd1fc048-fc86-4ad3-bb8e-b5769543a90e</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//span[(text() = 'Select a Status' or . = 'Select a Status')]</value>
+      <webElementGuid>984ac82a-b250-4b43-8c5e-d91565d0028d</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>Button_Export CSV</name>
+   <tag></tag>
+   <elementGuidId>ebfe09a2-2184-4b2a-8e35-4de87f80fba5</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>(//button[@type='submit'])[2]</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>button.p-element.p-button-primary.p-button.p-component</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>button</value>
+      <webElementGuid>96710d50-4c1e-47e6-af8b-088d15f308e9</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>type</name>
+      <type>Main</type>
+      <value>submit</value>
+      <webElementGuid>cb0c66fe-03ed-4bac-9d4d-9d3a5ef9ca8b</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>label</name>
+      <type>Main</type>
+      <value>Export CSV</value>
+      <webElementGuid>9c0b03db-fd16-46fa-ac11-e8d166e22a2f</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>icon</name>
+      <type>Main</type>
+      <value>pi pi-download</value>
+      <webElementGuid>b0c8651e-1dfb-4701-a115-bdb6a7f60c29</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>p-element p-button-primary p-button p-component</value>
+      <webElementGuid>07d080d4-dca9-42f4-97a9-bb2c3d583476</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>ng-reflect-label</name>
+      <type>Main</type>
+      <value>Export CSV</value>
+      <webElementGuid>6249d914-4889-4eef-92bb-109ec7f5a527</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>ng-reflect-icon</name>
+      <type>Main</type>
+      <value>pi pi-download</value>
+      <webElementGuid>1a6f03d8-a830-4b4b-97b4-3a794471a92e</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>ng-reflect-loading</name>
+      <type>Main</type>
+      <value>false</value>
+      <webElementGuid>5ab42a84-d342-483a-943e-30d73c5a3f1a</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Export CSV</value>
+      <webElementGuid>9e251560-5f61-414a-a2ec-8d0b0bebf77e</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>/html[1]/body[1]/ata-dashboard-root[1]/div[@class=&quot;app-layout&quot;]/div[@class=&quot;layout-content&quot;]/div[@class=&quot;content-data&quot;]/ata-dashboard-cases[@class=&quot;ng-star-inserted&quot;]/ata-dashboard-case-list[@class=&quot;ng-star-inserted&quot;]/div[@class=&quot;flex align-items-center justify-content-between mb-4&quot;]/ata-case-ui-export[@class=&quot;ng-star-inserted&quot;]/form[@class=&quot;flex flex-wrap ng-touched ng-dirty ng-valid&quot;]/div[@class=&quot;p-field mb-0 mr-0&quot;]/button[@class=&quot;p-element p-button-primary p-button p-component&quot;]</value>
+      <webElementGuid>b85b199f-637f-4d8b-844a-b3f53628e183</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>(//button[@type='submit'])[2]</value>
+      <webElementGuid>747bc8ed-aae7-4c6d-bd0b-8fc66f8dd2e0</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Cases'])[2]/following::button[1]</value>
+      <webElementGuid>82532f70-8c3e-4140-bbd0-bfdff1fbe8cc</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='v3.11.9'])[1]/following::button[1]</value>
+      <webElementGuid>22c9914c-4051-4cfa-93f1-e725b8e614c0</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='New request (311)'])[1]/preceding::button[1]</value>
+      <webElementGuid>03ba4ca7-efcc-4807-af7b-49e7276fc46f</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[3]/button</value>
+      <webElementGuid>4cee54e9-8417-4203-b82a-a63fd8f41dd2</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//button[@type = 'submit' and (text() = 'Export CSV' or . = 'Export CSV')]</value>
+      <webElementGuid>15743240-7c74-4994-bada-d6e007a4c5ce</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

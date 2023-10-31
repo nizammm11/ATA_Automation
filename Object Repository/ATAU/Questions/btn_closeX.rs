@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>btn_closeX</name>
+   <tag></tag>
+   <elementGuidId>a2151599-32f4-4071-b7d6-b40d3fe8d32e</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>a.ata-flex.ata-justify-center.ata-items-center.ata-w-20.ata-h-16.ata-text-2xl</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>(.//*[normalize-space(text()) and normalize-space(.)='Tell us more about the issue so we can assist you better.'])[1]/preceding::a[1]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>a</value>
+      <webElementGuid>c484b562-3432-485a-bd55-fee5a7d8f522</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>routerlink</name>
+      <type>Main</type>
+      <value>../service-type</value>
+      <webElementGuid>6b8ef337-f673-4660-ae7c-c053ea086df2</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>ata-flex ata-justify-center ata-items-center ata-w-20 ata-h-16 ata-text-2xl</value>
+      <webElementGuid>ac6af06c-8882-4098-a335-3c717308ec59</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>ng-reflect-router-link</name>
+      <type>Main</type>
+      <value>../service-type</value>
+      <webElementGuid>68bbf5fd-c271-4799-9bfc-1afd4b9f508f</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>href</name>
+      <type>Main</type>
+      <value>/auto/assessment/service-type</value>
+      <webElementGuid>7e235176-3193-43af-849b-9ded207a8e5f</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>/html[@class=&quot;ata-text-slate-800 ata-bg-white&quot;]/body[1]/ata-atau[1]/ata-atau-empty[@class=&quot;ng-star-inserted&quot;]/ata-assessment-question[@class=&quot;ng-star-inserted&quot;]/form[@class=&quot;ata-relative ata-flex ata-flex-col ata-grow ng-untouched ng-pristine ng-invalid&quot;]/div[@class=&quot;ata-flex ata-flex-row ata-items-center&quot;]/a[@class=&quot;ata-flex ata-justify-center ata-items-center ata-w-20 ata-h-16 ata-text-2xl&quot;]</value>
+      <webElementGuid>f20197f5-8e5a-42f6-95d2-5184171b915b</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Tell us more about the issue so we can assist you better.'])[1]/preceding::a[1]</value>
+      <webElementGuid>a1f0df68-7992-40dd-9001-5745de1d81c3</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:href</name>
+      <type>Main</type>
+      <value>//a[contains(@href, '/auto/assessment/service-type')]</value>
+      <webElementGuid>1a9d175b-f835-4143-a966-d9af92183999</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//a</value>
+      <webElementGuid>69feda16-50d0-4dba-8bb5-b497529ab55e</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//a[@href = '/auto/assessment/service-type']</value>
+      <webElementGuid>77eaa875-9e5b-4256-8db9-236d4bdfd5d9</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

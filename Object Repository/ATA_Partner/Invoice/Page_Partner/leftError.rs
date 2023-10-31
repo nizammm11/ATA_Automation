@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>leftError</name>
+   <tag></tag>
+   <elementGuidId>7cb94c82-e881-4b09-9b5d-1544ced2f3d0</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[@type = 'button']</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//button[@type='button']</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>button.p-ripple.p-element.p-datepicker-prev.p-link.ng-tns-c81-6.ng-star-inserted</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>button</value>
+      <webElementGuid>abf792a3-6e79-429f-af4c-f53dd7f350ca</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>type</name>
+      <type>Main</type>
+      <value>button</value>
+      <webElementGuid>9376c6ae-7914-4d90-af73-8690d5bfa648</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>p-ripple p-element p-datepicker-prev p-link ng-tns-c81-6 ng-star-inserted</value>
+      <webElementGuid>717714ea-7576-4298-a66d-3787e75b259c</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>/html[1]/body[@class=&quot;overflow-hidden lg:overflow-auto&quot;]/ata-partner[1]/ata-partner-layout-dashboard[@class=&quot;ng-star-inserted&quot;]/section[@class=&quot;main&quot;]/div[@class=&quot;content&quot;]/ata-partner-invoices[@class=&quot;ng-star-inserted&quot;]/ata-invoice-list[@class=&quot;ng-star-inserted&quot;]/div[@class=&quot;p-4 hidden lg:block&quot;]/div[@class=&quot;flex align-items-center justify-content-between&quot;]/ata-invoice-export[1]/div[@class=&quot;flex align-items-center justify-content-between mb-4&quot;]/div[@class=&quot;flex-column&quot;]/form[@class=&quot;flex ng-pristine ng-invalid ng-touched&quot;]/div[@class=&quot;filter-container flex flex-wrap justify-content-center p-3 gap-2 partner-filter-container&quot;]/div[@class=&quot;p-field mb-0 mr-2&quot;]/p-calendar[@class=&quot;p-element p-inputwrapper ng-tns-c81-6 ng-pristine ng-invalid ng-star-inserted ng-touched&quot;]/span[@class=&quot;ng-tns-c81-6 p-calendar&quot;]/div[@class=&quot;ng-trigger ng-trigger-overlayAnimation ng-tns-c81-6 p-datepicker p-component ng-star-inserted&quot;]/div[@class=&quot;p-datepicker-group-container ng-tns-c81-6 ng-star-inserted&quot;]/div[@class=&quot;p-datepicker-group ng-tns-c81-6 ng-star-inserted&quot;]/div[@class=&quot;p-datepicker-header ng-tns-c81-6&quot;]/button[@class=&quot;p-ripple p-element p-datepicker-prev p-link ng-tns-c81-6 ng-star-inserted&quot;]</value>
+      <webElementGuid>82440208-00f6-4c91-825e-99045c88070a</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>//button[@type='button']</value>
+      <webElementGuid>1541edcd-c9f0-4272-8308-c11dc9f973f2</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='List of Invoice(s)'])[1]/following::button[1]</value>
+      <webElementGuid>3194f425-af8f-4945-9395-c0f9b6062b89</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Invoice List'])[1]/following::button[1]</value>
+      <webElementGuid>311d9075-3b16-4c8e-93a4-93cc80a89566</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='July'])[1]/preceding::button[1]</value>
+      <webElementGuid>28e2644d-3726-4b90-850b-52ae2f9fea37</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Su'])[1]/preceding::button[4]</value>
+      <webElementGuid>06d8682b-ef04-4bc0-bd53-88e766f4754f</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//button</value>
+      <webElementGuid>bffc7265-166a-4722-b673-bcafd2ac5894</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//button[@type = 'button']</value>
+      <webElementGuid>2a7c9c59-3333-49ec-a77d-ef1d0f790bba</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

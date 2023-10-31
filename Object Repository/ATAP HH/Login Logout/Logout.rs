@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>Logout</name>
+   <tag></tag>
+   <elementGuidId>b42e5bd6-cb16-46d0-a043-e6901e26c0c7</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>(.//*[normalize-space(text()) and normalize-space(.)='Menu'])[1]/following::a[1]</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>a</value>
+      <webElementGuid>b373d35f-a013-4723-abfe-a52f83c9119d</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>role</name>
+      <type>Main</type>
+      <value>menuitem</value>
+      <webElementGuid>9624a301-0ecb-4d26-919a-4385da363a4f</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>p-menuitem-link ng-star-inserted</value>
+      <webElementGuid>17ba7b4d-e04f-4e74-8d9e-37c854a37e9d</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>target</name>
+      <type>Main</type>
+      <value>undefined</value>
+      <webElementGuid>6afc7f0e-859d-40b0-85f9-313b851836a7</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>ng-reflect-ng-class</name>
+      <type>Main</type>
+      <value>[object Object]</value>
+      <webElementGuid>503e5883-6c89-4e90-9409-d2a002a345db</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tabindex</name>
+      <type>Main</type>
+      <value>0</value>
+      <webElementGuid>f4d2a677-01b9-493f-a02a-739000f63adc</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Logout</value>
+      <webElementGuid>c1e549a1-d323-4368-af69-d63082242352</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>/html[1]/body[1]/ata-dashboard-root[1]/div[@class=&quot;app-layout&quot;]/div[@class=&quot;layout-wrapper ng-star-inserted&quot;]/app-top-bar[@class=&quot;p-shadow-3&quot;]/div[@class=&quot;layout-topbar no-print&quot;]/ul[@class=&quot;topbar-menu topnav-right&quot;]/li[@class=&quot;topbar-menu-avatar topbar-submenu&quot;]/p-menu[@class=&quot;p-element ng-tns-c121-4 ng-star-inserted&quot;]/div[@class=&quot;ng-trigger ng-trigger-overlayAnimation ng-tns-c121-4 p-menu p-component p-menu-overlay ng-star-inserted&quot;]/ul[@class=&quot;p-menu-list p-reset ng-tns-c121-4&quot;]/li[@class=&quot;p-element ng-tns-c121-4 p-menuitem ng-star-inserted&quot;]/a[@class=&quot;p-menuitem-link ng-star-inserted&quot;]</value>
+      <webElementGuid>9a9a67a6-4d63-45a1-8bca-68fc723943d9</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Menu'])[1]/following::a[1]</value>
+      <webElementGuid>6f25807f-63f1-40da-acd7-1919c2a72d52</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Last Login'])[1]/following::a[2]</value>
+      <webElementGuid>079458b4-21cb-4bcb-a088-6c0b5437dc85</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Cases'])[1]/preceding::a[1]</value>
+      <webElementGuid>b8cb8429-d01e-4fb7-bb8a-90420e15f656</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//li[4]/a</value>
+      <webElementGuid>3f9b6172-7f4d-4a44-839c-31fe91673532</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//a[(text() = 'Logout' or . = 'Logout')]</value>
+      <webElementGuid>06d957eb-376f-433d-ba3d-a43696d693d2</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

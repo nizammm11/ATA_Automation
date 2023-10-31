@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>word_Waze</name>
+   <tag></tag>
+   <elementGuidId>c339cf60-1eb8-4b1f-89cc-f055e23677a8</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>(.//*[normalize-space(text()) and normalize-space(.)='Google Maps'])[1]/following::span[1]</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value></value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>span</value>
+      <webElementGuid>956c0bec-b1a3-436a-be80-bece68e25ad3</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Waze</value>
+      <webElementGuid>9d1a0201-0a01-4eb0-92f9-3701f96863eb</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>/html[@class=&quot;ata-text-slate-800 ata-bg-white&quot;]/body[1]/ata-atau[1]/ata-atau-default[@class=&quot;ng-star-inserted&quot;]/section[@class=&quot;main&quot;]/ata-workshop-directory[@class=&quot;ng-star-inserted&quot;]/div[@class=&quot;ata-p-6&quot;]/ata-workshop-list[1]/ata-bottombar-workshop-direction[1]/p-sidebar[@class=&quot;p-element ng-tns-c121-14 ng-star-inserted&quot;]/div[@class=&quot;ng-trigger ng-trigger-panelState ng-tns-c121-14 p-sidebar p-sidebar-active p-sidebar-bottom ng-star-inserted&quot;]/div[@class=&quot;p-sidebar-content ng-tns-c121-14&quot;]/div[@class=&quot;ata-grid ata-grid-cols-2 ata-gap-6 ng-tns-c121-14&quot;]/a[@class=&quot;ata-flex ata-flex-col ata-justify-center ata-items-center ata-rounded-base ata-border ata-border-slate-300 ata-px-3 ata-py-6 hover:ata-bg-slate-100&quot;]/span[1]</value>
+      <webElementGuid>5c4bae2f-354d-45a8-a53d-9ff0575de84c</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Google Maps'])[1]/following::span[1]</value>
+      <webElementGuid>029ddc10-f570-4bb2-ab4c-ccee68fe84c4</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Open With'])[1]/following::span[2]</value>
+      <webElementGuid>964ed9ba-a45e-460f-960b-367856613b99</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Capture object:'])[1]/preceding::span[1]</value>
+      <webElementGuid>38c33ebc-8090-4e59-a3f8-de7745174664</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Alt'])[1]/preceding::span[2]</value>
+      <webElementGuid>abb77ed0-4274-471d-9012-bc34962f7a1c</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='Waze']/parent::*</value>
+      <webElementGuid>e54128f4-ce7d-4828-aa8e-6d840b5401ff</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//a[2]/span</value>
+      <webElementGuid>889dfb59-80ff-4503-a448-722fa5782a83</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//span[(text() = 'Waze' or . = 'Waze')]</value>
+      <webElementGuid>b224ef0a-369a-42f8-9dd2-a56cbd494704</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

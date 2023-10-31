@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>image1</name>
+   <tag></tag>
+   <elementGuidId>fffe82a7-b91a-44ac-b631-da4ded4413bd</elementGuidId>
+   <imagePath>D:\Automation\ATA\ATAU\Image\landmark-1.png</imagePath>
+   <selectorCollection>
+      <entry>
+         <key>IMAGE</key>
+         <value>D:\Automation\ATA\ATAU\Image\landmark-1.png</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//img[@alt='Landmark 1']</value>
+      </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[@src = 'assets/images/landmark-1.png' and @alt = 'Landmark 1']</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>img.ata-w-full</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>img</value>
+      <webElementGuid>b4ce3089-913a-4c88-aa58-c2f4029f1b91</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>src</name>
+      <type>Main</type>
+      <value>assets/images/landmark-1.png</value>
+      <webElementGuid>ffbccb99-65ea-49e5-a5cc-7fe7bcf3ef77</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>alt</name>
+      <type>Main</type>
+      <value>Landmark 1</value>
+      <webElementGuid>653a16e7-7a0b-44cc-8869-73b1020dca8f</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>ata-w-full</value>
+      <webElementGuid>4fbd7527-c01f-4925-b5fe-b5c93cef796a</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>/html[@class=&quot;ata-text-slate-800 ata-bg-white&quot;]/body[1]/ata-atau[1]/ata-atau-empty[@class=&quot;ng-star-inserted&quot;]/ata-location-tip[@class=&quot;ng-star-inserted&quot;]/div[@class=&quot;ata-flex ata-flex-col ata-grow ata-p-5&quot;]/div[@class=&quot;ata-grid ata-grid-cols-2 ata-gap-5&quot;]/img[@class=&quot;ata-w-full&quot;]</value>
+      <webElementGuid>706769de-f9f6-4723-ba11-1bad4affd253</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:img</name>
+      <type>Main</type>
+      <value>//img[@alt='Landmark 1']</value>
+      <webElementGuid>c59f4104-67d9-430a-ab88-8cdd9c69161a</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//img</value>
+      <webElementGuid>2cf14122-9351-49e9-92a9-3784fe700670</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//img[@src = 'assets/images/landmark-1.png' and @alt = 'Landmark 1']</value>
+      <webElementGuid>c0095c50-bbc5-49ee-81ca-1b1959a716e8</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>EAAC logo in hamburger</name>
+   <tag></tag>
+   <elementGuidId>8b85e3ce-48b0-44ee-aab8-25e075bcd953</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//img[@alt='eaac-logo']</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>img[alt=&quot;eaac-logo&quot;]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>img</value>
+      <webElementGuid>26a86f13-3176-4833-b085-0aed81324e6e</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>alt</name>
+      <type>Main</type>
+      <value>eaac-logo</value>
+      <webElementGuid>2a3b226b-0e29-4c92-9658-ded3141ca7a8</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>src</name>
+      <type>Main</type>
+      <value>assets/images/EAAC.svg</value>
+      <webElementGuid>e127ff41-ee14-45ed-8a58-23ebd70ce22e</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>/html[@class=&quot;ata-text-slate-800 ata-bg-white&quot;]/body[1]/ata-atau[1]/ata-atau-default[@class=&quot;ng-star-inserted&quot;]/div[1]/p-sidebar[@class=&quot;p-element ng-tns-c121-13 ng-star-inserted&quot;]/div[@class=&quot;ng-trigger ng-trigger-panelState ng-tns-c121-13 p-sidebar p-sidebar-active p-sidebar-left ng-star-inserted&quot;]/div[@class=&quot;p-sidebar-content ng-tns-c121-13&quot;]/div[@class=&quot;ata-px-3 ng-tns-c121-13&quot;]/div[@class=&quot;ata-py-6 ata-border-b ata-border-slate-100&quot;]/img[1]</value>
+      <webElementGuid>5fd9997f-e44e-4fa2-8e7a-a84080850a5d</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:img</name>
+      <type>Main</type>
+      <value>//img[@alt='eaac-logo']</value>
+      <webElementGuid>ef99eb60-3e67-4dd8-b9f9-7832cda83ce3</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[2]/div/div/img</value>
+      <webElementGuid>8702d572-d378-462a-9117-77eac6c6792e</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//img[@alt = 'eaac-logo' and @src = 'assets/images/EAAC.svg']</value>
+      <webElementGuid>0a70396d-19de-4ee2-ab56-d0115d736747</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

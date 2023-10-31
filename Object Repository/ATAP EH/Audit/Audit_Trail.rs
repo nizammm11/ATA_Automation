@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>Audit_Trail</name>
+   <tag></tag>
+   <elementGuidId>e4e0e343-4af1-4435-bc68-eace36e53be9</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>(.//*[normalize-space(text()) and normalize-space(.)='v3.10.0'])[1]/following::h1[1]</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>h1.text-3xl</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>h1</value>
+      <webElementGuid>5a7883f0-b911-4c3c-ad26-e7b9c737462f</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>text-3xl</value>
+      <webElementGuid>b72223e1-6d06-4f4c-b9a0-c3b3b30038a1</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Audit Trail</value>
+      <webElementGuid>d53d6932-4600-49c4-9bfd-c3e15a262b8f</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>/html[1]/body[1]/ata-dashboard-root[1]/div[@class=&quot;app-layout&quot;]/div[@class=&quot;layout-content&quot;]/div[@class=&quot;content-data&quot;]/ata-dashboard-trails[@class=&quot;ng-star-inserted&quot;]/ata-dashboard-trail-list[@class=&quot;ng-star-inserted&quot;]/ata-trail-list[1]/div[@class=&quot;flex mb-5&quot;]/div[@class=&quot;flex align-items-center&quot;]/h1[@class=&quot;text-3xl&quot;]</value>
+      <webElementGuid>4f850450-3264-4889-8a7f-db7f6735399e</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='v3.10.0'])[1]/following::h1[1]</value>
+      <webElementGuid>317ccef6-8f39-4eb8-adfd-b5dc893da1d6</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Export To Excel'])[1]/preceding::h1[1]</value>
+      <webElementGuid>09ea4f7b-4b6e-4426-a8fc-713af1e8482d</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='ID'])[1]/preceding::h1[1]</value>
+      <webElementGuid>ef7fb96a-ead3-42ae-9c46-3d4e82bfbfc0</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//h1</value>
+      <webElementGuid>e5164995-945e-4765-aad7-e28fce5057eb</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//h1[(text() = 'Audit Trail' or . = 'Audit Trail')]</value>
+      <webElementGuid>4571fe7e-6775-40cd-8905-ac498ea5a425</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

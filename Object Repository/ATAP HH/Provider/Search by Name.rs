@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>Search by Name</name>
+   <tag></tag>
+   <elementGuidId>b0501e64-ef5d-411a-b4e3-c0202b2fa495</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//input[@type = 'text' and @placeholder = 'Search by Name']</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>input.p-inputtext.p-component.p-element.p-column-filter</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>input</value>
+      <webElementGuid>ae050e9e-4ce0-45ba-8f23-c785a8f5dd48</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>type</name>
+      <type>Main</type>
+      <value>text</value>
+      <webElementGuid>9f8db03f-026c-46f3-a0da-c487083697cb</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>placeholder</name>
+      <type>Main</type>
+      <value>Search by Name</value>
+      <webElementGuid>7bb2cc3a-91c7-4a01-a852-b573982ac0f1</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>p-inputtext p-component p-element p-column-filter</value>
+      <webElementGuid>91bdb390-0bdc-4a72-8e29-1324fe7a74ba</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;pr_id_14-table&quot;)/thead[@class=&quot;p-datatable-thead&quot;]/tr[@class=&quot;ng-star-inserted&quot;]/th[2]/input[@class=&quot;p-inputtext p-component p-element p-column-filter&quot;]</value>
+      <webElementGuid>614d1261-8f00-48ba-823e-e1b2dad08fdf</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>(//input[@type='text'])[1]</value>
+      <webElementGuid>aa82d2ff-77e3-4b3b-beda-cf0e2a6e46ed</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//table[@id='pr_id_14-table']/thead/tr[2]/th[2]/input</value>
+      <webElementGuid>885a57b3-67b5-4d74-ba5c-3586b96bb5fd</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//th[2]/input</value>
+      <webElementGuid>1e19b519-1560-4cd1-81a6-47c2a6b81471</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//input[@type = 'text' and @placeholder = 'Search by Name']</value>
+      <webElementGuid>2fe4b94c-fbef-412f-b78e-cffe1944e105</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

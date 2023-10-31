@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>dropdown_Mobile Number</name>
+   <tag></tag>
+   <elementGuidId>b79b93ed-95ff-4188-9c5d-7f2c5a926f50</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>(.//*[normalize-space(text()) and normalize-space(.)='Mobile Number *'])[1]/following::div[4]</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>div.p-dropdown-trigger</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>div</value>
+      <webElementGuid>c4ed30a9-939c-4bc3-90bd-53da5fff2443</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>role</name>
+      <type>Main</type>
+      <value>button</value>
+      <webElementGuid>705c98d5-b909-485b-a153-90ff30542f03</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>aria-label</name>
+      <type>Main</type>
+      <value>dropdown trigger</value>
+      <webElementGuid>b2811b30-c8f5-4504-b6e9-bd4b3e43b097</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>aria-haspopup</name>
+      <type>Main</type>
+      <value>listbox</value>
+      <webElementGuid>c8605508-9794-49d6-85af-c3fac9ec72e9</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>p-dropdown-trigger</value>
+      <webElementGuid>feb0762e-7085-4048-a1c2-735e1c3bc3b4</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>aria-expanded</name>
+      <type>Main</type>
+      <value>false</value>
+      <webElementGuid>72e1dbdf-33ad-431e-a09f-1eb7a74bdea2</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>/html[@class=&quot;ata-text-slate-800 ata-bg-white&quot;]/body[1]/ata-atau[1]/ata-atau-default[@class=&quot;ng-star-inserted&quot;]/section[@class=&quot;main&quot;]/ata-assessment-detail[@class=&quot;ng-star-inserted&quot;]/form[@class=&quot;ata-relative ata-flex ata-flex-col ata-grow ng-pristine ng-invalid ng-touched&quot;]/div[@class=&quot;ata-relative ata-z-1 ata-flex ata-flex-col ata-grow&quot;]/div[@class=&quot;ata-absolute ata-inset-0 ata-p-6 ata-overflow-auto&quot;]/div[@class=&quot;ata-flex ata-flex-col ata-mb-5&quot;]/ata-input-phone[@class=&quot;ng-untouched ng-pristine ng-invalid&quot;]/div[@class=&quot;p-inputgroup&quot;]/span[@class=&quot;p-inputgroup-addon ata-rounded-r-none ata-shrink-0 ata-border-slate-300&quot;]/p-dropdown[@class=&quot;p-element p-inputwrapper p-inputwrapper-filled ng-pristine ng-valid ng-touched&quot;]/div[@class=&quot;p-dropdown p-component&quot;]/div[@class=&quot;p-dropdown-trigger&quot;]</value>
+      <webElementGuid>1d0963ec-4fdb-4fbb-89a3-4fdf71a6f9d1</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Mobile Number *'])[1]/following::div[4]</value>
+      <webElementGuid>912708d1-a835-439a-b08b-b9ff54332a6b</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Enter your vehicle number without empty space.'])[1]/following::div[5]</value>
+      <webElementGuid>b5da128f-507e-4ce0-9488-8fa094b256e6</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Alternate Mobile Number'])[1]/preceding::div[1]</value>
+      <webElementGuid>cc4098d2-af3e-4839-9c54-9b793131ebb0</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Email Address'])[1]/preceding::div[6]</value>
+      <webElementGuid>2f4b43a7-82a3-44b8-b56f-da486a3d7504</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//p-dropdown/div/div[2]</value>
+      <webElementGuid>0e946906-9d88-4e08-bd1c-7550bedf3de5</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

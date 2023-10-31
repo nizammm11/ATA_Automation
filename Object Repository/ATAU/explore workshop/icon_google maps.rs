@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>icon_google maps</name>
+   <tag></tag>
+   <elementGuidId>433e5f64-9fd3-40d8-a4bd-b91b9272c09a</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>(.//*[normalize-space(text()) and normalize-space(.)='Open With'])[1]/following::*[name()='svg'][1]</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>svg-icon.ata-text-4xl > svg</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>svg</value>
+      <webElementGuid>e043a463-ea26-4284-b4fa-63c45518d289</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>width</name>
+      <type>Main</type>
+      <value>1em</value>
+      <webElementGuid>5798ef12-3094-44fb-a204-66202bb8fb31</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>height</name>
+      <type>Main</type>
+      <value>1em</value>
+      <webElementGuid>b212fa1c-d86b-46aa-a694-7a14666a5cbc</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>viewBox</name>
+      <type>Main</type>
+      <value>0 0 61 86</value>
+      <webElementGuid>f9651a76-f78d-4b02-98e0-672448c04828</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>fill</name>
+      <type>Main</type>
+      <value>none</value>
+      <webElementGuid>e17f0378-bfe4-4ccc-b25c-0f60fa44354b</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xmlns</name>
+      <type>Main</type>
+      <value>http://www.w3.org/2000/svg</value>
+      <webElementGuid>b0dc4654-a5c2-45f1-ac6f-e16cf49d7dc8</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>aria-hidden</name>
+      <type>Main</type>
+      <value>true</value>
+      <webElementGuid>f1859d39-8043-4863-8fc7-e91418e92c5f</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>/html[@class=&quot;ata-text-slate-800 ata-bg-white&quot;]/body[1]/ata-atau[1]/ata-atau-default[@class=&quot;ng-star-inserted&quot;]/section[@class=&quot;main&quot;]/ata-workshop-directory[@class=&quot;ng-star-inserted&quot;]/div[@class=&quot;ata-p-6&quot;]/ata-workshop-list[1]/ata-bottombar-workshop-direction[1]/p-sidebar[@class=&quot;p-element ng-tns-c121-14 ng-star-inserted&quot;]/div[@class=&quot;ng-trigger ng-trigger-panelState ng-tns-c121-14 p-sidebar p-sidebar-active p-sidebar-bottom ng-star-inserted&quot;]/div[@class=&quot;p-sidebar-content ng-tns-c121-14&quot;]/div[@class=&quot;ata-grid ata-grid-cols-2 ata-gap-6 ng-tns-c121-14&quot;]/a[@class=&quot;ata-flex ata-flex-col ata-justify-center ata-items-center ata-rounded-base ata-border ata-border-slate-300 ata-px-3 ata-py-6 hover:ata-bg-slate-100&quot;]/svg-icon[@class=&quot;ata-text-4xl&quot;]/svg[1]</value>
+      <webElementGuid>5a9c501f-d760-4215-bfae-a18a8f7c2d2d</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Open With'])[1]/following::*[name()='svg'][1]</value>
+      <webElementGuid>a9f6c7a3-7dba-4050-8360-071513138bc1</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='See details'])[5]/following::*[name()='svg'][1]</value>
+      <webElementGuid>fb8afc0b-b5a4-4f90-9a2b-f3ecfe22659e</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Google Maps'])[1]/preceding::*[name()='svg'][1]</value>
+      <webElementGuid>5020c1c2-19c3-4cf5-882d-265eb11eef07</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Waze'])[1]/preceding::*[name()='svg'][2]</value>
+      <webElementGuid>6c82b9c0-0f22-4c4b-b952-dd976873789d</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>
