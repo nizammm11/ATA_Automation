@@ -21,7 +21,9 @@ Date today = new Date()
 
 String dateTime = today.format('yyyyMMddHHmmss')
 
-WebUI.openBrowser('')
+WebUI.callTestCase(findTestCase('ATAP - Main/ATAP - Login'), [('Username') : '80007700', ('Password') : 'DragCk23/'], FailureHandling.STOP_ON_FAILURE)
+
+/*WebUI.openBrowser('')
 
 WebUI.maximizeWindow()
 
@@ -33,8 +35,7 @@ WebUI.setText(findTestObject('ATAP EH/Login/Username'), '80008097')
 
 WebUI.setText(findTestObject('ATAP EH/Login/Password'), 'H@z1q1234%')
 
-WebUI.click(findTestObject('ATAP EH/Login/button_LOGIN'))
-
+WebUI.click(findTestObject('ATAP EH/Login/button_LOGIN'))*/
 WebUI.verifyElementText(findTestObject('ATAP EH/Insights/span_Insights'), 'Insights')
 
 WebUI.click(findTestObject('ATAP EH/Insights/span_Insights'))
@@ -56,4 +57,6 @@ WebUI.click(findTestObject('ATAP EH/Insights/Last 7 days'))
 WebUI.click(findTestObject('ATAP EH/Insights/dropdown'))
 
 WebUI.click(findTestObject('ATAP EH/Insights/This Month'))
+
+WebUI.callTestCase(findTestCase('ATAP - Main/ATAP - Logout'), [:], FailureHandling.STOP_ON_FAILURE)
 

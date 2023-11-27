@@ -5,4 +5,30 @@
    <tag></tag>
    <comment></comment>
    <testCaseGuid>796147e8-6830-4392-8b07-5939f8104ac1</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>3cbf89d7-315f-4810-a0dc-5c13af519954</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>341f59e1-133d-42e9-b505-5f894ee9ab73</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>'80007700'</defaultValue>
+      <description></description>
+      <id>3cbf89d7-315f-4810-a0dc-5c13af519954</id>
+      <masked>true</masked>
+      <name>Username</name>
+   </variable>
+   <variable>
+      <defaultValue>'DragCk23/'</defaultValue>
+      <description></description>
+      <id>341f59e1-133d-42e9-b505-5f894ee9ab73</id>
+      <masked>true</masked>
+      <name>Password</name>
+   </variable>
 </TestCaseEntity>

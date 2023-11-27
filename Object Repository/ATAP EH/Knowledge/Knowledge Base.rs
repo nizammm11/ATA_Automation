@@ -6,14 +6,18 @@
    <elementGuidId>92ab5f93-6568-44d2-adec-45571faec2cd</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>(.//*[normalize-space(text()) and normalize-space(.)='Tariff'])[1]/following::span[1]</value>
+         <key>BASIC</key>
+         <value>//*[(text() = 'Knowledge Base' or . = 'Knowledge Base')]</value>
       </entry>
       <entry>
          <key>CSS</key>
       </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>(.//*[normalize-space(text()) and normalize-space(.)='Tariff'])[1]/following::span[1]</value>
+      </entry>
    </selectorCollection>
-   <selectorMethod>XPATH</selectorMethod>
+   <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>true</useRalativeImagePath>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -21,7 +25,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>span</value>
-      <webElementGuid>63133e46-1a3b-480b-9ed1-2db9c1872bc7</webElementGuid>
+      <webElementGuid>f3fc9ea4-b0fb-47fb-b1af-5426203babeb</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -29,7 +33,7 @@
       <name>class</name>
       <type>Main</type>
       <value>menu ng-star-inserted</value>
-      <webElementGuid>d107aa25-1483-4dbf-a56f-0df8f8eb95fc</webElementGuid>
+      <webElementGuid>4e05afbd-2ea0-4d91-bc63-f907a390b130</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -37,7 +41,7 @@
       <name>text</name>
       <type>Main</type>
       <value>Knowledge Base</value>
-      <webElementGuid>ae634390-64ae-4cc8-8a68-19d08728a8cc</webElementGuid>
+      <webElementGuid>1f0ef866-beba-4a55-ba1f-48dac8a0c0b1</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -45,7 +49,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>/html[1]/body[1]/ata-dashboard-root[1]/div[@class=&quot;app-layout&quot;]/div[@class=&quot;layout-content&quot;]/app-side-bar[@class=&quot;ng-star-inserted&quot;]/div[@class=&quot;layout-sidebar no-print sidebar-open&quot;]/div[@class=&quot;layout-menu&quot;]/div[@class=&quot;layout-menu-items&quot;]/div[@class=&quot;ng-star-inserted&quot;]/a[@class=&quot;menu-button ng-star-inserted&quot;]/span[@class=&quot;menu ng-star-inserted&quot;]</value>
-      <webElementGuid>bc6bb6a0-9fb4-4fdb-8fd3-5bf3a3ed188d</webElementGuid>
+      <webElementGuid>b6e76c11-0704-4eae-b360-b3647839d1d1</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -53,7 +57,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Tariff'])[1]/following::span[1]</value>
-      <webElementGuid>1cc54ea6-c387-4118-a727-919ef899ed3e</webElementGuid>
+      <webElementGuid>b3aa01a7-6463-48f9-a4b3-3292bdb1d630</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -61,7 +65,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Invoices'])[1]/following::span[2]</value>
-      <webElementGuid>bdcac51e-41cd-44de-8d7e-b62fac248a2a</webElementGuid>
+      <webElementGuid>01aa7942-4066-4871-8851-b5d84076cdfd</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -69,7 +73,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Audit Trail'])[1]/preceding::span[1]</value>
-      <webElementGuid>5341c37e-9f8b-4959-b036-30dc0be72b7e</webElementGuid>
+      <webElementGuid>78dd76dd-40ee-470b-b76b-4c55714406cd</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -77,7 +81,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='SMS Blast'])[1]/preceding::span[2]</value>
-      <webElementGuid>a306c811-c064-4f4f-b036-1d91831285a6</webElementGuid>
+      <webElementGuid>e3dfa1c9-d7a0-44d9-9fca-50a67060f99f</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -85,7 +89,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>//*/text()[normalize-space(.)='Knowledge Base']/parent::*</value>
-      <webElementGuid>ebe8bfc1-d54a-4329-b000-46970da9bb8c</webElementGuid>
+      <webElementGuid>b80b5d02-6e33-4c89-8756-1af07e8b5433</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -93,7 +97,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//div[9]/a/span</value>
-      <webElementGuid>52fae3fe-f843-4763-bdde-9393af55abbf</webElementGuid>
+      <webElementGuid>3bc6cebe-74e2-4ffb-99eb-7cedd37be5fc</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -101,6 +105,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//span[(text() = 'Knowledge Base' or . = 'Knowledge Base')]</value>
-      <webElementGuid>4551bb87-9b24-491d-a9ea-13da8c92ebf5</webElementGuid>
+      <webElementGuid>a43ae7de-4c54-41ce-a228-f754b3bfcd28</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

@@ -23,10 +23,13 @@ Date today = new Date()
 
 String dateTime = today.format('yyyyMMddHHmmss')
 
+WebUI.callTestCase(findTestCase('ATAP - Main/ATAP - Login'), [('Username') : '80007700', ('Password') : 'DragCk23/'], FailureHandling.STOP_ON_FAILURE)
+
 'TC74'
 WebUI.click(findTestObject('ATAP HH/Module/Module_Inbox'))
 
-WebUI.takeFullPageScreenshot(('D:\\AutomationATA\\ATA_Screenshot\\//ATAP//Verification//TC74-Module Inbox_' + dateTime) + '.png')
+WebUI.takeFullPageScreenshot(('D:\\AutomationATA\\ATA_Screenshot\\//ATAP//Verification//TC74-Module Inbox_' + dateTime) + 
+    '.png')
 
 WebUI.click(findTestObject('ATAP HH/Inbox/Button_Approve (Inbox)'))
 
@@ -38,5 +41,8 @@ WebUI.click(findTestObject('ATAP HH/Inbox/Button_Approve'))
 
 WebUI.click(findTestObject('ATAP HH/General/Button_OK'))
 
-WebUI.takeFullPageScreenshot(('D:\\AutomationATA\\ATA_Screenshot\\//ATAP//Verification//TC74-Inbox - Approved_' + dateTime) + '.png')
+WebUI.takeFullPageScreenshot(('D:\\AutomationATA\\ATA_Screenshot\\//ATAP//Verification//TC74-Inbox - Approved_' + dateTime) + 
+    '.png')
+
+WebUI.callTestCase(findTestCase('ATAP - Main/ATAP - Logout'), [:], FailureHandling.STOP_ON_FAILURE)
 

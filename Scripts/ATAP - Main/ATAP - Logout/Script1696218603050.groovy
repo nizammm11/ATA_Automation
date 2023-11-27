@@ -18,8 +18,6 @@ import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 import java.time.format.DateTimeFormatter as DateTimeFormatter
 
-
-
 WebUI.click(findTestObject('ATAP HH/Login Logout/Icon User Logout'))
 
 WebUI.click(findTestObject('ATAP HH/Login Logout/Logout'))
@@ -27,3 +25,6 @@ WebUI.click(findTestObject('ATAP HH/Login Logout/Logout'))
 WebUI.click(findTestObject('ATAP HH/Login Logout/Button_Log Out'))
 
 WebUI.click(findTestObject('ATAP HH/Login Logout/Button_OK'))
+
+WebUI.closeBrowser()
+

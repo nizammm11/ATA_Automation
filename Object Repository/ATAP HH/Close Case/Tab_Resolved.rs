@@ -15,7 +15,7 @@
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>//a[@id='p-tabpanel-3-label']/span</value>
+         <value>(.//*[normalize-space(text()) and normalize-space(.)='Select Service Type'])[1]/preceding::span[2]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -26,7 +26,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>span</value>
-      <webElementGuid>00ff9e09-1f6f-4bed-be32-16d60d75438c</webElementGuid>
+      <webElementGuid>df1b09e1-959d-4f3b-87ec-53b5f145c067</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -34,7 +34,7 @@
       <name>class</name>
       <type>Main</type>
       <value>p-tabview-title ng-star-inserted</value>
-      <webElementGuid>523541a7-e97a-4083-add3-11ff2b4efc32</webElementGuid>
+      <webElementGuid>4f3d02bf-f384-4335-8ff7-c0b6f55c4248</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -42,7 +42,7 @@
       <name>text</name>
       <type>Main</type>
       <value>Resolved</value>
-      <webElementGuid>5b470e8c-287d-451e-9d6b-7b1b96ff9b5d</webElementGuid>
+      <webElementGuid>60b39af3-d2f2-42b5-9e22-16eb908eb416</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -50,7 +50,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;p-tabpanel-3-label&quot;)/span[@class=&quot;p-tabview-title ng-star-inserted&quot;]</value>
-      <webElementGuid>fc1a55c9-3089-4968-891d-6393d926e58c</webElementGuid>
+      <webElementGuid>a3a7d1c3-0dcc-40bc-88db-069251b8c6fc</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -58,7 +58,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//a[@id='p-tabpanel-3-label']/span</value>
-      <webElementGuid>f3f1ed2a-9e1d-4b97-82e2-7e8b30e7a74e</webElementGuid>
+      <webElementGuid>3fb339be-80a7-4ada-bd19-1f40bce6040a</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -66,7 +66,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='In progress (151)'])[1]/following::span[1]</value>
-      <webElementGuid>9d98412a-f7f6-405a-bdcd-d93506f999a8</webElementGuid>
+      <webElementGuid>318cbebd-1631-45b5-bc9a-7b4eb28e1691</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -74,7 +74,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Open (90)'])[1]/following::span[2]</value>
-      <webElementGuid>bfee51c2-f86a-4fb8-a974-bf66ea0de3e5</webElementGuid>
+      <webElementGuid>4d3f3b48-d9ed-402c-b01a-762ce22ad6ff</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -82,7 +82,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='History (547)'])[1]/preceding::span[1]</value>
-      <webElementGuid>dc682a17-11ce-4955-b6a5-3161d3168d3a</webElementGuid>
+      <webElementGuid>38247914-1d0d-4a40-9a51-c2628d3403bb</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -90,7 +90,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Select Service Type'])[1]/preceding::span[2]</value>
-      <webElementGuid>2223a69f-9937-455e-8b7f-ea7943b5714e</webElementGuid>
+      <webElementGuid>68632818-3783-4bf6-b2ef-3c494977d0a7</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -98,7 +98,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>//*/text()[normalize-space(.)='Resolved (208)']/parent::*</value>
-      <webElementGuid>6b35e556-88d6-4c7b-aa2d-105611ae9cda</webElementGuid>
+      <webElementGuid>4c736ab5-bbe6-4195-b109-1d950b39d40c</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -106,7 +106,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//li[4]/a/span</value>
-      <webElementGuid>c7318d58-b797-46b3-9185-04f810c85819</webElementGuid>
+      <webElementGuid>cb594a35-1dd6-4d52-b5af-6bcfa7bc89f3</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -114,6 +114,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//span[(text() = 'Resolved (208)' or . = 'Resolved (208)')]</value>
-      <webElementGuid>605b1c7a-873e-4509-bb0b-dae6b54cf102</webElementGuid>
+      <webElementGuid>14c295df-da41-442d-87db-062faee2acd8</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

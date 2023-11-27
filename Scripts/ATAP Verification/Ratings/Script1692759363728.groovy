@@ -23,19 +23,23 @@ Date today = new Date()
 
 String dateTime = today.format('yyyyMMddHHmmss')
 
+WebUI.callTestCase(findTestCase('ATAP - Main/ATAP - Login'), [('Username') : '80007700', ('Password') : 'DragCk23/'], FailureHandling.STOP_ON_FAILURE)
+
 WebUI.click(findTestObject('ATAP HH/Module/Module_Ratings'))
 
 WebUI.delay(5)
 
 'TC105'
-WebUI.takeFullPageScreenshot(('D:\\AutomationATA\\ATA_Screenshot\\//ATAP//Verification//1. Ratings - Negative Ratings_' + dateTime) + '.png')
+WebUI.takeFullPageScreenshot(('D://ATA_Automation//ATA_Screenshot//ATAP//Verification//1. Ratings - Negative Ratings_' + 
+    dateTime) + '.png')
 
 'TC103'
 WebUI.click(findTestObject('ATAP HH/General/Case Select Vehicle No'))
 
 WebUI.delay(5)
 
-WebUI.takeFullPageScreenshot(('D:\\AutomationATA\\ATA_Screenshot\\//ATAP//Verification//2. Ratings - View Ratings_' + dateTime) + '.png')
+WebUI.takeFullPageScreenshot(('D://ATA_Automation//ATA_Screenshot//ATAP//Verification//2. Ratings - View Ratings_' + dateTime) + 
+    '.png')
 
 'TC104'
 WebUI.click(findTestObject('ATAP HH/Module/Module_Ratings'))
@@ -104,8 +108,8 @@ WebUI.setText(findTestObject('ATAP HH/Ratings/Ratings 4 Details Suggestions'), '
 
 WebUI.delay(3)
 
-WebUI.takeFullPageScreenshot(('D:\\AutomationATA\\ATA_Screenshot\\//ATAP//Verification//3. Ratings - Feedbacks Details_' + dateTime) + 
-    '.png')
+WebUI.takeFullPageScreenshot(('D://ATA_Automation\\ATA_Screenshot//ATAP//Verification//3. Ratings - Feedbacks Details_' + 
+    dateTime) + '.png')
 
 WebUI.verifyElementPresent(findTestObject('ATAP HH/Ratings/Button_Close (Ratings)'), 0)
 
@@ -113,8 +117,8 @@ WebUI.click(findTestObject('ATAP HH/Ratings/Button_Save (Ratings)'))
 
 WebUI.delay(5)
 
-WebUI.takeFullPageScreenshot(('D:\\AutomationATA\\ATA_Screenshot\\//ATAP//Verification//4. Ratings - View Service Rate_' + dateTime) + 
-    '.png')
+WebUI.takeFullPageScreenshot(('D://ATA_Automation//ATA_Screenshot//ATAP//Verification//4. Ratings - View Service Rate_' + 
+    dateTime) + '.png')
 
 'TC106'
 WebUI.click(findTestObject('ATAP HH/Module/Module_Ratings'))
@@ -129,5 +133,8 @@ WebUI.click(findTestObject('ATAP HH/General/Export CSV'))
 
 WebUI.delay(5)
 
-WebUI.takeFullPageScreenshot(('D:\\AutomationATA\\ATA_Screenshot\\//ATAP//Verification//5. Ratings - Surveys Download_' + dateTime) + '.png')
+WebUI.takeFullPageScreenshot(('D://ATA_Automation//ATA_Screenshot//ATAP//Verification//5. Ratings - Surveys Download_' + 
+    dateTime) + '.png')
+
+WebUI.callTestCase(findTestCase('ATAP - Main/ATAP - Logout'), [:], FailureHandling.STOP_ON_FAILURE)
 

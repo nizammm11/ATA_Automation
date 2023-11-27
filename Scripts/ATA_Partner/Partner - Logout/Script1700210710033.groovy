@@ -16,38 +16,18 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
+import java.time.LocalDateTime as LocalDateTime
+import java.time.format.DateTimeFormatter as DateTimeFormatter
 
 Date today = new Date()
 
 String dateTime = today.format('yyyyMMddHHmmss')
 
-WebUI.callTestCase(findTestCase('ATAP - Main/ATAP - Login'), [('Username') : '80007700', ('Password') : 'DragCk23/'], FailureHandling.STOP_ON_FAILURE)
+WebUI.verifyElementText(findTestObject('ATA_Partner/LoginPage/span_Log Out'), 'Log Out')
 
-/*WebUI.openBrowser('')
+WebUI.click(findTestObject('ATA_Partner/LoginPage/a_Log Out'))
 
-WebUI.maximizeWindow()
+WebUI.click(findTestObject('ATA_Partner/LoginPage/button_Yes, proceed'), FailureHandling.STOP_ON_FAILURE)
 
-WebUI.navigateToUrl('https://canary.autoassistcare.etiqa.com.my/dashboard/login')
-
-WebUI.click(findTestObject('ATAP EH/Login/button_OK'))
-
-WebUI.setText(findTestObject('ATAP EH/Login/Username'), '80008097')
-
-WebUI.setText(findTestObject('ATAP EH/Login/Password'), 'H@z1q1234%')
-
-WebUI.click(findTestObject('ATAP EH/Login/button_LOGIN'))*/
-WebUI.verifyElementText(findTestObject('ATAP EH/Claims/Claims Inquiry'), 'Claims Inquiry')
-
-WebUI.click(findTestObject('ATAP EH/Claims/Claims Inquiry'))
-
-//WebUI.verifyElementText(findTestObject('ATAP EH/Claims/Vehicle Number'), 'Vehicle Number* :')
-WebUI.setText(findTestObject('ATAP EH/Claims/vehicle_Number'), 'JSF7791')
-
-WebUI.verifyElementText(findTestObject('ATAP EH/Claims/Find status'), 'Find status')
-
-WebUI.click(findTestObject('ATAP EH/Claims/Find status'))
-
-WebUI.click(findTestObject('ATAP EH/Claims/Resolved'))
-
-WebUI.callTestCase(findTestCase('ATAP - Main/ATAP - Logout'), [:], FailureHandling.STOP_ON_FAILURE)
+WebUI.closeBrowser()
 

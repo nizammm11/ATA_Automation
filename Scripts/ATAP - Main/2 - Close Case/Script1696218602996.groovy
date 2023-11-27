@@ -26,14 +26,16 @@ String dateTime = today.format('yyyyMMddHHmmss')
 WebUI.callTestCase(findTestCase('ATAP - Main/ATAP - Login'), [:], FailureHandling.STOP_ON_FAILURE)
 
 for (def row = 1; row <= findTestData('ATAP').getRowNumbers(); row++) {
+    WebUI.click(findTestObject('Object Repository/ATAP HH/Close Case/Tab_Resolved'))
+
+    WebUI.delay(2)
+
     WebUI.setText(findTestObject('ATAP HH/General/Search_VehicleNo'), findTestData('ATAP').getValue('VehicleNo', row))
 
     WebUI.sendKeys(findTestObject('ATAP HH/General/Search_VehicleNo'), Keys.chord(Keys.ENTER))
 
     WebUI.takeFullPageScreenshot(((('D:\\AutomationATA\\ATA_Screenshot\\//ATAP//1. Case Resolved_' + row) + '_') + dateTime) + 
         '.png')
-
-    WebUI.click(findTestObject('Object Repository/ATAP HH/Close Case/Tab_Resolved'))
 
     WebUI.click(findTestObject('ATAP HH/General/Case Select Vehicle No'))
 

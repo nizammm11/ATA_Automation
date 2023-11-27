@@ -130,6 +130,8 @@ WebUI.verifyElementText(findTestObject('ATAU/Questions/button_Continue'), 'Conti
 
 WebUI.click(findTestObject('ATAU/Questions/btn_closeX'))
 
+WebUI.delay(2)
+
 WebUI.click(findTestObject('ATAU/Car service list/btn_Smoke'))
 
 WebUI.verifyElementText(findTestObject('ATAU/Questions/title_Smoke'), 'Smoke is coming out from my engine')
@@ -137,6 +139,8 @@ WebUI.verifyElementText(findTestObject('ATAU/Questions/title_Smoke'), 'Smoke is 
 WebUI.click(findTestObject('ATAU/Questions/btn_closeX'))
 
 WebUI.delay(2)
+
+WebUI.scrollToElement(findTestObject('ATAU/Car service list/btn_Im not sure whats wrong'), 0)
 
 WebUI.click(findTestObject('ATAU/Car service list/btn_gear'))
 

@@ -99,8 +99,27 @@ for (def row = 1; row <= findTestData('ATAP').getRowNumbers(); row++) {
     }
     
     WebUI.scrollToElement(findTestObject('ATAP HH/General/Language_English'), 0)
+	
+	/*'Service Type - Car for BT and SERVICE 8 ONLY'
+	if ((findTestData('ATAP').getValue('VehicleType', row) == 'Car') & (findTestData('ATAP').getValue('Issue', row) == 'NIL')) {
+		WebUI.click(findTestObject('ATAP HH/Service Type/Service Type'))
 
-    'Service Type - Car for SERVICE 8 ONLY'
+		WebUI.click(findTestObject('ATAP HH/Service Type Car/Car_Repair-On-Site (ROS)'))
+
+		if (findTestData('ATAP').getValue('SubService', row) == 'Out of Petrol') {
+			WebUI.click(findTestObject('ATAP HH/Service Type Car/Car ROS_Out of Petrol'))
+		} else if (findTestData('ATAP').getValue('SubService', row) == 'Jump Start') {
+			WebUI.click(findTestObject('ATAP HH/Service Type Car/Car ROS_Jump Start'))
+		} else if (findTestData('ATAP').getValue('SubService', row) == 'Change Battery') {
+			WebUI.click(findTestObject('ATAP HH/Service Type Car/Car ROS_Change Battery'))
+		} else {
+			WebUI.click(findTestObject('ATAP HH/Service Type Car/Car ROS_Flat Tyre'))
+		}
+	} else {
+		WebUI.delay(0)
+	}	*/
+
+    'Service Type - Car for ROS and SERVICE 8 ONLY'
     if ((findTestData('ATAP').getValue('VehicleType', row) == 'Car') & (findTestData('ATAP').getValue('Issue', row) == 'NIL')) {
         WebUI.click(findTestObject('ATAP HH/Service Type/Service Type'))
 
@@ -125,7 +144,8 @@ for (def row = 1; row <= findTestData('ATAP').getRowNumbers(); row++) {
 
         if (findTestData('ATAP').getValue('ServiceType', row) == 'Repair-On-Site (ROS) - Motorcycle') {
             WebUI.click(findTestObject('ATAP HH/Service Type/Repair-On-Site (ROS) - Motorcycle'))
-
+			WebUI.delay(2)
+			
             WebUI.click(findTestObject('ATAP HH/Service Type/ROS_Out of Petrol'))
         } else if (findTestData('ATAP').getValue('ServiceType', row) == 'Accident - Motorcycle') {
             WebUI.click(findTestObject('ATAP HH/Service Type/Accident - Motorcycle'))

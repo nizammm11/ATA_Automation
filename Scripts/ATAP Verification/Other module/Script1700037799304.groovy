@@ -23,31 +23,25 @@ String dateTime = today.format('yyyyMMddHHmmss')
 
 WebUI.callTestCase(findTestCase('ATAP - Main/ATAP - Login'), [('Username') : '80007700', ('Password') : 'DragCk23/'], FailureHandling.STOP_ON_FAILURE)
 
-/*WebUI.openBrowser('')
+WebUI.callTestCase(findTestCase('ATAP Verification/TC74 Inbox'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.maximizeWindow()
+WebUI.callTestCase(findTestCase('ATAP Verification/Workshop'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.navigateToUrl('https://canary.autoassistcare.etiqa.com.my/dashboard/login')
+WebUI.callTestCase(findTestCase('ATAP Verification/Franchise'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.click(findTestObject('ATAP EH/Login/button_OK'))
+WebUI.callTestCase(findTestCase('ATAP Verification/Tariff'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.setText(findTestObject('ATAP EH/Login/Username'), '80008097')
+WebUI.callTestCase(findTestCase('ATAP Verification/Knowledge'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.setText(findTestObject('ATAP EH/Login/Password'), 'H@z1q1234%')
+WebUI.callTestCase(findTestCase('ATAP Verification/Audit Trail'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.click(findTestObject('ATAP EH/Login/button_LOGIN'))*/
-WebUI.verifyElementText(findTestObject('ATAP EH/Claims/Claims Inquiry'), 'Claims Inquiry')
+WebUI.callTestCase(findTestCase('ATAP Verification/Insights'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.click(findTestObject('ATAP EH/Claims/Claims Inquiry'))
+WebUI.callTestCase(findTestCase('ATAP Verification/Claims'), [:], FailureHandling.STOP_ON_FAILURE)
 
-//WebUI.verifyElementText(findTestObject('ATAP EH/Claims/Vehicle Number'), 'Vehicle Number* :')
-WebUI.setText(findTestObject('ATAP EH/Claims/vehicle_Number'), 'JSF7791')
+//WebUI.scrollToElement(findTestObject('ATAP HH/Module/Module_Ratings'), 0)
 
-WebUI.verifyElementText(findTestObject('ATAP EH/Claims/Find status'), 'Find status')
-
-WebUI.click(findTestObject('ATAP EH/Claims/Find status'))
-
-WebUI.click(findTestObject('ATAP EH/Claims/Resolved'))
+WebUI.callTestCase(findTestCase('ATAP Verification/Ratings'), [:], FailureHandling.STOP_ON_FAILURE)
 
 WebUI.callTestCase(findTestCase('ATAP - Main/ATAP - Logout'), [:], FailureHandling.STOP_ON_FAILURE)
 

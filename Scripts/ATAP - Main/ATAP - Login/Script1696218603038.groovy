@@ -24,11 +24,13 @@ WebUI.maximizeWindow()
 
 WebUI.navigateToUrl(findTestData('URL').getValue('ATAP', 1))
 
-WebUI.click(findTestObject('ATAP HH/Login Logout/Button_OK'))
+//WebUI.click(findTestObject('ATAP HH/Login Logout/Button_OK'))
+WebUI.setText(findTestObject('ATAP EH/Login/Username'), Username)
 
-WebUI.setText(findTestObject('ATAP HH/Login Logout/Username'), findTestData('ATAP Login').getValue('Username', 1))
+WebUI.setText(findTestObject('ATAP HH/Login Logout/Password'), Password)
 
-WebUI.setText(findTestObject('ATAP HH/Login Logout/Password'), findTestData('ATAP Login').getValue('Password', 1))
+/*WebUI.setText(findTestObject('ATAP HH/Login Logout/Username'), findTestData('ATAP Login').getValue('Username', 1))
 
+WebUI.setText(findTestObject('ATAP HH/Login Logout/Password'), findTestData('ATAP Login').getValue('Password', 1))*/
 WebUI.click(findTestObject('ATAP HH/Login Logout/Button_Login'))
 

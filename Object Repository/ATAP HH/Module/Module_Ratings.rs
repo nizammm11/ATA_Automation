@@ -6,14 +6,18 @@
    <elementGuidId>af3c17d0-c6ea-4b98-998e-5c74e8bf7892</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>(.//*[normalize-space(text()) and normalize-space(.)='Claims Inquiry'])[1]/following::span[1]</value>
+         <key>BASIC</key>
+         <value>//*[(text() = 'Ratings' or . = 'Ratings')]</value>
       </entry>
       <entry>
          <key>CSS</key>
       </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>(.//*[normalize-space(text()) and normalize-space(.)='Claims Inquiry'])[1]/following::span[1]</value>
+      </entry>
    </selectorCollection>
-   <selectorMethod>XPATH</selectorMethod>
+   <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>true</useRalativeImagePath>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -21,7 +25,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>span</value>
-      <webElementGuid>f2c7f03c-7d0e-4f35-ab81-66f95bb98078</webElementGuid>
+      <webElementGuid>12db52c7-cbf9-4f6f-9223-5736bf051e26</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -29,7 +33,7 @@
       <name>class</name>
       <type>Main</type>
       <value>menu ng-star-inserted</value>
-      <webElementGuid>762ea68d-6ae0-47d1-8e1c-b2875202fd10</webElementGuid>
+      <webElementGuid>1e78f0ca-1f8a-4e53-910b-c4beed661fa1</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -37,7 +41,7 @@
       <name>text</name>
       <type>Main</type>
       <value>Ratings</value>
-      <webElementGuid>01bb2f4a-4127-41d8-9c7c-cca6d433e4ef</webElementGuid>
+      <webElementGuid>ba4481aa-7695-4dbe-99e9-1dddf6de71c7</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -45,7 +49,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>/html[1]/body[1]/ata-dashboard-root[1]/div[@class=&quot;app-layout&quot;]/div[@class=&quot;layout-content&quot;]/app-side-bar[@class=&quot;ng-star-inserted&quot;]/div[@class=&quot;layout-sidebar no-print sidebar-open&quot;]/div[@class=&quot;layout-menu&quot;]/div[@class=&quot;layout-menu-items&quot;]/div[@class=&quot;ng-star-inserted&quot;]/a[@class=&quot;menu-button ng-star-inserted&quot;]/span[@class=&quot;menu ng-star-inserted&quot;]</value>
-      <webElementGuid>b8274464-1c72-469d-8308-3e43906dbe72</webElementGuid>
+      <webElementGuid>af28d8f9-c591-4404-b2e4-f013a194c606</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -53,7 +57,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Claims Inquiry'])[1]/following::span[1]</value>
-      <webElementGuid>d6480e98-4c29-4046-8d15-7a91be581464</webElementGuid>
+      <webElementGuid>45eede1e-0adc-4a67-904e-839405a9cb3b</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -61,7 +65,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Insights'])[1]/following::span[2]</value>
-      <webElementGuid>8129cdc9-cc21-42c4-aa48-e2b08fe08130</webElementGuid>
+      <webElementGuid>fe1ed44f-bc7e-4696-93dc-1397e6a7b3f6</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -69,7 +73,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='v3.9.0'])[1]/preceding::span[1]</value>
-      <webElementGuid>695c455e-158c-4b6e-8f96-50252919ec73</webElementGuid>
+      <webElementGuid>c70a3f98-eaa4-4887-a6f4-009ac57475dd</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -77,7 +81,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>//*/text()[normalize-space(.)='Ratings']/parent::*</value>
-      <webElementGuid>a47d0fbb-fd9c-49ce-8f59-ca2b41239c85</webElementGuid>
+      <webElementGuid>f4280ad1-7003-4dcf-a4a0-a78363804f76</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -85,7 +89,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//div[14]/a/span</value>
-      <webElementGuid>1a525e6f-334e-43e9-a8a9-5ed52d0d58f7</webElementGuid>
+      <webElementGuid>f40ca8f0-1173-4331-a0cb-b0a6ceba3120</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -93,6 +97,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//span[(text() = 'Ratings' or . = 'Ratings')]</value>
-      <webElementGuid>cbdda1de-a24d-4e08-8506-b520e24ba69e</webElementGuid>
+      <webElementGuid>9f73b7b7-d835-4fcd-99b7-2bb9c20802df</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

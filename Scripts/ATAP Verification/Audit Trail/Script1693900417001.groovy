@@ -21,7 +21,9 @@ Date today = new Date()
 
 String dateTime = today.format('yyyyMMddHHmmss')
 
-WebUI.openBrowser('')
+WebUI.callTestCase(findTestCase('ATAP - Main/ATAP - Login'), [('Username') : '80007700', ('Password') : 'DragCk23/'], FailureHandling.STOP_ON_FAILURE)
+
+/*WebUI.openBrowser('')
 
 WebUI.maximizeWindow()
 
@@ -33,8 +35,7 @@ WebUI.setText(findTestObject('ATAP EH/Login/Username'), '80008097')
 
 WebUI.setText(findTestObject('ATAP EH/Login/Password'), 'H@z1q1234%')
 
-WebUI.click(findTestObject('ATAP EH/Login/button_LOGIN'))
-
+WebUI.click(findTestObject('ATAP EH/Login/button_LOGIN'))*/
 WebUI.verifyElementText(findTestObject('ATAP EH/Audit/Audit Trail'), 'Audit Trail')
 
 WebUI.click(findTestObject('ATAP EH/Audit/Audit Trail'))
@@ -50,10 +51,11 @@ WebUI.verifyElementText(findTestObject('ATAP EH/Audit/Action Type'), 'Action Typ
 WebUI.verifyElementText(findTestObject('ATAP EH/Audit/Actor'), 'Actor')
 
 //WebUI.click(findTestObject('ATAP EH/Audit/sort'))
-
 WebUI.verifyElementText(findTestObject('ATAP EH/Audit/Created At'), 'Created At')
 
 WebUI.verifyElementText(findTestObject('ATAP EH/Audit/button_Export To Excel'), 'Export To Excel')
 
 WebUI.click(findTestObject('ATAP EH/Audit/button_Export To Excel'))
+
+WebUI.callTestCase(findTestCase('ATAP - Main/ATAP - Logout'), [:], FailureHandling.STOP_ON_FAILURE)
 

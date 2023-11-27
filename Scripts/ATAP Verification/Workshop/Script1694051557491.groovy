@@ -21,7 +21,9 @@ Date today = new Date()
 
 String dateTime = today.format('yyyyMMddHHmmss')
 
-WebUI.openBrowser('')
+WebUI.callTestCase(findTestCase('ATAP - Main/ATAP - Login'), [('Username') : '80007700', ('Password') : 'DragCk23/'], FailureHandling.STOP_ON_FAILURE)
+
+/*WebUI.openBrowser('')
 
 WebUI.maximizeWindow()
 
@@ -33,8 +35,7 @@ WebUI.setText(findTestObject('ATAP EH/Login/Username'), '80008097')
 
 WebUI.setText(findTestObject('ATAP EH/Login/Password'), 'H@z1q1234%')
 
-WebUI.click(findTestObject('ATAP EH/Login/button_LOGIN'))
-
+WebUI.click(findTestObject('ATAP EH/Login/button_LOGIN'))*/
 WebUI.verifyElementText(findTestObject('ATAP EH/Workshop/Workshops'), 'Workshops')
 
 WebUI.click(findTestObject('ATAP EH/Workshop/Workshops'))
@@ -58,17 +59,20 @@ WebUI.verifyElementText(findTestObject('ATAP EH/Workshop/Add New Workshop'), 'Ad
 WebUI.click(findTestObject('ATAP EH/Workshop/Add New Workshop'))
 
 for (def row = 1; row <= 1; row++) {
-    WebUI.setText(findTestObject('ATAP EH/Workshop/fill/name'), findTestData('ATAP New Case').getValue('Name', row))
+    WebUI.setText(findTestObject('ATAP EH/Workshop/fill/name'), findTestData('ATAP New Case').getValue('nameWorkshop', row))
 
-    WebUI.setText(findTestObject('ATAP EH/Workshop/fill/phone_number'), findTestData('ATAP New Case').getValue('Phone Number', row))
+    WebUI.setText(findTestObject('ATAP EH/Workshop/fill/phone_number'), findTestData('ATAP New Case').getValue('contactNumber', 
+            row))
 
     WebUI.setText(findTestObject('ATAP EH/Workshop/fill/fax'), findTestData('ATAP New Case').getValue('Fax', row))
 
     WebUI.setText(findTestObject('ATAP EH/Workshop/fill/email'), findTestData('ATAP New Case').getValue('Email', row))
 
-    WebUI.setText(findTestObject('ATAP EH/Workshop/fill/address_1'), findTestData('ATAP New Case').getValue('Address1', row))
+    WebUI.setText(findTestObject('ATAP EH/Workshop/fill/address_1'), findTestData('ATAP New Case').getValue('Address1', 
+            row))
 
-    WebUI.setText(findTestObject('ATAP EH/Workshop/fill/address_2'), findTestData('ATAP New Case').getValue('Address2', row))
+    WebUI.setText(findTestObject('ATAP EH/Workshop/fill/address_2'), findTestData('ATAP New Case').getValue('Address2', 
+            row))
 
     WebUI.setText(findTestObject('ATAP EH/Workshop/fill/postcode'), findTestData('ATAP New Case').getValue('Postcode', row))
 
@@ -102,4 +106,6 @@ WebUI.click(findTestObject('ATAP EH/Workshop/Submit'))
 WebUI.verifyElementPresent(findTestObject('ATAP EH/Workshop/search_workshop'), 0)
 
 WebUI.setText(findTestObject('ATAP EH/Workshop/search_workshop'), 'Empayar Bengkel')
+
+WebUI.callTestCase(findTestCase('ATAP - Main/ATAP - Logout'), [:], FailureHandling.STOP_ON_FAILURE)
 

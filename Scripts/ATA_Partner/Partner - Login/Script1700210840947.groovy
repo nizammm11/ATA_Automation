@@ -27,7 +27,7 @@ WebUI.openBrowser('')
 
 WebUI.maximizeWindow()
 
-WebUI.navigateToUrl('https://canary.autoassistcare.etiqa.com.my/partner/auth/login')
+WebUI.navigateToUrl(findTestData('URL').getValue('ATAPartner', 1))
 
 WebUI.setText(findTestObject('Object Repository/ATA_Partner/LoginPage/input_Welcome to ATA Partner_p-inputtext p-_2f833e'), '122614910')
 
@@ -45,9 +45,9 @@ WebUI.setText(findTestObject('Object Repository/LoginPage/textfield_otp'), WebUI
 
 WebUI.click(findTestObject('Object Repository/ATA_Partner/LoginPage/button_Verify'))
 
-WebUI.verifyElementText(findTestObject('ATA_Partner/LoginPage/span_Log Out'), 'Log Out')
+/*WebUI.verifyElementText(findTestObject('ATA_Partner/LoginPage/span_Log Out'), 'Log Out')
 
 WebUI.click(findTestObject('ATA_Partner/LoginPage/a_Log Out'))
 
-WebUI.click(findTestObject('ATA_Partner/LoginPage/button_Yes, proceed'), FailureHandling.STOP_ON_FAILURE)
+WebUI.click(findTestObject('ATA_Partner/LoginPage/button_Yes, proceed'), FailureHandling.STOP_ON_FAILURE)*/
 

@@ -7,7 +7,7 @@
    <containsHeaders>true</containsHeaders>
    <csvSeperator></csvSeperator>
    <dataFileGUID>103002b6-ba67-462a-a027-0c1df5e99527</dataFileGUID>
-   <dataSourceUrl>../AutomationATA/ATA_Upload/TestData_ATA.xlsx</dataSourceUrl>
+   <dataSourceUrl>ATA_Upload/TestData_ATA.xlsx</dataSourceUrl>
    <driver>ExcelFile</driver>
    <isInternalPath>true</isInternalPath>
    <query></query>
