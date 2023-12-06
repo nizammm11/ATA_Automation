@@ -17,54 +17,21 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-Date today = new Date()
-
-String dateTime = today.format('yyyyMMddHHmmss')
-
 WebUI.callTestCase(findTestCase('ATAP - Main/ATAP - Login'), [('Username') : '80007700', ('Password') : 'DragCk23/'], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.delay(2)
-
-/*WebUI.openBrowser('')
-
-WebUI.maximizeWindow()
-
-WebUI.navigateToUrl('https://canary.autoassistcare.etiqa.com.my/dashboard/login')
-
-WebUI.click(findTestObject('ATAP EH/Login/button_OK'))
-
-WebUI.setText(findTestObject('ATAP EH/Login/Username'), '80008097')
-
-WebUI.setText(findTestObject('ATAP EH/Login/Password'), 'H@z1q1234%')
-
-WebUI.click(findTestObject('ATAP EH/Login/button_LOGIN'))*/
-WebUI.verifyElementText(findTestObject('ATAP EH/Insights/span_Insights'), 'Insights')
-
-WebUI.click(findTestObject('ATAP EH/Insights/span_Insights'))
+WebUI.click(findTestObject('ATAP/Case Listing/filter_dropdown'))
 
 WebUI.delay(2)
 
-WebUI.verifyElementText(findTestObject('ATAP EH/Insights/Cases Overview Summary'), 'Cases Overview Summary')
+WebUI.click(findTestObject('ATAP/Case Listing/filter_Vehicle Number'))
 
-WebUI.verifyElementText(findTestObject('ATAP EH/Insights/Todays Statistics'), 'Today\'s Statistics')
+WebUI.setText(findTestObject('ATAP/Case Listing/inputFilter_Vehicle Number'), 'WB276S')
 
-WebUI.verifyElementText(findTestObject('ATAP EH/Insights/Recent Statistics'), 'Recent Statistics')
-
-WebUI.click(findTestObject('ATAP EH/Insights/dropdown'))
+WebUI.click(findTestObject('ATAP/Case Listing/button_SearchFilter'))
 
 WebUI.delay(2)
 
-WebUI.verifyElementText(findTestObject('ATAP EH/Insights/Last 7 days'), 'Last 7 days')
-
-WebUI.verifyElementText(findTestObject('ATAP EH/Insights/This Month'), 'This Month')
-
-WebUI.click(findTestObject('ATAP EH/Insights/Last 7 days'))
-
-WebUI.click(findTestObject('ATAP EH/Insights/dropdown'))
-
-WebUI.delay(2)
-
-WebUI.click(findTestObject('ATAP EH/Insights/This Month'))
+WebUI.click(findTestObject('ATAP HH/General/Case Select Vehicle No'))
 
 WebUI.callTestCase(findTestCase('ATAP - Main/ATAP - Logout'), [:], FailureHandling.STOP_ON_FAILURE)
 

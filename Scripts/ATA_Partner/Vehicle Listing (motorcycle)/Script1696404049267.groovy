@@ -19,7 +19,7 @@ import org.openqa.selenium.Keys as Keys
 import java.time.LocalDateTime as LocalDateTime
 import java.time.format.DateTimeFormatter as DateTimeFormatter
 
-Date today = new Date()
+/*Date today = new Date()
 
 String dateTime = today.format('yyyyMMddHHmmss')
 
@@ -29,7 +29,8 @@ WebUI.maximizeWindow()
 
 WebUI.navigateToUrl('https://canary.autoassistcare.etiqa.com.my/partner/auth/login')
 
-WebUI.setText(findTestObject('Object Repository/ATA_Partner/LoginPage/input_Welcome to ATA Partner_p-inputtext p-_2f833e'), '122614910')
+WebUI.setText(findTestObject('Object Repository/ATA_Partner/LoginPage/input_Welcome to ATA Partner_p-inputtext p-_2f833e'), 
+    '122614910')
 
 WebUI.click(findTestObject('Object Repository/ATA_Partner/LoginPage/div_Welcome to ATA Partner_p-checkbox-box'))
 
@@ -37,7 +38,7 @@ WebUI.click(findTestObject('Object Repository/ATA_Partner/LoginPage/button_Reque
 
 WebUI.delay(20)
 
-WebUI.click(findTestObject('Object Repository/ATA_Partner/LoginPage/button_Verify'))
+WebUI.click(findTestObject('Object Repository/ATA_Partner/LoginPage/button_Verify'))*/
 
 WebUI.click(findTestObject('ATA_Partner/Vehicle/Vehicle/a_Vehicle Listing'))
 

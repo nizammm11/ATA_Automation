@@ -44,11 +44,19 @@ WebUI.takeFullPageScreenshot(('D://ATA_Automation//ATA_Screenshot//ATAP//Verific
 'TC104'
 WebUI.click(findTestObject('ATAP HH/Module/Module_Ratings'))
 
+WebUI.delay(2)
+
 WebUI.click(findTestObject('ATAP HH/Ratings/Tab_Pending'))
+
+WebUI.delay(2)
 
 WebUI.click(findTestObject('ATAP HH/General/Case Select Vehicle No'))
 
+WebUI.delay(2)
+
 WebUI.click(findTestObject('ATAP HH/Ratings/Button_Add Ratings'))
+
+WebUI.delay(2)
 
 WebUI.click(findTestObject('ATAP HH/Ratings/Ratings 1 Details'))
 
@@ -125,7 +133,11 @@ WebUI.click(findTestObject('ATAP HH/Module/Module_Ratings'))
 
 WebUI.setText(findTestObject('ATAP HH/General/Date From'), '02/08/2023')
 
+WebUI.delay(2)
+
 WebUI.setText(findTestObject('ATAP HH/General/Date To'), '20/08/2023')
+
+WebUI.delay(2)
 
 WebUI.sendKeys(findTestObject('ATAP HH/General/Date To'), Keys.chord(Keys.ENTER))
 

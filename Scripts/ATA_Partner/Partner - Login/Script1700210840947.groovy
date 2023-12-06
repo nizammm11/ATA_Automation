@@ -29,7 +29,7 @@ WebUI.maximizeWindow()
 
 WebUI.navigateToUrl(findTestData('URL').getValue('ATAPartner', 1))
 
-WebUI.setText(findTestObject('Object Repository/ATA_Partner/LoginPage/input_Welcome to ATA Partner_p-inputtext p-_2f833e'), '122614910')
+WebUI.setText(findTestObject('Object Repository/ATA_Partner/LoginPage/input_Welcome to ATA Partner_p-inputtext p-_2f833e'), phoneNumber)
 
 WebUI.click(findTestObject('Object Repository/ATA_Partner/LoginPage/div_Welcome to ATA Partner_p-checkbox-box'))
 

@@ -38,6 +38,8 @@ WebUI.click(findTestObject('ATAU/main page/btn_Car'))
 
 WebUI.click(findTestObject('ATAU/Car service list/btn_brake'))
 
+WebUI.delay(2)
+
 WebUI.verifyElementText(findTestObject('ATAU/Questions/title_having_brake_issue'), 'I\'m having a brake issue')
 
 WebUI.verifyElementText(findTestObject('ATAU/Questions/question1'), 'Can you release your handbrake? *')
@@ -134,6 +136,8 @@ WebUI.delay(2)
 
 WebUI.click(findTestObject('ATAU/Car service list/btn_Smoke'))
 
+WebUI.delay(2)
+
 WebUI.verifyElementText(findTestObject('ATAU/Questions/title_Smoke'), 'Smoke is coming out from my engine')
 
 WebUI.click(findTestObject('ATAU/Questions/btn_closeX'))
@@ -143,6 +147,8 @@ WebUI.delay(2)
 WebUI.scrollToElement(findTestObject('ATAU/Car service list/btn_Im not sure whats wrong'), 0)
 
 WebUI.click(findTestObject('ATAU/Car service list/btn_gear'))
+
+WebUI.delay(2)
 
 WebUI.verifyElementText(findTestObject('ATAU/Questions/title_gear'), 'I have problems changing gear')
 

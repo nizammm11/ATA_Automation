@@ -68,9 +68,13 @@ WebUI.takeFullPageScreenshot(('D:\\AutomationATA\\ATA_Screenshot\\ATAU\\Main_pag
 
 WebUI.click(findTestObject('ATAU/button_Got It'))
 
+WebUI.delay(2)
+
 WebUI.takeFullPageScreenshot(('D:\\AutomationATA\\ATA_Screenshot\\ATAU\\Main_page\\4. Main Page_' + dateTime) + '.png')
 
 WebUI.click(findTestObject('ATAU/location page/Back to main'))
+
+WebUI.delay(2)
 
 WebUI.verifyElementText(findTestObject('ATAU/main page/merah_Not right location_word'), 'Not the right location? Tap to change')
 
@@ -84,9 +88,13 @@ WebUI.verifyElementPresent(findTestObject('ATAU/main page/btn_Car'), 0)
 
 WebUI.click(findTestObject('ATAU/main page/btn_Car'))
 
+WebUI.delay(2)
+
 WebUI.takeFullPageScreenshot(('D:\\AutomationATA\\ATA_Screenshot\\ATAU\\Main_page\\5. Main Page_' + dateTime) + '.png')
 
 WebUI.click(findTestObject('ATAU/Car service list/btn_Back'))
+
+WebUI.delay(2)
 
 WebUI.verifyElementPresent(findTestObject('ATAU/main page/main land/icon_motor'), 0)
 
@@ -96,9 +104,13 @@ WebUI.verifyElementPresent(findTestObject('ATAU/main page/btn_Motorcycle'), 0)
 
 WebUI.click(findTestObject('ATAU/main page/btn_Motorcycle'))
 
+WebUI.delay(2)
+
 WebUI.takeFullPageScreenshot(('D:\\AutomationATA\\ATA_Screenshot\\ATAU\\Main_page\\6. Main Page_' + dateTime) + '.png')
 
 WebUI.click(findTestObject('ATAU/Car service list/btn_Back'))
+
+WebUI.delay(2)
 
 WebUI.verifyElementText(findTestObject('ATAU/main page/main land/word_Quick links'), 'Quick links')
 

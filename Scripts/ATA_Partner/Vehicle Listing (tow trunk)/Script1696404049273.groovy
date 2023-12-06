@@ -19,7 +19,7 @@ import org.openqa.selenium.Keys as Keys
 import java.time.LocalDateTime as LocalDateTime
 import java.time.format.DateTimeFormatter as DateTimeFormatter
 
-Date today = new Date()
+/*Date today = new Date()
 
 String dateTime = today.format('yyyyMMddHHmmss')
 
@@ -37,7 +37,7 @@ WebUI.click(findTestObject('Object Repository/ATA_Partner/LoginPage/button_Reque
 
 WebUI.delay(20)
 
-WebUI.click(findTestObject('Object Repository/ATA_Partner/LoginPage/button_Verify'))
+WebUI.click(findTestObject('Object Repository/ATA_Partner/LoginPage/button_Verify'))*/
 
 WebUI.click(findTestObject('ATA_Partner/Vehicle/Vehicle/a_Vehicle Listing'))
 

@@ -23,6 +23,8 @@ String dateTime = today.format('yyyyMMddHHmmss')
 
 WebUI.callTestCase(findTestCase('ATAP - Main/ATAP - Login'), [('Username') : '80007700', ('Password') : 'DragCk23/'], FailureHandling.STOP_ON_FAILURE)
 
+WebUI.delay(2)
+
 /*WebUI.openBrowser('')
 
 WebUI.maximizeWindow()
@@ -39,6 +41,8 @@ WebUI.click(findTestObject('ATAP EH/Login/button_LOGIN'))*/
 WebUI.verifyElementText(findTestObject('ATAP EH/Workshop/Workshops'), 'Workshops')
 
 WebUI.click(findTestObject('ATAP EH/Workshop/Workshops'))
+
+WebUI.delay(2)
 
 WebUI.verifyElementText(findTestObject('ATAP EH/Workshop/List of Workshop'), 'List of Workshop')
 
@@ -57,6 +61,8 @@ WebUI.verifyElementText(findTestObject('ATAP EH/Workshop/Action'), 'Action')
 WebUI.verifyElementText(findTestObject('ATAP EH/Workshop/Add New Workshop'), 'Add New Workshop')
 
 WebUI.click(findTestObject('ATAP EH/Workshop/Add New Workshop'))
+
+WebUI.delay(2)
 
 for (def row = 1; row <= 1; row++) {
     WebUI.setText(findTestObject('ATAP EH/Workshop/fill/name'), findTestData('ATAP New Case').getValue('nameWorkshop', row))
@@ -83,6 +89,8 @@ for (def row = 1; row <= 1; row++) {
 
 WebUI.click(findTestObject('ATAP EH/Workshop/select_status'), FailureHandling.STOP_ON_FAILURE)
 
+WebUI.delay(2)
+
 WebUI.verifyElementText(findTestObject('ATAP EH/Workshop/Active'), 'Active')
 
 WebUI.verifyElementText(findTestObject('ATAP EH/Workshop/Inactive'), 'Inactive')
@@ -90,6 +98,8 @@ WebUI.verifyElementText(findTestObject('ATAP EH/Workshop/Inactive'), 'Inactive')
 WebUI.click(findTestObject('ATAP EH/Workshop/Active'))
 
 WebUI.click(findTestObject('ATAP EH/Workshop/dropdownCategory'))
+
+WebUI.delay(2)
 
 WebUI.verifyElementText(findTestObject('ATAP EH/Workshop/Premier'), 'Premier')
 
@@ -102,6 +112,8 @@ WebUI.click(findTestObject('ATAP EH/Workshop/Premier'))
 WebUI.verifyElementText(findTestObject('ATAP EH/Workshop/Submit'), 'Submit')
 
 WebUI.click(findTestObject('ATAP EH/Workshop/Submit'))
+
+WebUI.delay(2)
 
 WebUI.verifyElementPresent(findTestObject('ATAP EH/Workshop/search_workshop'), 0)
 

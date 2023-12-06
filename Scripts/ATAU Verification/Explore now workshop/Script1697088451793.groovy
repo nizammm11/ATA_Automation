@@ -31,6 +31,8 @@ WebUI.maximizeWindow()
 
 WebUI.navigateToUrl(findTestData('URL').getValue('ATAU', 1))
 
+WebUI.delay(2)
+
 WebUI.takeFullPageScreenshot(('D:\\AutomationATA\\ATA_Screenshot\\ATAU\\ExploreWorkshop\\1. Explore Workshop_' + dateTime) + 
     '.png')
 
@@ -55,19 +57,20 @@ WebUI.verifyElementText(findTestObject('ATAU/explore workshop/word_Filter'), 'Fi
 
 WebUI.verifyElementText(findTestObject('ATAU/explore workshop/word_Workshops near you'), 'Workshops near you')
 
-WebUI.verifyElementPresent(findTestObject('ATAU/explore workshop/box_workshop'), 0)
+/*WebUI.verifyElementPresent(findTestObject('ATAU/explore workshop/box_workshop'), 0)
 
 WebUI.verifyElementText(findTestObject('ATAU/explore workshop/type_Normal'), 'NORMAL')
 
 //WebUI.verifyElementText(findTestObject('ATAU/explore workshop/word_Sum Motor Sdn Bhd'), 'Sum Motor Sdn. Bhd. (HQ)')
-WebUI.verifyElementText(findTestObject('ATAU/explore workshop/word_Kuala Lumpur'), 'Kuala Lumpur')
-
+WebUI.verifyElementText(findTestObject('ATAU/explore workshop/word_Kuala Lumpur'), 'Kuala Lumpur')*/
 /*--------------------------------Filter----------------------------------------*/
 WebUI.verifyElementPresent(findTestObject('ATAU/explore workshop/icon_filter'), 0)
 
 WebUI.verifyElementText(findTestObject('ATAU/explore workshop/word_Filter'), 'Filter')
 
 WebUI.click(findTestObject('ATAU/explore workshop/icon_filter'))
+
+WebUI.delay(2)
 
 WebUI.takeFullPageScreenshot(('D:\\AutomationATA\\ATA_Screenshot\\ATAU\\ExploreWorkshop\\3. Explore Workshop_' + dateTime) + 
     '.png')
@@ -77,6 +80,8 @@ WebUI.verifyElementText(findTestObject('ATAU/explore workshop/Filter/btn_Distanc
 WebUI.verifyElementPresent(findTestObject('ATAU/explore workshop/Filter/btn_Distance'), 0)
 
 WebUI.click(findTestObject('ATAU/explore workshop/Filter/btn_Distance'))
+
+WebUI.delay(2)
 
 WebUI.verifyElementText(findTestObject('ATAU/explore workshop/Filter/btn_1km'), '1km')
 
@@ -101,6 +106,8 @@ WebUI.verifyElementText(findTestObject('ATAU/explore workshop/Filter/btn_Categor
 WebUI.verifyElementPresent(findTestObject('ATAU/explore workshop/Filter/btn_Category'), 0)
 
 WebUI.click(findTestObject('ATAU/explore workshop/Filter/btn_Category'))
+
+WebUI.delay(2)
 
 WebUI.verifyElementText(findTestObject('ATAU/explore workshop/Filter/btn_Normal'), 'Normal')
 
@@ -128,6 +135,8 @@ WebUI.verifyElementText(findTestObject('ATAU/explore workshop/Filter/btn_State')
 WebUI.verifyElementPresent(findTestObject('ATAU/explore workshop/Filter/btn_State'), 0)
 
 WebUI.click(findTestObject('ATAU/explore workshop/Filter/btn_State'))
+
+WebUI.delay(2)
 
 /*--------------------------------JOHOR----------------------------------------*/
 WebUI.verifyElementText(findTestObject('ATAU/explore workshop/Filter/btn_JOHOR'), 'JOHOR')
@@ -280,6 +289,8 @@ WebUI.verifyElementPresent(findTestObject('ATAU/explore workshop/Filter/btn_KEDA
 
 WebUI.click(findTestObject('ATAU/explore workshop/Filter/btn_KEDAH'))
 
+WebUI.delay(2)
+
 WebUI.verifyElementText(findTestObject('ATAU/explore workshop/Filter/Kedah/btn_Alor Setar'), 'Alor Setar')
 
 WebUI.verifyElementPresent(findTestObject('ATAU/explore workshop/Filter/Kedah/btn_Alor Setar'), 0)
@@ -367,6 +378,8 @@ WebUI.verifyElementPresent(findTestObject('ATAU/explore workshop/Filter/btn_KELA
 
 WebUI.click(findTestObject('ATAU/explore workshop/Filter/btn_KELANTAN'))
 
+WebUI.delay(2)
+
 WebUI.verifyElementText(findTestObject('ATAU/explore workshop/Filter/Kelantan/btn_Gua Musang'), 'Gua Musang')
 
 WebUI.verifyElementPresent(findTestObject('ATAU/explore workshop/Filter/Kelantan/btn_Gua Musang'), 0)
@@ -412,6 +425,8 @@ WebUI.verifyElementPresent(findTestObject('ATAU/explore workshop/Filter/btn_MELA
 
 WebUI.click(findTestObject('ATAU/explore workshop/Filter/btn_MELAKA'))
 
+WebUI.delay(2)
+
 WebUI.verifyElementText(findTestObject('ATAU/explore workshop/Filter/Melaka/btn_Alor Gajah'), 'Alor Gajah')
 
 WebUI.verifyElementPresent(findTestObject('ATAU/explore workshop/Filter/Melaka/btn_Alor Gajah'), 0)
@@ -456,6 +471,8 @@ WebUI.verifyElementText(findTestObject('ATAU/explore workshop/Filter/btn_NEGERI 
 WebUI.verifyElementPresent(findTestObject('ATAU/explore workshop/Filter/btn_NEGERI SEMBILAN'), 0)
 
 WebUI.click(findTestObject('ATAU/explore workshop/Filter/btn_NEGERI SEMBILAN'))
+
+WebUI.delay(2)
 
 WebUI.verifyElementText(findTestObject('ATAU/explore workshop/Filter/Negeri Sembilan/btn_Bahau'), 'Bahau')
 
@@ -532,6 +549,8 @@ WebUI.verifyElementPresent(findTestObject('ATAU/explore workshop/Filter/btn_PAHA
 
 WebUI.click(findTestObject('ATAU/explore workshop/Filter/btn_PAHANG'))
 
+WebUI.delay(2)
+
 WebUI.verifyElementText(findTestObject('ATAU/explore workshop/Filter/Pahang/btn_Bentong'), 'Bentong')
 
 WebUI.verifyElementPresent(findTestObject('ATAU/explore workshop/Filter/Pahang/btn_Bentong'), 0)
@@ -600,6 +619,8 @@ WebUI.verifyElementText(findTestObject('ATAU/explore workshop/Filter/btn_PERAK')
 WebUI.verifyElementPresent(findTestObject('ATAU/explore workshop/Filter/btn_PERAK'), 0)
 
 WebUI.click(findTestObject('ATAU/explore workshop/Filter/btn_PERAK'))
+
+WebUI.delay(2)
 
 WebUI.verifyElementText(findTestObject('ATAU/explore workshop/Filter/Perak/btn_Ayer Tawar'), 'Ayer Tawar')
 
@@ -741,6 +762,8 @@ WebUI.verifyElementPresent(findTestObject('ATAU/explore workshop/Filter/btn_PERL
 
 WebUI.click(findTestObject('ATAU/explore workshop/Filter/btn_PERLIS'))
 
+WebUI.delay(2)
+
 WebUI.verifyElementText(findTestObject('ATAU/explore workshop/Filter/Perlis/btn_Arau'), 'Arau')
 
 WebUI.verifyElementPresent(findTestObject('ATAU/explore workshop/Filter/Perlis/btn_Arau'), 0)
@@ -772,6 +795,8 @@ WebUI.verifyElementText(findTestObject('ATAU/explore workshop/Filter/btn_PENANG 
 WebUI.verifyElementPresent(findTestObject('ATAU/explore workshop/Filter/btn_PENANG (ISLAND)'), 0)
 
 WebUI.click(findTestObject('ATAU/explore workshop/Filter/btn_PENANG (ISLAND)'))
+
+WebUI.delay(2)
 
 WebUI.verifyElementText(findTestObject('ATAU/explore workshop/Filter/Penang (island)/btn_Batu Maung'), 'Batu Maung')
 
@@ -822,6 +847,8 @@ WebUI.verifyElementText(findTestObject('ATAU/explore workshop/Filter/btn_PENANG 
 WebUI.verifyElementPresent(findTestObject('ATAU/explore workshop/Filter/btn_PENANG (SEBERANG PERAI)'), 0)
 
 WebUI.click(findTestObject('ATAU/explore workshop/Filter/btn_PENANG (SEBERANG PERAI)'))
+
+WebUI.delay(2)
 
 WebUI.verifyElementText(findTestObject('ATAU/explore workshop/Filter/Penang (seberang perai)/btn_Bukit Mertajam'), 'Bukit Mertajam')
 
@@ -1263,6 +1290,8 @@ WebUI.verifyElementPresent(findTestObject('ATAU/explore workshop/Filter/btn_WILA
 
 WebUI.click(findTestObject('ATAU/explore workshop/Filter/btn_WILAYAH PERSEKUTUAN'))
 
+WebUI.delay(2)
+
 WebUI.verifyElementText(findTestObject('ATAU/explore workshop/Filter/Wilayah Persekutuan/btn_Kuala Lumpur'), 'Kuala Lumpur')
 
 WebUI.verifyElementPresent(findTestObject('ATAU/explore workshop/Filter/Wilayah Persekutuan/btn_Kuala Lumpur'), 0)
@@ -1275,6 +1304,8 @@ WebUI.click(findTestObject('ATAU/explore workshop/Filter/btn_WILAYAH PERSEKUTUAN
 
 WebUI.click(findTestObject('ATAU/explore workshop/Filter/btn_JOHOR'))
 
+WebUI.delay(2)
+
 WebUI.click(findTestObject('ATAU/explore workshop/Filter/btn_Premier'))
 
 WebUI.click(findTestObject('ATAU/explore workshop/Filter/Johor/btn_Johor Bahru'))
@@ -1284,10 +1315,14 @@ WebUI.takeFullPageScreenshot(('D:\\AutomationATA\\ATA_Screenshot\\ATAU\\ExploreW
 
 WebUI.click(findTestObject('ATAU/explore workshop/Filter/button_Apply'))
 
+WebUI.delay(2)
+
 WebUI.takeFullPageScreenshot(('D:\\AutomationATA\\ATA_Screenshot\\ATAU\\ExploreWorkshop\\7. Explore Workshop_' + dateTime) + 
     '.png')
 
 WebUI.click(findTestObject('ATAU/explore workshop/icon_filter'))
+
+WebUI.delay(2)
 
 WebUI.click(findTestObject('ATAU/explore workshop/Filter/button_Reset'))
 
@@ -1303,19 +1338,31 @@ WebUI.takeFullPageScreenshot(('D:\\AutomationATA\\ATA_Screenshot\\ATAU\\ExploreW
 
 WebUI.click(findTestObject('ATAU/explore workshop/icon_filter'))
 
+WebUI.delay(2)
+
 WebUI.verifyElementPresent(findTestObject('ATAU/explore workshop/Filter/button_close'), 0)
 
 WebUI.click(findTestObject('ATAU/explore workshop/Filter/button_close'))
 
-WebUI.setText(findTestObject('ATAU/explore workshop/textfield_search_workshop'), findTestData('ATAU Verify').getValue('Workshop', 1))
+WebUI.setText(findTestObject('ATAU/explore workshop/textfield_search_workshop'), findTestData('ATAU Verify').getValue('Workshop', 
+        1))
 
 WebUI.delay(2)
+
+WebUI.verifyElementPresent(findTestObject('ATAU/explore workshop/box_workshop'), 0)
+
+WebUI.verifyElementText(findTestObject('ATAU/explore workshop/type_Normal'), 'NORMAL')
+
+//WebUI.verifyElementText(findTestObject('ATAU/explore workshop/word_Sum Motor Sdn Bhd'), 'Sum Motor Sdn. Bhd. (HQ)')
+WebUI.verifyElementText(findTestObject('ATAU/explore workshop/word_Kuala Lumpur'), 'Kuala Lumpur')
 
 WebUI.verifyElementPresent(findTestObject('ATAU/explore workshop/btn_See details'), 0)
 
 WebUI.verifyElementText(findTestObject('ATAU/explore workshop/btn_See details'), 'See details')
 
 WebUI.click(findTestObject('ATAU/explore workshop/btn_See details'))
+
+WebUI.delay(2)
 
 WebUI.takeFullPageScreenshot(('D:\\AutomationATA\\ATA_Screenshot\\ATAU\\ExploreWorkshop\\10. Explore Workshop_' + dateTime) + 
     '.png')
@@ -1344,11 +1391,15 @@ WebUI.verifyElementText(findTestObject('ATAU/explore workshop/word_email'), 'sum
 
 WebUI.click(findTestObject('ATAU/explore workshop/btn_close'))
 
+WebUI.delay(2)
+
 WebUI.verifyElementPresent(findTestObject('ATAU/explore workshop/icon_call'), 0)
 
 WebUI.verifyElementPresent(findTestObject('ATAU/explore workshop/icon_map'), 0)
 
 WebUI.click(findTestObject('ATAU/explore workshop/icon_map'))
+
+WebUI.delay(2)
 
 WebUI.verifyElementText(findTestObject('ATAU/explore workshop/word_Open With'), 'Open With')
 

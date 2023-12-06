@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>button_Add filter</name>
+   <tag></tag>
+   <elementGuidId>6f6459c3-9532-4ebf-9476-bca723bc932f</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>button.p-element.p-button-primary.p-button-outlined.w-12.p-button.p-component</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//button[@type='button']</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>button</value>
+      <webElementGuid>5f0d7f3d-4430-47da-b566-85ef89a72882</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>type</name>
+      <type>Main</type>
+      <value>button</value>
+      <webElementGuid>ff602e5b-4678-41de-a247-924d5199cad1</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>label</name>
+      <type>Main</type>
+      <value>Add filter</value>
+      <webElementGuid>f255603a-4c38-4b75-998a-b68df96079ba</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>p-element p-button-primary p-button-outlined w-12 p-button p-component</value>
+      <webElementGuid>45c6169b-a263-4469-9129-e092947bb40b</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>ng-reflect-label</name>
+      <type>Main</type>
+      <value>Add filter</value>
+      <webElementGuid>77b7751d-6ed2-4033-a932-1a1382af0663</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Add filter</value>
+      <webElementGuid>51948312-edd9-4e20-befa-4dff44d12413</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>/html[1]/body[1]/ata-dashboard-root[1]/div[@class=&quot;app-layout&quot;]/div[@class=&quot;layout-content&quot;]/div[@class=&quot;content-data&quot;]/ata-dashboard-cases[@class=&quot;ng-star-inserted&quot;]/ata-dashboard-case-list[@class=&quot;ng-star-inserted&quot;]/div[@class=&quot;mb-8&quot;]/ata-dashboard-case-list-filter[1]/div[@class=&quot;surface-0 p-4&quot;]/form[@class=&quot;mb-2 ng-touched ng-dirty ng-valid&quot;]/div[@class=&quot;grid nested-grid&quot;]/div[@class=&quot;col-fixed w-10rem py-1&quot;]/button[@class=&quot;p-element p-button-primary p-button-outlined w-12 p-button p-component&quot;]</value>
+      <webElementGuid>ee0b5108-1d5d-4aff-b378-be37289bbf1c</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>//button[@type='button']</value>
+      <webElementGuid>7dda4c6f-5a98-463a-9dbd-7d8580cbb440</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Search'])[1]/following::button[1]</value>
+      <webElementGuid>82412494-f1c4-4316-91a4-3037bf44b70e</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Vehicle Number'])[1]/following::button[2]</value>
+      <webElementGuid>20b3ac69-d73e-4f0b-b518-3e1101d0ce5f</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Reset Filters'])[1]/preceding::button[1]</value>
+      <webElementGuid>376699cf-da9a-4982-a846-04a296c9d8cf</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div/div[3]/button</value>
+      <webElementGuid>7b7bd7ec-5ce0-428c-a4ce-b587231ec078</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//button[@type = 'button' and (text() = 'Add filter' or . = 'Add filter')]</value>
+      <webElementGuid>a9751ac6-7639-4a0f-aebf-f591bec7705b</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

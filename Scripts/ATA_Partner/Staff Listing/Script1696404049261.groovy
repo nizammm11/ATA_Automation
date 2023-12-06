@@ -17,7 +17,7 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-Date today = new Date()
+/*Date today = new Date()
 
 String dateTime = today.format('yyyyMMddHHmmss')
 
@@ -46,7 +46,7 @@ WebUI.click(findTestObject('Object Repository/ATA_Partner/LoginPage/button_Reque
 
 WebUI.delay(20)
 
-WebUI.click(findTestObject('Object Repository/ATA_Partner/LoginPage/button_Verify'))
+WebUI.click(findTestObject('Object Repository/ATA_Partner/LoginPage/button_Verify'))*/
 
 WebUI.verifyElementText(findTestObject('ATA_Partner/Staff_Listing/a_Staff Listing'), 'Staff Listing')
 

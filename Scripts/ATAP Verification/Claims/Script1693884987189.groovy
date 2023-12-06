@@ -40,6 +40,8 @@ WebUI.verifyElementText(findTestObject('ATAP EH/Claims/Claims Inquiry'), 'Claims
 
 WebUI.click(findTestObject('ATAP EH/Claims/Claims Inquiry'))
 
+WebUI.delay(2)
+
 //WebUI.verifyElementText(findTestObject('ATAP EH/Claims/Vehicle Number'), 'Vehicle Number* :')
 WebUI.setText(findTestObject('ATAP EH/Claims/vehicle_Number'), 'JSF7791')
 
