@@ -44,13 +44,13 @@ WebUI.click(findTestObject('ATAP EH/Insights/span_Insights'))
 
 WebUI.delay(2)
 
-WebUI.verifyElementText(findTestObject('ATAP EH/Insights/Cases Overview Summary'), 'Cases Overview Summary')
+WebUI.verifyElementText(findTestObject('ATAP EH/Insights/Cases Overview Summary V2'), 'Cases Overview Summary')
 
 WebUI.verifyElementText(findTestObject('ATAP EH/Insights/Todays Statistics'), 'Today\'s Statistics')
 
 WebUI.verifyElementText(findTestObject('ATAP EH/Insights/Recent Statistics'), 'Recent Statistics')
 
-WebUI.click(findTestObject('ATAP EH/Insights/dropdown'))
+WebUI.click(findTestObject('ATAP EH/Insights/dropdownV2'))
 
 WebUI.delay(2)
 
@@ -60,7 +60,9 @@ WebUI.verifyElementText(findTestObject('ATAP EH/Insights/This Month'), 'This Mon
 
 WebUI.click(findTestObject('ATAP EH/Insights/Last 7 days'))
 
-WebUI.click(findTestObject('ATAP EH/Insights/dropdown'))
+WebUI.delay(2)
+
+WebUI.click(findTestObject('ATAP EH/Insights/dropdownV2'))
 
 WebUI.delay(2)
 
