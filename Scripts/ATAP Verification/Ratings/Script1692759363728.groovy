@@ -27,7 +27,7 @@ WebUI.callTestCase(findTestCase('ATAP - Main/ATAP - Login'), [('Username') : '80
 
 WebUI.click(findTestObject('ATAP HH/Module/Module_Ratings'))
 
-WebUI.delay(5)
+WebUI.delay(2)
 
 'TC105'
 WebUI.takeFullPageScreenshot(('D://ATA_Automation//ATA_Screenshot//ATAP//Verification//1. Ratings - Negative Ratings_' + 
@@ -36,7 +36,7 @@ WebUI.takeFullPageScreenshot(('D://ATA_Automation//ATA_Screenshot//ATAP//Verific
 'TC103'
 WebUI.click(findTestObject('ATAP HH/General/Case Select Vehicle No'))
 
-WebUI.delay(5)
+WebUI.delay(2)
 
 WebUI.takeFullPageScreenshot(('D://ATA_Automation//ATA_Screenshot//ATAP//Verification//2. Ratings - View Ratings_' + dateTime) + 
     '.png')
@@ -53,6 +53,12 @@ WebUI.delay(2)
 WebUI.click(findTestObject('ATAP HH/General/Case Select Vehicle No'))
 
 WebUI.delay(2)
+
+if (WebUI.verifyElementPresent(findTestObject('ATAP HH/Ratings/button_OK'), 2, FailureHandling.OPTIONAL) == true) {
+    WebUI.click(findTestObject('ATAP HH/Ratings/button_OK'))
+} else {
+    WebUI.delay(1)
+}
 
 WebUI.click(findTestObject('ATAP HH/Ratings/Button_Add Ratings'))
 
@@ -112,9 +118,9 @@ WebUI.verifyElementPresent(findTestObject('ATAP HH/Ratings/Ratings 3_Great (Wait
 
 WebUI.click(findTestObject('ATAP HH/Ratings/Ratings 3_Good (Waiting Time)'))
 
-WebUI.setText(findTestObject('ATAP HH/Ratings/Ratings 4 Details Suggestions'), 'TESTING')
+WebUI.setText(findTestObject('ATAP HH/Ratings/Ratings4_Suggestions'), 'TESTING')
 
-WebUI.delay(3)
+WebUI.delay(2)
 
 WebUI.takeFullPageScreenshot(('D://ATA_Automation\\ATA_Screenshot//ATAP//Verification//3. Ratings - Feedbacks Details_' + 
     dateTime) + '.png')
@@ -123,7 +129,7 @@ WebUI.verifyElementPresent(findTestObject('ATAP HH/Ratings/Button_Close (Ratings
 
 WebUI.click(findTestObject('ATAP HH/Ratings/Button_Save (Ratings)'))
 
-WebUI.delay(5)
+WebUI.delay(2)
 
 WebUI.takeFullPageScreenshot(('D://ATA_Automation//ATA_Screenshot//ATAP//Verification//4. Ratings - View Service Rate_' + 
     dateTime) + '.png')
@@ -143,7 +149,7 @@ WebUI.sendKeys(findTestObject('ATAP HH/General/Date To'), Keys.chord(Keys.ENTER)
 
 WebUI.click(findTestObject('ATAP HH/General/Export CSV'))
 
-WebUI.delay(5)
+WebUI.delay(2)
 
 WebUI.takeFullPageScreenshot(('D://ATA_Automation//ATA_Screenshot//ATAP//Verification//5. Ratings - Surveys Download_' + 
     dateTime) + '.png')

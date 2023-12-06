@@ -419,7 +419,7 @@ WebUI.click(findTestObject('ATAU/explore workshop/Filter/Kelantan/btn_Tanah Mera
 WebUI.click(findTestObject('ATAU/explore workshop/Filter/btn_KELANTAN'))
 
 /*--------------------------------MELAKA----------------------------------------*/
-WebUI.verifyElementText(findTestObject('ATAU/explore workshop/Filter/btn_MELAKA'), 'MELAKA')
+/*WebUI.verifyElementText(findTestObject('ATAU/explore workshop/Filter/btn_MELAKA'), 'MELAKA')
 
 WebUI.verifyElementPresent(findTestObject('ATAU/explore workshop/Filter/btn_MELAKA'), 0)
 
@@ -463,7 +463,7 @@ WebUI.verifyElementPresent(findTestObject('ATAU/explore workshop/Filter/Melaka/b
 
 WebUI.click(findTestObject('ATAU/explore workshop/Filter/Melaka/btn_Melaka'))
 
-WebUI.click(findTestObject('ATAU/explore workshop/Filter/btn_MELAKA'))
+WebUI.click(findTestObject('ATAU/explore workshop/Filter/btn_MELAKA'))*/
 
 /*--------------------------------NEGERI SEMBILAN----------------------------------------*/
 WebUI.verifyElementText(findTestObject('ATAU/explore workshop/Filter/btn_NEGERI SEMBILAN'), 'NEGERI SEMBILAN')

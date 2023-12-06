@@ -6,16 +6,16 @@
    <elementGuidId>b57c1d31-7b8b-4252-93f3-968176f77d99</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>(.//*[normalize-space(text()) and normalize-space(.)='Status'])[1]/following::td[1]</value>
+         <key>BASIC</key>
+         <value>//*[(text() = 'JHZ123520/06/2023 03:28 PM' or . = 'JHZ123520/06/2023 03:28 PM')]</value>
       </entry>
       <entry>
          <key>CSS</key>
          <value>td</value>
       </entry>
       <entry>
-         <key>BASIC</key>
-         <value>//*[(text() = 'JHZ123520/06/2023 03:28 PM' or . = 'JHZ123520/06/2023 03:28 PM')]</value>
+         <key>XPATH</key>
+         <value>//td</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -26,7 +26,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>td</value>
-      <webElementGuid>2293de8d-24f5-4e75-ad34-06795f99e7aa</webElementGuid>
+      <webElementGuid>23785e4d-3f37-4dfc-9e9c-78b59f457267</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -34,7 +34,7 @@
       <name>text</name>
       <type>Main</type>
       <value>JHZ123520/06/2023 03:28 PM</value>
-      <webElementGuid>3fdaab20-7d16-4011-90d7-0698e0d8a3a6</webElementGuid>
+      <webElementGuid>2faab2f3-a173-443d-94d7-da9360f42926</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -42,7 +42,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;pr_id_3-table&quot;)/tbody[@class=&quot;p-element p-datatable-tbody&quot;]/tr[@class=&quot;ng-star-inserted&quot;]/td[1]</value>
-      <webElementGuid>3a259730-b7e5-4a24-b9b7-dbe6fc65821d</webElementGuid>
+      <webElementGuid>737bcd85-99cf-42e5-b985-2e28a9ddd4c9</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -50,7 +50,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//table[@id='pr_id_3-table']/tbody/tr/td</value>
-      <webElementGuid>06fb1384-a171-463d-8d0a-3bb8992a1f95</webElementGuid>
+      <webElementGuid>472f34e7-cad1-4825-8ef9-a2af7291f86c</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -58,7 +58,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Status'])[1]/following::td[1]</value>
-      <webElementGuid>867d1097-f270-4a35-9054-28e5971d4b25</webElementGuid>
+      <webElementGuid>d873e7e4-371a-4312-b6d8-b687b23aeca0</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -66,7 +66,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Provider'])[1]/following::td[1]</value>
-      <webElementGuid>cb172968-1afa-49ee-bc6e-d03fbee63051</webElementGuid>
+      <webElementGuid>1ce0c715-79c4-464b-8dac-7936a27e0c74</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -74,7 +74,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='car'])[1]/preceding::td[2]</value>
-      <webElementGuid>bdbff6c7-b9fa-420d-afb0-c685531f0baf</webElementGuid>
+      <webElementGuid>25cafef3-953c-48c1-b06f-077a7885be82</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -82,7 +82,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//td</value>
-      <webElementGuid>976fd14b-9510-420d-a238-7bf993c24d51</webElementGuid>
+      <webElementGuid>fffc3d45-c0a8-4729-9e07-13d7d62ee430</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -90,6 +90,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//td[(text() = 'JHZ123520/06/2023 03:28 PM' or . = 'JHZ123520/06/2023 03:28 PM')]</value>
-      <webElementGuid>867f8e7c-8ceb-43a6-9863-c342faf48031</webElementGuid>
+      <webElementGuid>18fde981-a8e0-4235-bad3-0686fa1ae670</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

@@ -11,7 +11,7 @@
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>//a[@id='p-tabpanel-8-label']/span</value>
+         <value>(.//*[normalize-space(text()) and normalize-space(.)='Export CSV'])[1]/following::span[2]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -22,7 +22,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>span</value>
-      <webElementGuid>fd2d859b-7879-4315-83bb-d420f2dae50a</webElementGuid>
+      <webElementGuid>cf541231-d2f6-42bd-8042-d590d4fbcd8a</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -30,7 +30,7 @@
       <name>class</name>
       <type>Main</type>
       <value>p-tabview-title ng-star-inserted</value>
-      <webElementGuid>cbb21536-04f8-4731-8436-06ebda132409</webElementGuid>
+      <webElementGuid>167e00ea-60ae-4270-bd22-3454c2b118ae</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -38,7 +38,7 @@
       <name>text</name>
       <type>Main</type>
       <value>Pending (86)</value>
-      <webElementGuid>c7d8a46c-4de3-4496-b62d-f6e4e2321d83</webElementGuid>
+      <webElementGuid>9ba3f1a6-105c-4531-a45a-75e905e1e4a9</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -46,7 +46,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;p-tabpanel-8-label&quot;)/span[@class=&quot;p-tabview-title ng-star-inserted&quot;]</value>
-      <webElementGuid>b5b1bdf9-75ab-459d-889d-daa8fe960237</webElementGuid>
+      <webElementGuid>5af89e54-19f9-4c17-9d05-2a1cbecdac34</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -54,7 +54,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//a[@id='p-tabpanel-8-label']/span</value>
-      <webElementGuid>b5228a08-d2db-4b98-8c27-a6c415910e60</webElementGuid>
+      <webElementGuid>b35e3f71-72f0-429d-9409-e60cf24f8a59</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -62,7 +62,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Responses (29)'])[1]/following::span[1]</value>
-      <webElementGuid>279e6ce0-b7eb-42c8-8788-2ebbf48c2c28</webElementGuid>
+      <webElementGuid>f6c426fc-c257-4d85-822d-e34d982cbf43</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -70,7 +70,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Export CSV'])[1]/following::span[2]</value>
-      <webElementGuid>9c04a134-aa14-4b7a-9d65-8289f761cf7a</webElementGuid>
+      <webElementGuid>b4861e27-d56e-498b-91fc-06d69c662956</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -78,7 +78,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Select Service Type'])[1]/preceding::span[1]</value>
-      <webElementGuid>edf2e5be-257d-4390-a69a-b00e848a99f2</webElementGuid>
+      <webElementGuid>716ec672-d7be-458b-8fd3-f2a9fa0d2218</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -86,7 +86,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Vehicle Number'])[1]/preceding::span[3]</value>
-      <webElementGuid>26a5b28c-f9af-4da1-84fa-9525d5caed7b</webElementGuid>
+      <webElementGuid>e03aa541-efa2-4ae0-b51e-129574c8d411</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -94,7 +94,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>//*/text()[normalize-space(.)='Pending (86)']/parent::*</value>
-      <webElementGuid>dca474e9-27a7-45f8-9780-90e8b8e18317</webElementGuid>
+      <webElementGuid>916c8f76-45b7-41ed-89f7-06532394803c</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -102,7 +102,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//li[2]/a/span</value>
-      <webElementGuid>a1e57f0a-30ff-48f5-b5ea-c0180111d70d</webElementGuid>
+      <webElementGuid>8bafe735-cb81-4734-9c2a-3a59d51921dd</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -110,6 +110,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//span[(text() = 'Pending (86)' or . = 'Pending (86)')]</value>
-      <webElementGuid>2128e66d-63d9-4e4a-847c-402199f26079</webElementGuid>
+      <webElementGuid>539906b8-aab2-41c1-839a-88e65a92f05f</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

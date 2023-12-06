@@ -87,7 +87,9 @@ for (def row = 1; row <= 1; row++) {
     WebUI.setText(findTestObject('ATAP EH/Workshop/fill/state'), findTestData('ATAP New Case').getValue('State', row))
 }
 
-WebUI.click(findTestObject('ATAP EH/Workshop/select_status'), FailureHandling.STOP_ON_FAILURE)
+WebUI.scrollToElement(findTestObject('ATAP EH/Workshop/fill/postcode'), 0)
+
+WebUI.click(findTestObject('ATAP EH/Workshop/Status_dropdown'), FailureHandling.STOP_ON_FAILURE)
 
 WebUI.delay(2)
 
@@ -97,7 +99,7 @@ WebUI.verifyElementText(findTestObject('ATAP EH/Workshop/Inactive'), 'Inactive')
 
 WebUI.click(findTestObject('ATAP EH/Workshop/Active'))
 
-WebUI.click(findTestObject('ATAP EH/Workshop/dropdownCategory'))
+WebUI.click(findTestObject('ATAP EH/Workshop/Category_dropdown'))
 
 WebUI.delay(2)
 
@@ -109,9 +111,9 @@ WebUI.verifyElementText(findTestObject('ATAP EH/Workshop/Motorcycle'), 'Motorcyc
 
 WebUI.click(findTestObject('ATAP EH/Workshop/Premier'))
 
-WebUI.verifyElementText(findTestObject('ATAP EH/Workshop/Submit'), 'Submit')
+WebUI.verifyElementText(findTestObject('ATAP EH/Workshop/button_Submit'), 'Submit')
 
-WebUI.click(findTestObject('ATAP EH/Workshop/Submit'))
+WebUI.click(findTestObject('ATAP EH/Workshop/button_Submit'))
 
 WebUI.delay(2)
 

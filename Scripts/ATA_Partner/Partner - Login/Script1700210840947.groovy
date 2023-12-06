@@ -29,7 +29,8 @@ WebUI.maximizeWindow()
 
 WebUI.navigateToUrl(findTestData('URL').getValue('ATAPartner', 1))
 
-WebUI.setText(findTestObject('Object Repository/ATA_Partner/LoginPage/input_Welcome to ATA Partner_p-inputtext p-_2f833e'), phoneNumber)
+WebUI.setText(findTestObject('Object Repository/ATA_Partner/LoginPage/input_Welcome to ATA Partner_p-inputtext p-_2f833e'), 
+    phoneNumber)
 
 WebUI.click(findTestObject('Object Repository/ATA_Partner/LoginPage/div_Welcome to ATA Partner_p-checkbox-box'))
 
@@ -37,17 +38,10 @@ WebUI.takeFullPageScreenshot(('D:\\AutomationATA\\ATA_Screenshot\\//ATA_Partner\
 
 WebUI.click(findTestObject('Object Repository/ATA_Partner/LoginPage/button_Request OTP'))
 
-WebUI.setText(findTestObject('Object Repository/LoginPage/textfield_otp'), WebUI.getAttribute(findTestObject('Object Repository/ATA_Partner/LoginPage/otp'), 'value'))
+WebUI.setText(findTestObject('ATA_Partner/LoginPage/otp'), WebUI.getAttribute(findTestObject('Object Repository/ATA_Partner/LoginPage/otp'), 
+        'value'))
 
 //WebUI.delay(5)
-
 //WebUI.takeFullPageScreenshot(('D:\\AutomationATA\\ATA_Screenshot\\//ATA_Partner\\Login2' + dateTime) + '.png')
-
 WebUI.click(findTestObject('Object Repository/ATA_Partner/LoginPage/button_Verify'))
-
-/*WebUI.verifyElementText(findTestObject('ATA_Partner/LoginPage/span_Log Out'), 'Log Out')
-
-WebUI.click(findTestObject('ATA_Partner/LoginPage/a_Log Out'))
-
-WebUI.click(findTestObject('ATA_Partner/LoginPage/button_Yes, proceed'), FailureHandling.STOP_ON_FAILURE)*/
 

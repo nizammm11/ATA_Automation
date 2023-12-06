@@ -6,6 +6,10 @@
    <elementGuidId>84e716c8-bd40-45ba-bd6c-765d4e488383</elementGuidId>
    <selectorCollection>
       <entry>
+         <key>BASIC</key>
+         <value>/html[1]/body[@class=&quot;p-overflow-hidden&quot;]/p-dynamicdialog[@class=&quot;p-element ng-tns-c151-52 ng-star-inserted&quot;]/div[@class=&quot;ng-tns-c151-52 p-dialog-mask p-component-overlay p-component-overlay-enter p-dialog-mask-scrollblocker&quot;]/div[@class=&quot;ng-trigger ng-trigger-animation ng-tns-c151-52 p-dialog p-dynamic-dialog p-component ng-star-inserted&quot;]/div[@class=&quot;p-dialog-content ng-tns-c151-52&quot;]/ata-dialog-rating-create[@class=&quot;ng-star-inserted&quot;]/form[@class=&quot;ng-pristine ng-invalid ng-touched&quot;]/div[@class=&quot;mt-5&quot;]/textarea[@class=&quot;p-inputtextarea p-inputtext p-component p-element ng-untouched ng-pristine ng-valid&quot;]</value>
+      </entry>
+      <entry>
          <key>CSS</key>
          <value>textarea.p-inputtextarea.p-inputtext.p-component.p-element.ng-untouched.ng-pristine.ng-valid</value>
       </entry>
@@ -22,7 +26,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>textarea</value>
-      <webElementGuid>71f95fb4-1de8-4d82-9647-1c25207b3107</webElementGuid>
+      <webElementGuid>11827dc3-7a6f-499c-97d2-c83311337e7c</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -30,7 +34,7 @@
       <name>rows</name>
       <type>Main</type>
       <value>4</value>
-      <webElementGuid>fe2beeb9-071b-4a92-9681-d3ae4d80fe78</webElementGuid>
+      <webElementGuid>34c0194c-0cc7-4b10-b03b-03629a040b1a</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -38,7 +42,7 @@
       <name>formcontrolname</name>
       <type>Main</type>
       <value>suggestion</value>
-      <webElementGuid>8ac8e580-eb2a-4ae0-9cca-0335052f4135</webElementGuid>
+      <webElementGuid>9a402ceb-4814-4ce8-87ef-c7bbf2af874a</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -46,7 +50,7 @@
       <name>class</name>
       <type>Main</type>
       <value>p-inputtextarea p-inputtext p-component p-element ng-untouched ng-pristine ng-valid</value>
-      <webElementGuid>cd7d1d1d-3ab4-4c8d-9fcd-af9ec628222c</webElementGuid>
+      <webElementGuid>a3687e33-f47c-4ca0-928e-6085b7852b0a</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -54,7 +58,7 @@
       <name>ng-reflect-name</name>
       <type>Main</type>
       <value>suggestion</value>
-      <webElementGuid>07d7a87d-65ac-4205-82fe-ead4f4a57d2f</webElementGuid>
+      <webElementGuid>7fa9f8ef-e3b6-45ad-b3aa-efd6f63e6c30</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -62,7 +66,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>/html[1]/body[@class=&quot;p-overflow-hidden&quot;]/p-dynamicdialog[@class=&quot;p-element ng-tns-c151-52 ng-star-inserted&quot;]/div[@class=&quot;ng-tns-c151-52 p-dialog-mask p-component-overlay p-component-overlay-enter p-dialog-mask-scrollblocker&quot;]/div[@class=&quot;ng-trigger ng-trigger-animation ng-tns-c151-52 p-dialog p-dynamic-dialog p-component ng-star-inserted&quot;]/div[@class=&quot;p-dialog-content ng-tns-c151-52&quot;]/ata-dialog-rating-create[@class=&quot;ng-star-inserted&quot;]/form[@class=&quot;ng-pristine ng-invalid ng-touched&quot;]/div[@class=&quot;mt-5&quot;]/textarea[@class=&quot;p-inputtextarea p-inputtext p-component p-element ng-untouched ng-pristine ng-valid&quot;]</value>
-      <webElementGuid>f4770e13-601d-45d1-9622-e3fceba2d2da</webElementGuid>
+      <webElementGuid>c9474393-dd73-4aad-8d03-27c58921ba2e</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -70,6 +74,6 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//form/div[4]/textarea</value>
-      <webElementGuid>9e91ec09-0645-4fbe-8b24-8fc409cc5a4e</webElementGuid>
+      <webElementGuid>a47e7e6f-b85b-4c68-a8c9-f1121cfec780</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>
