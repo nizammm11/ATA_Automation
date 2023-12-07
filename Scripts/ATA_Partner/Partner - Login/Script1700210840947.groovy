@@ -38,10 +38,14 @@ WebUI.takeFullPageScreenshot(('D:\\AutomationATA\\ATA_Screenshot\\//ATA_Partner\
 
 WebUI.click(findTestObject('Object Repository/ATA_Partner/LoginPage/button_Request OTP'))
 
-WebUI.setText(findTestObject('ATA_Partner/LoginPage/otp'), WebUI.getAttribute(findTestObject('Object Repository/ATA_Partner/LoginPage/otp'), 
-        'value'))
+//WebUI.delay(5)
+WebUI.setText(findTestObject('Object Repository/ATA_Partner/LoginPage/textfield_otp'), WebUI.getAttribute(findTestObject(
+            'Object Repository/ATA_Partner/LoginPage/otp'), 'value'))
 
+//WebUI.setText(findTestObject('Object Repository/ATA_Partner/LoginPage/textfield_otp'), '111111')
 //WebUI.delay(5)
 //WebUI.takeFullPageScreenshot(('D:\\AutomationATA\\ATA_Screenshot\\//ATA_Partner\\Login2' + dateTime) + '.png')
 WebUI.click(findTestObject('Object Repository/ATA_Partner/LoginPage/button_Verify'))
+
+WebUI.delay(2)
 

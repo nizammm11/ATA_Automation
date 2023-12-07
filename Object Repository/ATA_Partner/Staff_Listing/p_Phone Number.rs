@@ -6,11 +6,11 @@
    <elementGuidId>c472422e-6f57-4320-835a-20be3837fe14</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>(.//*[normalize-space(text()) and normalize-space(.)='N/A'])[10]/following::p[4]</value>
+         <key>CSS</key>
       </entry>
       <entry>
-         <key>CSS</key>
+         <key>XPATH</key>
+         <value>(.//*[normalize-space(text()) and normalize-space(.)='WA1309'])[3]/preceding::p[3]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -21,7 +21,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>p</value>
-      <webElementGuid>0d4a4fdf-39a0-4be3-b894-b82122afefc0</webElementGuid>
+      <webElementGuid>2658c4a5-6133-4f12-8354-b48064cf64cc</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -29,7 +29,7 @@
       <name>class</name>
       <type>Main</type>
       <value>inline-flex</value>
-      <webElementGuid>2151c5ff-67ca-4876-a8f4-9caf68101d58</webElementGuid>
+      <webElementGuid>67038ea4-0f50-4bf8-b341-7ac83ab15238</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -37,7 +37,7 @@
       <name>text</name>
       <type>Main</type>
       <value>Phone Number</value>
-      <webElementGuid>bd53cbdf-e35c-4780-b914-ec4bfc050bbb</webElementGuid>
+      <webElementGuid>ecb5a98f-dc78-4d43-a1cb-ff15c42d8f30</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -45,7 +45,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>/html[1]/body[@class=&quot;overflow-hidden lg:overflow-auto&quot;]/ata-partner[1]/ata-partner-layout-dashboard[@class=&quot;ng-star-inserted&quot;]/section[@class=&quot;main&quot;]/div[@class=&quot;content&quot;]/ata-partner-staff[@class=&quot;ng-star-inserted&quot;]/partner-staff-list[@class=&quot;ng-star-inserted&quot;]/div[@class=&quot;flex-column bg-color&quot;]/div[@class=&quot;p-2 grid&quot;]/div[@class=&quot;p-3 md:col-8 bg-white hidden-xs&quot;]/div[@class=&quot;ng-star-inserted&quot;]/partner-staff-detail[1]/div[@class=&quot;py-4 border-bottom-1&quot;]/div[@class=&quot;p-col-12 p-md-12 info&quot;]/p[@class=&quot;inline-flex&quot;]</value>
-      <webElementGuid>9ebcd8ab-73e5-4d1e-8e53-d9a0bff98183</webElementGuid>
+      <webElementGuid>c9b0ebc4-df05-439a-ad6e-ea9fb9e7b006</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -53,7 +53,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='N/A'])[10]/following::p[4]</value>
-      <webElementGuid>e9a272da-1c06-4d1d-bf5f-381975cd45a1</webElementGuid>
+      <webElementGuid>93c93fe2-a5b9-4fad-b7ac-bf2b58790bad</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -61,7 +61,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='N/A'])[9]/following::p[4]</value>
-      <webElementGuid>82f1d202-cc5c-451d-9eb8-61d7a31256b5</webElementGuid>
+      <webElementGuid>9c0d3e15-cf28-425e-888d-998747340b8f</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -69,7 +69,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='WA1309'])[3]/preceding::p[3]</value>
-      <webElementGuid>395c2977-7131-4ec7-b3ef-69d29c7bebcb</webElementGuid>
+      <webElementGuid>9678d801-c0fe-4f4c-8d1f-aed71f553411</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -77,7 +77,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='On'])[5]/preceding::p[7]</value>
-      <webElementGuid>507120e2-4561-4a96-a017-101cbdccf7b1</webElementGuid>
+      <webElementGuid>7f0beedb-568f-40be-8556-a641c96f87a0</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -85,7 +85,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//div[2]/div/partner-staff-detail/div/div[2]/p</value>
-      <webElementGuid>165fe007-a3ff-442a-a877-b86cbcaeec4a</webElementGuid>
+      <webElementGuid>97d8834a-7211-4690-8d4c-aebf3ba567b9</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -93,6 +93,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//p[(text() = 'Phone Number' or . = 'Phone Number')]</value>
-      <webElementGuid>2d375e90-fb63-4626-b3e4-0b72086b3a9e</webElementGuid>
+      <webElementGuid>ec19384d-313c-4ea4-a789-d1ff25ec3e9a</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

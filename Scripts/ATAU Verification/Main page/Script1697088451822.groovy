@@ -32,11 +32,11 @@ WebUI.navigateToUrl(findTestData('URL').getValue('ATAU', 1))
 
 WebUI.delay(2)
 
-WebUI.takeFullPageScreenshot(('D:\\AutomationATA\\ATA_Screenshot\\ATAU\\Main_page\\1. Main Page_' + dateTime) + '.png')
+//WebUI.takeFullPageScreenshot(('D:\\AutomationATA\\ATA_Screenshot\\ATAU\\Main_page\\1. Main Page_' + dateTime) + '.png')
 
 WebUI.click(findTestObject('ATAU/button_Got It'))
 
-WebUI.takeFullPageScreenshot(('D:\\AutomationATA\\ATA_Screenshot\\ATAU\\Main_page\\2. Main Page_' + dateTime) + '.png')
+//WebUI.takeFullPageScreenshot(('D:\\AutomationATA\\ATA_Screenshot\\ATAU\\Main_page\\2. Main Page_' + dateTime) + '.png')
 
 WebUI.verifyElementText(findTestObject('ATAU/main page/text_Get 247 services SMILE app'), 'Get 24/7 auto assist services with Etiqa SMILE app')
 
@@ -64,13 +64,13 @@ WebUI.click(findTestObject('ATAU/main page/Where Are You Now'))
 
 WebUI.delay(2)
 
-WebUI.takeFullPageScreenshot(('D:\\AutomationATA\\ATA_Screenshot\\ATAU\\Main_page\\3. Main Page_' + dateTime) + '.png')
+//WebUI.takeFullPageScreenshot(('D:\\AutomationATA\\ATA_Screenshot\\ATAU\\Main_page\\3. Main Page_' + dateTime) + '.png')
 
 WebUI.click(findTestObject('ATAU/button_Got It'))
 
 WebUI.delay(2)
 
-WebUI.takeFullPageScreenshot(('D:\\AutomationATA\\ATA_Screenshot\\ATAU\\Main_page\\4. Main Page_' + dateTime) + '.png')
+//WebUI.takeFullPageScreenshot(('D:\\AutomationATA\\ATA_Screenshot\\ATAU\\Main_page\\4. Main Page_' + dateTime) + '.png')
 
 WebUI.click(findTestObject('ATAU/location page/Back to main'))
 
@@ -90,7 +90,7 @@ WebUI.click(findTestObject('ATAU/main page/btn_Car'))
 
 WebUI.delay(2)
 
-WebUI.takeFullPageScreenshot(('D:\\AutomationATA\\ATA_Screenshot\\ATAU\\Main_page\\5. Main Page_' + dateTime) + '.png')
+//WebUI.takeFullPageScreenshot(('D:\\AutomationATA\\ATA_Screenshot\\ATAU\\Main_page\\5. Main Page_' + dateTime) + '.png')
 
 WebUI.click(findTestObject('ATAU/Car service list/btn_Back'))
 
@@ -106,7 +106,7 @@ WebUI.click(findTestObject('ATAU/main page/btn_Motorcycle'))
 
 WebUI.delay(2)
 
-WebUI.takeFullPageScreenshot(('D:\\AutomationATA\\ATA_Screenshot\\ATAU\\Main_page\\6. Main Page_' + dateTime) + '.png')
+//WebUI.takeFullPageScreenshot(('D:\\AutomationATA\\ATA_Screenshot\\ATAU\\Main_page\\6. Main Page_' + dateTime) + '.png')
 
 WebUI.click(findTestObject('ATAU/Car service list/btn_Back'))
 

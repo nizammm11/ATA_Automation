@@ -30,7 +30,9 @@ WebUI.callTestCase(findTestCase('ATAP - Main/ATAP - Login'), [:], FailureHandlin
 WebUI.maximizeWindow()
 
 WebUI.navigateToUrl('https://canary.autoassistcare.etiqa.com.my/dashboard/login')*/
-for (def row = 1; row <= findTestData('ATAP').getRowNumbers(); row++) {
+//for (def row = 1; row <= findTestData('ATAP').getRowNumbers(); row++) {
+for (def row = 1; row <= 4; row++) {
+	
 	WebUI.click(findTestObject('ATAP/Case Listing/filter_dropdown'))
 	
 	WebUI.delay(2)
@@ -137,7 +139,7 @@ for (def row = 1; row <= findTestData('ATAP').getRowNumbers(); row++) {
 		if (findTestData('ATAP').getValue('ServiceType', row) == 'Repair-On-Site (ROS) - Car') {
 			WebUI.click(findTestObject('ATAP HH/Service Type Car/Car_Repair-On-Site (ROS)'))
 			
-			if (findTestData('ATAP').getValue('SubService', row) == 'Out of Petrol') {
+			/*==if (findTestData('ATAP').getValue('SubService', row) == 'Out of Petrol') {
 				WebUI.click(findTestObject('ATAP HH/Service Type Car/Car ROS_Out of Petrol'))
 				} else if (findTestData('ATAP').getValue('SubService', row) == 'Jump Start') {
 					WebUI.click(findTestObject('ATAP HH/Service Type Car/Car ROS_Jump Start'))
@@ -145,19 +147,19 @@ for (def row = 1; row <= findTestData('ATAP').getRowNumbers(); row++) {
             		WebUI.click(findTestObject('ATAP HH/Service Type Car/Car ROS_Change Battery'))
         		} else {
             		WebUI.click(findTestObject('ATAP HH/Service Type Car/Car ROS_Flat Tyre'))
-           		}
+           		}==*/
 				   
 		} else if (findTestData('ATAP').getValue('ServiceType', row) == 'Breakdown Towing - Car') {
 			WebUI.click(findTestObject('ATAP HH/Service Type/Car_Breakdown Towing'))
 
-            if (findTestData('ATAP').getValue('SubService', row) == 'Brake') {
+            /*==if (findTestData('ATAP').getValue('SubService', row) == 'Brake') {
                 WebUI.click(findTestObject('ATAP HH/Service Type/Car Towing_Brakes Problem'))
             } else if (findTestData('ATAP').getValue('SubService', row) == 'Smoke') {
                 WebUI.click(findTestObject('ATAP HH/Service Type/Car Towing_Overheating'))
             } else {
                 WebUI.click(findTestObject('ATAP HH/Service Type/Car Towing_Transmission Issue'))
             }
-			
+			==*/
         } else if (findTestData('ATAP').getValue('ServiceType', row) == 'Accident - Car') {
             WebUI.click(findTestObject('ATAP HH/Service Type/Car_Accident'))
 
@@ -203,7 +205,7 @@ for (def row = 1; row <= findTestData('ATAP').getRowNumbers(); row++) {
 
             WebUI.delay(2)
 
-            WebUI.click(findTestObject('ATAP HH/Service Type/ROS_Out of Petrol'))
+            //**WebUI.click(findTestObject('ATAP HH/Service Type/ROS_Out of Petrol'))
         } else if (findTestData('ATAP').getValue('ServiceType', row) == 'Accident - Motorcycle') {
             WebUI.click(findTestObject('ATAP HH/Service Type/Accident - Motorcycle'))
 
@@ -215,7 +217,7 @@ for (def row = 1; row <= findTestData('ATAP').getRowNumbers(); row++) {
         } else if (findTestData('ATAP').getValue('ServiceType', row) == 'Breakdown Towing - Motorcycle') {
             WebUI.click(findTestObject('ATAP HH/Service Type/Breakdown Towing - Motorcycle'))
 
-            if (findTestData('ATAP').getValue('SubService', row) == 'Flat Tyre') {
+            /*==if (findTestData('ATAP').getValue('SubService', row) == 'Flat Tyre') {
                 WebUI.click(findTestObject('ATAP HH/Service Type/Towing_Flat Tyre'))
             } else if (findTestData('ATAP').getValue('SubService', row) == 'Gears Problem') {
                 WebUI.click(findTestObject('ATAP HH/Service Type/Towing_Gears Problem'))
@@ -223,7 +225,7 @@ for (def row = 1; row <= findTestData('ATAP').getRowNumbers(); row++) {
                 WebUI.click(findTestObject('ATAP HH/Service Type/Towing_Brakes Problem'))
             } else {
                 WebUI.click(findTestObject('ATAP HH/Service Type/Towing_Cannot Start Motorcycle'))
-            }
+            }==*/
         } else {
             WebUI.click(findTestObject('ATAP HH/Service Type/Others - Car'))
         }
@@ -309,8 +311,8 @@ for (def row = 1; row <= findTestData('ATAP').getRowNumbers(); row++) {
 
     WebUI.click(findTestObject('ATAP HH/General/Button_OK'))
 
-    WebUI.takeFullPageScreenshot(((('D:\\AutomationATA\\ATA_Screenshot\\//ATAP//2. Case Details_' + row) + '_') + dateTime) + 
-        '.png')
+//    WebUI.takeFullPageScreenshot(((('D:\\AutomationATA\\ATA_Screenshot\\//ATAP//2. Case Details_' + row) + '_') + dateTime) + 
+//        '.png')
 
     WebUI.click(findTestObject('ATAP HH/Module/Module_Cases'))
 }

@@ -38,8 +38,8 @@ WebUI.click(findTestObject('ATAP HH/General/Case Select Vehicle No'))
 
 WebUI.delay(2)
 
-WebUI.takeFullPageScreenshot(('D://ATA_Automation//ATA_Screenshot//ATAP//Verification//2. Ratings - View Ratings_' + dateTime) + 
-    '.png')
+/*WebUI.takeFullPageScreenshot(('D://ATA_Automation//ATA_Screenshot//ATAP//Verification//2. Ratings - View Ratings_' + dateTime) + 
+    '.png')*/
 
 'TC104'
 WebUI.click(findTestObject('ATAP HH/Module/Module_Ratings'))

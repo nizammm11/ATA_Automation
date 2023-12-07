@@ -47,7 +47,6 @@ WebUI.click(findTestObject('Object Repository/ATA_Partner/LoginPage/button_Reque
 WebUI.delay(20)
 
 WebUI.click(findTestObject('Object Repository/ATA_Partner/LoginPage/button_Verify'))*/
-
 WebUI.verifyElementText(findTestObject('ATA_Partner/Case Listing/Tab/Page_Partner/p_Toggle On Duty to receive cases'), 'Toggle "On Duty" to receive cases')
 
 WebUI.click(findTestObject('ATA_Partner/Case Listing/Tab/Page_Partner/div_Off Duty'))
@@ -56,9 +55,15 @@ WebUI.click(findTestObject('ATA_Partner/Case Listing/Tab/Page_Partner/div_On Dut
 
 WebUI.click(findTestObject('ATA_Partner/Case Listing/Tab/Page_Partner/a_In progress'))
 
+WebUI.delay(2)
+
 WebUI.click(findTestObject('ATA_Partner/Case Listing/Tab/Page_Partner/a_History'))
 
+WebUI.delay(2)
+
 WebUI.click(findTestObject('ATA_Partner/Case Listing/Tab/Page_Partner/a_New case'))
+
+WebUI.delay(2)
 
 WebUI.click(findTestObject('ATA_Partner/Case Listing/Tab/Page_Partner/button_Policy'))
 
@@ -77,19 +82,22 @@ WebUI.verifyElementText(findTestObject('ATA_Partner/Case Listing/Assign/Page_Par
 WebUI.verifyElementText(findTestObject('ATA_Partner/Case Listing/Assign/Page_Partner/Page_Partner/Page_Partner/span_Vehicle Model'), 
     'Vehicle Model')
 
-WebUI.verifyElementText(findTestObject('ATA_Partner/Case Listing/Assign/Page_Partner/Page_Partner/Page_Partner/span_Policy Benefit'), 
-    'Policy Benefit')
+WebUI.verifyElementText(findTestObject('ATA_Partner/Case Listing/Page_Partner/text_Policy Benefit'), 'Policy Benefit')
 
-WebUI.verifyElementText(findTestObject('ATA_Partner/Case Listing/Assign/Page_Partner/Page_Partner/Page_Partner/div_Remarks'), 'Remarks')
+WebUI.verifyElementText(findTestObject('ATA_Partner/Case Listing/Assign/Page_Partner/Page_Partner/Page_Partner/div_Remarks'), 
+    'Remarks')
 
-WebUI.verifyElementText(findTestObject('ATA_Partner/Case Listing/Assign/Page_Partner/Page_Partner/Page_Partner/div_Entity'), 'Entity')
+WebUI.verifyElementText(findTestObject('ATA_Partner/Case Listing/Assign/Page_Partner/Page_Partner/Page_Partner/div_Entity'), 
+    'Entity')
 
 WebUI.verifyElementText(findTestObject('ATA_Partner/Case Listing/Assign/Page_Partner/Page_Partner/Page_Partner/p_Price Estimation'), 
     'Price Estimation')
 
-WebUI.verifyElementText(findTestObject('ATA_Partner/Case Listing/Assign/Page_Partner/Page_Partner/Page_Partner/div_Mileage'), 'Mileage')
+WebUI.verifyElementText(findTestObject('ATA_Partner/Case Listing/Assign/Page_Partner/Page_Partner/Page_Partner/div_Mileage'), 
+    'Mileage')
 
-WebUI.verifyElementText(findTestObject('ATA_Partner/Case Listing/Assign/Page_Partner/Page_Partner/Page_Partner/div_Add ons'), 'Add ons')
+WebUI.verifyElementText(findTestObject('ATA_Partner/Case Listing/Assign/Page_Partner/Page_Partner/Page_Partner/div_Add ons'), 
+    'Add ons')
 
 WebUI.verifyElementText(findTestObject('ATA_Partner/Case Listing/Assign/Page_Partner/Page_Partner/Page_Partner/span_Claim to Etiqa'), 
     'Claim to Etiqa')
@@ -97,27 +105,39 @@ WebUI.verifyElementText(findTestObject('ATA_Partner/Case Listing/Assign/Page_Par
 WebUI.verifyElementText(findTestObject('ATA_Partner/Case Listing/Assign/Page_Partner/Page_Partner/Page_Partner/span_Collect from customer'), 
     'Collect from customer')
 
-WebUI.verifyElementText(findTestObject('ATA_Partner/Case Listing/Assign/Page_Partner/Page_Partner/Page_Partner/span_TOTAL'), 'TOTAL')
+WebUI.verifyElementText(findTestObject('ATA_Partner/Case Listing/Assign/Page_Partner/Page_Partner/Page_Partner/span_TOTAL'), 
+    'TOTAL')
 
-WebUI.verifyElementText(findTestObject('ATA_Partner/Case Listing/Assign/Page_Partner/Page_Partner/Page_Partner/p_Activity Logs'), 'Activity Logs')
+WebUI.verifyElementText(findTestObject('ATA_Partner/Case Listing/Assign/Page_Partner/Page_Partner/Page_Partner/p_Activity Logs'), 
+    'Activity Logs')
 
-WebUI.verifyElementText(findTestObject('ATA_Partner/Case Listing/Assign/Page_Partner/Page_Partner/Page_Partner/span_Ticket ID'), 'Ticket ID')
+WebUI.verifyElementText(findTestObject('ATA_Partner/Case Listing/Assign/Page_Partner/Page_Partner/Page_Partner/span_Ticket ID'), 
+    'Ticket ID')
 
-WebUI.verifyElementText(findTestObject('ATA_Partner/Case Listing/Assign/Page_Partner/Page_Partner/Page_Partner/button_COPY'), 'COPY')
+WebUI.verifyElementText(findTestObject('ATA_Partner/Case Listing/Assign/Page_Partner/Page_Partner/Page_Partner/button_COPY'), 
+    'COPY')
 
 WebUI.verifyElementText(findTestObject('ATA_Partner/Case Listing/Assign/Page_Partner/Page_Partner/Page_Partner/span_Edit Add on Service'), 
     'Edit Add on Service')
 
-WebUI.verifyElementText(findTestObject('ATA_Partner/Case Listing/Assign/Page_Partner/Page_Partner/Page_Partner/button_Edit'), 'Edit')
+WebUI.verifyElementText(findTestObject('ATA_Partner/Case Listing/Assign/Page_Partner/Page_Partner/Page_Partner/button_Edit'), 
+    'Edit')
+
+WebUI.delay(2)
 
 WebUI.click(findTestObject('ATA_Partner/Case Listing/Assign/Page_Partner/Page_Partner/Page_Partner/button_Edit'))
 
 WebUI.verifyElementText(findTestObject('ATA_Partner/Case Listing/Assign/Page_Partner/Page_Partner/Page_Partner/span_Edit add on service (1)'), 
     'Edit add on service')
 
-WebUI.verifyElementText(findTestObject('ATA_Partner/Case Listing/Assign/Page_Partner/Page_Partner/Page_Partner/span_Remarks'), 'Remarks')
+WebUI.verifyElementText(findTestObject('ATA_Partner/Case Listing/Assign/Page_Partner/Page_Partner/Page_Partner/span_Remarks'), 
+    'Remarks')
 
-WebUI.verifyElementText(findTestObject('ATA_Partner/Case Listing/Assign/Page_Partner/Page_Partner/Page_Partner/button_Save'), 'Save')
+WebUI.verifyElementText(findTestObject('ATA_Partner/Case Listing/Assign/Page_Partner/Page_Partner/Page_Partner/button_Save'), 
+    'Save')
 
-WebUI.verifyElementText(findTestObject('ATA_Partner/Case Listing/Assign/Page_Partner/Page_Partner/Page_Partner/button_Close'), 'Close')
+WebUI.verifyElementText(findTestObject('ATA_Partner/Case Listing/Assign/Page_Partner/Page_Partner/Page_Partner/button_Close'), 
+    'Close')
+
+WebUI.click(findTestObject('ATA_Partner/Case Listing/Assign/Page_Partner/Page_Partner/Page_Partner/button_Close'))
 

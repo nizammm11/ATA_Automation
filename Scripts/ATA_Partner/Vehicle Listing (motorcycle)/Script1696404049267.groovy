@@ -39,8 +39,9 @@ WebUI.click(findTestObject('Object Repository/ATA_Partner/LoginPage/button_Reque
 WebUI.delay(20)
 
 WebUI.click(findTestObject('Object Repository/ATA_Partner/LoginPage/button_Verify'))*/
+WebUI.click(findTestObject('ATA_Partner/Vehicle/Page_Partner/Vehicle Listing'))
 
-WebUI.click(findTestObject('ATA_Partner/Vehicle/Vehicle/a_Vehicle Listing'))
+WebUI.delay(2)
 
 WebUI.verifyElementPresent(findTestObject('ATA_Partner/Vehicle/Vehicle/a_Add Registered Vehicle'), 0)
 
@@ -48,19 +49,27 @@ WebUI.verifyElementText(findTestObject('ATA_Partner/Vehicle/Vehicle/a_Add Regist
 
 WebUI.click(findTestObject('ATA_Partner/Vehicle/Vehicle/a_Add Registered Vehicle'))
 
+WebUI.delay(2)
+
 WebUI.verifyElementText(findTestObject('ATA_Partner/Vehicle/Vehicle/p_Vehicle Number'), 'Vehicle Number')
 
 WebUI.verifyElementText(findTestObject('ATA_Partner/Vehicle/Vehicle/p_Type of Vehicle'), 'Type of Vehicle')
 
 WebUI.verifyElementText(findTestObject('ATA_Partner/Vehicle/Vehicle/p_Vehicle Status'), 'Vehicle Status')
 
-WebUI.setText(findTestObject('ATA_Partner/Vehicle/Vehicle/fill_vehicleNumber'), 'VBL678')
+WebUI.setText(findTestObject('ATA_Partner/Vehicle/Vehicle/fill_vehicleNumber'), 'VBL680')
 
-WebUI.click(findTestObject('ATA_Partner/Vehicle/Vehicle/dropdown_vehicle'))
+WebUI.click(findTestObject('ATA_Partner/Vehicle/Page_Partner/dropdown_vehicleList'))
+
+WebUI.delay(2)
 
 WebUI.click(findTestObject('ATA_Partner/Vehicle/Vehicle/Motorcycle/span_Motorcycle'))
 
-WebUI.click(findTestObject('ATA_Partner/Vehicle/Vehicle/Truck/Type Of Truck/dropdown_status'))
+WebUI.delay(2)
+
+WebUI.click(findTestObject('ATA_Partner/Vehicle/Page_Partner/Page_Partner/VehicleStatus_drop'))
+
+WebUI.delay(2)
 
 WebUI.click(findTestObject('ATA_Partner/Vehicle/Vehicle/Truck/Type Of Truck/span_Available'))
 

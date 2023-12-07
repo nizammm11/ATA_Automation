@@ -47,30 +47,41 @@ WebUI.click(findTestObject('Object Repository/ATA_Partner/LoginPage/button_Reque
 WebUI.delay(20)
 
 WebUI.click(findTestObject('Object Repository/ATA_Partner/LoginPage/button_Verify'))*/
+WebUI.delay(2)
 
-WebUI.verifyElementText(findTestObject('ATA_Partner/Case Listing/Tab/Page_Partner/p_Toggle On Duty to receive cases'), 'Toggle "On Duty" to receive cases')
+WebUI.click(findTestObject('ATA_Partner/Case Listing/Page_Partner/Case Listing'))
 
-WebUI.click(findTestObject('ATA_Partner/Case Listing/Tab/Page_Partner/div_Off Duty'))
-
-WebUI.click(findTestObject('ATA_Partner/Case Listing/Tab/Page_Partner/div_On Duty'))
-
-WebUI.click(findTestObject('ATA_Partner/Case Listing/Tab/Page_Partner/a_In progress'))
-
-WebUI.click(findTestObject('ATA_Partner/Case Listing/Tab/Page_Partner/a_History'))
-
-WebUI.click(findTestObject('ATA_Partner/Case Listing/Tab/Tab/a_New case'))
+WebUI.delay(2)
 
 WebUI.click(findTestObject('ATA_Partner/Case Listing/Tab/Tab/button_Policy'))
 
+WebUI.delay(2)
+
 WebUI.click(findTestObject('ATA_Partner/Case Listing/Assign/Page_Partner/button_Nurul Azika'))
 
-WebUI.click(findTestObject('ATA_Partner/Case Listing/Assign/Page_Partner/button_All Drivers'))
+WebUI.delay(2)
 
-WebUI.click(findTestObject('ATA_Partner/Case Listing/Assign/Page_Partner/button_Nearest'))
+WebUI.click(findTestObject('ATA_Partner/Case Listing/Assign/Page_Partner/Page_Partner/button_All Drivers'))
+
+WebUI.delay(2)
+
+WebUI.click(findTestObject('ATA_Partner/Case Listing/Assign/Page_Partner/Page_Partner/button_Nearest'))
+
+WebUI.delay(2)
 
 WebUI.click(findTestObject('ATA_Partner/Case Listing/Assign/Page_Partner/button_assign'))
 
-WebUI.click(findTestObject('ATA_Partner/Case Listing/Assign/Page_Partner/button_Assign this driver'))
+WebUI.delay(2)
 
-WebUI.click(findTestObject('ATA_Partner/Case Listing/Assign/Page_Partner/button_Yes, I want to assign'))
+WebUI.scrollToElement(findTestObject('ATA_Partner/Case Listing/Assign/Page_Partner/button_Assign this driver'), 0)
+
+WebUI.delay(2)
+
+WebUI.click(findTestObject('ATA_Partner/Case Listing/Assign/Page_Partner/Page_Partner/button_Assign this driver'))
+
+WebUI.delay(2)
+
+WebUI.click(findTestObject('ATA_Partner/Case Listing/Assign/Page_Partner/Page_Partner/button_Yes, I want to assign'))
+
+WebUI.click(findTestObject('ATA_Partner/Case Listing/Assign/Page_Partner/Page_Partner/button_OK'))
 

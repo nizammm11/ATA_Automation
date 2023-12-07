@@ -1,16 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>span_Motorcycle</name>
+   <name>Vehicle Listing</name>
    <tag></tag>
-   <elementGuidId>f17d50c7-1b3b-4dff-8d73-2c8e77c4cc66</elementGuidId>
+   <elementGuidId>d8ac5314-97d3-4c8c-946b-b8ed2e52854c</elementGuidId>
    <selectorCollection>
       <entry>
          <key>CSS</key>
+         <value></value>
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>(.//*[normalize-space(text()) and normalize-space(.)='Tow Truck'])[1]/following::span[1]</value>
+         <value>(.//*[normalize-space(text()) and normalize-space(.)='Staff Listing'])[1]/following::span[1]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -21,86 +22,78 @@
       <name>tag</name>
       <type>Main</type>
       <value>span</value>
-      <webElementGuid>0b1ae4cc-c495-4d69-8691-696fef8b4e3c</webElementGuid>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>class</name>
-      <type>Main</type>
-      <value>ng-star-inserted</value>
-      <webElementGuid>06504251-80b0-4ee4-9171-52aac1bfb5c8</webElementGuid>
+      <webElementGuid>6507b6ab-cd30-415d-8308-92b2d47982d0</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
-      <value>Motorcycle</value>
-      <webElementGuid>a85d4469-3ac9-4435-91c3-5c84bbf6af80</webElementGuid>
+      <value>Vehicle Listing</value>
+      <webElementGuid>e011822d-d3bc-4658-a2fb-a8ae7763e810</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;pr_id_6_list&quot;)/p-dropdownitem[@class=&quot;p-element ng-star-inserted&quot;]/li[@class=&quot;p-ripple p-element p-dropdown-item&quot;]/span[@class=&quot;ng-star-inserted&quot;]</value>
-      <webElementGuid>bad3661c-7baa-49a6-ad60-09cb20112a5c</webElementGuid>
+      <value>/html[1]/body[1]/ata-partner[1]/ata-partner-layout-dashboard[@class=&quot;ng-star-inserted&quot;]/section[@class=&quot;main&quot;]/aside[@class=&quot;sidebar no-print ng-star-inserted&quot;]/nav[@class=&quot;sidebar-nav&quot;]/ul[1]/li[@class=&quot;ng-star-inserted&quot;]/a[1]/span[1]</value>
+      <webElementGuid>7d8a72df-1d9b-4b9d-af6a-47234f25cc38</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>xpath:idRelative</name>
+      <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>//ul[@id='pr_id_6_list']/p-dropdownitem[2]/li/span</value>
-      <webElementGuid>6837628e-5a21-499d-b287-0cd9b24f7e59</webElementGuid>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Staff Listing'])[1]/following::span[1]</value>
+      <webElementGuid>4232a6ba-63e3-4598-96d5-c4b55d0205f9</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Tow Truck'])[1]/following::span[1]</value>
-      <webElementGuid>4b77f4b5-5dd9-4575-94c3-865a53a49f3c</webElementGuid>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Case Listing'])[1]/following::span[2]</value>
+      <webElementGuid>ce7b3f83-9532-459e-a76f-67b25e9f0520</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Select'])[1]/following::span[3]</value>
-      <webElementGuid>693d4aac-c0e1-424c-be40-59afb56e57e9</webElementGuid>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Log Out'])[1]/preceding::span[1]</value>
+      <webElementGuid>8eb6621a-22d6-40e6-ad6b-d0d64cd8de91</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Select'])[2]/preceding::span[1]</value>
-      <webElementGuid>92437c22-a030-4f35-9824-5742ddce023a</webElementGuid>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Off Duty'])[1]/preceding::span[2]</value>
+      <webElementGuid>91f2f687-8333-483f-8745-135b70ca53c7</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>//*/text()[normalize-space(.)='Motorcycle']/parent::*</value>
-      <webElementGuid>afa89a46-ce46-4200-97e1-9fcfa2531ada</webElementGuid>
+      <value>//*/text()[normalize-space(.)='Vehicle Listing']/parent::*</value>
+      <webElementGuid>4ec3fabe-5f57-40c7-919d-9fb9dd5a5fc6</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
       <type>Main</type>
-      <value>//p-dropdownitem[2]/li/span</value>
-      <webElementGuid>5e1e7424-f38b-41fb-92ef-8e1374f65e79</webElementGuid>
+      <value>//li[3]/a/span</value>
+      <webElementGuid>6a18b08c-384b-4f4c-a770-3dd17ce5d6b8</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:customAttributes</name>
       <type>Main</type>
-      <value>//span[(text() = 'Motorcycle' or . = 'Motorcycle')]</value>
-      <webElementGuid>00f78724-d701-429b-9910-7878e7aa2784</webElementGuid>
+      <value>//span[(text() = 'Vehicle Listing' or . = 'Vehicle Listing')]</value>
+      <webElementGuid>fd1abc70-ef57-4708-af0d-b6714af48b0a</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

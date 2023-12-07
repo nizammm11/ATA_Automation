@@ -33,8 +33,8 @@ WebUI.navigateToUrl(findTestData('URL').getValue('ATAU', 1))
 
 WebUI.delay(2)
 
-WebUI.takeFullPageScreenshot(('D:\\AutomationATA\\ATA_Screenshot\\ATAU\\ExploreWorkshop\\1. Explore Workshop_' + dateTime) + 
-    '.png')
+//WebUI.takeFullPageScreenshot(('D:\\AutomationATA\\ATA_Screenshot\\ATAU\\ExploreWorkshop\\1. Explore Workshop_' + dateTime) + 
+//    '.png')
 
 WebUI.click(findTestObject('Object Repository/ATAU/button_Got It'))
 
@@ -44,8 +44,8 @@ WebUI.click(findTestObject('ATAU/explore workshop/btn_workshop Explore'))
 
 WebUI.delay(2)
 
-WebUI.takeFullPageScreenshot(('D:\\AutomationATA\\ATA_Screenshot\\ATAU\\ExploreWorkshop\\2. Explore Workshop_' + dateTime) + 
-    '.png')
+//WebUI.takeFullPageScreenshot(('D:\\AutomationATA\\ATA_Screenshot\\ATAU\\ExploreWorkshop\\2. Explore Workshop_' + dateTime) + 
+//    '.png')
 
 WebUI.verifyElementPresent(findTestObject('ATAU/main page/EAAC logo'), 0)
 
@@ -72,8 +72,8 @@ WebUI.click(findTestObject('ATAU/explore workshop/icon_filter'))
 
 WebUI.delay(2)
 
-WebUI.takeFullPageScreenshot(('D:\\AutomationATA\\ATA_Screenshot\\ATAU\\ExploreWorkshop\\3. Explore Workshop_' + dateTime) + 
-    '.png')
+//WebUI.takeFullPageScreenshot(('D:\\AutomationATA\\ATA_Screenshot\\ATAU\\ExploreWorkshop\\3. Explore Workshop_' + dateTime) + 
+//    '.png')
 
 WebUI.verifyElementText(findTestObject('ATAU/explore workshop/Filter/btn_Distance'), 'Distance')
 
@@ -115,8 +115,8 @@ WebUI.verifyElementPresent(findTestObject('ATAU/explore workshop/Filter/btn_Norm
 
 WebUI.click(findTestObject('ATAU/explore workshop/Filter/btn_Normal'))
 
-WebUI.takeFullPageScreenshot(('D:\\AutomationATA\\ATA_Screenshot\\ATAU\\ExploreWorkshop\\4. Explore Workshop_' + dateTime) + 
-    '.png')
+//WebUI.takeFullPageScreenshot(('D:\\AutomationATA\\ATA_Screenshot\\ATAU\\ExploreWorkshop\\4. Explore Workshop_' + dateTime) + 
+//    '.png')
 
 WebUI.verifyElementText(findTestObject('ATAU/explore workshop/Filter/btn_Premier'), 'Premier')
 
@@ -151,8 +151,8 @@ WebUI.verifyElementPresent(findTestObject('ATAU/explore workshop/Filter/Johor/bt
 
 WebUI.click(findTestObject('ATAU/explore workshop/Filter/Johor/btn_Ayer Hitam'))
 
-WebUI.takeFullPageScreenshot(('D:\\AutomationATA\\ATA_Screenshot\\ATAU\\ExploreWorkshop\\5. Explore Workshop_' + dateTime) + 
-    '.png')
+//WebUI.takeFullPageScreenshot(('D:\\AutomationATA\\ATA_Screenshot\\ATAU\\ExploreWorkshop\\5. Explore Workshop_' + dateTime) + 
+//    '.png')
 
 WebUI.verifyElementText(findTestObject('ATAU/explore workshop/Filter/Johor/btn_Batu Pahat'), 'Batu Pahat')
 
@@ -1310,15 +1310,15 @@ WebUI.click(findTestObject('ATAU/explore workshop/Filter/btn_Premier'))
 
 WebUI.click(findTestObject('ATAU/explore workshop/Filter/Johor/btn_Johor Bahru'))
 
-WebUI.takeFullPageScreenshot(('D:\\AutomationATA\\ATA_Screenshot\\ATAU\\ExploreWorkshop\\6. Explore Workshop_' + dateTime) + 
-    '.png')
+//WebUI.takeFullPageScreenshot(('D:\\AutomationATA\\ATA_Screenshot\\ATAU\\ExploreWorkshop\\6. Explore Workshop_' + dateTime) + 
+//    '.png')
 
 WebUI.click(findTestObject('ATAU/explore workshop/Filter/button_Apply'))
 
 WebUI.delay(2)
 
-WebUI.takeFullPageScreenshot(('D:\\AutomationATA\\ATA_Screenshot\\ATAU\\ExploreWorkshop\\7. Explore Workshop_' + dateTime) + 
-    '.png')
+//WebUI.takeFullPageScreenshot(('D:\\AutomationATA\\ATA_Screenshot\\ATAU\\ExploreWorkshop\\7. Explore Workshop_' + dateTime) + 
+//    '.png')
 
 WebUI.click(findTestObject('ATAU/explore workshop/icon_filter'))
 
@@ -1326,15 +1326,15 @@ WebUI.delay(2)
 
 WebUI.click(findTestObject('ATAU/explore workshop/Filter/button_Reset'))
 
-WebUI.takeFullPageScreenshot(('D:\\AutomationATA\\ATA_Screenshot\\ATAU\\ExploreWorkshop\\8. Explore Workshop_' + dateTime) + 
-    '.png')
+//WebUI.takeFullPageScreenshot(('D:\\AutomationATA\\ATA_Screenshot\\ATAU\\ExploreWorkshop\\8. Explore Workshop_' + dateTime) + 
+//    '.png')
 
 WebUI.click(findTestObject('ATAU/explore workshop/Filter/button_Apply'))
 
 WebUI.delay(2)
 
-WebUI.takeFullPageScreenshot(('D:\\AutomationATA\\ATA_Screenshot\\ATAU\\ExploreWorkshop\\9. Explore Workshop_' + dateTime) + 
-    '.png')
+//WebUI.takeFullPageScreenshot(('D:\\AutomationATA\\ATA_Screenshot\\ATAU\\ExploreWorkshop\\9. Explore Workshop_' + dateTime) + 
+//    '.png')
 
 WebUI.click(findTestObject('ATAU/explore workshop/icon_filter'))
 
@@ -1364,8 +1364,8 @@ WebUI.click(findTestObject('ATAU/explore workshop/btn_See details'))
 
 WebUI.delay(2)
 
-WebUI.takeFullPageScreenshot(('D:\\AutomationATA\\ATA_Screenshot\\ATAU\\ExploreWorkshop\\10. Explore Workshop_' + dateTime) + 
-    '.png')
+//WebUI.takeFullPageScreenshot(('D:\\AutomationATA\\ATA_Screenshot\\ATAU\\ExploreWorkshop\\10. Explore Workshop_' + dateTime) + 
+//    '.png')
 
 WebUI.verifyElementPresent(findTestObject('ATAU/explore workshop/img_click see details'), 0)
 
@@ -1409,8 +1409,8 @@ WebUI.verifyElementPresent(findTestObject('ATAU/explore workshop/icon_google map
 
 WebUI.verifyElementText(findTestObject('ATAU/explore workshop/word_Google Maps'), 'Google Maps')
 
-WebUI.takeFullPageScreenshot(('D:\\AutomationATA\\ATA_Screenshot\\ATAU\\ExploreWorkshop\\11. Explore Workshop_' + dateTime) + 
-    '.png')
+//WebUI.takeFullPageScreenshot(('D:\\AutomationATA\\ATA_Screenshot\\ATAU\\ExploreWorkshop\\11. Explore Workshop_' + dateTime) + 
+//    '.png')
 
 WebUI.verifyElementPresent(findTestObject('ATAU/explore workshop/btn_Waze'), 0)
 

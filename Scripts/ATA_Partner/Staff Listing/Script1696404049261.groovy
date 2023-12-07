@@ -47,22 +47,19 @@ WebUI.click(findTestObject('Object Repository/ATA_Partner/LoginPage/button_Reque
 WebUI.delay(20)
 
 WebUI.click(findTestObject('Object Repository/ATA_Partner/LoginPage/button_Verify'))*/
+WebUI.verifyElementText(findTestObject('ATA_Partner/Staff_Listing/Page_Partner/Staff Listing'), 'Staff Listing')
 
-WebUI.verifyElementText(findTestObject('ATA_Partner/Staff_Listing/a_Staff Listing'), 'Staff Listing')
-
-WebUI.click(findTestObject('ATA_Partner/Staff_Listing/a_Staff Listing'))
+WebUI.click(findTestObject('ATA_Partner/Staff_Listing/Page_Partner/Staff Listing'))
 
 WebUI.verifyElementText(findTestObject('ATA_Partner/Staff_Listing1/h1_Staff Listing'), 'Staff Listing')
 
 WebUI.verifyElementPresent(findTestObject('ATA_Partner/Staff_Listing1/global_search'), 0)
 
-WebUI.takeFullPageScreenshot(('D:\\AutomationATA\\ATA_Screenshot\\//ATA_Partner\\staff1' + dateTime) + '.png')
-
+//WebUI.takeFullPageScreenshot(('D:\\AutomationATA\\ATA_Screenshot\\//ATA_Partner\\staff1' + dateTime) + '.png')
 //WebUI.verifyElementPresent(findTestObject('ATA_Partner/Staff_Listing2/staff_click'), 0)
 WebUI.click(findTestObject('ATA_Partner/Staff_Listing/click_staff'))
 
-WebUI.takeFullPageScreenshot(('D:\\AutomationATA\\ATA_Screenshot\\//ATA_Partner\\staff2' + dateTime) + '.png')
-
+//WebUI.takeFullPageScreenshot(('D:\\AutomationATA\\ATA_Screenshot\\//ATA_Partner\\staff2' + dateTime) + '.png')
 WebUI.verifyElementPresent(findTestObject('ATA_Partner/Staff_Listing2/Page_Partner/icon'), 0)
 
 WebUI.verifyElementText(findTestObject('ATA_Partner/Staff_Listing/p_Email'), 'Email')

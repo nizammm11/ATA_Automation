@@ -47,10 +47,9 @@ WebUI.click(findTestObject('Object Repository/ATA_Partner/LoginPage/button_Reque
 WebUI.delay(20)
 
 WebUI.click(findTestObject('Object Repository/ATA_Partner/LoginPage/button_Verify'))*/
+WebUI.verifyElementText(findTestObject('ATA_Partner/Staff_Listing/Page_Partner/Staff Listing'), 'Staff Listing')
 
-WebUI.verifyElementText(findTestObject('ATA_Partner/Staff_Listing/a_Staff Listing'), 'Staff Listing')
-
-WebUI.click(findTestObject('ATA_Partner/Staff_Listing/a_Staff Listing'))
+WebUI.click(findTestObject('ATA_Partner/Staff_Listing/Page_Partner/Staff Listing'))
 
 WebUI.verifyElementText(findTestObject('ATA_Partner/Staff_Listing1/h1_Staff Listing'), 'Staff Listing')
 
@@ -94,7 +93,8 @@ WebUI.verifyElementText(findTestObject('ATA_Partner/Staff_Listing2/Staff_Listing
 
 WebUI.verifyElementText(findTestObject('ATA_Partner/Staff_Listing2/Staff_Listing/Page_Partner/label_Gear Repair'), 'Gear Repair')
 
-WebUI.verifyElementText(findTestObject('ATA_Partner/Staff_Listing2/Staff_Listing/Page_Partner/label_Steering Wheel Repair'), 'Steering Wheel Repair')
+WebUI.verifyElementText(findTestObject('ATA_Partner/Staff_Listing2/Staff_Listing/Page_Partner/label_Steering Wheel Repair'), 
+    'Steering Wheel Repair')
 
 WebUI.click(findTestObject('ATA_Partner/Staff_Listing/handbrake_checkbox'))
 

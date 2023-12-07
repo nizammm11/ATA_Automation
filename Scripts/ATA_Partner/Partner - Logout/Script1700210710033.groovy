@@ -27,6 +27,8 @@ WebUI.verifyElementText(findTestObject('ATA_Partner/LoginPage/span_Log Out'), 'L
 
 WebUI.click(findTestObject('ATA_Partner/LoginPage/a_Log Out'))
 
+WebUI.delay(2)
+
 WebUI.click(findTestObject('ATA_Partner/LoginPage/button_Yes, proceed'), FailureHandling.STOP_ON_FAILURE)
 
 WebUI.closeBrowser()
