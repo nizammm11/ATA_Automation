@@ -34,8 +34,7 @@ WebUI.setText(findTestObject('Object Repository/ATA_Partner/LoginPage/input_Welc
 
 WebUI.click(findTestObject('Object Repository/ATA_Partner/LoginPage/div_Welcome to ATA Partner_p-checkbox-box'))
 
-WebUI.takeFullPageScreenshot(('D:\\AutomationATA\\ATA_Screenshot\\//ATA_Partner\\Login1' + dateTime) + '.png')
-
+//WebUI.takeFullPageScreenshot(('D:\\AutomationATA\\ATA_Screenshot\\//ATA_Partner\\Login1' + dateTime) + '.png')
 WebUI.click(findTestObject('Object Repository/ATA_Partner/LoginPage/button_Request OTP'))
 
 //WebUI.delay(5)
@@ -48,4 +47,6 @@ WebUI.setText(findTestObject('Object Repository/ATA_Partner/LoginPage/textfield_
 WebUI.click(findTestObject('Object Repository/ATA_Partner/LoginPage/button_Verify'))
 
 WebUI.delay(2)
+
+WebUI.callTestCase(findTestCase('ATA_Partner/Partner - Logout'), [:], FailureHandling.STOP_ON_FAILURE)
 

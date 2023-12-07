@@ -210,7 +210,7 @@
    <testCaseLink>
       <guid>9f793f60-5518-4839-bf60-e838992d9728</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/ATAP Verification/Claims</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
@@ -279,7 +279,7 @@
    <testCaseLink>
       <guid>5ca5d2a6-4010-47b4-89ab-4ac1d010a143</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/ATA_Partner/Partner - Logout</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>

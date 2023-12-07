@@ -31,7 +31,7 @@ WebUI.maximizeWindow()
 
 WebUI.navigateToUrl(findTestData('URL').getValue('ATAU', 1))
 
-WebUI.takeFullPageScreenshot(('D:\\AutomationATA\\ATA_Screenshot\\ATAU\\QuickLinksShareFeedback\\1. Share Feedback_' + dateTime) + '.png')
+//WebUI.takeFullPageScreenshot(('D:\\AutomationATA\\ATA_Screenshot\\ATAU\\QuickLinksShareFeedback\\1. Share Feedback_' + dateTime) + '.png')
 
 WebUI.click(findTestObject('Object Repository/ATAU/button_Got It'))
 
@@ -49,7 +49,7 @@ WebUI.setText(findTestObject('ATAU/feedback/input_vehicle number'), findTestData
 
 WebUI.verifyElementText(findTestObject('ATAU/feedback/note_Enter your vehicle number'), 'Enter your vehicle number without empty space')
 
-WebUI.takeFullPageScreenshot(('D:\\AutomationATA\\ATA_Screenshot\\ATAU\\QuickLinksShareFeedback\\2. Share Feedback_' + dateTime) + '.png')
+//WebUI.takeFullPageScreenshot(('D:\\AutomationATA\\ATA_Screenshot\\ATAU\\QuickLinksShareFeedback\\2. Share Feedback_' + dateTime) + '.png')
 
 WebUI.verifyElementPresent(findTestObject('ATAU/feedback/button_Proceed'), 0)
 
@@ -57,7 +57,7 @@ WebUI.verifyElementText(findTestObject('ATAU/feedback/button_Proceed'), 'Proceed
 
 WebUI.click(findTestObject('ATAU/feedback/button_Proceed'))
 
-WebUI.takeFullPageScreenshot(('D:\\AutomationATA\\ATA_Screenshot\\ATAU\\QuickLinksShareFeedback\\3. Share Feedback_' + dateTime) + '.png')
+//WebUI.takeFullPageScreenshot(('D:\\AutomationATA\\ATA_Screenshot\\ATAU\\QuickLinksShareFeedback\\3. Share Feedback_' + dateTime) + '.png')
 
 WebUI.closeBrowser()
 

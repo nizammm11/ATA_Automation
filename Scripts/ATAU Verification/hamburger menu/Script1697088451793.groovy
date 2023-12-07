@@ -30,19 +30,33 @@ WebUI.maximizeWindow()
 
 WebUI.navigateToUrl(findTestData('URL').getValue('ATAU', 1))
 
+WebUI.delay(2)
+
 WebUI.click(findTestObject('ATAU/button_Got It'))
+
+WebUI.delay(2)
 
 WebUI.click(findTestObject('ATAU/main page/btn_Car'))
 
+WebUI.delay(2)
+
 WebUI.click(findTestObject('ATAU/Car service list/btn_flat tyre'))
+
+WebUI.delay(2)
 
 WebUI.click(findTestObject('ATAU/main page/main land/button_hamburger'))
 
 WebUI.click(findTestObject('ATAU/main page/main land/a_Home'))
 
+WebUI.delay(2)
+
 WebUI.click(findTestObject('ATAU/main page/btn_Car'))
 
+WebUI.delay(2)
+
 WebUI.click(findTestObject('ATAU/Car service list/btn_brake'))
+
+WebUI.delay(2)
 
 WebUI.click(findTestObject('ATAU/Questions/btn_No_1'))
 
@@ -58,6 +72,8 @@ WebUI.click(findTestObject('ATAU/Questions/btn_Yes_6'))
 
 WebUI.click(findTestObject('ATAU/Questions/button_Continue'))
 
+WebUI.delay(2)
+
 WebUI.click(findTestObject('ATAU/preferred destination/preferred_Destination'))
 
 WebUI.click(findTestObject('ATAU/preferred destination/btn_Next_destination'))
@@ -71,7 +87,11 @@ WebUI.sendKeys(findTestObject('ATAU/preferred destination/input_destination'), K
 
 WebUI.click(findTestObject('ATAU/preferred destination/btn_Next_selectdestination'))
 
+WebUI.delay(2)
+
 WebUI.click(findTestObject('ATAU/details page/btn_Back'))
+
+WebUI.delay(2)
 
 WebUI.click(findTestObject('ATAU/preferred destination/btn_Back_destination'))
 

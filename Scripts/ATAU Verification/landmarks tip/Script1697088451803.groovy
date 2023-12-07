@@ -33,17 +33,17 @@ WebUI.navigateToUrl(findTestData('URL').getValue('ATAU', 1))
 
 WebUI.delay(2)
 
-WebUI.takeFullPageScreenshot(('D:\\AutomationATA\\ATA_Screenshot\\ATAU\\landmark_tips\\1. landmark_' + dateTime) + '.png')
+//WebUI.takeFullPageScreenshot(('D:\\AutomationATA\\ATA_Screenshot\\ATAU\\landmark_tips\\1. landmark_' + dateTime) + '.png')
 
 WebUI.click(findTestObject('ATAU/location pop up/Ill provide it manually link'))
 
 WebUI.delay(2)
 
-WebUI.takeFullPageScreenshot(('D:\\AutomationATA\\ATA_Screenshot\\ATAU\\landmark_tips\\2. landmark_' + dateTime) + '.png')
+//WebUI.takeFullPageScreenshot(('D:\\AutomationATA\\ATA_Screenshot\\ATAU\\landmark_tips\\2. landmark_' + dateTime) + '.png')
 
 WebUI.click(findTestObject('ATAU/landmark/Im not sure where I am'))
 
-WebUI.takeFullPageScreenshot(('D:\\AutomationATA\\ATA_Screenshot\\ATAU\\landmark_tips\\3. landmark_' + dateTime) + '.png')
+//WebUI.takeFullPageScreenshot(('D:\\AutomationATA\\ATA_Screenshot\\ATAU\\landmark_tips\\3. landmark_' + dateTime) + '.png')
 
 WebUI.verifyElementText(findTestObject('ATAU/landmark/Heres a tip'), 'Here\'s a tip:', FailureHandling.STOP_ON_FAILURE)
 

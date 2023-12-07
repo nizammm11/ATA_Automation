@@ -47,6 +47,8 @@ WebUI.click(findTestObject('Object Repository/ATA_Partner/LoginPage/button_Reque
 WebUI.delay(20)
 
 WebUI.click(findTestObject('Object Repository/ATA_Partner/LoginPage/button_Verify'))*/
+WebUI.callTestCase(findTestCase('ATA_Partner/Partner - Login'), [('phoneNumber') : '127104130'], FailureHandling.STOP_ON_FAILURE)
+
 WebUI.verifyElementText(findTestObject('ATA_Partner/Staff_Listing/Page_Partner/Staff Listing'), 'Staff Listing')
 
 WebUI.click(findTestObject('ATA_Partner/Staff_Listing/Page_Partner/Staff Listing'))
@@ -101,4 +103,6 @@ WebUI.click(findTestObject('ATA_Partner/Staff_Listing/handbrake_checkbox'))
 WebUI.click(findTestObject('ATA_Partner/Staff_Listing/gearrepair_checkbox'))
 
 WebUI.click(findTestObject('ATA_Partner/Staff_Listing/wheelrepair_checkbox'))
+
+WebUI.callTestCase(findTestCase('ATA_Partner/Partner - Logout'), [:], FailureHandling.STOP_ON_FAILURE)
 

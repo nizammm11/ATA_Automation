@@ -31,7 +31,7 @@ WebUI.maximizeWindow()
 
 WebUI.navigateToUrl(findTestData('URL').getValue('ATAU', 1))
 
-WebUI.takeFullPageScreenshot(('D:\\AutomationATA\\ATA_Screenshot\\ATAU\\QuickLinksStatusTracking\\1. Status Tracking_' + dateTime) + '.png')
+//WebUI.takeFullPageScreenshot(('D:\\AutomationATA\\ATA_Screenshot\\ATAU\\QuickLinksStatusTracking\\1. Status Tracking_' + dateTime) + '.png')
 
 WebUI.click(findTestObject('Object Repository/ATAU/button_Got It'))
 
@@ -39,7 +39,7 @@ WebUI.delay(2)
 
 WebUI.click(findTestObject('ATAU/status tracking/Page_ATA-User App/a_Status Tracking'))
 
-WebUI.takeFullPageScreenshot(('D:\\AutomationATA\\ATA_Screenshot\\ATAU\\QuickLinksStatusTracking\\2. Status Tracking_' + dateTime) + '.png')
+//WebUI.takeFullPageScreenshot(('D:\\AutomationATA\\ATA_Screenshot\\ATAU\\QuickLinksStatusTracking\\2. Status Tracking_' + dateTime) + '.png')
 
 WebUI.closeBrowser()
 

@@ -49,8 +49,8 @@ for (def row = 1; row <= 4; row++) {
 
     WebUI.sendKeys(findTestObject('ATAP HH/General/Search_VehicleNo'), Keys.chord(Keys.ENTER))*/
 
-    WebUI.takeFullPageScreenshot(((('D:\\AutomationATA\\ATA_Screenshot\\//ATAP//1. New Request Case_' + row) + '_') + dateTime) + 
-        '.png')
+//    WebUI.takeFullPageScreenshot(((('D:\\AutomationATA\\ATA_Screenshot\\//ATAP//1. New Request Case_' + row) + '_') + dateTime) + 
+//        '.png')
 
     //WebUI.delay(1)
 
