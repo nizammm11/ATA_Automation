@@ -25,10 +25,6 @@ Date today = new Date()
 
 String dateTime = today.format('yyyyMMddHHmmss')
 
-num = 1
-
-row = 1
-
 WebUI.callTestCase(findTestCase('ATAP - Main/ATAP - Login'), [:], FailureHandling.STOP_ON_FAILURE)
 
 /*WebUI.openBrowser('')
@@ -40,162 +36,359 @@ WebUI.maximizeWindow()
 WebUI.navigateToUrl(GlobalVariable.SIT_ATAU)
 
 WebUI.delay(10)*/
-WebUI.click(findTestObject('ATAP/Create New Case/btn_Create New Case'))
+//KeywordLogger log = new KeywordLogger()
+for (def row = 1; row <= 13; row++) {
+    WebUI.click(findTestObject('ATAP/Create New Case/btn_Create New Case'))
 
-//==============================||CUSTOMER DETAIL||==============================
-WebUI.setText(findTestObject('ATAP/Create New Case/input_phone number'), findTestData('ATAP New Case').getValue('contactNumber', 
-        row))
+    WebUI.refresh()
 
-WebUI.setText(findTestObject('ATAP/Create New Case/input_second phone number'), findTestData('ATAP New Case').getValue('secondContactNumber', 
-        row))
+    //==============================||CUSTOMER DETAIL||==============================
+    WebUI.setText(findTestObject('ATAP/Create New Case/Customer Detail/input_phone number'), findTestData('ATAP New Case').getValue(
+            'contactNumber', row))
 
-WebUI.setText(findTestObject('ATAP/Create New Case/input_third phone number'), findTestData('ATAP New Case').getValue('thirdContactNumber', 
-        row))
+    WebUI.setText(findTestObject('ATAP/Create New Case/Customer Detail/input_second phone number'), findTestData('ATAP New Case').getValue(
+            'secondContactNumber', row))
 
-WebUI.setText(findTestObject('ATAP/Create New Case/input_vehicle number'), findTestData('ATAP New Case').getValue('vehicleNumber', 
-        row))
+    WebUI.setText(findTestObject('ATAP/Create New Case/Customer Detail/input_third phone number'), findTestData('ATAP New Case').getValue(
+            'thirdContactNumber', row))
 
-WebUI.setText(findTestObject('ATAP/Create New Case/input_name'), findTestData('ATAP New Case').getValue('Name', row))
+    WebUI.setText(findTestObject('ATAP/Create New Case/Customer Detail/input_vehicle number'), findTestData('ATAP New Case').getValue(
+            'vehicleNumber', row))
 
-WebUI.click(findTestObject('ATAP/Create New Case/span_vehicle type'))
+    WebUI.setText(findTestObject('ATAP/Create New Case/Customer Detail/input_name'), findTestData('ATAP New Case').getValue(
+            'Name', row))
 
-if (findTestData('ATAP New Case').getValue('vehicleType', row) == 'Car') {
-    WebUI.click(findTestObject('ATAP/Page_Dashboard/li_Car'))
-} else {
-    WebUI.click(findTestObject('ATAP/Page_Dashboard/li_Motorcycle'))
+    WebUI.scrollToElement(findTestObject('ATAP HH/General/Customer Name'), 0)
+
+    WebUI.delay(1)
+
+    WebUI.click(findTestObject('ATAP/Create New Case/Customer Detail/dropdown_vehicle type'))
+
+    if (findTestData('ATAP New Case').getValue('vehicleType', row) == 'Car') {
+        WebUI.click(findTestObject('ATAP/Create New Case/Customer Detail/li_Car'))
+    } else {
+        WebUI.click(findTestObject('ATAP/Create New Case/Customer Detail/li_Motorcycle'))
+    }
+    
+    WebUI.click(findTestObject('ATAP/Create New Case/Customer Detail/dropdown_vehicle make'))
+
+    //WebUI.scrollToElement(findTestObject('ATAP HH/General/Customer Name'), 0)
+    WebUI.setText(findTestObject('ATAP/Page_Dashboard/Page_Dashboard/input_vehicle make'), findTestData('ATAP New Case').getValue(
+            'vehicleMake', row))
+
+    WebUI.sendKeys(findTestObject('ATAP/Page_Dashboard/Page_Dashboard/input_vehicle make'), Keys.chord(Keys.ARROW_DOWN, 
+            Keys.ENTER))
+
+    WebUI.click(findTestObject('ATAP/Create New Case/Customer Detail/dropdown_vehicle model'))
+
+    WebUI.setText(findTestObject('ATAP/Page_Dashboard/Page_Dashboard/input_vehicle model'), findTestData('ATAP New Case').getValue(
+            'vehicleModel', row))
+
+    WebUI.delay(2)
+
+    WebUI.sendKeys(findTestObject('ATAP/Page_Dashboard/Page_Dashboard/input_vehicle model'), Keys.chord(Keys.ARROW_DOWN, 
+            Keys.ENTER))
+
+    //==============================||ENTITY||==============================
+    if (findTestData('ATAP New Case').getValue('Entity', row) == 'EGTB') {
+        WebUI.click(findTestObject('ATAP/Create New Case/Customer Detail/entity_EGTB'))
+    } else if (findTestData('ATAP New Case').getValue('Entity', row) == 'EGIB') {
+        WebUI.click(findTestObject('ATAP/Create New Case/Customer Detail/entity_EGIB'))
+    } else {
+        WebUI.click(findTestObject('ATAP/Create New Case/Customer Detail/entity_Non-Etiqa'))
+    }
+    
+    //==============================||POLICY BENEFITS||==============================
+    if (findTestData('ATAP New Case').getValue('policyBenefits', row) == '50KM') {
+        WebUI.click(findTestObject('ATAP/Create New Case/Customer Detail/policyBenefits_50KM'))
+    } else if (findTestData('ATAP New Case').getValue('policyBenefits', row) == '200KM') {
+        WebUI.click(findTestObject('ATAP/Create New Case/Customer Detail/policyBenefits_200KM'))
+    } else if (findTestData('ATAP New Case').getValue('policyBenefits', row) == '300KM') {
+        WebUI.click(findTestObject('ATAP/Create New Case/Customer Detail/policyBenefits_300KM'))
+    } else if (findTestData('ATAP New Case').getValue('policyBenefits', row) == '175KM Per Trip') {
+        WebUI.click(findTestObject('ATAP/Create New Case/Customer Detail/policyBenefits_175KM Per Trip'))
+    } else if (findTestData('ATAP New Case').getValue('policyBenefits', row) == 'Unlimited') {
+        WebUI.click(findTestObject('ATAP/Create New Case/Customer Detail/policyBenefits_Unlimited'))
+    } else if (findTestData('ATAP New Case').getValue('policyBenefits', row) == 'Franchise') {
+        WebUI.click(findTestObject('ATAP/Create New Case/Customer Detail/policyBenefits_Franchise'))
+    } else {
+        WebUI.click(findTestObject('ATAP/Create New Case/Customer Detail/policyBenefits_Cash Job'))
+    }
+    
+    WebUI.setText(findTestObject('ATAP/Create New Case/Customer Detail/input_Email'), findTestData('ATAP New Case').getValue(
+            'Email', row))
+
+    WebUI.scrollToElement(findTestObject('ATAP HH/Policy Benefits/Policy Benefits_200KM'), 0)
+
+    //WebUI.click(findTestObject('ATAP/Page_Dashboard/span_Please select'))
+    //WebUI.delay(2)
+    //==================================================LANGUAGE PREFERENCE=========================================================
+    if (findTestData('ATAP New Case').getValue('Language', row) == 'Malay') {
+        WebUI.click(findTestObject('ATAP/Create New Case/Customer Detail/Preferred language_Malay'))
+    } else {
+        WebUI.click(findTestObject('ATAP/Create New Case/Customer Detail/Preferred language_English'))
+    }
+    
+    WebUI.scrollToElement(findTestObject('ATAP/Create New Case/Customer Detail/Preferred language_English'), 0)
+
+    //==============================||SERVICE DETAILS||==============================
+    //'Service Type - Car for BT and SERVICE 8 ONLY'
+    //	 if ((findTestData('ATAP').getValue('VehicleType', row) == 'Car') & (findTestData('ATAP').getValue('Issue', row) == 'NIL')) {
+    //		 WebUI.click(findTestObject('ATAP HH/Service Type/Service Type'))
+    // 
+    //		 WebUI.click(findTestObject('ATAP HH/Service Type Car/Car_Repair-On-Site (ROS)'))
+    // 
+    //		 if (findTestData('ATAP').getValue('SubService', row) == 'Out of Petrol') {
+    //			 WebUI.click(findTestObject('ATAP HH/Service Type Car/Car ROS_Out of Petrol'))
+    //		 } else if (findTestData('ATAP').getValue('SubService', row) == 'Jump Start') {
+    //			 WebUI.click(findTestObject('ATAP HH/Service Type Car/Car ROS_Jump Start'))
+    //		 } else if (findTestData('ATAP').getValue('SubService', row) == 'Change Battery') {
+    //			 WebUI.click(findTestObject('ATAP HH/Service Type Car/Car ROS_Change Battery'))
+    //		 } else {
+    //			 WebUI.click(findTestObject('ATAP HH/Service Type Car/Car ROS_Flat Tyre'))
+    //		 }
+    //	 } else {
+    //		 WebUI.delay(0)
+    //	 }	
+    //===========================================================================	 
+    'Service Type - Car'
+    if (findTestData('ATAP New Case').getValue('vehicleType', row) == 'Car') {
+        WebUI.click(findTestObject('ATAP/Create New Case/Service Details/serviceType_dropdown'))
+
+        if (findTestData('ATAP New Case').getValue('serviceType', row) == 'Repair-On-Site (ROS) - Car') {
+            WebUI.click(findTestObject('ATAP/Create New Case/Service Details/Car/ROS/Repair-On-Site (ROS) - Car'))
+
+            if (findTestData('ATAP New Case').getValue('subService', row) == 'Out of Petrol') {
+                WebUI.click(findTestObject('ATAP/Create New Case/Service Details/Car/ROS/Car_subServiceROS_Out of Petrol') //=========================||CAR CONDITION CHECKLISTS||=========================
+                    )
+            } else if (findTestData('ATAP New Case').getValue('subService', row) == 'Jump Start') {
+                WebUI.click(findTestObject('ATAP/Create New Case/Service Details/Car/ROS/Car_subServiceROS_Jump Start'))
+            } else if (findTestData('ATAP New Case').getValue('subService', row) == 'Change Battery') {
+                WebUI.click(findTestObject('ATAP/Create New Case/Service Details/Car/ROS/Car_subServiceROS_Change Battery'))
+            } else {
+                WebUI.click(findTestObject('ATAP/Create New Case/Service Details/Car/ROS/Car_subServiceROS_Flat Tyre'))
+            }
+        } else if (findTestData('ATAP New Case').getValue('serviceType', row) == 'Breakdown Towing - Car') {
+            WebUI.click(findTestObject('ATAP/Create New Case/Service Details/Car/BT/Breakdown Towing - Car'))
+
+            if (findTestData('ATAP New Case').getValue('subService', row) == 'Brake') {
+                WebUI.click(findTestObject('ATAP/Create New Case/Service Details/Car/BT/subServiceBT_Brakes Problem'))
+            } else if (findTestData('ATAP New Case').getValue('subService', row) == 'Smoke') {
+                WebUI.click(findTestObject('ATAP/Create New Case/Service Details/Car/BT/subServiceBT_Overheating'))
+            } else if (findTestData('ATAP New Case').getValue('subService', row) == 'Gear') {
+                WebUI.click(findTestObject('ATAP/Create New Case/Service Details/Car/BT/subServiceBT_Transmission Issue'))
+            } else {
+                WebUI.click(findTestObject('ATAP/Create New Case/Service Details/Car/BT/subServiceBT_Electrical Issue'))
+            }
+            
+            if (findTestData('ATAP New Case').getValue('Q1', row) == 'Yes') {
+                WebUI.click(findTestObject('ATAP/Create New Case/Service Details/Car/QChecklist/Q1_Yes'))
+            } else {
+                WebUI.click(findTestObject('ATAP/Create New Case/Service Details/Car/QChecklist/Q1_No'))
+            }
+            
+            WebUI.scrollToElement(findTestObject('ATAP/Create New Case/Service Details/Car/QChecklist/subtitle_Car Condition Checklists'), 
+                0)
+
+            if (findTestData('ATAP New Case').getValue('Q2', row) == 'Yes') {
+                WebUI.click(findTestObject('ATAP/Create New Case/Service Details/Car/QChecklist/Q2_Yes'))
+            } else {
+                WebUI.click(findTestObject('ATAP/Create New Case/Service Details/Car/QChecklist/Q2_No'))
+            }
+            
+            if (findTestData('ATAP New Case').getValue('Q3', row) == 'Yes') {
+                WebUI.click(findTestObject('ATAP/Create New Case/Service Details/Car/QChecklist/Q3_Yes'))
+            } else {
+                WebUI.click(findTestObject('ATAP/Create New Case/Service Details/Car/QChecklist/Q3_No'))
+            }
+            
+            if (findTestData('ATAP New Case').getValue('Q4', row) == 'Yes') {
+                WebUI.click(findTestObject('ATAP/Create New Case/Service Details/Car/QChecklist/Q4_Yes'))
+            } else {
+                WebUI.click(findTestObject('ATAP/Create New Case/Service Details/Car/QChecklist/Q4_No'))
+            }
+            
+            if (findTestData('ATAP New Case').getValue('Q5', row) == 'Yes') {
+                WebUI.click(findTestObject('ATAP/Create New Case/Service Details/Car/QChecklist/Q5_Yes'))
+            } else {
+                WebUI.click(findTestObject('ATAP/Create New Case/Service Details/Car/QChecklist/Q5_No'))
+            }
+            
+            if (findTestData('ATAP New Case').getValue('Q6', row) == 'Yes') {
+                WebUI.click(findTestObject('ATAP/Create New Case/Service Details/Car/QChecklist/Q6_Yes'))
+            } else {
+                WebUI.click(findTestObject('ATAP/Create New Case/Service Details/Car/QChecklist/Q6_No'))
+            }
+        } else if (findTestData('ATAP New Case').getValue('serviceType', row) == 'Accident - Car') {
+            WebUI.click(findTestObject('ATAP/Create New Case/Service Details/Car/Accident/Accident - Car'))
+
+            if (findTestData('ATAP New Case').getValue('subService', row) == 'Claim') {
+                WebUI.click(findTestObject('ATAP/Create New Case/Service Details/Car/Accident/accident_Claim'))
+            } else {
+                WebUI.click(findTestObject('ATAP/Create New Case/Service Details/Car/Accident/accident_Non-claim'))
+            }
+        } else {
+            WebUI.click(findTestObject('ATAP/Create New Case/Service Details/Others - Car'))
+        }
+    } else {
+        WebUI.delay(0)
+    }
+    
+    //==================================================================	 
+    /*
+		  ==================================
+		 WebUI.click(findTestObject('ATAP HH/Service Type Car/Car_Repair-On-Site (ROS)'))
+ 
+		 if (findTestData('ATAP').getValue('SubService', row) == 'Out of Petrol') {
+			 WebUI.click(findTestObject('ATAP HH/Service Type Car/Car ROS_Out of Petrol'))
+		 } else if (findTestData('ATAP').getValue('SubService', row) == 'Jump Start') {
+			 WebUI.click(findTestObject('ATAP HH/Service Type Car/Car ROS_Jump Start'))
+		 } else if (findTestData('ATAP').getValue('SubService', row) == 'Change Battery') {
+			 WebUI.click(findTestObject('ATAP HH/Service Type Car/Car ROS_Change Battery'))
+		 } else {
+			 WebUI.click(findTestObject('ATAP HH/Service Type Car/Car ROS_Flat Tyre'))
+		 }
+	 } else {
+		 WebUI.delay(0)
+	 }
+	 ===================================== */
+    'Service Type - Motorcycle'
+    if (findTestData('ATAP New Case').getValue('vehicleType', row) == 'Motorcycle') {
+        WebUI.click(findTestObject('ATAP/Create New Case/Service Details/Page_Dashboard/Please select_dropdown-trigger'))
+
+        if (findTestData('ATAP New Case').getValue('serviceType', row) == 'Repair-On-Site (ROS) - Motorcycle') {
+            WebUI.click(findTestObject('ATAP/Create New Case/Service Details/Motorcycle/ROS_motor/Repair-On-Site (ROS)_Motorcycle'))
+
+            WebUI.delay(1)
+
+            WebUI.click(findTestObject('ATAP/Create New Case/Service Details/Motorcycle/ROS_motor/motorROS_Out of Petrol'))
+        } else if (findTestData('ATAP New Case').getValue('serviceType', row) == 'Breakdown Towing - Motorcycle') {
+            WebUI.click(findTestObject('ATAP/Create New Case/Service Details/Motorcycle/BT_motor/Breakdown Towing_Motorcycle'))
+
+            if (findTestData('ATAP New Case').getValue('subService', row) == 'Flat Tyre') {
+                WebUI.click(findTestObject('ATAP/Create New Case/Service Details/Motorcycle/BT_motor/motorBT_Flat Tyre'))
+            } else if (findTestData('ATAP New Case').getValue('subService', row) == 'Gears Problem') {
+                WebUI.click(findTestObject('ATAP/Create New Case/Service Details/Motorcycle/BT_motor/motorBT_Gears Problem'))
+            } else if (findTestData('ATAP New Case').getValue('subService', row) == 'Brakes Problem') {
+                WebUI.click(findTestObject('ATAP/Create New Case/Service Details/Motorcycle/BT_motor/motorBT_Brakes Problem'))
+            } else {
+                WebUI.click(findTestObject('ATAP/Create New Case/Service Details/Motorcycle/BT_motor/motorBT_Cannot Start Motorcycle'))
+            }
+        } else if (findTestData('ATAP New Case').getValue('serviceType', row) == 'Accident - Motorcycle') {
+            WebUI.click(findTestObject('ATAP/Create New Case/Service Details/Motorcycle/Accident_motor/Accident_Motorcycle'))
+
+            if (findTestData('ATAP New Case').getValue('subService', row) == 'Claim') {
+                WebUI.click(findTestObject('ATAP/Create New Case/Service Details/Motorcycle/Accident_motor/motor_Claim'))
+            } else {
+                WebUI.click(findTestObject('ATAP/Create New Case/Service Details/Motorcycle/Accident_motor/motor_Non-claim'))
+            }
+        } else {
+            WebUI.click(findTestObject('ATAP/Create New Case/Service Details/Others - Car'))
+        }
+    } else {
+        WebUI.delay(0)
+    }
+    
+    //=========================||LOCATION DETAILS||=========================
+    WebUI.setText(findTestObject('ATAP/Create New Case/location details/input_customer location'), findTestData('ATAP New Case').getValue(
+            'customerLocation', row))
+
+    WebUI.delay(1)
+
+    WebUI.sendKeys(findTestObject('ATAP/Create New Case/location details/input_customer location'), Keys.chord(Keys.ARROW_DOWN, 
+            Keys.ENTER))
+
+    WebUI.scrollToElement(findTestObject('ATAP HH/General/Latitude'), 0)
+
+    WebUI.delay(2)
+
+    //=========================||PROVIDER||=========================
+    //WebUI.click(findTestObject('Object Repository/ATAP HH/General/Button_Search'), 0)
+    WebUI.click(findTestObject('Object Repository/ATAP HH/General/Button_Search'))
+
+    //WebUI.click(findTestObject('Object Repository/ATAP HH/General/Button_OK'))
+    WebUI.click(findTestObject('ATAP HH/General/Provider List'))
+
+    WebUI.setText(findTestObject('ATAP HH/General/Provider Input'), findTestData('ATAP New Case').getValue('providerList', 
+            row))
+
+    WebUI.sendKeys(findTestObject('ATAP HH/General/Provider Input'), Keys.chord(Keys.ARROW_DOWN, Keys.ENTER))
+
+    WebUI.delay(2)
+
+    //    WebUI.delay(2)
+    //
+    //    WebUI.setText(findTestObject('ATAP/Create New Case/Provider/dropdown_Provider list'), findTestData('ATAP New Case').getValue(
+    //            'providerList', row))
+    //
+    //    WebUI.delay(1)
+    //
+    //    WebUI.sendKeys(findTestObject('ATAP/Create New Case/Provider/dropdown_Provider list'), Keys.chord(Keys.ARROW_DOWN, Keys.ENTER))
+    //
+    //    WebUI.scrollToElement(findTestObject('ATAP/Create New Case/Provider/button_Search coverage area'), 0)
+    //
+    //    WebUI.scrollToElement(findTestObject('ATAP HH/Destination/Clear Remarks'), 0)
+    //=========================||DESTINATION||=========================
+    if (findTestData('ATAP New Case').getValue('Destination', row) == 'Yes') {
+        WebUI.scrollToElement(findTestObject('ATAP HH/Destination/Clear Remarks'), 0)
+
+        WebUI.click(findTestObject('ATAP/Create New Case/Destination/workshop_State'))
+
+        WebUI.setText(findTestObject('ATAP/Create New Case/Destination/textfield_state'), findTestData('ATAP New Case').getValue(
+                'State', row))
+
+        WebUI.delay(1)
+
+        WebUI.sendKeys(findTestObject('ATAP/Create New Case/Destination/textfield_state'), Keys.chord(Keys.ARROW_DOWN, Keys.ENTER))
+
+        WebUI.click(findTestObject('ATAP/Create New Case/Destination/workshop_City'))
+
+        WebUI.setText(findTestObject('ATAP/Create New Case/Destination/textfield_city'), findTestData('ATAP New Case').getValue(
+                'City', row))
+
+        WebUI.delay(1)
+
+        WebUI.sendKeys(findTestObject('ATAP/Create New Case/Destination/textfield_city'), Keys.chord(Keys.ARROW_DOWN, Keys.ENTER))
+
+        WebUI.delay(1)
+
+        WebUI.click(findTestObject('ATAP/Create New Case/Destination/Select workshop'))
+
+        WebUI.setText(findTestObject('ATAP/Create New Case/Destination/textfield_workshop'), findTestData('ATAP New Case').getValue(
+                'Workshop', row))
+
+        WebUI.delay(1)
+
+        WebUI.sendKeys(findTestObject('ATAP/Create New Case/Destination/textfield_workshop'), Keys.chord(Keys.ARROW_DOWN, 
+                Keys.ENTER))
+    } else {
+        WebUI.delay(0)
+    }
+    
+    WebUI.delay(2)
+
+    WebUI.click(findTestObject('ATAP/Create New Case/button_Save'))
+
+    WebUI.delay(5)
+
+    WebUI.click(findTestObject('ATAP/Create New Case/button_OK'))
+
+    WebUI.delay(2)
+
+    WebUI.click(findTestObject('ATAP/Create New Case/button_Assign'))
+
+    WebUI.delay(2)
+
+    WebUI.click(findTestObject('ATAP/Create New Case/button_Yes, assign now'))
+
+    WebUI.delay(4)
+
+    WebUI.click(findTestObject('ATAP/Create New Case/button_OK'))
+
+    WebUI.click(findTestObject('ATAP/Create New Case/tab_CaseListing'))
+
+    WebUI.delay(1)
 }
 
-WebUI.click(findTestObject('ATAP/Create New Case/span_vehicle make'))
-
-WebUI.setText(findTestObject('ATAP/Page_Dashboard/Page_Dashboard/input_vehicle make'), findTestData('ATAP New Case').getValue(
-        'vehicleMake', row))
-
-WebUI.sendKeys(findTestObject('ATAP/Page_Dashboard/Page_Dashboard/input_vehicle make'), Keys.chord(Keys.ARROW_DOWN, Keys.ENTER))
-
-WebUI.click(findTestObject('ATAP/Create New Case/span_vehicle model'))
-
-WebUI.setText(findTestObject('ATAP/Page_Dashboard/Page_Dashboard/input_vehicle model'), findTestData('ATAP New Case').getValue(
-        'vehicleModel', row))
-
-WebUI.delay(2)
-
-WebUI.sendKeys(findTestObject('ATAP/Page_Dashboard/Page_Dashboard/input_vehicle model'), Keys.chord(Keys.ARROW_DOWN, Keys.ENTER))
-
-//==============================||ENTITY||==============================
-if (findTestData('ATAP New Case').getValue('Entity', row) == 'EGTB') {
-    WebUI.click(findTestObject('ATAP/Create New Case/entity_Etiqa General Takaful Berhad'))
-} else if (findTestData('ATAP New Case').getValue('Entity', row) == 'EGIB') {
-    WebUI.click(findTestObject('ATAP/Create New Case/entity_Etiqa General Insurance Berhad'))
-} else {
-    WebUI.click(findTestObject('ATAP/Create New Case/entity_Non-Etiqa'))
-}
-
-WebUI.scrollToElement(findTestObject('ATAP/Create New Case/entity_Etiqa General Takaful Berhad'), 0)
-
-//==============================||POLICY BENEFITS||==============================
-if (findTestData('ATAP New Case').getValue('policyBenefits', row) == '50KM') {
-    WebUI.click(findTestObject('ATAP/Create New Case/policyBenefits_50KM'))
-} else if (findTestData('ATAP New Case').getValue('policyBenefits', row) == '200KM') {
-    WebUI.click(findTestObject('ATAP/Create New Case/policyBenefits_200KM'))
-} else if (findTestData('ATAP New Case').getValue('policyBenefits', row) == '300KM') {
-    WebUI.click(findTestObject('ATAP/Create New Case/policyBenefits_300KM'))
-} else if (findTestData('ATAP New Case').getValue('policyBenefits', row) == '175KM Per Trip') {
-    WebUI.click(findTestObject('ATAP/Create New Case/policyBenefits_175KM Per Trip'))
-} else if (findTestData('ATAP New Case').getValue('policyBenefits', row) == 'Unlimited') {
-    WebUI.click(findTestObject('ATAP/Create New Case/policyBenefits_Unlimited'))
-} else if (findTestData('ATAP New Case').getValue('policyBenefits', row) == 'Franchise') {
-    WebUI.click(findTestObject('ATAP/Create New Case/policyBenefits_Franchise'))
-} else {
-    WebUI.click(findTestObject('ATAP/Create New Case/policyBenefits_Cash Job'))
-}
-
-WebUI.setText(findTestObject('ATAP/Create New Case/input_Email'), findTestData('ATAP New Case').getValue('Email', row))
-
-WebUI.click(findTestObject('ATAP/Page_Dashboard/span_Please select'))
-
-WebUI.delay(2)
-
-//==============================||SERVICE DETAILS||==============================
-WebUI.setText(findTestObject('ATAP/Create New Case/input_service type'), findTestData('ATAP New Case').getValue('serviceType', 
-        row))
-
-WebUI.sendKeys(findTestObject('ATAP/Create New Case/input_service type'), Keys.chord(Keys.ARROW_DOWN, Keys.ENTER))
-
-//==============================||SUB-SERVICE||==============================
-if (findTestData('ATAP New Case').getValue('subService', row) == 'Transmission Issue') {
-    WebUI.click(findTestObject('ATAP/Create New Case/subServiceBT_Transmission Issue'))
-} else if (findTestData('ATAP New Case').getValue('subService', row) == 'Electrical Issue') {
-    WebUI.click(findTestObject('ATAP/Create New Case/subServiceBT_Electrical Issue'))
-} else if (findTestData('ATAP New Case').getValue('subService', row) == 'Brakes Problem') {
-    WebUI.click(findTestObject('ATAP/Create New Case/subServiceBT_Brakes Problem'))
-} else {
-    WebUI.click(findTestObject('ATAP/Create New Case/subServiceBT_Overheating'))
-}
-
-//=========================||CAR CONDITION CHECKLISTS||=========================
-if (findTestData('ATAP New Case').getValue('Q1', row) == 'Yes') {
-    WebUI.click(findTestObject('ATAP/Create New Case/Q1_Yes'))
-} else {
-    WebUI.click(findTestObject('ATAP/Create New Case/Q1_No'))
-}
-
-if (findTestData('ATAP New Case').getValue('Q2', row) == 'Yes') {
-    WebUI.click(findTestObject('ATAP/Create New Case/Q2_Yes'))
-} else {
-    WebUI.click(findTestObject('ATAP/Create New Case/Q2_No'))
-}
-
-if (findTestData('ATAP New Case').getValue('Q3', row) == 'Yes') {
-    WebUI.click(findTestObject('ATAP/Create New Case/Q3_Yes'))
-} else {
-    WebUI.click(findTestObject('ATAP/Create New Case/Q3_No'))
-}
-
-if (findTestData('ATAP New Case').getValue('Q4', row) == 'Yes') {
-    WebUI.click(findTestObject('ATAP/Create New Case/Q4_Yes'))
-} else {
-    WebUI.click(findTestObject('ATAP/Create New Case/Q4_No'))
-}
-
-if (findTestData('ATAP New Case').getValue('Q5', row) == 'Yes') {
-    WebUI.click(findTestObject('ATAP/Create New Case/Q5_Yes'))
-} else {
-    WebUI.click(findTestObject('ATAP/Create New Case/Q5_No'))
-}
-
-if (findTestData('ATAP New Case').getValue('Q6', row) == 'Yes') {
-    WebUI.click(findTestObject('ATAP/Create New Case/Q6_Yes'))
-} else {
-    WebUI.click(findTestObject('ATAP/Create New Case/Q6_No'))
-}
-
-//=========================||LOCATION DETAILS||=========================
-WebUI.setText(findTestObject('ATAP/Create New Case/input_customer location'), findTestData('ATAP New Case').getValue('customerLocation', 
-        row))
-
-WebUI.sendKeys(findTestObject('ATAP/Create New Case/input_customer location'), Keys.chord(Keys.ARROW_DOWN, Keys.ENTER))
-
-//=========================||PROVIDER||=========================
-WebUI.click(findTestObject('ATAP/Create New Case/button_Search coverage area'))
-
-WebUI.acceptAlert()
-
-WebUI.setText(findTestObject('ATAP/Create New Case/span_Provider list'), findTestData('ATAP New Case').getValue('providerList', 
-        row))
-
-WebUI.sendKeys(findTestObject('ATAP/Create New Case/span_Provider list'), Keys.chord(Keys.ARROW_DOWN, Keys.ENTER))
-
-//=========================||DESTINATION||=========================
-WebUI.setText(findTestObject('ATAP/Create New Case/workshop_State'), findTestData('ATAP New Case').getValue('State', row))
-
-WebUI.sendKeys(findTestObject('ATAP/Create New Case/workshop_State'), Keys.chord(Keys.ARROW_DOWN, Keys.ENTER))
-
-WebUI.setText(findTestObject('ATAP/Create New Case/workshop_City'), findTestData('ATAP New Case').getValue('City', row))
-
-WebUI.sendKeys(findTestObject('ATAP/Create New Case/workshop_City'), Keys.chord(Keys.ARROW_DOWN, Keys.ENTER))
-
-WebUI.setText(findTestObject('ATAP/Create New Case/Select workshop'), findTestData('ATAP New Case').getValue('Workshop', 
-        row))
-
-WebUI.sendKeys(findTestObject('ATAP/Create New Case/Select workshop'), Keys.chord(Keys.ARROW_DOWN, Keys.ENTER))
+WebUI.callTestCase(findTestCase('ATAP - Main/ATAP - Logout'), [:], FailureHandling.STOP_ON_FAILURE)
 

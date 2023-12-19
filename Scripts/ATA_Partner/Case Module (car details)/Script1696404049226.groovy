@@ -48,8 +48,6 @@ WebUI.delay(20)
 
 WebUI.click(findTestObject('Object Repository/ATA_Partner/LoginPage/button_Verify'))*/
 //WebUI.verifyElementText(findTestObject('ATA_Partner/Case Listing/Tab/Page_Partner/p_Toggle On Duty to receive cases'), 'Toggle "On Duty" to receive cases')
-WebUI.callTestCase(findTestCase('ATA_Partner/Partner - Login'), [('phoneNumber') : '127104130'], FailureHandling.STOP_ON_FAILURE)
-
 WebUI.click(findTestObject('ATA_Partner/Case Listing/Tab/Page_Partner/div_Off Duty'))
 
 WebUI.click(findTestObject('ATA_Partner/Case Listing/Tab/Page_Partner/div_On Duty'))
@@ -141,6 +139,4 @@ WebUI.verifyElementText(findTestObject('ATA_Partner/Case Listing/Assign/Page_Par
     'Close')
 
 WebUI.click(findTestObject('ATA_Partner/Case Listing/Assign/Page_Partner/Page_Partner/Page_Partner/button_Close'))
-
-WebUI.callTestCase(findTestCase('ATA_Partner/Partner - Logout'), [:], FailureHandling.STOP_ON_FAILURE)
 

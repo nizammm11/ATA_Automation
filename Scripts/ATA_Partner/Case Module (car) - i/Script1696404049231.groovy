@@ -47,8 +47,6 @@ WebUI.click(findTestObject('Object Repository/ATA_Partner/LoginPage/button_Reque
 WebUI.delay(20)
 
 WebUI.click(findTestObject('Object Repository/ATA_Partner/LoginPage/button_Verify'))*/
-WebUI.callTestCase(findTestCase('ATA_Partner/Partner - Login'), [('phoneNumber') : '127104130'], FailureHandling.STOP_ON_FAILURE)
-
 WebUI.delay(2)
 
 WebUI.click(findTestObject('ATA_Partner/Case Listing/Page_Partner/Case Listing'))
@@ -86,6 +84,4 @@ WebUI.delay(2)
 WebUI.click(findTestObject('ATA_Partner/Case Listing/Assign/Page_Partner/Page_Partner/button_Yes, I want to assign'))
 
 WebUI.click(findTestObject('ATA_Partner/Case Listing/Assign/Page_Partner/Page_Partner/button_OK'))
-
-WebUI.callTestCase(findTestCase('ATA_Partner/Partner - Logout'), [:], FailureHandling.STOP_ON_FAILURE)
 

@@ -35,3 +35,5 @@ WebUI.click(findTestObject('ATAP HH/General/Case Select Vehicle No'))
 
 WebUI.callTestCase(findTestCase('ATAP - Main/ATAP - Logout'), [:], FailureHandling.STOP_ON_FAILURE)
 
+WebUI.acceptAlert()
+

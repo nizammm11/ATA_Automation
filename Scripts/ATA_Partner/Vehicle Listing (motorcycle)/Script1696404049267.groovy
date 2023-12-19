@@ -39,8 +39,6 @@ WebUI.click(findTestObject('Object Repository/ATA_Partner/LoginPage/button_Reque
 WebUI.delay(20)
 
 WebUI.click(findTestObject('Object Repository/ATA_Partner/LoginPage/button_Verify'))*/
-WebUI.callTestCase(findTestCase('ATA_Partner/Partner - Login'), [('phoneNumber') : '127104130'], FailureHandling.STOP_ON_FAILURE)
-
 WebUI.click(findTestObject('ATA_Partner/Vehicle/Page_Partner/Vehicle Listing'))
 
 WebUI.delay(2)
@@ -84,6 +82,4 @@ WebUI.click(findTestObject('ATA_Partner/Vehicle/Vehicle/Motorcycle/Starter'))
 WebUI.click(findTestObject('ATA_Partner/Vehicle/Vehicle/Truck/span_Save'))
 
 WebUI.click(findTestObject('ATA_Partner/Vehicle/Vehicle/Truck/button_Confirm save'))
-
-WebUI.callTestCase(findTestCase('ATA_Partner/Partner - Logout'), [:], FailureHandling.STOP_ON_FAILURE)
 
