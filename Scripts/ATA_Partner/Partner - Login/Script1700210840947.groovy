@@ -48,5 +48,3 @@ WebUI.click(findTestObject('Object Repository/ATA_Partner/LoginPage/button_Verif
 
 WebUI.delay(2)
 
-WebUI.callTestCase(findTestCase('ATA_Partner/Partner - Logout'), [:], FailureHandling.STOP_ON_FAILURE)
-

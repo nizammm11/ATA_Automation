@@ -6,6 +6,7 @@
    <UUID>f58a4fa3-6345-4700-85a3-2263b21a5249</UUID>
    <migratedVersion>5.9.0</migratedVersion>
    <pageLoadTimeout>0</pageLoadTimeout>
+   <projectFileLocation>D:\ATA_Automation\ATA_Automation.prj</projectFileLocation>
    <sourceContent>
       <sourceFolderList>
          <sourceFolderConfiguration>
