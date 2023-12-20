@@ -3,15 +3,15 @@
    <description></description>
    <name>div_WARNING</name>
    <tag></tag>
-   <elementGuidId>2a36a6b2-19d7-48bf-a6ba-c635ecd77622</elementGuidId>
+   <elementGuidId>0651aca8-c8f0-4dda-85f2-6b83d1ae0733</elementGuidId>
    <selectorCollection>
-      <entry>
-         <key>XPATH</key>
-         <value>(.//*[normalize-space(text()) and normalize-space(.)='Request OTP'])[1]/following::div[2]</value>
-      </entry>
       <entry>
          <key>CSS</key>
          <value>div.p-field.pb-3.text-xs.text-center.text-400 > div</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>(.//*[normalize-space(text()) and normalize-space(.)='Request OTP'])[1]/following::div[2]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

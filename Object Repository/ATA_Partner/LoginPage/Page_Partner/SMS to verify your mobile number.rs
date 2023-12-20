@@ -3,14 +3,14 @@
    <description></description>
    <name>SMS to verify your mobile number</name>
    <tag></tag>
-   <elementGuidId>7c385a1d-f1b2-44df-a367-d6086ae07c54</elementGuidId>
+   <elementGuidId>ffedf585-2af1-4171-bc2b-dd90cc5fd7f5</elementGuidId>
    <selectorCollection>
+      <entry>
+         <key>CSS</key>
+      </entry>
       <entry>
          <key>XPATH</key>
          <value>(.//*[normalize-space(text()) and normalize-space(.)='Welcome to ATA Partner'])[1]/following::p[1]</value>
-      </entry>
-      <entry>
-         <key>CSS</key>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

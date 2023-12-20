@@ -6,11 +6,11 @@
    <elementGuidId>c47f789f-5189-469e-a479-35b5b895240c</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>//img[@alt='ATA Partner']</value>
+         <key>CSS</key>
       </entry>
       <entry>
-         <key>CSS</key>
+         <key>XPATH</key>
+         <value>//img[@alt='ATA Partner']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

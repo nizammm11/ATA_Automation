@@ -6,12 +6,12 @@
    <elementGuidId>dda13624-d5fd-468d-ac0c-003eba5950f2</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>(.//*[normalize-space(text()) and normalize-space(.)='Request OTP'])[1]/preceding::h1[1]</value>
-      </entry>
-      <entry>
          <key>CSS</key>
          <value>h1.text-2xl.font-bold.mt-0.mb-3</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>(.//*[normalize-space(text()) and normalize-space(.)='Request OTP'])[1]/preceding::h1[1]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

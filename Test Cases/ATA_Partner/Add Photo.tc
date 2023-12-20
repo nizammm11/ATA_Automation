@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Add Photo</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>88c9e010-471a-4b42-bc11-0a98ab0dc037</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>7d5104b2-3d22-4ea6-bae6-1c140b7ea7c1</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>'C:\\\\Users\\\\80008097\\\\Desktop\\\\Zoo\\\\images.jpg'</defaultValue>
+      <description></description>
+      <id>7d5104b2-3d22-4ea6-bae6-1c140b7ea7c1</id>
+      <masked>false</masked>
+      <name>file</name>
+   </variable>
+</TestCaseEntity>

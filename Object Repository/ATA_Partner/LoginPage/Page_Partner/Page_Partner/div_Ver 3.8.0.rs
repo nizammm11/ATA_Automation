@@ -6,12 +6,12 @@
    <elementGuidId>2e6379e3-1a1b-4243-90ae-5748da543240</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>(.//*[normalize-space(text()) and normalize-space(.)='WARNING'])[1]/following::div[2]</value>
-      </entry>
-      <entry>
          <key>CSS</key>
          <value>div.footer.text-xs.text-400.text-center</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>(.//*[normalize-space(text()) and normalize-space(.)='WARNING'])[1]/following::div[2]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

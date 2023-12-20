@@ -6,12 +6,12 @@
    <elementGuidId>ddcaac6c-dc0b-40d3-b8d4-0ea607218f0d</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>(.//*[normalize-space(text()) and normalize-space(.)='WARNING'])[1]/following::div[1]</value>
-      </entry>
-      <entry>
          <key>CSS</key>
          <value>div.p-field.pb-3.text-xs.text-center.text-400 > div:nth-of-type(2)</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>(.//*[normalize-space(text()) and normalize-space(.)='WARNING'])[1]/following::div[1]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

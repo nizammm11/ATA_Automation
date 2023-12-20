@@ -6,12 +6,12 @@
    <elementGuidId>e8b0bf2a-a397-4fc6-8389-675ab95d2d56</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>(.//*[normalize-space(text()) and normalize-space(.)='Welcome to ATA Partner'])[1]/following::div[7]</value>
-      </entry>
-      <entry>
          <key>CSS</key>
          <value>div.p-field-checkbox</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>(.//*[normalize-space(text()) and normalize-space(.)='Welcome to ATA Partner'])[1]/following::div[7]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
