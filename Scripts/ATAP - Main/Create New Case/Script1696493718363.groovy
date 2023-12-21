@@ -265,7 +265,7 @@ for (def row = 1; row <= 13; row++) {
 
     WebUI.scrollToElement(findTestObject('ATAP HH/General/Latitude'), 0)
 
-    WebUI.delay(2)
+    WebUI.delay(1)
 
     //=========================||PROVIDER||=========================
     //WebUI.click(findTestObject('Object Repository/ATAP HH/General/Button_Search'), 0)
