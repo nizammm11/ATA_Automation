@@ -21,7 +21,7 @@ Date today = new Date()
 
 String dateTime = today.format('yyyyMMddHHmmss')
 
-WebUI.callTestCase(findTestCase('ATAP - Main/ATAP - Login'), [('Username') : '80007700', ('Password') : 'DragCk23/'], FailureHandling.STOP_ON_FAILURE)
+WebUI.callTestCase(findTestCase('ATAP - Main/ATAP - Login'), [('Username') : '80007700', ('Password') : 'DragFu11/'], FailureHandling.STOP_ON_FAILURE)
 
 WebUI.delay(2)
 
@@ -50,7 +50,7 @@ WebUI.verifyElementText(findTestObject('ATAP EH/Insights/Todays Statistics'), 'T
 
 WebUI.verifyElementText(findTestObject('ATAP EH/Insights/Recent Statistics'), 'Recent Statistics')
 
-WebUI.click(findTestObject('ATAP EH/Insights/dropdownV2'))
+WebUI.click(findTestObject('ATAP EH/Insights/dropdown-trigger'))
 
 WebUI.delay(2)
 
@@ -62,7 +62,7 @@ WebUI.click(findTestObject('ATAP EH/Insights/Last 7 days'))
 
 WebUI.delay(2)
 
-WebUI.click(findTestObject('ATAP EH/Insights/dropdownV2'))
+WebUI.click(findTestObject('ATAP EH/Insights/dropdown-trigger'))
 
 WebUI.delay(2)
 

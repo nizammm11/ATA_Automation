@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>dropdown-trigger</name>
+   <tag></tag>
+   <elementGuidId>4328b732-fde4-450e-a338-468d96421cc1</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>span.p-dropdown-trigger-icon.pi.pi-chevron-down</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[2]/span</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>span</value>
+      <webElementGuid>cddc6cd2-8828-4d84-b749-612acbccc9e6</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>p-dropdown-trigger-icon pi pi-chevron-down</value>
+      <webElementGuid>f4517ccb-e4c7-439f-8b62-0d88a908f700</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>ng-reflect-ng-class</name>
+      <type>Main</type>
+      <value>pi pi-chevron-down</value>
+      <webElementGuid>43a344bf-538e-4074-92cb-535383be1b79</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>/html[1]/body[1]/ata-dashboard-root[1]/div[@class=&quot;app-layout&quot;]/div[@class=&quot;layout-content&quot;]/div[@class=&quot;content-data&quot;]/app-overview[@class=&quot;ng-star-inserted&quot;]/div[@class=&quot;p-3&quot;]/div[@class=&quot;flex mb-5&quot;]/p-dropdown[@class=&quot;p-element p-inputwrapper p-inputwrapper-filled&quot;]/div[@class=&quot;p-dropdown p-component&quot;]/div[@class=&quot;p-dropdown-trigger&quot;]/span[@class=&quot;p-dropdown-trigger-icon pi pi-chevron-down&quot;]</value>
+      <webElementGuid>fba2dfee-2886-477b-9c9a-e6e866730003</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[2]/span</value>
+      <webElementGuid>a583f3f5-621e-46df-b5f7-9e51b164438e</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

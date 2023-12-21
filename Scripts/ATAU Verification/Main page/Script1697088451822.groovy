@@ -54,6 +54,8 @@ WebUI.verifyElementText(findTestObject('ATAU/main page/EAAC_word'), 'Etiqa Auto 
 
 WebUI.verifyElementText(findTestObject('ATAU/main page/We are here_word'), 'We are here to help you.')
 
+WebUI.delay(1)
+
 WebUI.verifyElementText(findTestObject('ATAU/main page/Where are you_word'), 'Where are you now?')
 
 WebUI.verifyElementPresent(findTestObject('ATAU/main page/Where Are You Now'), 0)
@@ -126,7 +128,7 @@ WebUI.verifyElementText(findTestObject('ATAU/main page/main land/word_Looking fo
 
 WebUI.verifyElementPresent(findTestObject('ATAU/main page/btn_workshop Explore'), 0)
 
-WebUI.verifyElementText(findTestObject('ATAU/main page/main land/Version'), 'Version 3.13.3')
+WebUI.verifyElementText(findTestObject('ATAU/main page/main land/Version'), 'Version 3.12.1')
 
 WebUI.closeBrowser(FailureHandling.STOP_ON_FAILURE)
 

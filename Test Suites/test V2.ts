@@ -6,8 +6,8 @@
    <isRerun>false</isRerun>
    <mailRecipient></mailRecipient>
    <numberOfRerun>0</numberOfRerun>
-   <pageLoadTimeout>30</pageLoadTimeout>
-   <pageLoadTimeoutDefault>true</pageLoadTimeoutDefault>
+   <pageLoadTimeout>15</pageLoadTimeout>
+   <pageLoadTimeoutDefault>false</pageLoadTimeoutDefault>
    <rerunFailedTestCasesOnly>false</rerunFailedTestCasesOnly>
    <rerunImmediately>true</rerunImmediately>
    <testSuiteGuid>e2983559-b8b5-4774-ba83-0b3f9929714a</testSuiteGuid>

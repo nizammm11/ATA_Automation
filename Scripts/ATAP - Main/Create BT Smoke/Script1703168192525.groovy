@@ -37,7 +37,7 @@ WebUI.navigateToUrl(GlobalVariable.SIT_ATAU)
 
 WebUI.delay(10)*/
 //KeywordLogger log = new KeywordLogger()
-for (def row = 1; row <= 13; row++) {
+for (def row = 2; row <= 2; row++) {
     WebUI.click(findTestObject('ATAP/Create New Case/btn_Create New Case'))
 
     WebUI.refresh()

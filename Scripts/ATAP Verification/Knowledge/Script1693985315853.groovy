@@ -21,7 +21,7 @@ Date today = new Date()
 
 String dateTime = today.format('yyyyMMddHHmmss')
 
-WebUI.callTestCase(findTestCase('ATAP - Main/ATAP - Login'), [('Username') : '80007700', ('Password') : 'DragCk23/'], FailureHandling.STOP_ON_FAILURE)
+WebUI.callTestCase(findTestCase('ATAP - Main/ATAP - Login'), [('Username') : '80007700', ('Password') : 'DragFu11/'], FailureHandling.STOP_ON_FAILURE)
 
 /*WebUI.openBrowser('')
 

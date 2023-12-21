@@ -23,16 +23,16 @@ Date today = new Date()
 
 String dateTime = today.format('yyyyMMddHHmmss')
 
-WebUI.callTestCase(findTestCase('ATAP - Main/ATAP - Login'), [('Username') : '80007700', ('Password') : 'DragCk23/'], FailureHandling.STOP_ON_FAILURE)
+WebUI.callTestCase(findTestCase('ATAP - Main/ATAP - Login'), [('Username') : '80007700', ('Password') : 'DragFu11/'], FailureHandling.STOP_ON_FAILURE)
 
 WebUI.click(findTestObject('ATAP HH/Module/Module_Ratings'))
 
 WebUI.delay(2)
 
 'TC105'
+
 /*WebUI.takeFullPageScreenshot(('D://ATA_Automation//ATA_Screenshot//ATAP//Verification//1. Ratings - Negative Ratings_' + 
     dateTime) + '.png')*/
-
 'TC103'
 WebUI.click(findTestObject('ATAP HH/General/Case Select Vehicle No'))
 
@@ -40,7 +40,6 @@ WebUI.delay(2)
 
 /*WebUI.takeFullPageScreenshot(('D://ATA_Automation//ATA_Screenshot//ATAP//Verification//2. Ratings - View Ratings_' + dateTime) + 
     '.png')*/
-
 'TC104'
 WebUI.click(findTestObject('ATAP HH/Module/Module_Ratings'))
 
@@ -124,7 +123,6 @@ WebUI.delay(2)
 
 /*WebUI.takeFullPageScreenshot(('D://ATA_Automation\\ATA_Screenshot//ATAP//Verification//3. Ratings - Feedbacks Details_' + 
     dateTime) + '.png')*/
-
 WebUI.verifyElementPresent(findTestObject('ATAP HH/Ratings/Button_Close (Ratings)'), 0)
 
 WebUI.click(findTestObject('ATAP HH/Ratings/Button_Save (Ratings)'))
@@ -133,7 +131,6 @@ WebUI.delay(2)
 
 /*WebUI.takeFullPageScreenshot(('D://ATA_Automation//ATA_Screenshot//ATAP//Verification//4. Ratings - View Service Rate_' + 
     dateTime) + '.png')*/
-
 'TC106'
 WebUI.click(findTestObject('ATAP HH/Module/Module_Ratings'))
 
@@ -153,6 +150,5 @@ WebUI.delay(2)
 
 /*WebUI.takeFullPageScreenshot(('D://ATA_Automation//ATA_Screenshot//ATAP//Verification//5. Ratings - Surveys Download_' + 
     dateTime) + '.png')*/
-
 WebUI.callTestCase(findTestCase('ATAP - Main/ATAP - Logout'), [:], FailureHandling.STOP_ON_FAILURE)
 
