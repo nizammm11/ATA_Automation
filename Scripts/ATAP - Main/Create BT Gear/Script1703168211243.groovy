@@ -132,7 +132,6 @@ for (def row = 3; row <= 3; row++) {
     WebUI.scrollToElement(findTestObject('ATAP/Create New Case/Customer Detail/Preferred language_English'), 0)
 
     //==============================||SERVICE DETAILS||==============================
-    
     'Service Type - Car'
     if (findTestData('ATAP New Case').getValue('vehicleType', row) == 'Car') {
         WebUI.click(findTestObject('ATAP/Create New Case/Service Details/serviceType_dropdown'))
@@ -141,8 +140,7 @@ for (def row = 3; row <= 3; row++) {
             WebUI.click(findTestObject('ATAP/Create New Case/Service Details/Car/ROS/Repair-On-Site (ROS) - Car'))
 
             if (findTestData('ATAP New Case').getValue('subService', row) == 'Out of Petrol') {
-                WebUI.click(findTestObject('ATAP/Create New Case/Service Details/Car/ROS/Car_subServiceROS_Out of Petrol') 
-                    )
+                WebUI.click(findTestObject('ATAP/Create New Case/Service Details/Car/ROS/Car_subServiceROS_Out of Petrol'))
             } else if (findTestData('ATAP New Case').getValue('subService', row) == 'Jump Start') {
                 WebUI.click(findTestObject('ATAP/Create New Case/Service Details/Car/ROS/Car_subServiceROS_Jump Start'))
             } else if (findTestData('ATAP New Case').getValue('subService', row) == 'Change Battery') {
@@ -215,7 +213,6 @@ for (def row = 3; row <= 3; row++) {
     } else {
         WebUI.delay(0)
     }
-    
     
     'Service Type - Motorcycle'
     if (findTestData('ATAP New Case').getValue('vehicleType', row) == 'Motorcycle') {
@@ -305,15 +302,15 @@ for (def row = 3; row <= 3; row++) {
 
         WebUI.delay(1)
 
-        WebUI.click(findTestObject('ATAP/Create New Case/Destination/Select workshop'))
+        WebUI.click(findTestObject('ATAP/Create New Case/Destination/Page_Dashboard/workshop_dropdown'))
 
-        WebUI.setText(findTestObject('ATAP/Create New Case/Destination/textfield_workshop'), findTestData('ATAP New Case').getValue(
-                'Workshop', row))
+        WebUI.setText(findTestObject('ATAP/Create New Case/Destination/Page_Dashboard/textfield_workshop'), findTestData(
+                'ATAP New Case').getValue('Workshop', row))
 
         WebUI.delay(1)
 
-        WebUI.sendKeys(findTestObject('ATAP/Create New Case/Destination/textfield_workshop'), Keys.chord(Keys.ARROW_DOWN, 
-                Keys.ENTER))
+        WebUI.sendKeys(findTestObject('ATAP/Create New Case/Destination/Page_Dashboard/textfield_workshop'), Keys.chord(
+                Keys.ARROW_DOWN, Keys.ENTER))
     } else {
         WebUI.delay(0)
     }

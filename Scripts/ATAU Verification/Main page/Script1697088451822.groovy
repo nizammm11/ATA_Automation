@@ -128,7 +128,7 @@ WebUI.verifyElementText(findTestObject('ATAU/main page/main land/word_Looking fo
 
 WebUI.verifyElementPresent(findTestObject('ATAU/main page/btn_workshop Explore'), 0)
 
-WebUI.verifyElementText(findTestObject('ATAU/main page/main land/Version'), 'Version 3.12.1')
+WebUI.verifyElementText(findTestObject('ATAU/main page/main land/Version'), 'Version 3.13.3')
 
 WebUI.closeBrowser(FailureHandling.STOP_ON_FAILURE)
 
