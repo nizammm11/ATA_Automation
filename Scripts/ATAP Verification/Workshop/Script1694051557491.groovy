@@ -89,7 +89,7 @@ WebUI.setText(findTestObject('ATAP EH/Workshop/fill/state'), findTestData('ATAP 
 //}
 WebUI.scrollToElement(findTestObject('ATAP EH/Workshop/fill/postcode'), 0)
 
-WebUI.click(findTestObject('ATAP EH/Workshop/fill/SelectStatus_dropdown'), FailureHandling.STOP_ON_FAILURE)
+WebUI.click(findTestObject('ATAP EH/Workshop/fill/Page_Dashboard/Status_dropdown'), FailureHandling.STOP_ON_FAILURE)
 
 WebUI.delay(2)
 
@@ -99,7 +99,7 @@ WebUI.verifyElementText(findTestObject('ATAP EH/Workshop/Inactive'), 'Inactive')
 
 WebUI.click(findTestObject('ATAP EH/Workshop/Active'))
 
-WebUI.click(findTestObject('ATAP EH/Workshop/fill/Select a Category_dropdown'))
+WebUI.click(findTestObject('ATAP EH/Workshop/fill/Page_Dashboard/Category_dropdown'))
 
 WebUI.delay(2)
 
@@ -119,7 +119,7 @@ WebUI.delay(2)
 
 WebUI.verifyElementPresent(findTestObject('ATAP EH/Workshop/search_workshop'), 0)
 
-WebUI.setText(findTestObject('ATAP EH/Workshop/search_workshop'), 'Empayar Bengkel')
+WebUI.setText(findTestObject('ATAP EH/Workshop/search_workshop'), findTestData('ATAP New Case').getValue('nameWorkshop', row))
 
 WebUI.callTestCase(findTestCase('ATAP - Main/ATAP - Logout'), [:], FailureHandling.STOP_ON_FAILURE)
 

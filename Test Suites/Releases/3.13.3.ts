@@ -56,7 +56,7 @@
    <testCaseLink>
       <guid>ceab4c98-c026-4b5a-8929-c44b216de958</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>false</isRun>
+      <isRun>true</isRun>
       <testCaseId>Test Cases/ATAU Verification/Explore now workshop</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
@@ -147,7 +147,7 @@
    <testCaseLink>
       <guid>52760927-5e32-40f1-81c3-529b911fc374</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>false</isRun>
+      <isRun>true</isRun>
       <testCaseId>Test Cases/ATAP Verification/Workshop</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
@@ -189,7 +189,7 @@
    <testCaseLink>
       <guid>c7838110-7f9b-4ee3-84f5-17f856c51b72</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>false</isRun>
+      <isRun>true</isRun>
       <testCaseId>Test Cases/ATAP Verification/Insights</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>

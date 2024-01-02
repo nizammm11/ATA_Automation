@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>dropdownV2</name>
+   <name>Statistics_dropdown</name>
    <tag></tag>
-   <elementGuidId>aed9c318-a7dc-4b95-ae0b-580810eeacb1</elementGuidId>
+   <elementGuidId>f4503f40-ab4b-4202-9e9f-025aac492949</elementGuidId>
    <selectorCollection>
       <entry>
          <key>CSS</key>
@@ -22,7 +22,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>svg</value>
-      <webElementGuid>16a44fd3-ecc5-488a-b5fb-4498e89be364</webElementGuid>
+      <webElementGuid>de76c8d4-2518-4c3a-82d3-2c9bf1d45321</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -30,7 +30,7 @@
       <name>width</name>
       <type>Main</type>
       <value>14</value>
-      <webElementGuid>7c3c8e54-4a7e-4359-b13f-feec0c6d953b</webElementGuid>
+      <webElementGuid>e5ae5a42-54a3-4c33-bcf4-3a2c2817a56f</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -38,7 +38,7 @@
       <name>height</name>
       <type>Main</type>
       <value>14</value>
-      <webElementGuid>c1bc1fd6-8bc0-43f3-83a7-63d8426353b8</webElementGuid>
+      <webElementGuid>16fae539-8da5-4b0f-91bf-0118f7e1d790</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -46,7 +46,7 @@
       <name>viewBox</name>
       <type>Main</type>
       <value>0 0 14 14</value>
-      <webElementGuid>bb155226-eb49-4081-8259-84890b16ca24</webElementGuid>
+      <webElementGuid>e4a90221-2ac1-4698-b9a6-e57528a49837</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -54,7 +54,7 @@
       <name>fill</name>
       <type>Main</type>
       <value>none</value>
-      <webElementGuid>a84dc143-103b-4767-a874-ad9a22a7812f</webElementGuid>
+      <webElementGuid>e2eb5eca-bdea-43ee-b085-bcfa90407fe8</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -62,7 +62,7 @@
       <name>xmlns</name>
       <type>Main</type>
       <value>http://www.w3.org/2000/svg</value>
-      <webElementGuid>b157e7f4-993d-4913-ad1d-64c9f29b8357</webElementGuid>
+      <webElementGuid>15042575-8671-4e0b-900a-5376e5d6d3db</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -70,7 +70,7 @@
       <name>class</name>
       <type>Main</type>
       <value>p-dropdown-trigger-icon p-icon</value>
-      <webElementGuid>2fefe7e2-5cb3-447e-abad-23203719beeb</webElementGuid>
+      <webElementGuid>94a13313-2ecb-409d-89c4-b354b1a830d8</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -78,7 +78,7 @@
       <name>aria-hidden</name>
       <type>Main</type>
       <value>true</value>
-      <webElementGuid>a3ad321d-bfeb-45e2-9e98-6d0305ee45a0</webElementGuid>
+      <webElementGuid>32b5f85a-4f82-4a9f-aed4-6ac4577b7543</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -86,7 +86,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>/html[1]/body[1]/ata-dashboard-root[1]/div[@class=&quot;app-layout&quot;]/div[@class=&quot;layout-content&quot;]/div[@class=&quot;content-data&quot;]/app-overview[@class=&quot;ng-star-inserted&quot;]/div[@class=&quot;p-3&quot;]/div[@class=&quot;flex mb-5&quot;]/p-dropdown[@class=&quot;p-element p-inputwrapper p-inputwrapper-filled&quot;]/div[@class=&quot;p-dropdown p-component&quot;]/div[@class=&quot;p-dropdown-trigger&quot;]/chevrondownicon[@class=&quot;p-element p-icon-wrapper ng-star-inserted&quot;]/svg[@class=&quot;p-dropdown-trigger-icon p-icon&quot;]</value>
-      <webElementGuid>829f7456-f2cd-4c2b-a821-1442bd24c23a</webElementGuid>
+      <webElementGuid>12e6f892-7c29-4f26-826f-5e6bd00cd49c</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -94,7 +94,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Last 7 days'])[1]/following::*[name()='svg'][1]</value>
-      <webElementGuid>f71744f5-e0b9-4f25-8626-352584298252</webElementGuid>
+      <webElementGuid>598e327b-ec18-45bc-b7b8-1d34d00c4088</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -102,7 +102,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Recent Statistics'])[1]/following::*[name()='svg'][1]</value>
-      <webElementGuid>3164cf2c-727c-4d32-aefd-df522097e809</webElementGuid>
+      <webElementGuid>b716270c-de58-491d-ab57-fa4b08bf6f06</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -110,7 +110,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Capture object:'])[1]/preceding::*[name()='svg'][1]</value>
-      <webElementGuid>dff8320a-9e11-4dfe-82c9-3f4cd1e1c018</webElementGuid>
+      <webElementGuid>cfd5f3cf-f2c8-4f5b-92cb-9580fc109c33</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -118,6 +118,6 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Alt'])[1]/preceding::*[name()='svg'][1]</value>
-      <webElementGuid>dcdccd17-35a3-492e-a9d9-b5dbe3df79cc</webElementGuid>
+      <webElementGuid>81d30a1f-9fa1-45d2-8f76-8fb737bd09b7</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

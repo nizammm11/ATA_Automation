@@ -302,9 +302,9 @@ for (def row = 1; row <= 1; row++) {
 
         WebUI.delay(1)
 
-        WebUI.click(findTestObject('ATAP/Create New Case/Destination/Page_Dashboard/workshop_dropdown'))
+        WebUI.click(findTestObject('ATAP/Create New Case/Destination/workshop_dropdown'))
 
-        WebUI.setText(findTestObject('ATAP/Create New Case/Destination/Page_Dashboard/textfield_workshop'), findTestData(
+        WebUI.setText(findTestObject('ATAP/Create New Case/Destination/textfield_workshop'), findTestData(
                 'ATAP New Case').getValue('Workshop', row))
 
         WebUI.delay(1)

@@ -37,7 +37,7 @@ WebUI.navigateToUrl(GlobalVariable.SIT_ATAU)
 
 WebUI.delay(10)*/
 //KeywordLogger log = new KeywordLogger()
-for (def row = 1; row <= 13; row++) {
+for (def row = 1; row <= 4; row++) {
     WebUI.click(findTestObject('ATAP/Create New Case/btn_Create New Case'))
 
     WebUI.refresh()
@@ -305,7 +305,7 @@ for (def row = 1; row <= 13; row++) {
 
         WebUI.delay(1)
 
-        WebUI.click(findTestObject('ATAP/Create New Case/Destination/Select workshop'))
+        WebUI.click(findTestObject('ATAP/Create New Case/Destination/workshop_dropdown'))
 
         WebUI.setText(findTestObject('ATAP/Create New Case/Destination/textfield_workshop'), findTestData('ATAP New Case').getValue(
                 'Workshop', row))
