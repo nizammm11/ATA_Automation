@@ -56,7 +56,7 @@ WebUI.setText(findTestObject('ATA_Partner/Vehicle/Vehicle/fill_vehicleNumber'), 
 
 WebUI.click(findTestObject('ATA_Partner/Vehicle/Vehicle/Truck/Type Of Truck/dropdown_vehicleTowTruck'))
 
-WebUI.delay(2)
+WebUI.delay(1)
 
 WebUI.click(findTestObject('ATA_Partner/Vehicle/Vehicle/Truck/Tow_Truck'))
 
