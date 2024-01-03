@@ -54,6 +54,8 @@ WebUI.verifyElementText(findTestObject('ATAU/main page/EAAC_word'), 'Etiqa Auto 
 
 WebUI.verifyElementText(findTestObject('ATAU/main page/We are here_word'), 'We are here to help you.')
 
+WebUI.delay(1)
+
 WebUI.verifyElementText(findTestObject('ATAU/main page/Where are you_word'), 'Where are you now?')
 
 WebUI.verifyElementPresent(findTestObject('ATAU/main page/Where Are You Now'), 0)

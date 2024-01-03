@@ -50,7 +50,7 @@ WebUI.verifyElementText(findTestObject('ATAP EH/Insights/Todays Statistics'), 'T
 
 WebUI.verifyElementText(findTestObject('ATAP EH/Insights/Recent Statistics'), 'Recent Statistics')
 
-WebUI.click(findTestObject('ATAP EH/Insights/dropdownV3'))
+WebUI.click(findTestObject('ATAP EH/Insights/Page_Dashboard/Statistics_dropdown'))
 
 WebUI.delay(2)
 
@@ -62,7 +62,7 @@ WebUI.click(findTestObject('ATAP EH/Insights/Last 7 days'))
 
 WebUI.delay(2)
 
-WebUI.click(findTestObject('ATAP EH/Insights/dropdownV3'))
+WebUI.click(findTestObject('ATAP EH/Insights/Page_Dashboard/Statistics_dropdown'))
 
 WebUI.delay(2)
 

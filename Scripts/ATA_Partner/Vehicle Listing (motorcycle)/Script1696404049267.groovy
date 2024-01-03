@@ -39,7 +39,7 @@ WebUI.click(findTestObject('Object Repository/ATA_Partner/LoginPage/button_Reque
 WebUI.delay(20)
 
 WebUI.click(findTestObject('Object Repository/ATA_Partner/LoginPage/button_Verify'))*/
-WebUI.click(findTestObject('ATA_Partner/Vehicle/Vehicle/Vehicle Listing'))
+WebUI.click(findTestObject('ATA_Partner/Vehicle/Page_Partner/Vehicle Listing'))
 
 WebUI.delay(2)
 
@@ -59,7 +59,7 @@ WebUI.verifyElementText(findTestObject('ATA_Partner/Vehicle/Vehicle/p_Vehicle St
 
 WebUI.setText(findTestObject('ATA_Partner/Vehicle/Vehicle/fill_vehicleNumber'), 'VBL680')
 
-WebUI.click(findTestObject('ATA_Partner/Vehicle/Vehicle/Truck/Type Of Truck/dropdown_vehicleTowTruck'))
+WebUI.click(findTestObject('ATA_Partner/Vehicle/Page_Partner/dropdown_vehicleList'))
 
 WebUI.delay(2)
 
@@ -67,11 +67,11 @@ WebUI.click(findTestObject('ATA_Partner/Vehicle/Vehicle/Motorcycle/span_Motorcyc
 
 WebUI.delay(2)
 
-WebUI.click(findTestObject('ATA_Partner/Vehicle/Vehicle/Motorcycle/span_Select'))
+WebUI.click(findTestObject('ATA_Partner/Vehicle/Page_Partner/Page_Partner/VehicleStatus_drop'))
 
 WebUI.delay(2)
 
-WebUI.click(findTestObject('ATA_Partner/Vehicle/Vehicle/Motorcycle/li_Available'))
+WebUI.click(findTestObject('ATA_Partner/Vehicle/Vehicle/Truck/Type Of Truck/span_Available'))
 
 //WebUI.click(findTestObject('ATA_Partner/Vehicle/Vehicle/Truck/petrol5'))
 //WebUI.click(findTestObject('ATA_Partner/Vehicle/Vehicle/Truck/jumpstart'))

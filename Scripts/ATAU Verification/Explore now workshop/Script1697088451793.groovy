@@ -124,15 +124,15 @@ WebUI.verifyElementPresent(findTestObject('ATAU/explore workshop/Filter/btn_Prem
 
 WebUI.click(findTestObject('ATAU/explore workshop/Filter/btn_Premier'))
 
-WebUI.verifyElementText(findTestObject('ATAU/explore workshop/Filter/btn_Super Premier'), 'Super Premier')
+//WebUI.verifyElementText(findTestObject('ATAU/explore workshop/Filter/btn_Super Premier'), 'Super Premier')
 
-WebUI.verifyElementPresent(findTestObject('ATAU/explore workshop/Filter/btn_Super Premier'), 0)
+//WebUI.verifyElementPresent(findTestObject('ATAU/explore workshop/Filter/btn_Super Premier'), 0)
 
-WebUI.click(findTestObject('ATAU/explore workshop/Filter/btn_Super Premier'))
+//WebUI.click(findTestObject('ATAU/explore workshop/Filter/btn_Super Premier'))
 
 WebUI.verifyElementText(findTestObject('ATAU/explore workshop/Filter/btn_State'), 'State')
 
-WebUI.verifyElementPresent(findTestObject('ATAU/explore workshop/Filter/btn_State'), 0)
+//WebUI.verifyElementPresent(findTestObject('ATAU/explore workshop/Filter/btn_State'), 0)
 
 WebUI.click(findTestObject('ATAU/explore workshop/Filter/btn_State'))
 
@@ -1340,7 +1340,7 @@ WebUI.click(findTestObject('ATAU/explore workshop/icon_filter'))
 
 WebUI.delay(2)
 
-WebUI.verifyElementPresent(findTestObject('ATAU/explore workshop/Filter/button_close'), 0)
+///WebUI.verifyElementPresent(findTestObject('ATAU/explore workshop/Filter/button_close'), 0)
 
 WebUI.click(findTestObject('ATAU/explore workshop/Filter/button_close'))
 

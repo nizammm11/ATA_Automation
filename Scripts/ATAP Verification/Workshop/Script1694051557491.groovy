@@ -17,11 +17,13 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
+row = 1
+
 Date today = new Date()
 
 String dateTime = today.format('yyyyMMddHHmmss')
 
-WebUI.callTestCase(findTestCase('ATAP - Main/ATAP - Login'), [('Username') : '80007700', ('Password') : 'DragCk23/'], FailureHandling.STOP_ON_FAILURE)
+WebUI.callTestCase(findTestCase('ATAP - Main/ATAP - Login'), [('Username') : '80007700', ('Password') : 'DragFu11/'], FailureHandling.STOP_ON_FAILURE)
 
 WebUI.delay(2)
 
@@ -64,32 +66,30 @@ WebUI.click(findTestObject('ATAP EH/Workshop/Add New Workshop'))
 
 WebUI.delay(2)
 
-for (def row = 1; row <= 1; row++) {
-    WebUI.setText(findTestObject('ATAP EH/Workshop/fill/name'), findTestData('ATAP New Case').getValue('nameWorkshop', row))
+//for (def row = 1; row <= 1; row++) {
+WebUI.setText(findTestObject('ATAP EH/Workshop/fill/name'), findTestData('ATAP New Case').getValue('nameWorkshop', row))
 
-    WebUI.setText(findTestObject('ATAP EH/Workshop/fill/phone_number'), findTestData('ATAP New Case').getValue('contactNumber', 
-            row))
+WebUI.setText(findTestObject('ATAP EH/Workshop/fill/phone_number'), findTestData('ATAP New Case').getValue('contactNumber', 
+        row))
 
-    WebUI.setText(findTestObject('ATAP EH/Workshop/fill/fax'), findTestData('ATAP New Case').getValue('Fax', row))
+WebUI.setText(findTestObject('ATAP EH/Workshop/fill/fax'), findTestData('ATAP New Case').getValue('Fax', row))
 
-    WebUI.setText(findTestObject('ATAP EH/Workshop/fill/email'), findTestData('ATAP New Case').getValue('Email', row))
+WebUI.setText(findTestObject('ATAP EH/Workshop/fill/email'), findTestData('ATAP New Case').getValue('Email', row))
 
-    WebUI.setText(findTestObject('ATAP EH/Workshop/fill/address_1'), findTestData('ATAP New Case').getValue('Address1', 
-            row))
+WebUI.setText(findTestObject('ATAP EH/Workshop/fill/address_1'), findTestData('ATAP New Case').getValue('Address1', row))
 
-    WebUI.setText(findTestObject('ATAP EH/Workshop/fill/address_2'), findTestData('ATAP New Case').getValue('Address2', 
-            row))
+WebUI.setText(findTestObject('ATAP EH/Workshop/fill/address_2'), findTestData('ATAP New Case').getValue('Address2', row))
 
-    WebUI.setText(findTestObject('ATAP EH/Workshop/fill/postcode'), findTestData('ATAP New Case').getValue('Postcode', row))
+WebUI.setText(findTestObject('ATAP EH/Workshop/fill/postcode'), findTestData('ATAP New Case').getValue('Postcode', row))
 
-    WebUI.setText(findTestObject('ATAP EH/Workshop/fill/city'), findTestData('ATAP New Case').getValue('City', row))
+WebUI.setText(findTestObject('ATAP EH/Workshop/fill/city'), findTestData('ATAP New Case').getValue('City', row))
 
-    WebUI.setText(findTestObject('ATAP EH/Workshop/fill/state'), findTestData('ATAP New Case').getValue('State', row))
-}
+WebUI.setText(findTestObject('ATAP EH/Workshop/fill/state'), findTestData('ATAP New Case').getValue('State', row))
 
+//}
 WebUI.scrollToElement(findTestObject('ATAP EH/Workshop/fill/postcode'), 0)
 
-WebUI.click(findTestObject('ATAP EH/Workshop/Status_dropdown'), FailureHandling.STOP_ON_FAILURE)
+WebUI.click(findTestObject('ATAP EH/Workshop/fill/Page_Dashboard/Status_dropdown'), FailureHandling.STOP_ON_FAILURE)
 
 WebUI.delay(2)
 
@@ -99,7 +99,7 @@ WebUI.verifyElementText(findTestObject('ATAP EH/Workshop/Inactive'), 'Inactive')
 
 WebUI.click(findTestObject('ATAP EH/Workshop/Active'))
 
-WebUI.click(findTestObject('ATAP EH/Workshop/Category_dropdown'))
+WebUI.click(findTestObject('ATAP EH/Workshop/fill/Page_Dashboard/Category_dropdown'))
 
 WebUI.delay(2)
 
@@ -119,7 +119,7 @@ WebUI.delay(2)
 
 WebUI.verifyElementPresent(findTestObject('ATAP EH/Workshop/search_workshop'), 0)
 
-WebUI.setText(findTestObject('ATAP EH/Workshop/search_workshop'), 'Empayar Bengkel')
+WebUI.setText(findTestObject('ATAP EH/Workshop/search_workshop'), findTestData('ATAP New Case').getValue('nameWorkshop', row))
 
 WebUI.callTestCase(findTestCase('ATAP - Main/ATAP - Logout'), [:], FailureHandling.STOP_ON_FAILURE)
 
