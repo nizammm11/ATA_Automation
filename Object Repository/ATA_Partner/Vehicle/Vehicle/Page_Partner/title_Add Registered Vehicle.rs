@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>span_Available</name>
+   <name>title_Add Registered Vehicle</name>
    <tag></tag>
-   <elementGuidId>9c243884-cee3-468c-ae86-9232d2bc0567</elementGuidId>
+   <elementGuidId>a581ab3e-bd87-4a1f-b533-5e8a53d0956c</elementGuidId>
    <selectorCollection>
       <entry>
          <key>CSS</key>
-         <value>li.p-ripple.p-element.p-dropdown-item > span.ng-star-inserted</value>
+         <value>span.title-1.ml-2</value>
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>(.//*[normalize-space(text()) and normalize-space(.)='Not Available'])[1]/preceding::span[1]</value>
+         <value>(.//*[normalize-space(text()) and normalize-space(.)='On Duty'])[1]/following::span[3]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -22,86 +22,86 @@
       <name>tag</name>
       <type>Main</type>
       <value>span</value>
-      <webElementGuid>b2374207-c99c-4ddb-90f7-42b0650df4de</webElementGuid>
+      <webElementGuid>d977228c-c723-43f8-9cd5-2219fd9413c0</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>class</name>
       <type>Main</type>
-      <value>ng-star-inserted</value>
-      <webElementGuid>4a5a54a0-3f07-4cd1-983c-3f1acaa6b451</webElementGuid>
+      <value>title-1 ml-2</value>
+      <webElementGuid>3ced770f-2a48-4948-beb0-b68d134b5727</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
-      <value>Available</value>
-      <webElementGuid>79d80e26-72b9-4167-9803-66ec87a45a02</webElementGuid>
+      <value>Add Registered Vehicle</value>
+      <webElementGuid>660cbb45-f7cf-40cc-9ba5-0fb2bb2d178d</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;pr_id_7_list&quot;)/p-dropdownitem[@class=&quot;p-element ng-star-inserted&quot;]/li[@class=&quot;p-ripple p-element p-dropdown-item&quot;]/span[@class=&quot;ng-star-inserted&quot;]</value>
-      <webElementGuid>66447daa-7c92-46ea-887b-e0c30f4a04c0</webElementGuid>
+      <value>/html[1]/body[1]/ata-partner[1]/ata-partner-layout-dashboard[@class=&quot;ng-star-inserted&quot;]/section[@class=&quot;main&quot;]/div[@class=&quot;content&quot;]/ata-partner-vehicle[@class=&quot;ng-star-inserted&quot;]/ata-vehicle-add-edit[@class=&quot;ng-star-inserted&quot;]/div[@class=&quot;flex-column bg-color&quot;]/div[@class=&quot;flex align-items-center justify-content-between px-4 py-3&quot;]/span[@class=&quot;text-xl font-bold ml-4 ng-star-inserted&quot;]/span[@class=&quot;title-1 ml-2&quot;]</value>
+      <webElementGuid>2f7c4df9-9a1b-454b-adce-6cea45a16e3c</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>xpath:idRelative</name>
+      <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>//ul[@id='pr_id_7_list']/p-dropdownitem/li/span</value>
-      <webElementGuid>676b6bcf-9de8-4bd0-9bad-a5c538de6008</webElementGuid>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='On Duty'])[1]/following::span[3]</value>
+      <webElementGuid>5b56e70a-a5e5-40dc-af25-40c9881106de</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Select'])[2]/following::span[2]</value>
-      <webElementGuid>8b2568fe-efa9-4bf2-af7b-6b74fcc7e9f7</webElementGuid>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Off Duty'])[1]/following::span[4]</value>
+      <webElementGuid>9988067e-8f1e-4d7e-a2e2-7820ec8b0335</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Select'])[1]/following::span[4]</value>
-      <webElementGuid>5100bac1-10d2-4a39-8e5b-f3b690cdfbea</webElementGuid>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Save'])[1]/preceding::span[1]</value>
+      <webElementGuid>ade8b90b-9e2c-458a-ae19-d1d9f3bbdd7d</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Not Available'])[1]/preceding::span[1]</value>
-      <webElementGuid>42f339b3-68d1-4397-bc6c-dd604141f944</webElementGuid>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Select'])[1]/preceding::span[3]</value>
+      <webElementGuid>d781e2a0-759e-4292-99c8-fd65802d8f13</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>//*/text()[normalize-space(.)='Available']/parent::*</value>
-      <webElementGuid>2a710dca-5fa5-4ebb-a799-e76fd1db0ec3</webElementGuid>
+      <value>//*/text()[normalize-space(.)='Add Registered Vehicle']/parent::*</value>
+      <webElementGuid>fd0c50d4-3288-4860-a932-17706c4f6235</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
       <type>Main</type>
-      <value>//li/span</value>
-      <webElementGuid>54b8f13f-606f-4f86-9e61-e98e7362cff0</webElementGuid>
+      <value>//span/span</value>
+      <webElementGuid>d50431b1-5e6a-4938-8e7e-168f4573ae2f</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:customAttributes</name>
       <type>Main</type>
-      <value>//span[(text() = 'Available' or . = 'Available')]</value>
-      <webElementGuid>48246822-6740-4fe1-81f8-ab2fe3ce954e</webElementGuid>
+      <value>//span[(text() = 'Add Registered Vehicle' or . = 'Add Registered Vehicle')]</value>
+      <webElementGuid>c4780235-7331-4ca5-bb43-0183cf3cf622</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

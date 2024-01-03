@@ -1,17 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>VehicleStatus_dropdown</name>
+   <name>dropdown_statusTowTruck</name>
    <tag></tag>
-   <elementGuidId>d688c651-0720-47a6-b119-48390dec9e11</elementGuidId>
+   <elementGuidId>5a927035-bfe0-4a9e-875e-e0799598ac44</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>(.//*[normalize-space(text()) and normalize-space(.)='Select'])[2]/following::*[name()='svg'][1]</value>
+         <key>CSS</key>
+         <value>p-dropdown.p-element.p-inputwrapper.vehicleInput.ng-untouched.ng-pristine.ng-valid > div.p-dropdown.p-component > div.p-dropdown-trigger > chevrondownicon.p-element.p-icon-wrapper.ng-star-inserted > svg.p-dropdown-trigger-icon.p-icon</value>
       </entry>
       <entry>
-         <key>CSS</key>
-         <value>p-dropdown.p-element.p-inputwrapper.vehicleInput.ng-pristine.ng-valid.ng-touched > div.p-dropdown.p-component > div.p-dropdown-trigger > chevrondownicon.p-element.p-icon-wrapper.ng-star-inserted > svg.p-dropdown-trigger-icon.p-icon</value>
+         <key>BASIC</key>
+         <value>//*[@class = 'p-dropdown-trigger-icon p-icon']</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>/html/body/ata-partner/ata-partner-layout-dashboard/section/div/ata-partner-vehicle/ata-vehicle-add-edit/div/form/div/div/div[1]/div[3]/div/p-dropdown/div/div[2]/chevrondownicon/svg</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -22,7 +26,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>svg</value>
-      <webElementGuid>8acba65c-962f-4e19-a7a5-1071a627e39b</webElementGuid>
+      <webElementGuid>07b68987-e71a-487e-acf0-9844fe56cffd</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -30,7 +34,7 @@
       <name>width</name>
       <type>Main</type>
       <value>14</value>
-      <webElementGuid>f2dc731f-32db-4c45-9892-e1e82c9169d9</webElementGuid>
+      <webElementGuid>18924e16-929f-4269-8f60-af20a9a6da0e</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -38,7 +42,7 @@
       <name>height</name>
       <type>Main</type>
       <value>14</value>
-      <webElementGuid>f9e5fc26-237e-454e-bef9-7819fd7316eb</webElementGuid>
+      <webElementGuid>2ccbf46f-8a8b-4bbc-b551-34ba65a1a1f6</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -46,7 +50,7 @@
       <name>viewBox</name>
       <type>Main</type>
       <value>0 0 14 14</value>
-      <webElementGuid>3f6059a1-2820-4c0b-aa60-764552269be4</webElementGuid>
+      <webElementGuid>273575b7-9c47-4af1-84f4-aa40ded4b134</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -54,7 +58,7 @@
       <name>fill</name>
       <type>Main</type>
       <value>none</value>
-      <webElementGuid>e8fd756d-e869-44cf-a1f4-91bd393c4df3</webElementGuid>
+      <webElementGuid>70f2282c-33d8-4a62-8011-24d32c928afc</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -62,15 +66,15 @@
       <name>xmlns</name>
       <type>Main</type>
       <value>http://www.w3.org/2000/svg</value>
-      <webElementGuid>b7230e3f-20a7-4e9a-b925-dedc4ba329cf</webElementGuid>
+      <webElementGuid>757e3aa7-f931-4a4d-a723-67831be44198</webElementGuid>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>class</name>
       <type>Main</type>
       <value>p-dropdown-trigger-icon p-icon</value>
-      <webElementGuid>7e0e3896-70b7-4d96-99e2-f0a13a475fb9</webElementGuid>
+      <webElementGuid>85a98b6a-c544-42fb-a2b4-c5eadbf469b5</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -78,15 +82,15 @@
       <name>aria-hidden</name>
       <type>Main</type>
       <value>true</value>
-      <webElementGuid>c1833bcf-3d4d-42f6-8472-a913bd3bd93a</webElementGuid>
+      <webElementGuid>53a9a585-a724-4f1a-9349-bf9212eba65c</webElementGuid>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>/html[1]/body[1]/ata-partner[1]/ata-partner-layout-dashboard[@class=&quot;ng-star-inserted&quot;]/section[@class=&quot;main&quot;]/div[@class=&quot;content&quot;]/ata-partner-vehicle[@class=&quot;ng-star-inserted&quot;]/ata-vehicle-add-edit[@class=&quot;ng-star-inserted&quot;]/div[@class=&quot;flex-column bg-color&quot;]/form[@class=&quot;ng-pristine ng-invalid ng-touched&quot;]/div[@class=&quot;p-2 grid justify-content-center&quot;]/div[@class=&quot;col-8 md:col-9 xs:col-12&quot;]/div[@class=&quot;py-4 border-bottom-1&quot;]/div[@class=&quot;field grid&quot;]/div[@class=&quot;col-12 md:col-6&quot;]/p-dropdown[@class=&quot;p-element p-inputwrapper vehicleInput ng-pristine ng-valid ng-touched&quot;]/div[@class=&quot;p-dropdown p-component&quot;]/div[@class=&quot;p-dropdown-trigger&quot;]/chevrondownicon[@class=&quot;p-element p-icon-wrapper ng-star-inserted&quot;]/svg[@class=&quot;p-dropdown-trigger-icon p-icon&quot;]</value>
-      <webElementGuid>5b0a0d7c-d59c-4ca3-afaa-fa9765ea9a69</webElementGuid>
+      <value>/html[1]/body[@class=&quot;overflow-hidden lg:overflow-auto&quot;]/ata-partner[1]/ata-partner-layout-dashboard[@class=&quot;ng-star-inserted&quot;]/section[@class=&quot;main&quot;]/div[@class=&quot;content&quot;]/ata-partner-vehicle[@class=&quot;ng-star-inserted&quot;]/ata-vehicle-add-edit[@class=&quot;ng-star-inserted&quot;]/div[@class=&quot;flex-column bg-color&quot;]/form[@class=&quot;ng-pristine ng-invalid ng-touched&quot;]/div[@class=&quot;p-2 grid justify-content-center&quot;]/div[@class=&quot;col-8 md:col-9 xs:col-12&quot;]/div[@class=&quot;py-4 border-bottom-1&quot;]/div[@class=&quot;field grid&quot;]/div[@class=&quot;col-12 md:col-6&quot;]/p-dropdown[@class=&quot;p-element p-inputwrapper vehicleInput ng-untouched ng-pristine ng-valid&quot;]/div[@class=&quot;p-dropdown p-component&quot;]/div[@class=&quot;p-dropdown-trigger&quot;]/chevrondownicon[@class=&quot;p-element p-icon-wrapper ng-star-inserted&quot;]/svg[@class=&quot;p-dropdown-trigger-icon p-icon&quot;]</value>
+      <webElementGuid>187c79e0-b1ec-4ce2-9ef3-9fa971fae1f4</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -94,7 +98,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Select'])[2]/following::*[name()='svg'][1]</value>
-      <webElementGuid>154d739a-9ac6-4c86-a41a-1f85eb26b2ec</webElementGuid>
+      <webElementGuid>49ab94e1-92b9-4461-b049-136f6591a92d</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -102,6 +106,6 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Select'])[1]/following::*[name()='svg'][2]</value>
-      <webElementGuid>653808a7-3aff-4199-9258-0d5d23e09cc1</webElementGuid>
+      <webElementGuid>e4c17fe1-a51b-4e18-b1a1-8a4033523992</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

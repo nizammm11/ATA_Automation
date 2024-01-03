@@ -61,11 +61,11 @@ WebUI.click(findTestObject('ATA_Partner/Case Listing/Assign/Page_Partner/button_
 
 WebUI.delay(2)
 
-WebUI.click(findTestObject('ATA_Partner/Case Listing/Assign/Page_Partner/Page_Partner/button_All Drivers'))
+WebUI.click(findTestObject('ATA_Partner/Case Listing/Assign/Page_Partner/All Drivers'))
 
 WebUI.delay(2)
 
-WebUI.click(findTestObject('ATA_Partner/Case Listing/Assign/Page_Partner/Page_Partner/button_Nearest'))
+WebUI.click(findTestObject('ATA_Partner/Case Listing/Assign/Page_Partner/span_Nearest'))
 
 WebUI.delay(2)
 
@@ -83,5 +83,5 @@ WebUI.delay(2)
 
 WebUI.click(findTestObject('ATA_Partner/Case Listing/Assign/Page_Partner/Page_Partner/button_Yes, I want to assign'))
 
-WebUI.click(findTestObject('ATA_Partner/Case Listing/Assign/Page_Partner/Page_Partner/button_OK'))
+WebUI.click(findTestObject('ATA_Partner/Case Listing/Assign/Page_Partner/OK_button'))
 

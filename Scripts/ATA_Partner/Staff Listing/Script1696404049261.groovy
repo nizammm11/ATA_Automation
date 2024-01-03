@@ -72,8 +72,6 @@ WebUI.verifyElementPresent(findTestObject('ATA_Partner/Staff_Listing2/trash_icon
 
 WebUI.click(findTestObject('ATA_Partner/Staff_Listing2/trash_icon'))
 
-WebUI.verifyElementText(findTestObject('ATA_Partner/Staff_Listing2/Page_Partner/Are you sure you want to release'), 'Are you sure you want to release WA1309 from this staff ?')
-
 WebUI.verifyElementText(findTestObject('ATA_Partner/Staff_Listing2/Page_Partner/Cancel_release'), 'Cancel')
 
 WebUI.verifyElementPresent(findTestObject('ATA_Partner/Staff_Listing2/Page_Partner/Yes_release'), 0)

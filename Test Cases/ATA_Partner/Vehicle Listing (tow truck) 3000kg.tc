@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
    <description></description>
-   <name>Vehicle Listing (tow trunk)</name>
+   <name>Vehicle Listing (tow truck) 3000kg</name>
    <tag></tag>
    <comment></comment>
-   <testCaseGuid>a367a68a-cb9d-43fd-9020-0c5115be34ae</testCaseGuid>
+   <testCaseGuid>433454b6-f225-41c2-ac50-2eddd10b5c4a</testCaseGuid>
 </TestCaseEntity>

@@ -60,6 +60,20 @@
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
+      <guid>f8c88b82-9ec5-4185-8ced-d58fbdceea8c</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/ATA_Partner/Vehicle Listing (tow truck) 2500kg</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>3a0de234-1859-4eda-8cb0-d12718a21594</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/ATA_Partner/Vehicle Listing (tow truck) 3000kg</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+   </testCaseLink>
+   <testCaseLink>
       <guid>d39ec5a0-f4e9-4654-9dc0-c202e50ab2b6</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>

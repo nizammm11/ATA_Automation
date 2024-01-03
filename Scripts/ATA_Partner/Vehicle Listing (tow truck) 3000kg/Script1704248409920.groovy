@@ -38,7 +38,6 @@ WebUI.click(findTestObject('Object Repository/ATA_Partner/LoginPage/button_Reque
 WebUI.delay(20)
 
 WebUI.click(findTestObject('Object Repository/ATA_Partner/LoginPage/button_Verify'))*/
-
 WebUI.click(findTestObject('ATA_Partner/Vehicle/Vehicle/a_Vehicle Listing'))
 
 WebUI.verifyElementPresent(findTestObject('ATA_Partner/Vehicle/Vehicle/a_Add Registered Vehicle'), 0)
@@ -53,33 +52,39 @@ WebUI.verifyElementText(findTestObject('ATA_Partner/Vehicle/Vehicle/p_Type of Ve
 
 WebUI.verifyElementText(findTestObject('ATA_Partner/Vehicle/Vehicle/p_Vehicle Status'), 'Vehicle Status')
 
-WebUI.setText(findTestObject('ATA_Partner/Vehicle/Vehicle/fill_vehicleNumber'), 'WXY234')
+WebUI.setText(findTestObject('ATA_Partner/Vehicle/Vehicle/fill_vehicleNumber'), 'WXY2345')
 
-WebUI.click(findTestObject('ATA_Partner/Vehicle/Vehicle/dropdown_vehicle'))
+WebUI.click(findTestObject('ATA_Partner/Vehicle/Vehicle/Truck/Type Of Truck/dropdown_vehicleTowTruck'))
 
-WebUI.click(findTestObject('ATA_Partner/Vehicle/Vehicle/Truck/Type Of Truck/span_Tow Truck'))
+WebUI.delay(2)
 
-WebUI.delay(5)
+WebUI.click(findTestObject('ATA_Partner/Vehicle/Vehicle/Truck/Tow_Truck'))
 
-WebUI.click(findTestObject('ATA_Partner/Vehicle/Vehicle/Truck/Type Of Truck/dropdown_status'))
+WebUI.delay(2)
 
-WebUI.delay(5)
+WebUI.click(findTestObject('ATA_Partner/Vehicle/Vehicle/Truck/dropdownStatus'))
 
-WebUI.click(findTestObject('ATA_Partner/Vehicle/Vehicle/Truck/Type Of Truck/span_Available'))
+WebUI.delay(2)
 
-WebUI.delay(5)
+WebUI.click(findTestObject('ATA_Partner/Vehicle/Vehicle/Truck/Available'))
 
-WebUI.click(findTestObject('ATA_Partner/Vehicle/Vehicle/Truck/dropdown_weight'))
+WebUI.delay(2)
 
-WebUI.delay(5)
+WebUI.click(findTestObject('ATA_Partner/Vehicle/Vehicle/Truck/Weight/weight_dropdown'))
 
-WebUI.click(findTestObject('ATA_Partner/Vehicle/Vehicle/Truck/span_2500 kg'))
+WebUI.delay(2)
 
-WebUI.delay(5)
+WebUI.click(findTestObject('ATA_Partner/Vehicle/Vehicle/Truck/Weight/3000 kg'))
 
-WebUI.click(findTestObject('ATA_Partner/Vehicle/Vehicle/Truck/dropdown_truck'))
+WebUI.delay(2)
+
+WebUI.click(findTestObject('ATA_Partner/Vehicle/Vehicle/Truck/Type Of Truck/Page_Partner/type_truck_dropdown'))
+
+WebUI.delay(2)
 
 WebUI.click(findTestObject('ATA_Partner/Vehicle/Vehicle/Truck/span_Hook'))
+
+WebUI.delay(2)
 
 //WebUI.click(findTestObject('ATA_Partner/Vehicle/Vehicle/Truck/mpv'))
 WebUI.click(findTestObject('ATA_Partner/Vehicle/Vehicle/Truck/basement'))
@@ -89,6 +94,8 @@ WebUI.click(findTestObject('ATA_Partner/Vehicle/Vehicle/Truck/tyre_replace'))
 WebUI.click(findTestObject('ATA_Partner/Vehicle/Vehicle/Truck/petrol5'))
 
 WebUI.click(findTestObject('ATA_Partner/Vehicle/Vehicle/Truck/jumpstart'))
+
+WebUI.scrollToPosition(14, 21)
 
 WebUI.click(findTestObject('ATA_Partner/Vehicle/Vehicle/Truck/span_Save'))
 

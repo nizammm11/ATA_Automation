@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>span_Nearest</name>
+   <tag></tag>
+   <elementGuidId>f10d6ddd-b227-4d60-aeba-d6f1226e9c6a</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>button.p-element.p-button.btn1.p-component.active > span.p-button-label</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>(.//*[normalize-space(text()) and normalize-space(.)='Assign the driver for this case'])[1]/following::span[1]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>span</value>
+      <webElementGuid>b705a3df-931d-4004-8181-f5bcf5747f8d</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>p-button-label</value>
+      <webElementGuid>d56cb1db-bea7-4cb8-9fb7-0abcf7efd00e</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Nearest...</value>
+      <webElementGuid>35087b6f-4000-4630-9d45-4b489abe336e</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>/html[1]/body[@class=&quot;overflow-hidden lg:overflow-auto p-overflow-hidden&quot;]/ata-partner[1]/ata-partner-layout-dashboard[@class=&quot;ng-star-inserted&quot;]/section[@class=&quot;main&quot;]/div[@class=&quot;content&quot;]/ata-partner-cases[@class=&quot;ng-star-inserted&quot;]/partner-case-detail[@class=&quot;ng-star-inserted&quot;]/p-dialog[@class=&quot;p-element dialog-partner ng-tns-c3624468095-7 ng-star-inserted&quot;]/div[@class=&quot;ng-tns-c3624468095-7 p-dialog-mask p-component-overlay p-component-overlay-enter p-dialog-mask-scrollblocker ng-star-inserted&quot;]/div[@class=&quot;p-element ng-trigger ng-trigger-animation ng-tns-c3624468095-7 p-dialog p-component p-dialog-draggable p-dialog-resizable ng-star-inserted&quot;]/div[@class=&quot;ng-tns-c3624468095-7 p-dialog-content&quot;]/div[@class=&quot;flex flex-column mb-5 ng-tns-c3624468095-7&quot;]/div[@class=&quot;w-full pt-2&quot;]/div[@class=&quot;mt-4 div1&quot;]/div[@class=&quot;grid&quot;]/div[@class=&quot;col btn1-col&quot;]/button[@class=&quot;p-element p-button btn1 p-component active&quot;]/span[@class=&quot;p-button-label&quot;]</value>
+      <webElementGuid>5647d962-4442-4573-9303-b530b2365933</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Assign the driver for this case'])[1]/following::span[1]</value>
+      <webElementGuid>393a3aaa-63d8-4dca-aa9f-1ed831e35801</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Select Driver'])[1]/following::span[1]</value>
+      <webElementGuid>301ca7df-b14e-45bb-8ea8-a8fc56dcdb74</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='All Drivers'])[1]/preceding::span[1]</value>
+      <webElementGuid>d0715e55-bb31-43aa-8293-b7ca15ccccd3</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='nigel'])[1]/preceding::span[2]</value>
+      <webElementGuid>32be7b31-fd1b-44d4-91f1-a1917183d06a</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='Nearest...']/parent::*</value>
+      <webElementGuid>d18ca3a9-cfc5-43ae-8108-59e35ba53920</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[3]/div/div/button/span</value>
+      <webElementGuid>5d1fba68-1cca-4102-b13b-947ae9999e95</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//span[(text() = 'Nearest...' or . = 'Nearest...')]</value>
+      <webElementGuid>85f8d9f1-3626-4ba3-97bb-9feb77ae366c</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>
