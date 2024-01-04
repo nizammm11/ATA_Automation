@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
    <description></description>
-   <name>Create New Case</name>
+   <name>Create Car BT Brake</name>
    <tag></tag>
    <comment></comment>
-   <testCaseGuid>b3b6afec-5715-44da-8a94-e63ff864e639</testCaseGuid>
+   <testCaseGuid>e8749158-c751-4ee8-80c3-1895f29f233c</testCaseGuid>
 </TestCaseEntity>

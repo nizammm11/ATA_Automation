@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
    <description></description>
-   <name>Create BT electrical</name>
+   <name>Create Car BT electrical</name>
    <tag></tag>
    <comment></comment>
    <testCaseGuid>b7fb9c45-9ea9-4b3d-96b0-65964d4f6171</testCaseGuid>
