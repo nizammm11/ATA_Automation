@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>div_WARNING</name>
+   <tag></tag>
+   <elementGuidId>2a36a6b2-19d7-48bf-a6ba-c635ecd77622</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>div.p-field.pb-3.text-xs.text-center.text-400 > div</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>(.//*[normalize-space(text()) and normalize-space(.)='Request OTP'])[1]/following::div[2]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>div</value>
+      <webElementGuid>e623c85b-0b4a-4bf5-b2b2-cda415986f83</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>WARNING</value>
+      <webElementGuid>a1f850ec-aa68-4880-a041-217b0424d223</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>/html[1]/body[1]/ata-partner[1]/ata-partner-layout-auth[@class=&quot;ng-star-inserted&quot;]/ata-partner-auth[@class=&quot;ng-star-inserted&quot;]/partner-auth-login[@class=&quot;ng-star-inserted&quot;]/div[@class=&quot;login-card lg:mt-5&quot;]/div[@class=&quot;p-4 mt-5 md:flex flex-column md:align-items-center&quot;]/form[@class=&quot;ng-untouched ng-pristine ng-invalid&quot;]/div[@class=&quot;p-field pb-3 text-xs text-center text-400&quot;]/div[1]</value>
+      <webElementGuid>77350744-02c0-4911-8253-0c8afb54ae44</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Request OTP'])[1]/following::div[2]</value>
+      <webElementGuid>6f58a951-96d6-4989-8542-b1f5e36bcf5b</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Ver 3.8.0 © 2022, ATA Solutions by Etiqa. All Rights Reserved'])[1]/preceding::div[2]</value>
+      <webElementGuid>fc519d37-c0aa-4eb7-b27e-c9516cf7bfd9</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Capture object:'])[1]/preceding::div[3]</value>
+      <webElementGuid>e74873c9-5f96-41dc-87d1-38d272c1fcbb</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='WARNING']/parent::*</value>
+      <webElementGuid>d0f732c0-cb05-4a6e-820b-cab7c9375736</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[4]/div</value>
+      <webElementGuid>b7071b93-70ca-46e1-ae41-e96c83e4bebb</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//div[(text() = 'WARNING' or . = 'WARNING')]</value>
+      <webElementGuid>8a5c2818-213a-4ac3-8790-72ddc79ca88e</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

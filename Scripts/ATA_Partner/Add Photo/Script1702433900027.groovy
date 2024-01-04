@@ -16,20 +16,25 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
-import java.time.LocalDateTime as LocalDateTime
-import java.time.format.DateTimeFormatter as DateTimeFormatter
 
-Date today = new Date()
+WebUI.callTestCase(findTestCase('ATA_Partner/Partner - Login'), [('phoneNumber') : '122614910'], FailureHandling.STOP_ON_FAILURE)
 
-String dateTime = today.format('yyyyMMddHHmmss')
+WebUI.verifyElementText(findTestObject('ATA_Partner/Add Photo/span_Resolved'), 'Resolved')
 
-WebUI.verifyElementText(findTestObject('ATA_Partner/LoginPage/span_Log Out'), 'Log Out')
+WebUI.click(findTestObject('ATA_Partner/Add Photo/span_Resolved'))
 
-WebUI.click(findTestObject('ATA_Partner/LoginPage/span_Log Out'))
+WebUI.click(findTestObject('ATA_Partner/Add Photo/policy_button'))
 
-WebUI.delay(2)
+WebUI.verifyElementText(findTestObject('ATA_Partner/Add Photo/Add Photos'), 'Add Photos')
 
-WebUI.click(findTestObject('ATA_Partner/LoginPage/button_Yes, proceed'), FailureHandling.STOP_ON_FAILURE)
+WebUI.click(findTestObject('ATA_Partner/Add Photo/Add Photos'))
 
-WebUI.closeBrowser()
+WebUI.verifyElementText(findTestObject('ATA_Partner/Add Photo/span_Photos by DSP'), 'Photos by DSP')
+
+WebUI.click(findTestObject('ATA_Partner/Add Photo/span_Photos by DSP'))
+
+WebUI.verifyElementText(findTestObject('ATA_Partner/Add Photo/button_Add photo'), 'Add photo')
+
+WebUI.click(findTestObject('ATA_Partner/Add Photo/button_Add photo'))
+//WebUI.uploadFile(findTestObject('ATA_Partner/Add Photo/button_Add photo'), file)
 
