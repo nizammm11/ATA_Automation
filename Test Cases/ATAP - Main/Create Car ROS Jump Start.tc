@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
    <description></description>
-   <name>Create BT Brake</name>
+   <name>Create Car ROS Jump Start</name>
    <tag></tag>
    <comment></comment>
-   <testCaseGuid>e8749158-c751-4ee8-80c3-1895f29f233c</testCaseGuid>
+   <testCaseGuid>21526fc4-3ff1-4bab-a62c-59f585258df8</testCaseGuid>
 </TestCaseEntity>

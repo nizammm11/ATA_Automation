@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
    <description></description>
-   <name>Create BT Gear</name>
+   <name>Create Car ROS Battery</name>
    <tag></tag>
    <comment></comment>
-   <testCaseGuid>ec97a2bf-cd39-459c-9501-176d1ac5cabb</testCaseGuid>
+   <testCaseGuid>240112d8-47d5-4de6-9b1b-2c436d7e792e</testCaseGuid>
 </TestCaseEntity>
