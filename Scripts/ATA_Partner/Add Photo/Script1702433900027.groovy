@@ -37,3 +37,5 @@ WebUI.verifyElementText(findTestObject('ATA_Partner/Add Photo/button_Add photo')
 
 WebUI.click(findTestObject('ATA_Partner/Add Photo/button_Add photo'))
 
+WebUI.delay(0)
+
