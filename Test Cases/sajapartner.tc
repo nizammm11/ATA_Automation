@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>sajapartner</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>0c774ec8-3bc7-4ebc-8e39-c5272409f46c</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>422984dd-d5ba-46f7-8736-069ab2d01c3e</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>'D:\\\\80007700\\\\d\\\\gambar kereta\\\\kereta1'</defaultValue>
+      <description></description>
+      <id>422984dd-d5ba-46f7-8736-069ab2d01c3e</id>
+      <masked>false</masked>
+      <name>image</name>
+   </variable>
+</TestCaseEntity>

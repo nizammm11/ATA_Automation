@@ -36,11 +36,11 @@ WebUI.delay(2)
 WebUI.click(findTestObject('ATAU/button_Got It'))
 
 //WebUI.takeFullPageScreenshot(('D:\\AutomationATA\\ATA_Screenshot\\ATAU\\Main_page\\2. Main Page_' + dateTime) + '.png')
-WebUI.verifyElementText(findTestObject('ATAU/main page/text_Get 247 services SMILE app'), 'Get 24/7 auto assist services with Etiqa SMILE app')
+WebUI.verifyElementText(findTestObject('ATAU/main page/main land/text_Get 247 services with Etiqa app'), 'Get 24/7 auto assist services with Etiqa+ app')
 
-WebUI.verifyElementPresent(findTestObject('ATAU/main page/link_DOWNLOAD'), 0)
+WebUI.verifyElementPresent(findTestObject('ATAU/main page/main land/buttonlink_DOWNLOAD'), 0)
 
-WebUI.verifyElementText(findTestObject('ATAU/main page/link_DOWNLOAD'), 'DOWNLOAD')
+WebUI.verifyElementText(findTestObject('ATAU/main page/main land/buttonlink_DOWNLOAD'), 'DOWNLOAD')
 
 WebUI.verifyElementPresent(findTestObject('ATAU/main page/logo_Smile'), 0)
 
@@ -128,7 +128,7 @@ WebUI.verifyElementText(findTestObject('ATAU/main page/main land/word_Looking fo
 
 WebUI.verifyElementPresent(findTestObject('ATAU/main page/btn_workshop Explore'), 0)
 
-WebUI.verifyElementText(findTestObject('ATAU/main page/main land/Version'), 'Version 3.13.3')
+WebUI.verifyElementText(findTestObject('ATAU/main page/main land/Version'), 'Version 3.13.6')
 
 WebUI.closeBrowser(FailureHandling.STOP_ON_FAILURE)
 

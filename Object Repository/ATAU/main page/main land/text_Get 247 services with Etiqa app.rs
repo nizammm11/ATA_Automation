@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>text_Get 247 services SMILE app</name>
+   <name>text_Get 247 services with Etiqa app</name>
    <tag></tag>
-   <elementGuidId>0a0ad502-8a35-4b46-ab66-ae8b744bd6ca</elementGuidId>
+   <elementGuidId>de0c703e-7a98-4ca3-b49f-58d618552984</elementGuidId>
    <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>div.ml-3.align-self-center.link-text.ng-star-inserted</value>
+      </entry>
       <entry>
          <key>XPATH</key>
          <value>(.//*[normalize-space(text()) and normalize-space(.)='×'])[1]/following::div[1]</value>
-      </entry>
-      <entry>
-         <key>CSS</key>
-         <value>div.ml-3.align-self-center.link-text</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -22,31 +22,31 @@
       <name>tag</name>
       <type>Main</type>
       <value>div</value>
-      <webElementGuid>9b10af39-6a4d-42f5-8e13-0b2da1a3d802</webElementGuid>
+      <webElementGuid>7de8bc26-2116-4de8-9f2e-d0990e7d5699</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>class</name>
       <type>Main</type>
-      <value>ml-3 align-self-center link-text</value>
-      <webElementGuid>8cc44a9b-0284-4078-b1bb-cc401f68cd52</webElementGuid>
+      <value>ml-3 align-self-center link-text ng-star-inserted</value>
+      <webElementGuid>8566c68a-4bbb-4d4b-b145-2a484301333a</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
-      <value>Get 24/7 auto assist services with Etiqa SMILE app</value>
-      <webElementGuid>66aa0035-97ac-4e61-af21-b36c3020bc6e</webElementGuid>
+      <value>Get 24/7 auto assist services with Etiqa+ app</value>
+      <webElementGuid>19ff37c6-c6d2-4b50-ad7d-cd62336e2582</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>/html[@class=&quot;ata-text-slate-800 ata-bg-white&quot;]/body[1]/ata-atau[1]/ata-atau-default[@class=&quot;ng-star-inserted&quot;]/p-messages[@class=&quot;p-element ng-tns-c114-2 ng-star-inserted&quot;]/div[@class=&quot;p-messages p-component ng-tns-c114-2 custom-message&quot;]/div[@class=&quot;ng-tns-c114-2 p-message p-message-info ng-star-inserted&quot;]/div[@class=&quot;p-message-wrapper ng-tns-c114-2&quot;]/div[@class=&quot;flex justify-content-center align-content-center w-full ng-star-inserted&quot;]/div[@class=&quot;ml-3 align-self-center link-text&quot;]</value>
-      <webElementGuid>a431ce85-1e4d-42fd-a79a-1384b920ef0e</webElementGuid>
+      <value>/html[@class=&quot;ata-text-slate-800 ata-bg-white&quot;]/body[1]/ata-atau[1]/ata-atau-default[@class=&quot;ng-star-inserted&quot;]/p-messages[@class=&quot;p-element ng-tns-c3316150596-2 ng-star-inserted&quot;]/div[@class=&quot;p-messages p-component ng-tns-c3316150596-2 custom-message&quot;]/div[@class=&quot;ng-tns-c3316150596-2 p-message p-message-info ng-star-inserted&quot;]/div[@class=&quot;p-message-wrapper ng-tns-c3316150596-2&quot;]/div[@class=&quot;flex justify-content-center align-content-center w-full ng-star-inserted&quot;]/div[@class=&quot;ml-3 align-self-center link-text ng-star-inserted&quot;]</value>
+      <webElementGuid>46461331-e442-4edf-8a67-ba4694187d12</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -54,7 +54,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='×'])[1]/following::div[1]</value>
-      <webElementGuid>5f43a0e3-4189-4a1d-af81-f4373e1995aa</webElementGuid>
+      <webElementGuid>ad8ccc83-730f-4dd2-b9a8-dd7e0f1ba262</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -62,7 +62,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='DOWNLOAD'])[1]/preceding::div[1]</value>
-      <webElementGuid>9e82f3fe-8d72-4b1f-a1d3-55111a425b88</webElementGuid>
+      <webElementGuid>3912a53d-3629-4ca0-a148-a23a162e34ff</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -70,15 +70,15 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Etiqa Auto Assist Care'])[1]/preceding::div[4]</value>
-      <webElementGuid>f501df61-e6c6-4b09-8366-2fb5f39f41ef</webElementGuid>
+      <webElementGuid>0e29fb02-e228-4bf9-b083-afa20f96940b</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>//*/text()[normalize-space(.)='Get 24/7 auto assist services with Etiqa SMILE app']/parent::*</value>
-      <webElementGuid>4b7f5d50-b4ac-4759-9ac0-713157321b79</webElementGuid>
+      <value>//*/text()[normalize-space(.)='Get 24/7 auto assist services with Etiqa+ app']/parent::*</value>
+      <webElementGuid>a4825b8d-3adc-4693-8a3e-39e9447d9820</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -86,14 +86,14 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//div/div/div/div/div</value>
-      <webElementGuid>70f99f6e-5052-437e-8aa5-8a2207c7d199</webElementGuid>
+      <webElementGuid>0f548351-bf0e-419e-8f05-3c86c3db7d41</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:customAttributes</name>
       <type>Main</type>
-      <value>//div[(text() = 'Get 24/7 auto assist services with Etiqa SMILE app' or . = 'Get 24/7 auto assist services with Etiqa SMILE app')]</value>
-      <webElementGuid>7bb6528f-8061-44ad-897c-6b7e03409c36</webElementGuid>
+      <value>//div[(text() = 'Get 24/7 auto assist services with Etiqa+ app' or . = 'Get 24/7 auto assist services with Etiqa+ app')]</value>
+      <webElementGuid>dba8a582-70ce-47c5-9ccd-932ea8e91c40</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

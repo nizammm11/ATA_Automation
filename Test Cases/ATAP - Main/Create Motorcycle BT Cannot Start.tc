@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
    <description></description>
-   <name>saja</name>
+   <name>Create Motorcycle BT Cannot Start</name>
    <tag></tag>
    <comment></comment>
-   <testCaseGuid>e18b6889-1809-4777-a39b-ae76d6e6daf9</testCaseGuid>
+   <testCaseGuid>c7105142-9938-4f5c-9360-ec34c484ac20</testCaseGuid>
 </TestCaseEntity>
