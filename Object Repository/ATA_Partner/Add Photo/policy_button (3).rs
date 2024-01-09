@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>policy_button (3)</name>
+   <tag></tag>
+   <elementGuidId>28837cbc-c19f-4ed4-b7e3-009d0b336a93</elementGuidId>
+   <imagePath></imagePath>
+   <selectorCollection>
+      <entry>
+         <key>IMAGE</key>
+         <value></value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>span.p-button-icon.pi.pi-arrow-right</value>
+      </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>id(&quot;pr_id_3-table&quot;)/tbody[@class=&quot;p-element p-datatable-tbody&quot;]/tr[@class=&quot;ng-star-inserted&quot;]/td[@class=&quot;responsive-table text-right&quot;]/button[@class=&quot;p-element p-button-rounded p-button-warning p-button p-component p-button-icon-only&quot;]/span[@class=&quot;p-button-icon pi pi-arrow-right&quot;]</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>/html/body/ata-partner/ata-partner-layout-dashboard/section/div/ata-partner-cases/partner-case-list/partner-case-list-table/p-table/div/div/table/tbody/tr[1]/td[11]/button</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>span</value>
+      <webElementGuid>bc499b82-6ea4-48d2-996c-8d51395e9dda</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>p-button-icon pi pi-arrow-right</value>
+      <webElementGuid>c7a9f919-9682-421f-a64e-41095ba43f33</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>aria-hidden</name>
+      <type>Main</type>
+      <value>true</value>
+      <webElementGuid>5418557d-f53b-419b-8a9c-ff0774c019d6</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;pr_id_3-table&quot;)/tbody[@class=&quot;p-element p-datatable-tbody&quot;]/tr[@class=&quot;ng-star-inserted&quot;]/td[@class=&quot;responsive-table text-right&quot;]/button[@class=&quot;p-element p-button-rounded p-button-warning p-button p-component p-button-icon-only&quot;]/span[@class=&quot;p-button-icon pi pi-arrow-right&quot;]</value>
+      <webElementGuid>21cd75bb-616a-45df-a42a-818b1d526674</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//table[@id='pr_id_3-table']/tbody/tr/td[11]/button/span</value>
+      <webElementGuid>50ed7616-3368-4265-959a-15610ad85ba3</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//td[11]/button/span</value>
+      <webElementGuid>ddb0f423-e06f-426e-9fac-bb68af37438f</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

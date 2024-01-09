@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestSuiteEntity>
    <description></description>
-   <name>test V2</name>
+   <name>ATA Partner</name>
    <tag></tag>
    <isRerun>false</isRerun>
    <mailRecipient></mailRecipient>
@@ -63,14 +63,42 @@
       <guid>f8c88b82-9ec5-4185-8ced-d58fbdceea8c</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/ATA_Partner/Vehicle Listing (tow truck) 2500kg</testCaseId>
+      <testCaseId>Test Cases/ATA_Partner/Hook/Vehicle Listing (tow truck) 2500kg</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
       <guid>3a0de234-1859-4eda-8cb0-d12718a21594</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/ATA_Partner/Vehicle Listing (tow truck) 3000kg</testCaseId>
+      <testCaseId>Test Cases/ATA_Partner/Hook/Vehicle Listing (tow truck) 3000kg</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>fbbaa631-86d6-42d8-9b51-8e0902472397</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/ATA_Partner/Hook/Vehicle Listing (tow truck) 4500kg</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>142d2df2-6fdc-489c-ae64-8234d3200118</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/ATA_Partner/Hook/Vehicle Listing (tow truck) 5000kg</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>4b002b3b-857c-46f8-a885-e5356e88aae0</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/ATA_Partner/Hook/Vehicle Listing (tow truck) 7000kg</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>c2cfde13-0a90-44a4-8270-9b3a21a456fc</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/ATA_Partner/Hook/Vehicle Listing (tow truck) 7500kg</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>

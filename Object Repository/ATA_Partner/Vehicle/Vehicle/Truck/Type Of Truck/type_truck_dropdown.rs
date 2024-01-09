@@ -6,12 +6,12 @@
    <elementGuidId>db3f0aa6-0315-4be6-9c8f-96e6b3b86da6</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>CSS</key>
-         <value>p-dropdown.p-element.p-inputwrapper.vehicleInput.ng-untouched.ng-pristine.ng-valid > div.p-dropdown.p-component > div.p-dropdown-trigger > chevrondownicon.p-element.p-icon-wrapper.ng-star-inserted > svg.p-dropdown-trigger-icon.p-icon</value>
-      </entry>
-      <entry>
          <key>XPATH</key>
          <value>(.//*[normalize-space(text()) and normalize-space(.)='Select'])[1]/following::*[name()='svg'][1]</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>p-dropdown.p-element.p-inputwrapper.vehicleInput.ng-untouched.ng-pristine.ng-valid > div.p-dropdown.p-component > div.p-dropdown-trigger > chevrondownicon.p-element.p-icon-wrapper.ng-star-inserted > svg.p-dropdown-trigger-icon.p-icon</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

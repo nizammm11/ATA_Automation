@@ -19,22 +19,21 @@ import org.openqa.selenium.Keys as Keys
 
 WebUI.callTestCase(findTestCase('ATA_Partner/Partner - Login'), [('phoneNumber') : '122614910'], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.verifyElementText(findTestObject('ATA_Partner/Add Photo/span_Resolved'), 'Resolved')
+WebUI.verifyElementText(findTestObject('ATA_Partner/Add Photo/Resolved'), 'Resolved')
 
-WebUI.click(findTestObject('ATA_Partner/Add Photo/span_Resolved'))
+WebUI.click(findTestObject('ATA_Partner/Add Photo/Resolved'))
 
-WebUI.click(findTestObject('ATA_Partner/Add Photo/policy_button'))
+WebUI.click(findTestObject('ATA_Partner/Add Photo/policy_button (3)'))
 
 WebUI.verifyElementText(findTestObject('ATA_Partner/Add Photo/Add Photos'), 'Add Photos')
 
 WebUI.click(findTestObject('ATA_Partner/Add Photo/Add Photos'))
 
-WebUI.verifyElementText(findTestObject('ATA_Partner/Add Photo/span_Photos by DSP'), 'Photos by DSP')
+WebUI.verifyElementText(findTestObject('ATA_Partner/Add Photo/Photos by DSP'), 'Photos by DSP')
 
-WebUI.click(findTestObject('ATA_Partner/Add Photo/span_Photos by DSP'))
+WebUI.click(findTestObject('ATA_Partner/Add Photo/Photos by DSP'))
 
 WebUI.verifyElementText(findTestObject('ATA_Partner/Add Photo/button_Add photo'), 'Add photo')
 
 WebUI.click(findTestObject('ATA_Partner/Add Photo/button_Add photo'))
-//WebUI.uploadFile(findTestObject('ATA_Partner/Add Photo/button_Add photo'), file)
 

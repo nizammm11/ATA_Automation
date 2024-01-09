@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>Policy_button (1)</name>
+   <tag></tag>
+   <elementGuidId>5f5e2533-8937-4818-b8a2-bf4cf67755da</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>span.p-button-icon.pi.pi-arrow-right</value>
+      </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>id(&quot;pr_id_3-table&quot;)/tbody[@class=&quot;p-element p-datatable-tbody&quot;]/tr[@class=&quot;ng-star-inserted&quot;]/td[@class=&quot;responsive-table text-right&quot;]/button[@class=&quot;p-element p-button-rounded p-button-warning p-button p-component p-button-icon-only&quot;]/span[@class=&quot;p-button-icon pi pi-arrow-right&quot;]</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//table[@id='pr_id_3-table']/tbody/tr/td[11]/button/span</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>span</value>
+      <webElementGuid>907cb59c-76c9-4c67-8731-5d98bd600b41</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>p-button-icon pi pi-arrow-right</value>
+      <webElementGuid>55854a70-7804-47fd-b882-eb0494935f49</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>aria-hidden</name>
+      <type>Main</type>
+      <value>true</value>
+      <webElementGuid>f38885a3-35ea-4a5a-833b-5fb45d73e2f1</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;pr_id_3-table&quot;)/tbody[@class=&quot;p-element p-datatable-tbody&quot;]/tr[@class=&quot;ng-star-inserted&quot;]/td[@class=&quot;responsive-table text-right&quot;]/button[@class=&quot;p-element p-button-rounded p-button-warning p-button p-component p-button-icon-only&quot;]/span[@class=&quot;p-button-icon pi pi-arrow-right&quot;]</value>
+      <webElementGuid>68d2ed97-c7d0-48cb-93c9-37479339e48f</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//table[@id='pr_id_3-table']/tbody/tr/td[11]/button/span</value>
+      <webElementGuid>c8ea0bb6-8ca0-4a79-8177-6d95c79e9a93</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//td[11]/button/span</value>
+      <webElementGuid>75596d72-1d80-4055-80f4-11ca56b7a806</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

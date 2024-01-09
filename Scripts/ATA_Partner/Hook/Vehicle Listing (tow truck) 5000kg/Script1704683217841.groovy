@@ -29,8 +29,7 @@ WebUI.maximizeWindow()
 
 WebUI.navigateToUrl('https://canary.autoassistcare.etiqa.com.my/partner/auth/login')
 
-WebUI.setText(findTestObject('Object Repository/ATA_Partner/LoginPage/input_Welcome to ATA Partner_p-inputtext p-_2f833e'), 
-    '122614910')
+WebUI.setText(findTestObject('Object Repository/ATA_Partner/LoginPage/input_Welcome to ATA Partner_p-inputtext p-_2f833e'), '122614910')
 
 WebUI.click(findTestObject('Object Repository/ATA_Partner/LoginPage/div_Welcome to ATA Partner_p-checkbox-box'))
 
@@ -41,15 +40,11 @@ WebUI.delay(20)
 WebUI.click(findTestObject('Object Repository/ATA_Partner/LoginPage/button_Verify'))*/
 WebUI.click(findTestObject('ATA_Partner/Vehicle/Vehicle/a_Vehicle Listing'))
 
-WebUI.delay(2)
-
 WebUI.verifyElementPresent(findTestObject('ATA_Partner/Vehicle/Vehicle/a_Add Registered Vehicle'), 0)
 
 WebUI.verifyElementText(findTestObject('ATA_Partner/Vehicle/Vehicle/a_Add Registered Vehicle'), 'Add Registered Vehicle')
 
 WebUI.click(findTestObject('ATA_Partner/Vehicle/Vehicle/a_Add Registered Vehicle'))
-
-WebUI.delay(2)
 
 WebUI.verifyElementText(findTestObject('ATA_Partner/Vehicle/Vehicle/p_Vehicle Number'), 'Vehicle Number')
 
@@ -57,13 +52,13 @@ WebUI.verifyElementText(findTestObject('ATA_Partner/Vehicle/Vehicle/p_Type of Ve
 
 WebUI.verifyElementText(findTestObject('ATA_Partner/Vehicle/Vehicle/p_Vehicle Status'), 'Vehicle Status')
 
-WebUI.setText(findTestObject('ATA_Partner/Vehicle/Vehicle/fill_vehicleNumber'), 'VBL680')
+WebUI.setText(findTestObject('ATA_Partner/Vehicle/Vehicle/fill_vehicleNumber'), 'WGH890')
 
 WebUI.click(findTestObject('ATA_Partner/Vehicle/Vehicle/Truck/Type Of Truck/dropdown_vehicleTowTruck'))
 
-WebUI.delay(2)
+WebUI.delay(1)
 
-WebUI.click(findTestObject('ATA_Partner/Vehicle/Vehicle/Motorcycle/span_Motorcycle'))
+WebUI.click(findTestObject('ATA_Partner/Vehicle/Vehicle/Truck/Tow_Truck'))
 
 WebUI.delay(2)
 
@@ -73,11 +68,34 @@ WebUI.delay(2)
 
 WebUI.click(findTestObject('ATA_Partner/Vehicle/Vehicle/Truck/Available'))
 
-//WebUI.click(findTestObject('ATA_Partner/Vehicle/Vehicle/Truck/petrol5'))
-//WebUI.click(findTestObject('ATA_Partner/Vehicle/Vehicle/Truck/jumpstart'))
-WebUI.click(findTestObject('ATA_Partner/Vehicle/Vehicle/Motorcycle/Petrol(10L)'))
+WebUI.delay(2)
 
-WebUI.click(findTestObject('ATA_Partner/Vehicle/Vehicle/Motorcycle/Starter'))
+WebUI.click(findTestObject('ATA_Partner/Vehicle/Vehicle/Truck/Weight/weight_dropdown'))
+
+WebUI.delay(2)
+
+WebUI.click(findTestObject('ATA_Partner/Vehicle/Vehicle/Truck/Weight/5000 kg'))
+
+WebUI.delay(2)
+
+WebUI.click(findTestObject('ATA_Partner/Vehicle/Vehicle/Truck/Type Of Truck/type_truck_dropdown'))
+
+WebUI.delay(2)
+
+WebUI.click(findTestObject('ATA_Partner/Vehicle/Vehicle/Truck/span_Hook'))
+
+WebUI.delay(2)
+
+//WebUI.click(findTestObject('ATA_Partner/Vehicle/Vehicle/Truck/mpv'))
+WebUI.click(findTestObject('ATA_Partner/Vehicle/Vehicle/Truck/basement'))
+
+WebUI.click(findTestObject('ATA_Partner/Vehicle/Vehicle/Truck/tyre_replace'))
+
+WebUI.click(findTestObject('ATA_Partner/Vehicle/Vehicle/Truck/petrol5'))
+
+WebUI.click(findTestObject('ATA_Partner/Vehicle/Vehicle/Truck/jumpstart'))
+
+WebUI.scrollToPosition(14, 21)
 
 WebUI.click(findTestObject('ATA_Partner/Vehicle/Vehicle/Truck/span_Save'))
 
