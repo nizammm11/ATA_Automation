@@ -23,6 +23,8 @@ WebUI.verifyElementText(findTestObject('ATA_Partner/Add Photo/Resolved'), 'Resol
 
 WebUI.click(findTestObject('ATA_Partner/Add Photo/Resolved'))
 
+WebUI.delay(2)
+
 WebUI.click(findTestObject('ATA_Partner/Add Photo/policy_button (3)'))
 
 WebUI.verifyElementText(findTestObject('ATA_Partner/Add Photo/Add Photos'), 'Add Photos')

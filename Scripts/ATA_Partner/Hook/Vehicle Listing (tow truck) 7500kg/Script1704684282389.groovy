@@ -74,7 +74,7 @@ WebUI.click(findTestObject('ATA_Partner/Vehicle/Vehicle/Truck/Weight/weight_drop
 
 WebUI.delay(2)
 
-WebUI.click(findTestObject('ATA_Partner/Vehicle/Vehicle/Truck/Weight/7000 kg'))
+WebUI.click(findTestObject('ATA_Partner/Vehicle/Vehicle/Truck/Weight/7500 kg'))
 
 WebUI.delay(2)
 

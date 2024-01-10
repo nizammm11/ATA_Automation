@@ -3,7 +3,7 @@
    <description></description>
    <name>3000 kg</name>
    <tag></tag>
-   <elementGuidId>629885f3-4201-4f6c-a8da-f08bdeeb967f</elementGuidId>
+   <elementGuidId>5fd478f6-3582-44f7-885d-d00bae02ac6d</elementGuidId>
    <selectorCollection>
       <entry>
          <key>CSS</key>
@@ -11,7 +11,7 @@
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>//ul[@id='pr_id_8_list']/p-dropdownitem[2]/li/span</value>
+         <value>(//li[@id=''])[2]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -21,16 +21,56 @@
       <matchCondition>equals</matchCondition>
       <name>tag</name>
       <type>Main</type>
-      <value>span</value>
-      <webElementGuid>c6e79a9d-06b8-49e8-b86f-a82f1fc5ff63</webElementGuid>
+      <value>li</value>
+      <webElementGuid>f79a9ca2-c322-48e8-9b9b-b199b0760634</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>role</name>
+      <type>Main</type>
+      <value>option</value>
+      <webElementGuid>860aec0b-1360-4f8b-9636-88f58f1c4b13</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>class</name>
       <type>Main</type>
-      <value>ng-star-inserted</value>
-      <webElementGuid>ef78a9a1-5c4e-47d9-9add-a382aada3c6d</webElementGuid>
+      <value>p-ripple p-element p-dropdown-item</value>
+      <webElementGuid>3a5bc26f-ddc9-4740-a9d4-cfe59837bbb7</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>ng-reflect-ng-style</name>
+      <type>Main</type>
+      <value>[object Object]</value>
+      <webElementGuid>a405795b-f9b3-47a5-8338-19bb1c86f132</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>ng-reflect-ng-class</name>
+      <type>Main</type>
+      <value>[object Object]</value>
+      <webElementGuid>fe352c9e-af91-4581-93de-9d7e227ba288</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>aria-label</name>
+      <type>Main</type>
+      <value>3000 kg</value>
+      <webElementGuid>81d93768-8393-4ec1-ab5d-e57d3ef35db1</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>aria-selected</name>
+      <type>Main</type>
+      <value>false</value>
+      <webElementGuid>32f8609f-c87c-4fdf-9392-34899189f6b5</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -38,78 +78,78 @@
       <name>text</name>
       <type>Main</type>
       <value>3000 kg</value>
-      <webElementGuid>e307c2d1-5474-4208-ba6a-d0609cd6f526</webElementGuid>
+      <webElementGuid>87eb4b5f-cbe6-4bfb-8da1-721a857e7f9c</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;pr_id_8_list&quot;)/p-dropdownitem[@class=&quot;p-element ng-star-inserted&quot;]/li[@class=&quot;p-ripple p-element p-dropdown-item&quot;]/span[@class=&quot;ng-star-inserted&quot;]</value>
-      <webElementGuid>df864340-3815-4d1d-a770-b33d4cd0396f</webElementGuid>
+      <value>id(&quot;pr_id_8_list&quot;)/p-dropdownitem[@class=&quot;p-element ng-star-inserted&quot;]/li[@class=&quot;p-ripple p-element p-dropdown-item&quot;]</value>
+      <webElementGuid>032afe1a-e762-456c-9b46-86838ecba9d9</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>(//li[@id=''])[2]</value>
+      <webElementGuid>e683268e-9e48-4c0f-b541-6e09c94d3420</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
       <name>xpath:idRelative</name>
       <type>Main</type>
-      <value>//ul[@id='pr_id_8_list']/p-dropdownitem[2]/li/span</value>
-      <webElementGuid>b4e8a42f-3247-4c41-bc4c-6882234ffcb0</webElementGuid>
+      <value>//ul[@id='pr_id_8_list']/p-dropdownitem[2]/li</value>
+      <webElementGuid>ddb0018d-e1c3-4c19-86d0-d773d6a05901</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Select'])[2]/following::span[2]</value>
-      <webElementGuid>562a83d8-f343-484a-a3e7-1f39fca428dc</webElementGuid>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Select'])[2]/following::li[2]</value>
+      <webElementGuid>73e44828-ad57-4103-8c7b-6fc446fd8b9f</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Select'])[1]/following::span[3]</value>
-      <webElementGuid>340ef702-1ced-489d-bf11-2c3b2836e4bc</webElementGuid>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Select'])[1]/following::li[2]</value>
+      <webElementGuid>979efa50-84ce-49f1-b232-47ea058571cc</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Select'])[3]/preceding::span[6]</value>
-      <webElementGuid>1d8a4f70-da6b-4189-a849-cff0955a5c41</webElementGuid>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Select'])[3]/preceding::li[6]</value>
+      <webElementGuid>ba8068f0-13a8-4062-8d34-faa2071bf7cb</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Please select type of truck'])[1]/preceding::span[7]</value>
-      <webElementGuid>797c85da-3342-4976-b788-c8994152eb0a</webElementGuid>
-   </webElementXpaths>
-   <webElementXpaths>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>xpath:neighbor</name>
-      <type>Main</type>
-      <value>//*/text()[normalize-space(.)='3000 kg']/parent::*</value>
-      <webElementGuid>a2206d71-243e-4f7e-9579-bc20fc748f5d</webElementGuid>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Please select type of truck'])[1]/preceding::li[6]</value>
+      <webElementGuid>0f37fca1-1611-4521-9084-0527a9b1b0bc</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
       <type>Main</type>
-      <value>//p-dropdownitem[2]/li/span</value>
-      <webElementGuid>f6ce27bb-84e2-4d35-9b7f-4edad0f51ad0</webElementGuid>
+      <value>//p-dropdownitem[2]/li</value>
+      <webElementGuid>cd15dcf7-cc2b-405c-99da-824837f404ad</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:customAttributes</name>
       <type>Main</type>
-      <value>//span[(text() = '3000 kg' or . = '3000 kg')]</value>
-      <webElementGuid>c0bffbac-15ba-4e45-a9fa-32402ec3b232</webElementGuid>
+      <value>//li[(text() = '3000 kg' or . = '3000 kg')]</value>
+      <webElementGuid>1374efba-469f-4609-a194-7e75de2ff857</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>
