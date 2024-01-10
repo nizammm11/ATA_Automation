@@ -216,7 +216,7 @@ for (def row = 12; row <= 12; row++) {
     
     'Service Type - Motorcycle'
     if (findTestData('ATAP New Case').getValue('vehicleType', row) == 'Motorcycle') {
-        WebUI.click(findTestObject('ATAP/Create New Case/Service Details/Page_Dashboard/Please select_dropdown-trigger'))
+        WebUI.click(findTestObject('ATAP/Create New Case/Service Details/serviceType_dropdown'))
 
         if (findTestData('ATAP New Case').getValue('serviceType', row) == 'Repair-On-Site (ROS) - Motorcycle') {
             WebUI.click(findTestObject('ATAP/Create New Case/Service Details/Motorcycle/ROS_motor/Repair-On-Site (ROS)_Motorcycle'))
@@ -304,8 +304,8 @@ for (def row = 12; row <= 12; row++) {
 
         WebUI.click(findTestObject('ATAP/Create New Case/Destination/workshop_dropdown'))
 
-        WebUI.setText(findTestObject('ATAP/Create New Case/Destination/textfield_workshop'), findTestData(
-                'ATAP New Case').getValue('Workshop', row))
+        WebUI.setText(findTestObject('ATAP/Create New Case/Destination/textfield_workshop'), findTestData('ATAP New Case').getValue(
+                'Workshop', row))
 
         WebUI.delay(1)
 
