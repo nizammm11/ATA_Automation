@@ -304,13 +304,13 @@ for (def row = 4; row <= 4; row++) {
 
         WebUI.click(findTestObject('ATAP/Create New Case/Destination/workshop_dropdown'))
 
-        WebUI.setText(findTestObject('ATAP/Create New Case/Destination/textfield_workshop'), findTestData(
-                'ATAP New Case').getValue('Workshop', row))
+        WebUI.setText(findTestObject('ATAP/Create New Case/Destination/textfield_workshop'), findTestData('ATAP New Case').getValue(
+                'Workshop', row))
 
         WebUI.delay(1)
 
-        WebUI.sendKeys(findTestObject('ATAP/Create New Case/Destination/textfield_workshop'), Keys.chord(
-                Keys.ARROW_DOWN, Keys.ENTER))
+        WebUI.sendKeys(findTestObject('ATAP/Create New Case/Destination/textfield_workshop'), Keys.chord(Keys.ARROW_DOWN, 
+                Keys.ENTER))
     } else {
         WebUI.delay(0)
     }

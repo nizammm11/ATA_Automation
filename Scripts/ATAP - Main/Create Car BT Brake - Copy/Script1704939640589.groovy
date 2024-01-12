@@ -37,7 +37,7 @@ WebUI.navigateToUrl(GlobalVariable.SIT_ATAU)
 
 WebUI.delay(10)*/
 //KeywordLogger log = new KeywordLogger()
-for (def row = 3; row <= 3; row++) {
+for (def row = 1; row <= 1; row++) {
     WebUI.click(findTestObject('ATAP/Create New Case/btn_Create New Case'))
 
     WebUI.refresh()
@@ -228,13 +228,13 @@ for (def row = 3; row <= 3; row++) {
             WebUI.click(findTestObject('ATAP/Create New Case/Service Details/Motorcycle/BT_motor/Breakdown Towing_Motorcycle'))
 
             if (findTestData('ATAP New Case').getValue('subService', row) == 'Flat Tyre') {
-                WebUI.click(findTestObject('ATAP/Create New Case/Service Details/Motorcycle/BT_motor/motorBT_Flat Tyre'))
+                WebUI.click(findTestObject('null'))
             } else if (findTestData('ATAP New Case').getValue('subService', row) == 'Gears Problem') {
-                WebUI.click(findTestObject('ATAP/Create New Case/Service Details/Motorcycle/BT_motor/motorBT_Gears Problem'))
+                WebUI.click(findTestObject('null'))
             } else if (findTestData('ATAP New Case').getValue('subService', row) == 'Brakes Problem') {
-                WebUI.click(findTestObject('ATAP/Create New Case/Service Details/Motorcycle/BT_motor/motorBT_Brakes Problem'))
+                WebUI.click(findTestObject('null'))
             } else {
-                WebUI.click(findTestObject('ATAP/Create New Case/Service Details/Motorcycle/BT_motor/motorBT_Cannot Start Motorcycle'))
+                WebUI.click(findTestObject('null'))
             }
         } else if (findTestData('ATAP New Case').getValue('serviceType', row) == 'Accident - Motorcycle') {
             WebUI.click(findTestObject('ATAP/Create New Case/Service Details/Motorcycle/Accident_motor/Accident_Motorcycle'))
@@ -304,8 +304,8 @@ for (def row = 3; row <= 3; row++) {
 
         WebUI.click(findTestObject('ATAP/Create New Case/Destination/workshop_dropdown'))
 
-        WebUI.setText(findTestObject('ATAP/Create New Case/Destination/textfield_workshop'), findTestData('ATAP New Case').getValue(
-                'Workshop', row))
+        WebUI.setText(findTestObject('ATAP/Create New Case/Destination/textfield_workshop'), findTestData(
+                'ATAP New Case').getValue('Workshop', row))
 
         WebUI.delay(1)
 

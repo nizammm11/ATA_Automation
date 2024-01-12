@@ -304,8 +304,8 @@ for (def row = 1; row <= 1; row++) {
 
         WebUI.click(findTestObject('ATAP/Create New Case/Destination/workshop_dropdown'))
 
-        WebUI.setText(findTestObject('ATAP/Create New Case/Destination/textfield_workshop'), findTestData(
-                'ATAP New Case').getValue('Workshop', row))
+        WebUI.setText(findTestObject('ATAP/Create New Case/Destination/textfield_workshop'), findTestData('ATAP New Case').getValue(
+                'Workshop', row))
 
         WebUI.delay(1)
 

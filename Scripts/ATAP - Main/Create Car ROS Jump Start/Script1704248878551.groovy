@@ -132,7 +132,6 @@ for (def row = 6; row <= 6; row++) {
     WebUI.scrollToElement(findTestObject('ATAP/Create New Case/Customer Detail/Preferred language_English'), 0)
 
     //==============================||SERVICE DETAILS||==============================
-    
     'Service Type - Car'
     if (findTestData('ATAP New Case').getValue('vehicleType', row) == 'Car') {
         WebUI.click(findTestObject('ATAP/Create New Case/Service Details/serviceType_dropdown'))
@@ -141,8 +140,7 @@ for (def row = 6; row <= 6; row++) {
             WebUI.click(findTestObject('ATAP/Create New Case/Service Details/Car/ROS/Repair-On-Site (ROS) - Car'))
 
             if (findTestData('ATAP New Case').getValue('subService', row) == 'Out of Petrol') {
-                WebUI.click(findTestObject('ATAP/Create New Case/Service Details/Car/ROS/Car_subServiceROS_Out of Petrol') 
-                    )
+                WebUI.click(findTestObject('ATAP/Create New Case/Service Details/Car/ROS/Car_subServiceROS_Out of Petrol'))
             } else if (findTestData('ATAP New Case').getValue('subService', row) == 'Jump Start') {
                 WebUI.click(findTestObject('ATAP/Create New Case/Service Details/Car/ROS/Car_subServiceROS_Jump Start'))
             } else if (findTestData('ATAP New Case').getValue('subService', row) == 'Change Battery') {
@@ -215,7 +213,6 @@ for (def row = 6; row <= 6; row++) {
     } else {
         WebUI.delay(0)
     }
-    
     
     'Service Type - Motorcycle'
     if (findTestData('ATAP New Case').getValue('vehicleType', row) == 'Motorcycle') {

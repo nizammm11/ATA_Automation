@@ -228,13 +228,13 @@ for (def row = 1; row <= 13; row++) {
             WebUI.click(findTestObject('ATAP/Create New Case/Service Details/Motorcycle/BT_motor/Breakdown Towing_Motorcycle'))
 
             if (findTestData('ATAP New Case').getValue('subService', row) == 'Flat Tyre') {
-                WebUI.click(findTestObject('ATAP/Create New Case/Service Details/Motorcycle/BT_motor/motorBT_Flat Tyre'))
+                WebUI.click(findTestObject('null'))
             } else if (findTestData('ATAP New Case').getValue('subService', row) == 'Gears Problem') {
-                WebUI.click(findTestObject('ATAP/Create New Case/Service Details/Motorcycle/BT_motor/motorBT_Gears Problem'))
+                WebUI.click(findTestObject('null'))
             } else if (findTestData('ATAP New Case').getValue('subService', row) == 'Brakes Problem') {
-                WebUI.click(findTestObject('ATAP/Create New Case/Service Details/Motorcycle/BT_motor/motorBT_Brakes Problem'))
+                WebUI.click(findTestObject('null'))
             } else {
-                WebUI.click(findTestObject('ATAP/Create New Case/Service Details/Motorcycle/BT_motor/motorBT_Cannot Start Motorcycle'))
+                WebUI.click(findTestObject('null'))
             }
         } else if (findTestData('ATAP New Case').getValue('serviceType', row) == 'Accident - Motorcycle') {
             WebUI.click(findTestObject('ATAP/Create New Case/Service Details/Motorcycle/Accident_motor/Accident_Motorcycle'))
