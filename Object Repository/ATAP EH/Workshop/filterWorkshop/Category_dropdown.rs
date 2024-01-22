@@ -3,15 +3,15 @@
    <description></description>
    <name>Category_dropdown</name>
    <tag></tag>
-   <elementGuidId>cfd866e2-4baf-4245-a1c9-2f8ec975240a</elementGuidId>
+   <elementGuidId>6f8b6c58-c98f-4fa8-91d4-70690a802de7</elementGuidId>
    <selectorCollection>
-      <entry>
-         <key>CSS</key>
-         <value></value>
-      </entry>
       <entry>
          <key>XPATH</key>
          <value>(.//*[normalize-space(text()) and normalize-space(.)='Select a Category'])[1]/following::*[name()='svg'][1]</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>svg.p-dropdown-trigger-icon.p-icon</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -22,7 +22,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>svg</value>
-      <webElementGuid>48d8b6bb-c7ac-4433-a992-d4eb5e2d1c8a</webElementGuid>
+      <webElementGuid>35d72821-4e61-49c0-b201-acaa76ff1ab0</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -30,7 +30,7 @@
       <name>width</name>
       <type>Main</type>
       <value>14</value>
-      <webElementGuid>64ce58d9-42b5-4f63-bc0f-029a92141cc0</webElementGuid>
+      <webElementGuid>fa9eabd9-b834-4304-b063-d22872a87bcc</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -38,7 +38,7 @@
       <name>height</name>
       <type>Main</type>
       <value>14</value>
-      <webElementGuid>7fddd2be-1268-4379-b9b4-d9b716995123</webElementGuid>
+      <webElementGuid>5e5132d6-3d4c-4d17-ba22-ae313c7885ac</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -46,7 +46,7 @@
       <name>viewBox</name>
       <type>Main</type>
       <value>0 0 14 14</value>
-      <webElementGuid>913f764e-7a60-4bdd-94dd-1855e6f7e82f</webElementGuid>
+      <webElementGuid>d200a923-c51c-4a8d-8781-e1348aba4b75</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -54,7 +54,7 @@
       <name>fill</name>
       <type>Main</type>
       <value>none</value>
-      <webElementGuid>3645e681-34a0-4f4e-a684-4d864059d64b</webElementGuid>
+      <webElementGuid>01a3a9b9-9dfe-4eda-99bc-8a5dfba67ea4</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -62,7 +62,7 @@
       <name>xmlns</name>
       <type>Main</type>
       <value>http://www.w3.org/2000/svg</value>
-      <webElementGuid>8206aba6-a08f-4bdf-aed1-0340b49383a2</webElementGuid>
+      <webElementGuid>dbba25d8-e48d-49cd-8026-c58892df3385</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -70,7 +70,7 @@
       <name>class</name>
       <type>Main</type>
       <value>p-dropdown-trigger-icon p-icon</value>
-      <webElementGuid>07ae3eb3-de4f-4580-a680-f34181beb597</webElementGuid>
+      <webElementGuid>15d83523-c06f-4e47-8dbc-f2879c1b59dd</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -78,15 +78,15 @@
       <name>aria-hidden</name>
       <type>Main</type>
       <value>true</value>
-      <webElementGuid>954134d0-664c-4744-b133-c204eb515ccd</webElementGuid>
+      <webElementGuid>7ee956f0-11f7-4aa7-af1c-a9b174a03af2</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;p-panel-0-content&quot;)/div[@class=&quot;p-panel-content ng-tns-c4224635246-15&quot;]/form[@class=&quot;ng-tns-c4224635246-15 ng-untouched ng-pristine ng-invalid&quot;]/div[1]/div[@class=&quot;grid form-group pb-3&quot;]/div[@class=&quot;col-6&quot;]/div[@class=&quot;ui-inputgroup&quot;]/p-dropdown[@class=&quot;p-element p-inputwrapper ng-untouched ng-pristine ng-invalid&quot;]/div[@class=&quot;w-6 p-dropdown p-component&quot;]/div[@class=&quot;p-dropdown-trigger&quot;]/chevrondownicon[@class=&quot;p-element p-icon-wrapper ng-star-inserted&quot;]/svg[@class=&quot;p-dropdown-trigger-icon p-icon&quot;]</value>
-      <webElementGuid>c6017bdc-8b37-4692-92e5-3b70eac848bc</webElementGuid>
+      <value>id(&quot;filter3&quot;)/p-dropdown[@class=&quot;p-element p-inputwrapper&quot;]/div[@class=&quot;ui-column-filter p-dropdown p-component p-dropdown-clearable&quot;]/div[@class=&quot;p-dropdown-trigger&quot;]/chevrondownicon[@class=&quot;p-element p-icon-wrapper ng-star-inserted&quot;]/svg[@class=&quot;p-dropdown-trigger-icon p-icon&quot;]</value>
+      <webElementGuid>de13012b-f412-467e-b92e-5b1530ec6503</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -94,30 +94,22 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Select a Category'])[1]/following::*[name()='svg'][1]</value>
-      <webElementGuid>7a51e321-cced-4a43-9c74-e8482e58d021</webElementGuid>
+      <webElementGuid>1073c83c-0d54-4f29-b998-343bcd334eb5</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Category'])[1]/following::*[name()='svg'][1]</value>
-      <webElementGuid>5d6d4dd9-f4b6-4477-aea6-3be6ae91de1b</webElementGuid>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Action'])[1]/following::*[name()='svg'][1]</value>
+      <webElementGuid>8bc32cb8-d44c-4fae-ac8e-d9641beafb3f</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Submit'])[1]/preceding::*[name()='svg'][1]</value>
-      <webElementGuid>237ef343-7168-4be2-bc31-530c1b31e196</webElementGuid>
-   </webElementXpaths>
-   <webElementXpaths>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>xpath:neighbor</name>
-      <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Cancel'])[1]/preceding::*[name()='svg'][1]</value>
-      <webElementGuid>e001e82c-e6af-469b-8c84-9125d391eb30</webElementGuid>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Select a Status'])[1]/preceding::*[name()='svg'][1]</value>
+      <webElementGuid>5f7395b9-f132-4893-b523-fcecad7082f8</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

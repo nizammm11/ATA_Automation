@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>span_Tariff</name>
+   <name>status_Active</name>
    <tag></tag>
-   <elementGuidId>bea0a295-7eb6-4ba6-a802-ea9749ea1285</elementGuidId>
+   <elementGuidId>5f18c1b9-85d0-491f-8382-af51019411eb</elementGuidId>
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>(.//*[normalize-space(text()) and normalize-space(.)='Franchise'])[1]/following::span[1]</value>
+         <value>//ul[@id='pr_id_15_list']/p-dropdownitem/li/span</value>
       </entry>
       <entry>
          <key>CSS</key>
-         <value></value>
+         <value>span.customer-badge.status-Active.ng-star-inserted</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -22,86 +22,86 @@
       <name>tag</name>
       <type>Main</type>
       <value>span</value>
-      <webElementGuid>f9660a7b-362a-47cf-95a4-4554725380f9</webElementGuid>
+      <webElementGuid>777ee4ef-31c1-4f01-9cff-b864c2a44d42</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>class</name>
       <type>Main</type>
-      <value>menu ng-star-inserted</value>
-      <webElementGuid>1c97ff44-4673-48c9-ae47-4ba7fd61fa96</webElementGuid>
+      <value>customer-badge status-Active ng-star-inserted</value>
+      <webElementGuid>bdbcc325-b84a-4c61-ab6d-bfa962ed5e76</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
-      <value>Tariff</value>
-      <webElementGuid>2d45db6e-af05-4938-8ace-8123430faad9</webElementGuid>
+      <value>Active</value>
+      <webElementGuid>7beaa6c5-1123-4b32-b846-b5007fc79f35</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>/html[1]/body[1]/ata-dashboard-root[1]/div[@class=&quot;app-layout&quot;]/div[@class=&quot;layout-content&quot;]/app-side-bar[@class=&quot;ng-star-inserted&quot;]/div[@class=&quot;layout-sidebar no-print sidebar-open&quot;]/div[@class=&quot;layout-menu&quot;]/div[@class=&quot;layout-menu-items&quot;]/div[@class=&quot;ng-star-inserted&quot;]/a[@class=&quot;menu-button ng-star-inserted&quot;]/span[@class=&quot;menu ng-star-inserted&quot;]</value>
-      <webElementGuid>2ffe9954-b0bd-4a6b-937d-d51adb8d3080</webElementGuid>
+      <value>id(&quot;pr_id_15_list&quot;)/p-dropdownitem[@class=&quot;p-element ng-star-inserted&quot;]/li[@class=&quot;p-ripple p-element p-dropdown-item&quot;]/span[@class=&quot;customer-badge status-Active ng-star-inserted&quot;]</value>
+      <webElementGuid>e76c84bd-68bd-430f-a0cd-6c0c66171786</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>xpath:neighbor</name>
+      <name>xpath:idRelative</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Franchise'])[1]/following::span[1]</value>
-      <webElementGuid>9971ea29-5433-4bb7-afe0-cf8b8002511b</webElementGuid>
+      <value>//ul[@id='pr_id_15_list']/p-dropdownitem/li/span</value>
+      <webElementGuid>1ce9f38c-8817-4033-8eba-35f284162aae</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Providers'])[1]/following::span[2]</value>
-      <webElementGuid>7a275c8a-08e4-4ba0-b6db-2f405b2e4089</webElementGuid>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Select a Status'])[1]/following::span[1]</value>
+      <webElementGuid>e12eca3b-9a40-464c-8d32-2e3e5a7f0b1c</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Knowledge Base'])[1]/preceding::span[1]</value>
-      <webElementGuid>26e3133e-472c-4e2f-8dc7-f025e2c5aacb</webElementGuid>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Select a Category'])[1]/following::span[2]</value>
+      <webElementGuid>6c2be320-9952-4bde-8b7a-80da3f9b9edf</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Audit Trail'])[1]/preceding::span[2]</value>
-      <webElementGuid>a0922da0-ec8e-47b8-93a0-5f7bbc47510b</webElementGuid>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Inactive'])[1]/preceding::span[1]</value>
+      <webElementGuid>3f8d131b-2027-42b0-b492-754fc9670009</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>//*/text()[normalize-space(.)='Tariff']/parent::*</value>
-      <webElementGuid>8a7d939c-c0aa-458a-8b34-46ad0333fbc4</webElementGuid>
+      <value>//*/text()[normalize-space(.)='Active']/parent::*</value>
+      <webElementGuid>1f6d8faf-a1ea-4e05-85c1-7b873ead217a</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
       <type>Main</type>
-      <value>//div[6]/a/span</value>
-      <webElementGuid>151a0347-7316-4fbc-834a-cff2c61f685a</webElementGuid>
+      <value>//p-dropdownitem/li/span</value>
+      <webElementGuid>fb7fb1e8-5dda-4288-a47f-067a861134ad</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:customAttributes</name>
       <type>Main</type>
-      <value>//span[(text() = 'Tariff' or . = 'Tariff')]</value>
-      <webElementGuid>89cdce70-0b8e-46e3-8e00-e20e157a027d</webElementGuid>
+      <value>//span[(text() = 'Active' or . = 'Active')]</value>
+      <webElementGuid>2639b54f-a764-48e9-a7cd-b01ad2181e3d</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

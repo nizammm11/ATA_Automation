@@ -56,7 +56,7 @@
    <testCaseLink>
       <guid>44ca7cc6-fd64-420b-99ee-be5379356003</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>false</isRun>
+      <isRun>true</isRun>
       <testCaseId>Test Cases/ATAU Verification/Explore now workshop</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>

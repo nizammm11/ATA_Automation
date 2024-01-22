@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>span_Tariff</name>
+   <name>addons_Breakdown  Accident Towing Charges (Private car)</name>
    <tag></tag>
-   <elementGuidId>bea0a295-7eb6-4ba6-a802-ea9749ea1285</elementGuidId>
+   <elementGuidId>57c6e13c-7e90-423e-8142-06a964e35725</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>(.//*[normalize-space(text()) and normalize-space(.)='Franchise'])[1]/following::span[1]</value>
+         <key>CSS</key>
+         <value>#pr_id_33 > div.p-datatable-header.ng-star-inserted > div.ng-star-inserted</value>
       </entry>
       <entry>
-         <key>CSS</key>
-         <value></value>
+         <key>XPATH</key>
+         <value>(.//*[normalize-space(text()) and normalize-space(.)='Addons'])[1]/following::div[3]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -21,87 +21,87 @@
       <matchCondition>equals</matchCondition>
       <name>tag</name>
       <type>Main</type>
-      <value>span</value>
-      <webElementGuid>f9660a7b-362a-47cf-95a4-4554725380f9</webElementGuid>
+      <value>div</value>
+      <webElementGuid>4331048e-a55e-40b3-8d1f-051cef9fb3fa</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>class</name>
       <type>Main</type>
-      <value>menu ng-star-inserted</value>
-      <webElementGuid>1c97ff44-4673-48c9-ae47-4ba7fd61fa96</webElementGuid>
+      <value>ng-star-inserted</value>
+      <webElementGuid>d592576b-394b-404b-bbd7-b6cce19b2238</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
-      <value>Tariff</value>
-      <webElementGuid>2d45db6e-af05-4938-8ace-8123430faad9</webElementGuid>
+      <value>Breakdown / Accident Towing Charges (Private car)</value>
+      <webElementGuid>05ae3552-75f1-4538-8c65-7d77a1612ee6</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>/html[1]/body[1]/ata-dashboard-root[1]/div[@class=&quot;app-layout&quot;]/div[@class=&quot;layout-content&quot;]/app-side-bar[@class=&quot;ng-star-inserted&quot;]/div[@class=&quot;layout-sidebar no-print sidebar-open&quot;]/div[@class=&quot;layout-menu&quot;]/div[@class=&quot;layout-menu-items&quot;]/div[@class=&quot;ng-star-inserted&quot;]/a[@class=&quot;menu-button ng-star-inserted&quot;]/span[@class=&quot;menu ng-star-inserted&quot;]</value>
-      <webElementGuid>2ffe9954-b0bd-4a6b-937d-d51adb8d3080</webElementGuid>
+      <value>id(&quot;pr_id_33&quot;)/div[@class=&quot;p-datatable-header ng-star-inserted&quot;]/div[@class=&quot;ng-star-inserted&quot;]</value>
+      <webElementGuid>78b71247-fdad-498d-97e0-c34f0378c574</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>xpath:neighbor</name>
+      <name>xpath:idRelative</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Franchise'])[1]/following::span[1]</value>
-      <webElementGuid>9971ea29-5433-4bb7-afe0-cf8b8002511b</webElementGuid>
+      <value>//div[@id='pr_id_33']/div/div</value>
+      <webElementGuid>cd7bb232-4518-4198-95d8-028dbfce477b</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Providers'])[1]/following::span[2]</value>
-      <webElementGuid>7a275c8a-08e4-4ba0-b6db-2f405b2e4089</webElementGuid>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Addons'])[1]/following::div[3]</value>
+      <webElementGuid>0d5f8eac-0256-41b5-a7ef-c0cc250a988f</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Knowledge Base'])[1]/preceding::span[1]</value>
-      <webElementGuid>26e3133e-472c-4e2f-8dc7-f025e2c5aacb</webElementGuid>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)=concat('East M', &quot;'&quot;, 'sia')])[1]/following::div[4]</value>
+      <webElementGuid>06e1be52-cbb5-447a-b6a3-8d5fae67bf92</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Audit Trail'])[1]/preceding::span[2]</value>
-      <webElementGuid>a0922da0-ec8e-47b8-93a0-5f7bbc47510b</webElementGuid>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='ID'])[1]/preceding::div[1]</value>
+      <webElementGuid>a57fa98e-f219-4389-914d-50a71f573fc0</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>//*/text()[normalize-space(.)='Tariff']/parent::*</value>
-      <webElementGuid>8a7d939c-c0aa-458a-8b34-46ad0333fbc4</webElementGuid>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Name'])[1]/preceding::div[1]</value>
+      <webElementGuid>4796bb5c-5aa9-40db-ad19-78afa3c09807</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
       <type>Main</type>
-      <value>//div[6]/a/span</value>
-      <webElementGuid>151a0347-7316-4fbc-834a-cff2c61f685a</webElementGuid>
+      <value>//p-table[2]/div/div/div</value>
+      <webElementGuid>1aadc307-045a-4069-8881-7a4b9dfbc0e1</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:customAttributes</name>
       <type>Main</type>
-      <value>//span[(text() = 'Tariff' or . = 'Tariff')]</value>
-      <webElementGuid>89cdce70-0b8e-46e3-8e00-e20e157a027d</webElementGuid>
+      <value>//div[(text() = 'Breakdown / Accident Towing Charges (Private car)' or . = 'Breakdown / Accident Towing Charges (Private car)')]</value>
+      <webElementGuid>293cc52b-3776-4b66-9bf7-28b4fa4fd17a</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

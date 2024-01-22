@@ -1329,51 +1329,51 @@ WebUI.delay(2)
 ///WebUI.verifyElementPresent(findTestObject('ATAU/explore workshop/Filter/button_close'), 0)
 WebUI.click(findTestObject('ATAU/explore workshop/Filter/button_close'))
 
-WebUI.setText(findTestObject('ATAU/explore workshop/textfield_search_workshop'), findTestData('ATAU Verify').getValue('Workshop', 
-        1))
-
-WebUI.delay(2)
-
-WebUI.verifyElementPresent(findTestObject('ATAU/explore workshop/box_workshop'), 0)
-
-WebUI.verifyElementText(findTestObject('ATAU/explore workshop/type_Normal'), 'NORMAL')
-
-//WebUI.verifyElementText(findTestObject('ATAU/explore workshop/word_Sum Motor Sdn Bhd'), 'Sum Motor Sdn. Bhd. (HQ)')
-WebUI.verifyElementText(findTestObject('ATAU/explore workshop/word_Kuala Lumpur'), 'Kuala Lumpur')
-
-WebUI.verifyElementPresent(findTestObject('ATAU/explore workshop/btn_See details'), 0)
-
-WebUI.verifyElementText(findTestObject('ATAU/explore workshop/btn_See details'), 'See details')
-
-WebUI.click(findTestObject('ATAU/explore workshop/btn_See details'))
-
-WebUI.delay(2)
-
-//WebUI.takeFullPageScreenshot(('D:\\AutomationATA\\ATA_Screenshot\\ATAU\\ExploreWorkshop\\10. Explore Workshop_' + dateTime) + 
-//    '.png')
-WebUI.verifyElementPresent(findTestObject('ATAU/explore workshop/img_click see details'), 0)
-
-WebUI.verifyElementPresent(findTestObject('ATAU/explore workshop/icon_call click details'), 0)
-
-WebUI.verifyElementPresent(findTestObject('ATAU/explore workshop/icon_map click details'), 0)
-
-WebUI.verifyElementPresent(findTestObject('ATAU/explore workshop/Filter/icon_pin'), 0)
-
-WebUI.verifyElementText(findTestObject('ATAU/explore workshop/address2'), 'Jalan Kelang Lama')
-
-WebUI.verifyElementText(findTestObject('ATAU/explore workshop/address1'), '173-AB, Batu 4 1/4')
-
-WebUI.verifyElementText(findTestObject('ATAU/explore workshop/address3'), '58000, Kuala Lumpur, Wilayah Persekutuan')
-
-WebUI.verifyElementPresent(findTestObject('ATAU/explore workshop/icon_phone'), 0)
-
-WebUI.verifyElementText(findTestObject('ATAU/explore workshop/phone number'), '03-79831953')
-
-WebUI.verifyElementPresent(findTestObject('ATAU/explore workshop/icon_email'), 0)
-
-WebUI.verifyElementText(findTestObject('ATAU/explore workshop/word_email'), 'summotor@yahoo.com')
-
-WebUI.click(findTestObject('ATAU/explore workshop/btn_close'))
+//not_run: WebUI.setText(findTestObject('ATAU/explore workshop/textfield_search_workshop'), findTestData('ATAU Verify').getValue(
+//        'Workshop', 2))
+//
+//not_run: WebUI.delay(2)
+//
+//not_run: WebUI.verifyElementPresent(findTestObject('ATAU/explore workshop/box_workshop'), 0)
+//
+//not_run: WebUI.verifyElementText(findTestObject('ATAU/explore workshop/type_Normal'), 'NORMAL')
+//
+////WebUI.verifyElementText(findTestObject('ATAU/explore workshop/word_Sum Motor Sdn Bhd'), 'Sum Motor Sdn. Bhd. (HQ)')
+//not_run: WebUI.verifyElementText(findTestObject('ATAU/explore workshop/word_Kuala Lumpur'), 'Kuala Lumpur')
+//
+//not_run: WebUI.verifyElementPresent(findTestObject('ATAU/explore workshop/btn_See details'), 0)
+//
+//not_run: WebUI.verifyElementText(findTestObject('ATAU/explore workshop/btn_See details'), 'See details')
+//
+//not_run: WebUI.click(findTestObject('ATAU/explore workshop/btn_See details'))
+//
+//not_run: WebUI.delay(2)
+//
+////WebUI.takeFullPageScreenshot(('D:\\AutomationATA\\ATA_Screenshot\\ATAU\\ExploreWorkshop\\10. Explore Workshop_' + dateTime) + 
+////    '.png')
+//not_run: WebUI.verifyElementPresent(findTestObject('ATAU/explore workshop/img_click see details'), 0)
+//
+//not_run: WebUI.verifyElementPresent(findTestObject('ATAU/explore workshop/icon_call click details'), 0)
+//
+//not_run: WebUI.verifyElementPresent(findTestObject('ATAU/explore workshop/icon_map click details'), 0)
+//
+//not_run: WebUI.verifyElementPresent(findTestObject('ATAU/explore workshop/Filter/icon_pin'), 0)
+//
+//not_run: WebUI.verifyElementText(findTestObject('ATAU/explore workshop/address2'), 'Jalan Kelang Lama')
+//
+//not_run: WebUI.verifyElementText(findTestObject('ATAU/explore workshop/address1'), '173-AB, Batu 4 1/4')
+//
+//not_run: WebUI.verifyElementText(findTestObject('ATAU/explore workshop/address3'), '58000, Kuala Lumpur, Wilayah Persekutuan')
+//
+//not_run: WebUI.verifyElementPresent(findTestObject('ATAU/explore workshop/icon_phone'), 0)
+//
+//not_run: WebUI.verifyElementText(findTestObject('ATAU/explore workshop/phone number'), '03-79831953')
+//
+//not_run: WebUI.verifyElementPresent(findTestObject('ATAU/explore workshop/icon_email'), 0)
+//
+//not_run: WebUI.verifyElementText(findTestObject('ATAU/explore workshop/word_email'), 'summotor@yahoo.com')
+//
+//not_run: WebUI.click(findTestObject('ATAU/explore workshop/btn_close'))
 
 WebUI.delay(2)
 

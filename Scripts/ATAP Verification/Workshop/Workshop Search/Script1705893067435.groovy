@@ -17,11 +17,15 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
+row = 1
+
 Date today = new Date()
 
 String dateTime = today.format('yyyyMMddHHmmss')
 
 WebUI.callTestCase(findTestCase('ATAP - Main/ATAP - Login'), [('Username') : '80007700', ('Password') : 'DragFu11/'], FailureHandling.STOP_ON_FAILURE)
+
+WebUI.delay(2)
 
 /*WebUI.openBrowser('')
 
@@ -36,17 +40,31 @@ WebUI.setText(findTestObject('ATAP EH/Login/Username'), '80008097')
 WebUI.setText(findTestObject('ATAP EH/Login/Password'), 'H@z1q1234%')
 
 WebUI.click(findTestObject('ATAP EH/Login/button_LOGIN'))*/
-WebUI.verifyElementText(findTestObject('ATAP EH/Tariff/span_Tariff'), 'Tariff')
+WebUI.verifyElementText(findTestObject('ATAP EH/Workshop/Workshops'), 'Workshops')
 
-WebUI.click(findTestObject('ATAP EH/Tariff/span_Tariff'))
+WebUI.click(findTestObject('ATAP EH/Workshop/Workshops'))
 
-WebUI.verifyElementText(findTestObject('ATAP EH/Tariff/span_Car'), 'Car')
+WebUI.delay(2)
 
-WebUI.verifyElementText(findTestObject('ATAP EH/Tariff/span_Motorcycle'), 'Motorcycle')
+WebUI.verifyElementText(findTestObject('ATAP EH/Workshop/List of Workshop'), 'List of Workshop')
 
-WebUI.click(findTestObject('ATAP EH/Tariff/span_Motorcycle'))
+WebUI.verifyElementText(findTestObject('ATAP EH/Workshop/No'), 'No.')
 
-WebUI.click(findTestObject('ATAP EH/Tariff/span_Car'))
+WebUI.verifyElementText(findTestObject('ATAP EH/Workshop/Workshop_1'), 'Workshop')
+
+WebUI.verifyElementText(findTestObject('ATAP EH/Workshop/Category_1'), 'Category')
+
+WebUI.verifyElementText(findTestObject('ATAP EH/Workshop/Status_1'), 'Status')
+
+WebUI.verifyElementText(findTestObject('ATAP EH/Workshop/Address_1'), 'Address')
+
+WebUI.verifyElementText(findTestObject('ATAP EH/Workshop/Action'), 'Action')
+
+WebUI.verifyElementText(findTestObject('ATAP EH/Workshop/Add New Workshop'), 'Add New Workshop')
+
+WebUI.verifyElementPresent(findTestObject('ATAP EH/Workshop/search_workshop'), 0)
+
+WebUI.setText(findTestObject('ATAP EH/Workshop/search_workshop'), findTestData('ATAP New Case').getValue('nameWorkshop', 3))
 
 WebUI.callTestCase(findTestCase('ATAP - Main/ATAP - Logout'), [:], FailureHandling.STOP_ON_FAILURE)
 

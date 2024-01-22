@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
    <description></description>
-   <name>Tariff</name>
+   <name>Workshop Filter by Status (Inactive)</name>
    <tag></tag>
    <comment></comment>
-   <testCaseGuid>4ca3083b-eba8-449e-b936-d0c2e4e05198</testCaseGuid>
+   <testCaseGuid>82cc5daa-5bac-44de-b790-2d9617bddcd3</testCaseGuid>
 </TestCaseEntity>

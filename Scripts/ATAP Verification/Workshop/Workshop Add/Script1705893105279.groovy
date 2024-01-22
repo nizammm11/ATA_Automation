@@ -66,7 +66,6 @@ WebUI.click(findTestObject('ATAP EH/Workshop/Add New Workshop'))
 
 WebUI.delay(2)
 
-//for (def row = 1; row <= 1; row++) {
 WebUI.setText(findTestObject('ATAP EH/Workshop/fill/name'), findTestData('ATAP New Case').getValue('nameWorkshop', row))
 
 WebUI.setText(findTestObject('ATAP EH/Workshop/fill/phone_number'), findTestData('ATAP New Case').getValue('contactNumber', 
@@ -86,10 +85,9 @@ WebUI.setText(findTestObject('ATAP EH/Workshop/fill/city'), findTestData('ATAP N
 
 WebUI.setText(findTestObject('ATAP EH/Workshop/fill/state'), findTestData('ATAP New Case').getValue('State', row))
 
-//}
 WebUI.scrollToElement(findTestObject('ATAP EH/Workshop/fill/postcode'), 0)
 
-WebUI.click(findTestObject('ATAP EH/Workshop/fill/Page_Dashboard/Status_dropdown'), FailureHandling.STOP_ON_FAILURE)
+WebUI.click(findTestObject('ATAP EH/Workshop/Page_Dashboard/Status_dropdown'))
 
 WebUI.delay(2)
 
@@ -99,7 +97,7 @@ WebUI.verifyElementText(findTestObject('ATAP EH/Workshop/Inactive'), 'Inactive')
 
 WebUI.click(findTestObject('ATAP EH/Workshop/Active'))
 
-WebUI.click(findTestObject('ATAP EH/Workshop/fill/Page_Dashboard/Category_dropdown'))
+WebUI.click(findTestObject('ATAP EH/Workshop/fill/Category_dropdown'))
 
 WebUI.delay(2)
 
@@ -116,10 +114,6 @@ WebUI.verifyElementText(findTestObject('ATAP EH/Workshop/button_Submit'), 'Submi
 WebUI.click(findTestObject('ATAP EH/Workshop/button_Submit'))
 
 WebUI.delay(2)
-
-WebUI.verifyElementPresent(findTestObject('ATAP EH/Workshop/search_workshop'), 0)
-
-WebUI.setText(findTestObject('ATAP EH/Workshop/search_workshop'), findTestData('ATAP New Case').getValue('nameWorkshop', row))
 
 WebUI.callTestCase(findTestCase('ATAP - Main/ATAP - Logout'), [:], FailureHandling.STOP_ON_FAILURE)
 

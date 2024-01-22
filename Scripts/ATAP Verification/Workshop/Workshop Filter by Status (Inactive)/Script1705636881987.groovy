@@ -17,31 +17,40 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
+row = 1
+
 Date today = new Date()
 
 String dateTime = today.format('yyyyMMddHHmmss')
 
-WebUI.callTestCase(findTestCase('ATAP - Main/ATAP - Login'), [('Username') : '80007700', ('Password') : 'DragCk23/'], FailureHandling.STOP_ON_FAILURE)
+WebUI.callTestCase(findTestCase('ATAP - Main/ATAP - Login'), [('Username') : '80007700', ('Password') : 'DragFu11/'], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.callTestCase(findTestCase('ATAP Verification/TC74 Inbox'), [:], FailureHandling.STOP_ON_FAILURE)
+WebUI.delay(2)
 
-WebUI.callTestCase(findTestCase('ATAP Verification/Workshop/Workshop Search'), [:], FailureHandling.STOP_ON_FAILURE)
+/*WebUI.openBrowser('')
 
-WebUI.callTestCase(findTestCase('ATAP Verification/Franchise'), [:], FailureHandling.STOP_ON_FAILURE)
+WebUI.maximizeWindow()
 
-WebUI.callTestCase(findTestCase('ATAP Verification/Tariff Car'), [:], FailureHandling.STOP_ON_FAILURE)
+WebUI.navigateToUrl('https://canary.autoassistcare.etiqa.com.my/dashboard/login')
 
-WebUI.callTestCase(findTestCase('ATAP Verification/Knowledge'), [:], FailureHandling.STOP_ON_FAILURE)
+WebUI.click(findTestObject('ATAP EH/Login/button_OK'))
 
-WebUI.callTestCase(findTestCase('ATAP Verification/Audit Trail'), [:], FailureHandling.STOP_ON_FAILURE)
+WebUI.setText(findTestObject('ATAP EH/Login/Username'), '80008097')
 
-WebUI.callTestCase(findTestCase('ATAP Verification/Insights'), [:], FailureHandling.STOP_ON_FAILURE)
+WebUI.setText(findTestObject('ATAP EH/Login/Password'), 'H@z1q1234%')
 
-WebUI.callTestCase(findTestCase('ATAP Verification/Claims'), [:], FailureHandling.STOP_ON_FAILURE)
+WebUI.click(findTestObject('ATAP EH/Login/button_LOGIN'))*/
+WebUI.verifyElementText(findTestObject('ATAP EH/Workshop/Workshops'), 'Workshops')
 
-//WebUI.scrollToElement(findTestObject('ATAP HH/Module/Module_Ratings'), 0)
+WebUI.click(findTestObject('ATAP EH/Workshop/Workshops'))
 
-WebUI.callTestCase(findTestCase('ATAP Verification/Ratings'), [:], FailureHandling.STOP_ON_FAILURE)
+WebUI.delay(2)
+
+WebUI.verifyElementPresent(findTestObject('ATAP EH/Workshop/filterWorkshop/Status_dropdown'), 0)
+
+WebUI.click(findTestObject('ATAP EH/Workshop/filterWorkshop/Status_dropdown'), FailureHandling.STOP_ON_FAILURE)
+
+WebUI.click(findTestObject('ATAP EH/Workshop/filterWorkshop/Page_Dashboard/status_Inactive'))
 
 WebUI.callTestCase(findTestCase('ATAP - Main/ATAP - Logout'), [:], FailureHandling.STOP_ON_FAILURE)
 

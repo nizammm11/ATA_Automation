@@ -120,35 +120,35 @@
       <guid>6084d183-80bb-4ff4-aa1a-3a6fff98e242</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/ATAP - Main/Create Car BT Brake</testCaseId>
+      <testCaseId>Test Cases/ATAP - Main/Manual/Create Car BT Brake</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
       <guid>2c69bd89-4856-442a-8032-e4136482e47d</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/ATAP - Main/Create Car BT electrical</testCaseId>
+      <testCaseId>Test Cases/ATAP - Main/Manual/Create Car BT electrical</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
       <guid>cb8ce711-4ef7-456d-8bdd-10e26c8dd3f9</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/ATAP - Main/Create Car BT Gear</testCaseId>
+      <testCaseId>Test Cases/ATAP - Main/Manual/Create Car BT Gear</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
       <guid>44571e9e-9317-4cd9-aeae-c52b5a772393</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/ATAP - Main/Create Car BT Smoke</testCaseId>
+      <testCaseId>Test Cases/ATAP - Main/Manual/Create Car BT Smoke</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
       <guid>52760927-5e32-40f1-81c3-529b911fc374</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/ATAP Verification/Workshop</testCaseId>
+      <testCaseId>Test Cases/ATAP Verification/Workshop/Workshop Search</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
@@ -169,7 +169,7 @@
       <guid>b2388bb3-f4c2-4d74-b92a-80dd854c580f</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/ATAP Verification/Tariff</testCaseId>
+      <testCaseId>Test Cases/ATAP Verification/Tariff Car</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>

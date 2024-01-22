@@ -37,7 +37,7 @@ WebUI.navigateToUrl(GlobalVariable.SIT_ATAU)
 
 WebUI.delay(10)*/
 //KeywordLogger log = new KeywordLogger()
-for (def row = 1; row <= 1; row++) {
+for (def row = 13; row <= 13; row++) {
     WebUI.click(findTestObject('ATAP/Create New Case/btn_Create New Case'))
 
     WebUI.refresh()
@@ -55,69 +55,77 @@ for (def row = 1; row <= 1; row++) {
     WebUI.setText(findTestObject('ATAP/Create New Case/Customer Detail/input_vehicle number'), findTestData('ATAP New Case').getValue(
             'vehicleNumber', row))
 
-    WebUI.setText(findTestObject('ATAP/Create New Case/Customer Detail/input_name'), findTestData('ATAP New Case').getValue(
-            'Name', row))
-
-    WebUI.scrollToElement(findTestObject('ATAP HH/General/Customer Name'), 0)
-
-    WebUI.delay(1)
-
-    WebUI.click(findTestObject('ATAP/Create New Case/Customer Detail/dropdown_vehicle type'))
-
-    if (findTestData('ATAP New Case').getValue('vehicleType', row) == 'Car') {
-        WebUI.click(findTestObject('ATAP/Create New Case/Customer Detail/li_Car'))
-    } else {
-        WebUI.click(findTestObject('ATAP/Create New Case/Customer Detail/li_Motorcycle'))
-    }
-    
-    WebUI.click(findTestObject('ATAP/Create New Case/Customer Detail/dropdown_vehicle make'))
-
-    //WebUI.scrollToElement(findTestObject('ATAP HH/General/Customer Name'), 0)
-    WebUI.setText(findTestObject('ATAP/Page_Dashboard/Page_Dashboard/input_vehicle make'), findTestData('ATAP New Case').getValue(
-            'vehicleMake', row))
-
-    WebUI.sendKeys(findTestObject('ATAP/Page_Dashboard/Page_Dashboard/input_vehicle make'), Keys.chord(Keys.ARROW_DOWN, 
-            Keys.ENTER))
-
-    WebUI.click(findTestObject('ATAP/Create New Case/Customer Detail/dropdown_vehicle model'))
-
-    WebUI.setText(findTestObject('ATAP/Page_Dashboard/Page_Dashboard/input_vehicle model'), findTestData('ATAP New Case').getValue(
-            'vehicleModel', row))
-
     WebUI.delay(2)
 
-    WebUI.sendKeys(findTestObject('ATAP/Page_Dashboard/Page_Dashboard/input_vehicle model'), Keys.chord(Keys.ARROW_DOWN, 
-            Keys.ENTER))
+    if (findTestData('ATAP New Case').getValue('case', row) == 'automation') {
+        'check policy'
+        WebUI.click(findTestObject('ATAP/Create New Case/button_Find Policy'))
 
-    //==============================||ENTITY||==============================
-    if (findTestData('ATAP New Case').getValue('Entity', row) == 'EGTB') {
-        WebUI.click(findTestObject('ATAP/Create New Case/Customer Detail/entity_EGTB'))
-    } else if (findTestData('ATAP New Case').getValue('Entity', row) == 'EGIB') {
-        WebUI.click(findTestObject('ATAP/Create New Case/Customer Detail/entity_EGIB'))
+        WebUI.delay(8) //WebUI.scrollToElement(findTestObject('ATAP HH/General/Customer Name'), 0)
+        //==============================||ENTITY||==============================
+        //==============================||POLICY BENEFITS||==============================
     } else {
-        WebUI.click(findTestObject('ATAP/Create New Case/Customer Detail/entity_Non-Etiqa'))
+        WebUI.setText(findTestObject('ATAP/Create New Case/Customer Detail/input_name'), findTestData('ATAP New Case').getValue(
+                'Name', row))
+
+        WebUI.scrollToElement(findTestObject('ATAP HH/General/Customer Name'), 0)
+
+        WebUI.delay(1)
+
+        WebUI.click(findTestObject('ATAP/Create New Case/Customer Detail/dropdown_vehicle type'))
+
+        if (findTestData('ATAP New Case').getValue('vehicleType', row) == 'Car') {
+            WebUI.click(findTestObject('ATAP/Create New Case/Customer Detail/li_Car'))
+        } else {
+            WebUI.click(findTestObject('ATAP/Create New Case/Customer Detail/li_Motorcycle'))
+        }
+        
+        WebUI.click(findTestObject('ATAP/Create New Case/Customer Detail/dropdown_vehicle make'))
+
+        WebUI.setText(findTestObject('ATAP/Page_Dashboard/Page_Dashboard/input_vehicle make'), findTestData('ATAP New Case').getValue(
+                'vehicleMake', row))
+
+        WebUI.sendKeys(findTestObject('ATAP/Page_Dashboard/Page_Dashboard/input_vehicle make'), Keys.chord(Keys.ARROW_DOWN, 
+                Keys.ENTER))
+
+        WebUI.click(findTestObject('ATAP/Create New Case/Customer Detail/dropdown_vehicle model'))
+
+        WebUI.setText(findTestObject('ATAP/Page_Dashboard/Page_Dashboard/input_vehicle model'), findTestData('ATAP New Case').getValue(
+                'vehicleModel', row))
+
+        WebUI.delay(2)
+
+        WebUI.sendKeys(findTestObject('ATAP/Page_Dashboard/Page_Dashboard/input_vehicle model'), Keys.chord(Keys.ARROW_DOWN, 
+                Keys.ENTER))
+
+        if (findTestData('ATAP New Case').getValue('Entity', row) == 'EGTB') {
+            WebUI.click(findTestObject('ATAP/Create New Case/Customer Detail/entity_EGTB'))
+        } else if (findTestData('ATAP New Case').getValue('Entity', row) == 'EGIB') {
+            WebUI.click(findTestObject('ATAP/Create New Case/Customer Detail/entity_EGIB'))
+        } else {
+            WebUI.click(findTestObject('ATAP/Create New Case/Customer Detail/entity_Non-Etiqa'))
+        }
+        
+        if (findTestData('ATAP New Case').getValue('policyBenefits', row) == '50KM') {
+            WebUI.click(findTestObject('ATAP/Create New Case/Customer Detail/policyBenefits_50KM'))
+        } else if (findTestData('ATAP New Case').getValue('policyBenefits', row) == '200KM') {
+            WebUI.click(findTestObject('ATAP/Create New Case/Customer Detail/policyBenefits_200KM'))
+        } else if (findTestData('ATAP New Case').getValue('policyBenefits', row) == '300KM') {
+            WebUI.click(findTestObject('ATAP/Create New Case/Customer Detail/policyBenefits_300KM'))
+        } else if (findTestData('ATAP New Case').getValue('policyBenefits', row) == '175KM Per Trip') {
+            WebUI.click(findTestObject('ATAP/Create New Case/Customer Detail/policyBenefits_175KM Per Trip'))
+        } else if (findTestData('ATAP New Case').getValue('policyBenefits', row) == 'Unlimited') {
+            WebUI.click(findTestObject('ATAP/Create New Case/Customer Detail/policyBenefits_Unlimited'))
+        } else if (findTestData('ATAP New Case').getValue('policyBenefits', row) == 'Franchise') {
+            WebUI.click(findTestObject('ATAP/Create New Case/Customer Detail/policyBenefits_Franchise'))
+        } else {
+            WebUI.click(findTestObject('ATAP/Create New Case/Customer Detail/policyBenefits_Cash Job'))
+        }
+        
+        WebUI.setText(findTestObject('ATAP/Create New Case/Customer Detail/input_Email'), findTestData('ATAP New Case').getValue(
+                'Email', row))
     }
     
-    //==============================||POLICY BENEFITS||==============================
-    if (findTestData('ATAP New Case').getValue('policyBenefits', row) == '50KM') {
-        WebUI.click(findTestObject('ATAP/Create New Case/Customer Detail/policyBenefits_50KM'))
-    } else if (findTestData('ATAP New Case').getValue('policyBenefits', row) == '200KM') {
-        WebUI.click(findTestObject('ATAP/Create New Case/Customer Detail/policyBenefits_200KM'))
-    } else if (findTestData('ATAP New Case').getValue('policyBenefits', row) == '300KM') {
-        WebUI.click(findTestObject('ATAP/Create New Case/Customer Detail/policyBenefits_300KM'))
-    } else if (findTestData('ATAP New Case').getValue('policyBenefits', row) == '175KM Per Trip') {
-        WebUI.click(findTestObject('ATAP/Create New Case/Customer Detail/policyBenefits_175KM Per Trip'))
-    } else if (findTestData('ATAP New Case').getValue('policyBenefits', row) == 'Unlimited') {
-        WebUI.click(findTestObject('ATAP/Create New Case/Customer Detail/policyBenefits_Unlimited'))
-    } else if (findTestData('ATAP New Case').getValue('policyBenefits', row) == 'Franchise') {
-        WebUI.click(findTestObject('ATAP/Create New Case/Customer Detail/policyBenefits_Franchise'))
-    } else {
-        WebUI.click(findTestObject('ATAP/Create New Case/Customer Detail/policyBenefits_Cash Job'))
-    }
-    
-    WebUI.setText(findTestObject('ATAP/Create New Case/Customer Detail/input_Email'), findTestData('ATAP New Case').getValue(
-            'Email', row))
-
     WebUI.scrollToElement(findTestObject('ATAP HH/Policy Benefits/Policy Benefits_200KM'), 0)
 
     //WebUI.click(findTestObject('ATAP/Page_Dashboard/span_Please select'))
@@ -304,8 +312,8 @@ for (def row = 1; row <= 1; row++) {
 
         WebUI.click(findTestObject('ATAP/Create New Case/Destination/workshop_dropdown'))
 
-        WebUI.setText(findTestObject('ATAP/Create New Case/Destination/textfield_workshop'), findTestData(
-                'ATAP New Case').getValue('Workshop', row))
+        WebUI.setText(findTestObject('ATAP/Create New Case/Destination/textfield_workshop'), findTestData('ATAP New Case').getValue(
+                'Workshop', row))
 
         WebUI.delay(1)
 
