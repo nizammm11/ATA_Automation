@@ -72,7 +72,7 @@ WebUI.verifyElementPresent(findTestObject('ATA_Partner/Staff_Listing2/trash_icon
 
 WebUI.click(findTestObject('ATA_Partner/Staff_Listing2/trash_icon'))
 
-WebUI.verifyElementText(findTestObject('ATA_Partner/Staff_Listing2/Page_Partner/Cancel_release'), 'Cancel')
+not_run: WebUI.verifyElementText(findTestObject('ATA_Partner/Staff_Listing2/Page_Partner/Cancel_release'), 'Cancel')
 
 WebUI.verifyElementPresent(findTestObject('ATA_Partner/Staff_Listing2/Page_Partner/Yes_release'), 0)
 

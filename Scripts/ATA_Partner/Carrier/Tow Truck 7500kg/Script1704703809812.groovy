@@ -38,8 +38,6 @@ WebUI.click(findTestObject('Object Repository/ATA_Partner/LoginPage/button_Reque
 WebUI.delay(20)
 
 WebUI.click(findTestObject('Object Repository/ATA_Partner/LoginPage/button_Verify'))*/
-WebUI.callTestCase(findTestCase('ATA_Partner/Partner - Login'), [('phoneNumber') : '122614910'], FailureHandling.STOP_ON_FAILURE)
-
 WebUI.click(findTestObject('ATA_Partner/Vehicle/Vehicle/a_Vehicle Listing'))
 
 WebUI.verifyElementPresent(findTestObject('ATA_Partner/Vehicle/Vehicle/a_Add Registered Vehicle'), 0)
@@ -76,7 +74,7 @@ WebUI.click(findTestObject('ATA_Partner/Vehicle/Vehicle/Truck/Weight/weight_drop
 
 WebUI.delay(2)
 
-WebUI.click(findTestObject('null'))
+WebUI.click(findTestObject('ATA_Partner/Vehicle/Vehicle/Truck/Weight/7500 kg'))
 
 WebUI.delay(2)
 

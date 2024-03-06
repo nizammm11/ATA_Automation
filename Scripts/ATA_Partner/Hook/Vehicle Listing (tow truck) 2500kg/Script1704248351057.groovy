@@ -38,6 +38,8 @@ WebUI.click(findTestObject('Object Repository/ATA_Partner/LoginPage/button_Reque
 WebUI.delay(20)
 
 WebUI.click(findTestObject('Object Repository/ATA_Partner/LoginPage/button_Verify'))*/
+WebUI.callTestCase(findTestCase('ATA_Partner/Partner - Login'), [('phoneNumber') : '127104130'], FailureHandling.STOP_ON_FAILURE)
+
 WebUI.click(findTestObject('ATA_Partner/Vehicle/Vehicle/a_Vehicle Listing'))
 
 WebUI.verifyElementPresent(findTestObject('ATA_Partner/Vehicle/Vehicle/a_Add Registered Vehicle'), 0)

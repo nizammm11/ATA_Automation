@@ -17,8 +17,6 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.callTestCase(findTestCase('ATA_Partner/Partner - Login'), [('phoneNumber') : '122614910'], FailureHandling.STOP_ON_FAILURE)
-
 WebUI.verifyElementText(findTestObject('ATA_Partner/Add Photo/Resolved'), 'Resolved')
 
 WebUI.click(findTestObject('ATA_Partner/Add Photo/Resolved'))
