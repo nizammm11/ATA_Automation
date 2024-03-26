@@ -29,7 +29,11 @@ WebUI.click(findTestObject('ATA_Partner/Add Photo/Page_Partner/button_Add Photos
 
 WebUI.click(findTestObject('ATA_Partner/Add Photo/Page_Partner/button_Add photo'))
 
-WebUI.delay(10)
+WebUI.delay(5)
+
+WebUI.delay(0)
+
+WebUI.uploadFile(findTestObject('ATA_Partner/Add Photo/Page_Partner/button_Add photo'), image)
 
 WebUI.uploadFile(findTestObject('ATA_Partner/Add Photo/Page_Partner/button_Add photo'), image)
 
