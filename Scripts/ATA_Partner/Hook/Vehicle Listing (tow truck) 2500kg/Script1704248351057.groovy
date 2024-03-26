@@ -72,11 +72,12 @@ WebUI.click(findTestObject('ATA_Partner/Vehicle/Vehicle/Truck/Available'))
 
 WebUI.delay(2)
 
-WebUI.click(findTestObject('ATA_Partner/Vehicle/Vehicle/Truck/Weight/weight_dropdown'))
+WebUI.click(findTestObject('ATA_Partner/Vehicle/Vehicle/Truck/Weight/Page_Partner/weight_Select_vvv'))
 
 WebUI.delay(2)
 
-WebUI.click(findTestObject('ATA_Partner/Vehicle/Vehicle/Truck/Weight/2500 kg'))
+WebUI.sendKeys(findTestObject('ATA_Partner/Vehicle/Vehicle/Truck/Weight/Page_Partner/weight_Select_vvv'), Keys.chord(Keys.ARROW_DOWN, 
+        Keys.ENTER))
 
 WebUI.delay(2)
 

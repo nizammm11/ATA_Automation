@@ -3,14 +3,15 @@
    <description></description>
    <name>motorBT_Gears Problem</name>
    <tag></tag>
-   <elementGuidId>3eae0254-286b-46d4-8187-83aef066aaee</elementGuidId>
+   <elementGuidId>ebd12536-0fdb-49f4-bf97-a8cee0c7cb1c</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>(.//*[normalize-space(text()) and normalize-space(.)='Location Details'])[1]/preceding::div[1]</value>
+         <key>CSS</key>
+         <value>label.63c63f18a02b65389b53b3b8.ng-star-inserted</value>
       </entry>
       <entry>
-         <key>CSS</key>
+         <key>XPATH</key>
+         <value>(.//*[normalize-space(text()) and normalize-space(.)='Brakes Problem'])[1]/following::label[1]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -20,64 +21,16 @@
       <matchCondition>equals</matchCondition>
       <name>tag</name>
       <type>Main</type>
-      <value>div</value>
-      <webElementGuid>07a01c34-9a0f-488b-a315-7cf909e58043</webElementGuid>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>role</name>
-      <type>Main</type>
-      <value>button</value>
-      <webElementGuid>6eeabbe2-521f-4aad-8359-0dc2bbf72979</webElementGuid>
+      <value>label</value>
+      <webElementGuid>c7f062da-a0e7-4e76-a39f-b0220177da6c</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>class</name>
       <type>Main</type>
-      <value>p-ripple p-element p-button p-component ng-star-inserted</value>
-      <webElementGuid>74615883-8fc5-4cca-9f7a-f0abdd8b2ff6</webElementGuid>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>ng-reflect-ng-class</name>
-      <type>Main</type>
-      <value>[object Object]</value>
-      <webElementGuid>bf165d2d-cc16-4a61-9f62-32094fef8d57</webElementGuid>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>aria-pressed</name>
-      <type>Main</type>
-      <value>false</value>
-      <webElementGuid>b4c1b27c-1a1c-4947-8d3d-e9c282d455d3</webElementGuid>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>aria-label</name>
-      <type>Main</type>
-      <value>Gears Problem</value>
-      <webElementGuid>ede03fa7-2f12-4628-8087-b8776f4bbd4f</webElementGuid>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>tabindex</name>
-      <type>Main</type>
-      <value>0</value>
-      <webElementGuid>e4049a9e-ebcc-4ea2-ad4d-09ea41717624</webElementGuid>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>aria-labelledby</name>
-      <type>Main</type>
-      <value>Gears Problem</value>
-      <webElementGuid>26cb0e6b-edd2-460b-9e8b-3afae9ef5b2d</webElementGuid>
+      <value>63c63f18a02b65389b53b3b8 ng-star-inserted</value>
+      <webElementGuid>598e0e22-d803-451f-91d5-4b71c6888b72</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -85,54 +38,70 @@
       <name>text</name>
       <type>Main</type>
       <value>Gears Problem</value>
-      <webElementGuid>9d107661-1bc7-451e-adb0-9323a8ae39cb</webElementGuid>
+      <webElementGuid>f0ac8a40-8740-48af-89df-0fd35f9048d5</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>/html[1]/body[1]/ata-dashboard-root[1]/div[@class=&quot;app-layout&quot;]/div[@class=&quot;layout-content&quot;]/div[@class=&quot;content-data&quot;]/app-case-tab[@class=&quot;ng-star-inserted&quot;]/div[@class=&quot;top&quot;]/div[@class=&quot;flex ng-star-inserted&quot;]/div[@class=&quot;w-8 pr-5&quot;]/app-case-new[1]/form[@class=&quot;ng-invalid ng-touched ng-dirty&quot;]/p-card[@class=&quot;p-element&quot;]/div[@class=&quot;mt-4 p-card p-component&quot;]/div[@class=&quot;p-card-body&quot;]/div[@class=&quot;p-card-content&quot;]/div[@class=&quot;p-field ng-star-inserted&quot;]/p-selectbutton[@class=&quot;p-element ng-touched ng-pristine ng-invalid ng-star-inserted&quot;]/div[@class=&quot;mt-1 p-selectbutton p-buttonset p-component&quot;]/div[@class=&quot;p-ripple p-element p-button p-component ng-star-inserted&quot;]</value>
-      <webElementGuid>708bcc63-9b55-4e31-b9ae-eb3e8153810b</webElementGuid>
+      <value>/html[1]/body[1]/ata-dashboard-root[1]/div[@class=&quot;app-layout&quot;]/div[@class=&quot;layout-content&quot;]/div[@class=&quot;content-data&quot;]/app-case-tab[@class=&quot;ng-star-inserted&quot;]/div[@class=&quot;top&quot;]/div[@class=&quot;flex ng-star-inserted&quot;]/div[@class=&quot;w-8 pr-5&quot;]/app-case-new[1]/form[@class=&quot;ng-invalid ng-touched ng-dirty&quot;]/p-card[@class=&quot;p-element&quot;]/div[@class=&quot;mt-4 p-card p-component&quot;]/div[@class=&quot;p-card-body&quot;]/div[@class=&quot;p-card-content&quot;]/div[@class=&quot;p-field ng-star-inserted&quot;]/p-selectbutton[@class=&quot;p-element ng-pristine ng-invalid ng-star-inserted ng-touched&quot;]/div[@class=&quot;mt-1 p-selectbutton p-buttonset p-component&quot;]/div[@class=&quot;p-ripple p-element p-button p-component ng-star-inserted&quot;]/label[@class=&quot;63c63f18a02b65389b53b3b8 ng-star-inserted&quot;]</value>
+      <webElementGuid>236371f0-f849-4bd5-9e20-1343ac23a506</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Brakes Problem'])[1]/following::div[1]</value>
-      <webElementGuid>9d97de19-2281-4525-8b31-20936108a8dc</webElementGuid>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Brakes Problem'])[1]/following::label[1]</value>
+      <webElementGuid>48e8c7d1-d13e-4526-a248-384bea9e06d3</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Cannot Start Motorcycle'])[1]/following::div[2]</value>
-      <webElementGuid>56d63ff2-fcbd-4c14-8828-59ab88204034</webElementGuid>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Cannot Start Motorcycle'])[1]/following::label[2]</value>
+      <webElementGuid>f6836b7c-bd73-4cb4-a687-84558cc6a14d</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Location Details'])[1]/preceding::div[1]</value>
-      <webElementGuid>e50d6c14-1019-4795-bfad-620f7079b084</webElementGuid>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Location Details'])[1]/preceding::label[1]</value>
+      <webElementGuid>5c2c8e50-9e34-4bb9-80b0-2f0e5428a674</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='←'])[1]/preceding::label[1]</value>
+      <webElementGuid>984559c5-820e-43c0-ba47-83402bcf7464</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='Gears Problem']/parent::*</value>
+      <webElementGuid>b321ef86-3e9f-4fb4-b294-636e54d7fa6a</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
       <type>Main</type>
-      <value>//div[3]/p-selectbutton/div/div[4]</value>
-      <webElementGuid>b0453d33-8420-4385-a085-fbf7fc38b8d6</webElementGuid>
+      <value>//div[4]/label</value>
+      <webElementGuid>76519daa-8253-450a-8112-038917e049a4</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:customAttributes</name>
       <type>Main</type>
-      <value>//div[(text() = 'Gears Problem' or . = 'Gears Problem')]</value>
-      <webElementGuid>98916931-ae0e-483f-94f3-364554a0fcd7</webElementGuid>
+      <value>//label[(text() = 'Gears Problem' or . = 'Gears Problem')]</value>
+      <webElementGuid>2dbe6b67-749d-42a7-8de2-7a4f34fc7182</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

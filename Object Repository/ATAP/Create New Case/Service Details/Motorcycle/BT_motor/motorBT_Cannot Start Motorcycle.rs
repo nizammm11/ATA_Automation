@@ -3,15 +3,15 @@
    <description></description>
    <name>motorBT_Cannot Start Motorcycle</name>
    <tag></tag>
-   <elementGuidId>2d4008f6-b5b4-49d4-8633-b543a2d13cd9</elementGuidId>
+   <elementGuidId>290e5653-092c-47d8-a0e0-5f2758d5f61f</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>(.//*[normalize-space(text()) and normalize-space(.)='Flat Tyre'])[1]/following::div[1]</value>
+         <key>CSS</key>
+         <value>label.63c63f18a02b65389b53b3b6.ng-star-inserted</value>
       </entry>
       <entry>
-         <key>CSS</key>
-         <value></value>
+         <key>XPATH</key>
+         <value>(.//*[normalize-space(text()) and normalize-space(.)='Flat Tyre'])[1]/following::label[1]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -21,64 +21,16 @@
       <matchCondition>equals</matchCondition>
       <name>tag</name>
       <type>Main</type>
-      <value>div</value>
-      <webElementGuid>62832071-7f22-4cbd-8b36-bbb51224c3fe</webElementGuid>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>role</name>
-      <type>Main</type>
-      <value>button</value>
-      <webElementGuid>73643833-7c1b-49e3-8fea-f5c9cce4afd5</webElementGuid>
+      <value>label</value>
+      <webElementGuid>ba84d595-d28a-433e-b594-c2ac3c04702a</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>class</name>
       <type>Main</type>
-      <value>p-ripple p-element p-button p-component ng-star-inserted</value>
-      <webElementGuid>f7180f75-95e5-4744-9519-1cf652e6def4</webElementGuid>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>ng-reflect-ng-class</name>
-      <type>Main</type>
-      <value>[object Object]</value>
-      <webElementGuid>142ed823-1c32-4ce5-9378-b4f5e9825fc9</webElementGuid>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>aria-pressed</name>
-      <type>Main</type>
-      <value>false</value>
-      <webElementGuid>01ddf151-378c-4cdd-a5ea-cc44c854f487</webElementGuid>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>aria-label</name>
-      <type>Main</type>
-      <value>Cannot Start Motorcycle</value>
-      <webElementGuid>2db5f77a-5621-4d2e-9855-ade1d23a844e</webElementGuid>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>tabindex</name>
-      <type>Main</type>
-      <value>0</value>
-      <webElementGuid>683386c6-1865-4379-a6e2-99d23514163b</webElementGuid>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>aria-labelledby</name>
-      <type>Main</type>
-      <value>Cannot Start Motorcycle</value>
-      <webElementGuid>6a7de894-d45f-4e39-b9d6-2a7c02218c32</webElementGuid>
+      <value>63c63f18a02b65389b53b3b6 ng-star-inserted</value>
+      <webElementGuid>969272e4-d97c-4d23-aa8a-7220ed582ce1</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -86,54 +38,70 @@
       <name>text</name>
       <type>Main</type>
       <value>Cannot Start Motorcycle</value>
-      <webElementGuid>17a65320-1a5d-4595-a511-bccf07ad1be3</webElementGuid>
+      <webElementGuid>47040483-6943-48fe-9518-fb1416f9cfe9</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>/html[1]/body[1]/ata-dashboard-root[1]/div[@class=&quot;app-layout&quot;]/div[@class=&quot;layout-content&quot;]/div[@class=&quot;content-data&quot;]/app-case-tab[@class=&quot;ng-star-inserted&quot;]/div[@class=&quot;top&quot;]/div[@class=&quot;flex ng-star-inserted&quot;]/div[@class=&quot;w-8 pr-5&quot;]/app-case-new[1]/form[@class=&quot;ng-invalid ng-touched ng-dirty&quot;]/p-card[@class=&quot;p-element&quot;]/div[@class=&quot;mt-4 p-card p-component&quot;]/div[@class=&quot;p-card-body&quot;]/div[@class=&quot;p-card-content&quot;]/div[@class=&quot;p-field ng-star-inserted&quot;]/p-selectbutton[@class=&quot;p-element ng-touched ng-pristine ng-invalid ng-star-inserted&quot;]/div[@class=&quot;mt-1 p-selectbutton p-buttonset p-component&quot;]/div[@class=&quot;p-ripple p-element p-button p-component ng-star-inserted&quot;]</value>
-      <webElementGuid>d2f305c1-30f7-4ce7-8cec-27bc765c0c20</webElementGuid>
+      <value>/html[1]/body[1]/ata-dashboard-root[1]/div[@class=&quot;app-layout&quot;]/div[@class=&quot;layout-content&quot;]/div[@class=&quot;content-data&quot;]/app-case-tab[@class=&quot;ng-star-inserted&quot;]/div[@class=&quot;top&quot;]/div[@class=&quot;flex ng-star-inserted&quot;]/div[@class=&quot;w-8 pr-5&quot;]/app-case-new[1]/form[@class=&quot;ng-invalid ng-touched ng-dirty&quot;]/p-card[@class=&quot;p-element&quot;]/div[@class=&quot;mt-4 p-card p-component&quot;]/div[@class=&quot;p-card-body&quot;]/div[@class=&quot;p-card-content&quot;]/div[@class=&quot;p-field ng-star-inserted&quot;]/p-selectbutton[@class=&quot;p-element ng-pristine ng-invalid ng-star-inserted ng-touched&quot;]/div[@class=&quot;mt-1 p-selectbutton p-buttonset p-component&quot;]/div[@class=&quot;p-ripple p-element p-button p-component ng-star-inserted&quot;]/label[@class=&quot;63c63f18a02b65389b53b3b6 ng-star-inserted&quot;]</value>
+      <webElementGuid>f157fef6-91f6-402e-bf3f-ee571e307dab</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Flat Tyre'])[1]/following::div[1]</value>
-      <webElementGuid>e17be12e-d8b5-4162-9510-45a7815d72c2</webElementGuid>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Flat Tyre'])[1]/following::label[1]</value>
+      <webElementGuid>c6fdca18-4d5f-48d1-a3ec-b76e30066d0c</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Sub-service'])[1]/following::div[3]</value>
-      <webElementGuid>8012121c-b803-4583-b2c6-3818fa3efdd8</webElementGuid>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Sub-service'])[1]/following::label[2]</value>
+      <webElementGuid>6e1d40c1-bf76-4792-8ef4-ad38e2fc38dc</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Brakes Problem'])[1]/preceding::div[1]</value>
-      <webElementGuid>3004e269-7e80-46e4-976d-5007b46d7c5a</webElementGuid>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Brakes Problem'])[1]/preceding::label[1]</value>
+      <webElementGuid>4a43fc4d-f810-4fbb-9979-ee3124d01962</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Gears Problem'])[1]/preceding::label[2]</value>
+      <webElementGuid>4b35325c-b703-4460-8613-57c48f780944</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='Cannot Start Motorcycle']/parent::*</value>
+      <webElementGuid>5bc4aad7-4e36-4a5f-927a-d131cd93a718</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
       <type>Main</type>
-      <value>//div[3]/p-selectbutton/div/div[2]</value>
-      <webElementGuid>a757047d-2247-4f6f-bb7f-16e8087272bd</webElementGuid>
+      <value>//p-selectbutton/div/div[2]/label</value>
+      <webElementGuid>71446f48-7a0b-4675-b8f9-e934b72feb1f</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:customAttributes</name>
       <type>Main</type>
-      <value>//div[(text() = 'Cannot Start Motorcycle' or . = 'Cannot Start Motorcycle')]</value>
-      <webElementGuid>7f7ffbe5-82e9-4ea9-bdff-75a43567cd4d</webElementGuid>
+      <value>//label[(text() = 'Cannot Start Motorcycle' or . = 'Cannot Start Motorcycle')]</value>
+      <webElementGuid>6421c052-b74f-477f-8630-50c124efacb6</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

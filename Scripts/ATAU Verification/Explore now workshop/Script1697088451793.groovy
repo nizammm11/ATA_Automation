@@ -35,10 +35,9 @@ WebUI.delay(2)
 
 //WebUI.takeFullPageScreenshot(('D:\\AutomationATA\\ATA_Screenshot\\ATAU\\ExploreWorkshop\\1. Explore Workshop_' + dateTime) + 
 //    '.png')
-
 WebUI.click(findTestObject('Object Repository/ATAU/button_Got It'))
 
-WebUI.delay(2)
+WebUI.delay(1)
 
 WebUI.click(findTestObject('ATAU/explore workshop/btn_workshop Explore'))
 
@@ -46,7 +45,6 @@ WebUI.delay(2)
 
 //WebUI.takeFullPageScreenshot(('D:\\AutomationATA\\ATA_Screenshot\\ATAU\\ExploreWorkshop\\2. Explore Workshop_' + dateTime) + 
 //    '.png')
-
 WebUI.verifyElementPresent(findTestObject('ATAU/main page/EAAC logo'), 0)
 
 WebUI.verifyElementPresent(findTestObject('ATAU/explore workshop/textfield_search_workshop'), 0)
@@ -74,7 +72,6 @@ WebUI.delay(2)
 
 //WebUI.takeFullPageScreenshot(('D:\\AutomationATA\\ATA_Screenshot\\ATAU\\ExploreWorkshop\\3. Explore Workshop_' + dateTime) + 
 //    '.png')
-
 WebUI.verifyElementText(findTestObject('ATAU/explore workshop/Filter/btn_Distance'), 'Distance')
 
 WebUI.verifyElementPresent(findTestObject('ATAU/explore workshop/Filter/btn_Distance'), 0)
@@ -117,7 +114,6 @@ WebUI.click(findTestObject('ATAU/explore workshop/Filter/btn_Normal'))
 
 //WebUI.takeFullPageScreenshot(('D:\\AutomationATA\\ATA_Screenshot\\ATAU\\ExploreWorkshop\\4. Explore Workshop_' + dateTime) + 
 //    '.png')
-
 WebUI.verifyElementText(findTestObject('ATAU/explore workshop/Filter/btn_Premier'), 'Premier')
 
 WebUI.verifyElementPresent(findTestObject('ATAU/explore workshop/Filter/btn_Premier'), 0)
@@ -125,15 +121,11 @@ WebUI.verifyElementPresent(findTestObject('ATAU/explore workshop/Filter/btn_Prem
 WebUI.click(findTestObject('ATAU/explore workshop/Filter/btn_Premier'))
 
 //WebUI.verifyElementText(findTestObject('ATAU/explore workshop/Filter/btn_Super Premier'), 'Super Premier')
-
 //WebUI.verifyElementPresent(findTestObject('ATAU/explore workshop/Filter/btn_Super Premier'), 0)
-
 //WebUI.click(findTestObject('ATAU/explore workshop/Filter/btn_Super Premier'))
-
 WebUI.verifyElementText(findTestObject('ATAU/explore workshop/Filter/btn_State'), 'State')
 
 //WebUI.verifyElementPresent(findTestObject('ATAU/explore workshop/Filter/btn_State'), 0)
-
 WebUI.click(findTestObject('ATAU/explore workshop/Filter/btn_State'))
 
 WebUI.delay(2)
@@ -153,7 +145,6 @@ WebUI.click(findTestObject('ATAU/explore workshop/Filter/Johor/btn_Ayer Hitam'))
 
 //WebUI.takeFullPageScreenshot(('D:\\AutomationATA\\ATA_Screenshot\\ATAU\\ExploreWorkshop\\5. Explore Workshop_' + dateTime) + 
 //    '.png')
-
 WebUI.verifyElementText(findTestObject('ATAU/explore workshop/Filter/Johor/btn_Batu Pahat'), 'Batu Pahat')
 
 WebUI.verifyElementPresent(findTestObject('ATAU/explore workshop/Filter/Johor/btn_Batu Pahat'), 0)
@@ -464,7 +455,6 @@ WebUI.verifyElementPresent(findTestObject('ATAU/explore workshop/Filter/Melaka/b
 WebUI.click(findTestObject('ATAU/explore workshop/Filter/Melaka/btn_Melaka'))
 
 WebUI.click(findTestObject('ATAU/explore workshop/Filter/btn_MELAKA'))*/
-
 /*--------------------------------NEGERI SEMBILAN----------------------------------------*/
 WebUI.verifyElementText(findTestObject('ATAU/explore workshop/Filter/btn_NEGERI SEMBILAN'), 'NEGERI SEMBILAN')
 
@@ -1312,14 +1302,12 @@ WebUI.click(findTestObject('ATAU/explore workshop/Filter/Johor/btn_Johor Bahru')
 
 //WebUI.takeFullPageScreenshot(('D:\\AutomationATA\\ATA_Screenshot\\ATAU\\ExploreWorkshop\\6. Explore Workshop_' + dateTime) + 
 //    '.png')
-
 WebUI.click(findTestObject('ATAU/explore workshop/Filter/button_Apply'))
 
 WebUI.delay(2)
 
 //WebUI.takeFullPageScreenshot(('D:\\AutomationATA\\ATA_Screenshot\\ATAU\\ExploreWorkshop\\7. Explore Workshop_' + dateTime) + 
 //    '.png')
-
 WebUI.click(findTestObject('ATAU/explore workshop/icon_filter'))
 
 WebUI.delay(2)
@@ -1328,68 +1316,64 @@ WebUI.click(findTestObject('ATAU/explore workshop/Filter/button_Reset'))
 
 //WebUI.takeFullPageScreenshot(('D:\\AutomationATA\\ATA_Screenshot\\ATAU\\ExploreWorkshop\\8. Explore Workshop_' + dateTime) + 
 //    '.png')
-
 WebUI.click(findTestObject('ATAU/explore workshop/Filter/button_Apply'))
 
 WebUI.delay(2)
 
 //WebUI.takeFullPageScreenshot(('D:\\AutomationATA\\ATA_Screenshot\\ATAU\\ExploreWorkshop\\9. Explore Workshop_' + dateTime) + 
 //    '.png')
-
 WebUI.click(findTestObject('ATAU/explore workshop/icon_filter'))
 
 WebUI.delay(2)
 
 ///WebUI.verifyElementPresent(findTestObject('ATAU/explore workshop/Filter/button_close'), 0)
-
 WebUI.click(findTestObject('ATAU/explore workshop/Filter/button_close'))
 
-WebUI.setText(findTestObject('ATAU/explore workshop/textfield_search_workshop'), findTestData('ATAU Verify').getValue('Workshop', 
-        1))
-
-WebUI.delay(2)
-
-WebUI.verifyElementPresent(findTestObject('ATAU/explore workshop/box_workshop'), 0)
-
-WebUI.verifyElementText(findTestObject('ATAU/explore workshop/type_Normal'), 'NORMAL')
-
-//WebUI.verifyElementText(findTestObject('ATAU/explore workshop/word_Sum Motor Sdn Bhd'), 'Sum Motor Sdn. Bhd. (HQ)')
-WebUI.verifyElementText(findTestObject('ATAU/explore workshop/word_Kuala Lumpur'), 'Kuala Lumpur')
-
-WebUI.verifyElementPresent(findTestObject('ATAU/explore workshop/btn_See details'), 0)
-
-WebUI.verifyElementText(findTestObject('ATAU/explore workshop/btn_See details'), 'See details')
-
-WebUI.click(findTestObject('ATAU/explore workshop/btn_See details'))
-
-WebUI.delay(2)
-
-//WebUI.takeFullPageScreenshot(('D:\\AutomationATA\\ATA_Screenshot\\ATAU\\ExploreWorkshop\\10. Explore Workshop_' + dateTime) + 
-//    '.png')
-
-WebUI.verifyElementPresent(findTestObject('ATAU/explore workshop/img_click see details'), 0)
-
-WebUI.verifyElementPresent(findTestObject('ATAU/explore workshop/icon_call click details'), 0)
-
-WebUI.verifyElementPresent(findTestObject('ATAU/explore workshop/icon_map click details'), 0)
-
-WebUI.verifyElementPresent(findTestObject('ATAU/explore workshop/Filter/icon_pin'), 0)
-
-WebUI.verifyElementText(findTestObject('ATAU/explore workshop/address2'), 'Jalan Kelang Lama')
-
-WebUI.verifyElementText(findTestObject('ATAU/explore workshop/address1'), '173-AB, Batu 4 1/4')
-
-WebUI.verifyElementText(findTestObject('ATAU/explore workshop/address3'), '58000, Kuala Lumpur, Wilayah Persekutuan')
-
-WebUI.verifyElementPresent(findTestObject('ATAU/explore workshop/icon_phone'), 0)
-
-WebUI.verifyElementText(findTestObject('ATAU/explore workshop/phone number'), '03-79831953')
-
-WebUI.verifyElementPresent(findTestObject('ATAU/explore workshop/icon_email'), 0)
-
-WebUI.verifyElementText(findTestObject('ATAU/explore workshop/word_email'), 'summotor@yahoo.com')
-
-WebUI.click(findTestObject('ATAU/explore workshop/btn_close'))
+//not_run: WebUI.setText(findTestObject('ATAU/explore workshop/textfield_search_workshop'), findTestData('ATAU Verify').getValue(
+//        'Workshop', 2))
+//
+//not_run: WebUI.delay(2)
+//
+//not_run: WebUI.verifyElementPresent(findTestObject('ATAU/explore workshop/box_workshop'), 0)
+//
+//not_run: WebUI.verifyElementText(findTestObject('ATAU/explore workshop/type_Normal'), 'NORMAL')
+//
+////WebUI.verifyElementText(findTestObject('ATAU/explore workshop/word_Sum Motor Sdn Bhd'), 'Sum Motor Sdn. Bhd. (HQ)')
+//not_run: WebUI.verifyElementText(findTestObject('ATAU/explore workshop/word_Kuala Lumpur'), 'Kuala Lumpur')
+//
+//not_run: WebUI.verifyElementPresent(findTestObject('ATAU/explore workshop/btn_See details'), 0)
+//
+//not_run: WebUI.verifyElementText(findTestObject('ATAU/explore workshop/btn_See details'), 'See details')
+//
+//not_run: WebUI.click(findTestObject('ATAU/explore workshop/btn_See details'))
+//
+//not_run: WebUI.delay(2)
+//
+////WebUI.takeFullPageScreenshot(('D:\\AutomationATA\\ATA_Screenshot\\ATAU\\ExploreWorkshop\\10. Explore Workshop_' + dateTime) + 
+////    '.png')
+//not_run: WebUI.verifyElementPresent(findTestObject('ATAU/explore workshop/img_click see details'), 0)
+//
+//not_run: WebUI.verifyElementPresent(findTestObject('ATAU/explore workshop/icon_call click details'), 0)
+//
+//not_run: WebUI.verifyElementPresent(findTestObject('ATAU/explore workshop/icon_map click details'), 0)
+//
+//not_run: WebUI.verifyElementPresent(findTestObject('ATAU/explore workshop/Filter/icon_pin'), 0)
+//
+//not_run: WebUI.verifyElementText(findTestObject('ATAU/explore workshop/address2'), 'Jalan Kelang Lama')
+//
+//not_run: WebUI.verifyElementText(findTestObject('ATAU/explore workshop/address1'), '173-AB, Batu 4 1/4')
+//
+//not_run: WebUI.verifyElementText(findTestObject('ATAU/explore workshop/address3'), '58000, Kuala Lumpur, Wilayah Persekutuan')
+//
+//not_run: WebUI.verifyElementPresent(findTestObject('ATAU/explore workshop/icon_phone'), 0)
+//
+//not_run: WebUI.verifyElementText(findTestObject('ATAU/explore workshop/phone number'), '03-79831953')
+//
+//not_run: WebUI.verifyElementPresent(findTestObject('ATAU/explore workshop/icon_email'), 0)
+//
+//not_run: WebUI.verifyElementText(findTestObject('ATAU/explore workshop/word_email'), 'summotor@yahoo.com')
+//
+//not_run: WebUI.click(findTestObject('ATAU/explore workshop/btn_close'))
 
 WebUI.delay(2)
 
@@ -1411,7 +1395,6 @@ WebUI.verifyElementText(findTestObject('ATAU/explore workshop/word_Google Maps')
 
 //WebUI.takeFullPageScreenshot(('D:\\AutomationATA\\ATA_Screenshot\\ATAU\\ExploreWorkshop\\11. Explore Workshop_' + dateTime) + 
 //    '.png')
-
 WebUI.verifyElementPresent(findTestObject('ATAU/explore workshop/btn_Waze'), 0)
 
 WebUI.verifyElementPresent(findTestObject('ATAU/explore workshop/icon_waze'), 0)

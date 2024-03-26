@@ -37,3 +37,5 @@ WebUI.uploadFile(findTestObject('ATA_Partner/Add Photo/Page_Partner/button_Add p
 
 WebUI.uploadFile(findTestObject('ATA_Partner/Add Photo/Page_Partner/button_Add photo'), image)
 
+WebUI.acceptAlert()
+

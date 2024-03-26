@@ -30,7 +30,6 @@ WebUI.openBrowser('')
 WebUI.maximizeWindow()
 
 //findTestData('ATAUcarBT').getRowNumbers()
-
 WebUI.navigateToUrl(findTestData('URL').getValue('ATAU', 1))
 
 WebUI.click(findTestObject('Object Repository/ATAU/button_Got It'))
@@ -84,6 +83,8 @@ WebUI.verifyElementPresent(findTestObject('ATAU/Motor service list/btn_motor_gea
 WebUI.verifyElementText(findTestObject('ATAU/Motor service list/btn_motor_Im not sure whats wrong'), 'I\'m not sure what\'s wrong')
 
 WebUI.verifyElementPresent(findTestObject('ATAU/Motor service list/btn_motor_Im not sure whats wrong'), 0)
+
+WebUI.delay(0)
 
 WebUI.closeBrowser()
 

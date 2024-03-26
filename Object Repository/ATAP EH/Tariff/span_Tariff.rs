@@ -3,14 +3,15 @@
    <description></description>
    <name>span_Tariff</name>
    <tag></tag>
-   <elementGuidId>80c10ba3-26c8-4a5c-8b43-2efaadba7cd1</elementGuidId>
+   <elementGuidId>bea0a295-7eb6-4ba6-a802-ea9749ea1285</elementGuidId>
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>(.//*[normalize-space(text()) and normalize-space(.)='Invoices'])[1]/following::span[1]</value>
+         <value>(.//*[normalize-space(text()) and normalize-space(.)='Franchise'])[1]/following::span[1]</value>
       </entry>
       <entry>
          <key>CSS</key>
+         <value></value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -21,7 +22,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>span</value>
-      <webElementGuid>aa7c297c-6561-4d2c-b9f1-8e3b7abd12bc</webElementGuid>
+      <webElementGuid>f9660a7b-362a-47cf-95a4-4554725380f9</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -29,7 +30,7 @@
       <name>class</name>
       <type>Main</type>
       <value>menu ng-star-inserted</value>
-      <webElementGuid>f5dc756e-e5f0-4b6e-a9c2-17460075603a</webElementGuid>
+      <webElementGuid>1c97ff44-4673-48c9-ae47-4ba7fd61fa96</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -37,7 +38,7 @@
       <name>text</name>
       <type>Main</type>
       <value>Tariff</value>
-      <webElementGuid>db4aeac5-7c08-42c9-aaea-211f9e993879</webElementGuid>
+      <webElementGuid>2d45db6e-af05-4938-8ace-8123430faad9</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -45,23 +46,23 @@
       <name>xpath</name>
       <type>Main</type>
       <value>/html[1]/body[1]/ata-dashboard-root[1]/div[@class=&quot;app-layout&quot;]/div[@class=&quot;layout-content&quot;]/app-side-bar[@class=&quot;ng-star-inserted&quot;]/div[@class=&quot;layout-sidebar no-print sidebar-open&quot;]/div[@class=&quot;layout-menu&quot;]/div[@class=&quot;layout-menu-items&quot;]/div[@class=&quot;ng-star-inserted&quot;]/a[@class=&quot;menu-button ng-star-inserted&quot;]/span[@class=&quot;menu ng-star-inserted&quot;]</value>
-      <webElementGuid>3c17e7b2-02ef-423a-b31d-e4ed581d249e</webElementGuid>
+      <webElementGuid>2ffe9954-b0bd-4a6b-937d-d51adb8d3080</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Invoices'])[1]/following::span[1]</value>
-      <webElementGuid>db20e227-3cfb-4c62-833c-aa6a6e9a323e</webElementGuid>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Franchise'])[1]/following::span[1]</value>
+      <webElementGuid>9971ea29-5433-4bb7-afe0-cf8b8002511b</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Billings'])[1]/following::span[2]</value>
-      <webElementGuid>f3fb0340-06be-4014-8556-ec058accdec5</webElementGuid>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Providers'])[1]/following::span[2]</value>
+      <webElementGuid>7a275c8a-08e4-4ba0-b6db-2f405b2e4089</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -69,7 +70,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Knowledge Base'])[1]/preceding::span[1]</value>
-      <webElementGuid>74957e99-d588-4ea3-987b-eaf7fa980f75</webElementGuid>
+      <webElementGuid>26e3133e-472c-4e2f-8dc7-f025e2c5aacb</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -77,7 +78,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Audit Trail'])[1]/preceding::span[2]</value>
-      <webElementGuid>f10f8454-f89c-4651-a24a-d908e5c5de10</webElementGuid>
+      <webElementGuid>a0922da0-ec8e-47b8-93a0-5f7bbc47510b</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -85,15 +86,15 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>//*/text()[normalize-space(.)='Tariff']/parent::*</value>
-      <webElementGuid>92178d80-7824-42e9-8d76-91a7f896af17</webElementGuid>
+      <webElementGuid>8a7d939c-c0aa-458a-8b34-46ad0333fbc4</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
       <type>Main</type>
-      <value>//div[8]/a/span</value>
-      <webElementGuid>599faf89-bd52-4ea6-8257-81fcd7fe3675</webElementGuid>
+      <value>//div[6]/a/span</value>
+      <webElementGuid>151a0347-7316-4fbc-834a-cff2c61f685a</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -101,6 +102,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//span[(text() = 'Tariff' or . = 'Tariff')]</value>
-      <webElementGuid>47f98a66-c0ca-4d5b-9ebd-b4a42fd97cd0</webElementGuid>
+      <webElementGuid>89cdce70-0b8e-46e3-8e00-e20e157a027d</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

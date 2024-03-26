@@ -162,14 +162,14 @@
       <guid>a2f8c11c-ca31-4f1d-835f-d4e15a78c5bd</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>false</isRun>
-      <testCaseId>Test Cases/ATAP - Main/Create Car New Case</testCaseId>
+      <testCaseId>Test Cases/ATAP - Main/Manual/Create Car New Case</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
       <guid>4dfab312-0cee-417e-9365-e4dcd93860cc</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>false</isRun>
-      <testCaseId>Test Cases/ATAP Verification/Workshop</testCaseId>
+      <testCaseId>Test Cases/ATAP Verification/Workshop/Workshop Search</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
@@ -190,7 +190,7 @@
       <guid>d706ba0b-6648-4ed6-a5fc-ff93df84498c</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>false</isRun>
-      <testCaseId>Test Cases/ATAP Verification/Tariff</testCaseId>
+      <testCaseId>Test Cases/ATAP Verification/Tariff Car</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
@@ -239,28 +239,28 @@
       <guid>224b6964-91f4-4d49-849e-85cc35e1ca59</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/ATAP - Main/Create Car ROS Battery</testCaseId>
+      <testCaseId>Test Cases/ATAP - Main/Manual/Create Car ROS Battery</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
       <guid>d97d5dff-9555-4d8a-adf5-1d1eb45d21e2</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/ATAP - Main/Create Car ROS Flat Tyre</testCaseId>
+      <testCaseId>Test Cases/ATAP - Main/Manual/Create Car ROS Flat Tyre</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
       <guid>c317973b-4f74-4074-a716-3318e24deae3</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/ATAP - Main/Create Car ROS Jump Start</testCaseId>
+      <testCaseId>Test Cases/ATAP - Main/Manual/Create Car ROS Jump Start</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
       <guid>d34cf2af-5f5e-4288-b041-ebf555071966</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/ATAP - Main/Create Car ROS Petrol</testCaseId>
+      <testCaseId>Test Cases/ATAP - Main/Manual/Create Car ROS Petrol</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
 </TestSuiteEntity>

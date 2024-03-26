@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>title_Addons</name>
+   <tag></tag>
+   <elementGuidId>244f3da4-0501-42d6-86f5-148a45451c0d</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>(.//*[normalize-space(text()) and normalize-space(.)=concat('East M', &quot;'&quot;, 'sia')])[1]/following::h1[1]</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>h1:nth-of-type(2)</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>h1</value>
+      <webElementGuid>1976a2f0-a8ab-4371-8f6d-dc73021d6897</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Addons</value>
+      <webElementGuid>76a47030-9a52-45e2-a92a-5df406f83dc2</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>/html[1]/body[1]/ata-dashboard-root[1]/div[@class=&quot;app-layout&quot;]/div[@class=&quot;layout-content&quot;]/div[@class=&quot;content-data&quot;]/ata-dashboard-tariff[@class=&quot;ng-star-inserted&quot;]/div[@class=&quot;mb-8&quot;]/p-tabview[@class=&quot;p-element&quot;]/div[@class=&quot;p-tabview p-component&quot;]/div[@class=&quot;p-tabview-panels&quot;]/h1[2]</value>
+      <webElementGuid>94376ec8-00db-4e76-b175-d5d35d8f76db</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)=concat('East M', &quot;'&quot;, 'sia')])[1]/following::h1[1]</value>
+      <webElementGuid>180b0083-5448-4a8a-8f30-85e83df7ee77</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)=concat('West M', &quot;'&quot;, 'sia')])[1]/following::h1[1]</value>
+      <webElementGuid>be0a2325-e36c-4054-a64a-afd4560d1434</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Breakdown / Accident Towing Charges (Private car)'])[2]/preceding::h1[1]</value>
+      <webElementGuid>825b5179-697f-4ba3-9463-b7490217090f</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='ID'])[1]/preceding::h1[1]</value>
+      <webElementGuid>23c6e256-30b5-4e79-ae56-062f8353371f</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='Addons']/parent::*</value>
+      <webElementGuid>fed9447e-f61d-4747-b7a0-42bc863dd137</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//h1[2]</value>
+      <webElementGuid>8836cf20-a7b1-4a3c-9eaf-5b3509ca4cd9</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//h1[(text() = 'Addons' or . = 'Addons')]</value>
+      <webElementGuid>6bbf4e3d-ca6d-42b9-9622-1e70aed37fc5</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

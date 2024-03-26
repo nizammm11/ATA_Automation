@@ -31,6 +31,8 @@ WebUI.navigateToUrl(findTestData('URL').getValue('ATAU', 1))
 
 WebUI.click(findTestObject('Object Repository/ATAU/button_Got It'))
 
+WebUI.delay(2)
+
 //WebUI.takeFullPageScreenshot(('D:\\AutomationATA\\ATA_Screenshot\\//ATAU\\//WhereAreYouNow//1. Location_' + dateTime) + '.png')
 WebUI.click(findTestObject('Object Repository/ATAU/main page/Where Are You Now'))
 
@@ -46,7 +48,8 @@ WebUI.verifyElementText(findTestObject('ATAU/location page/Back to main'), 'Back
 
 WebUI.verifyElementText(findTestObject('ATAU/location page/btn_Confirm_Location'), 'Confirm Location', FailureHandling.STOP_ON_FAILURE)
 
-WebUI.setText(findTestObject('Object Repository/ATAU/location page/location'), findTestData('ATAU Verify').getValue('Location', 1))
+WebUI.setText(findTestObject('Object Repository/ATAU/location page/location'), findTestData('ATAU Verify').getValue('Location', 
+        1))
 
 WebUI.delay(2)
 

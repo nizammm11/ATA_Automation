@@ -25,11 +25,11 @@ WebUI.callTestCase(findTestCase('ATAP - Main/ATAP - Login'), [('Username') : '80
 
 WebUI.callTestCase(findTestCase('ATAP Verification/TC74 Inbox'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.callTestCase(findTestCase('ATAP Verification/Workshop'), [:], FailureHandling.STOP_ON_FAILURE)
+WebUI.callTestCase(findTestCase('ATAP Verification/Workshop/Workshop Search'), [:], FailureHandling.STOP_ON_FAILURE)
 
 WebUI.callTestCase(findTestCase('ATAP Verification/Franchise'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.callTestCase(findTestCase('ATAP Verification/Tariff'), [:], FailureHandling.STOP_ON_FAILURE)
+WebUI.callTestCase(findTestCase('ATAP Verification/Tariff Car'), [:], FailureHandling.STOP_ON_FAILURE)
 
 WebUI.callTestCase(findTestCase('ATAP Verification/Knowledge'), [:], FailureHandling.STOP_ON_FAILURE)
 
